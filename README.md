@@ -12,3 +12,7 @@ Ngày báo cáo: 16/11/2026.
 Giá, phần thưởng và cổng tính năng là dữ liệu bản cài đặt, chưa xác nhận trạng thái live. Xem mục Nguồn & độ tin cậy trước khi sử dụng số liệu làm kết luận vận hành.
 
 Cập nhật local 17/11/2026: tab Leaderboard giải thích chi tiết từng tham số bot, 25 hồ sơ, 24 nhóm ghép và công cụ thử đường điểm Cúp tuần.
+
+Cập nhật local 17/11/2026: Kinh tế & quảng cáo được rút gọn còn 8 mục tập trung vào bảng phần thưởng và thiết lập quảng cáo, kèm 66 hình biểu tượng gốc trong các bảng. Phần giải thích kỹ thuật dài chuyển sang Evidence/EconomyDetail.html.
+
+Cập nhật hình ảnh local: 13 tab chính có ảnh hoặc sơ đồ theo nội dung; bảng thưởng dùng ảnh vật phẩm, 17 dòng IAP có biểu tượng sản phẩm, Events có ảnh hoạt động, Leaderboard/Analytics có sơ đồ phân tích.

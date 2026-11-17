@@ -1,0 +1,70 @@
+{
+  "status": "PASS",
+  "pages": [
+    {
+      "page": "LevelDesign.html",
+      "imageReferences": 5,
+      "uniqueImages": 5
+    },
+    {
+      "page": "Levels/Levels.html",
+      "imageReferences": 3,
+      "uniqueImages": 3
+    },
+    {
+      "page": "Items/Items.html",
+      "imageReferences": 10,
+      "uniqueImages": 10
+    },
+    {
+      "page": "Boosters/Boosters.html",
+      "imageReferences": 12,
+      "uniqueImages": 6
+    },
+    {
+      "page": "Economy/Economy.html",
+      "imageReferences": 66,
+      "uniqueImages": 10
+    },
+    {
+      "page": "IAP/IAP.html",
+      "imageReferences": 70,
+      "uniqueImages": 15
+    },
+    {
+      "page": "Events/Events.html",
+      "imageReferences": 115,
+      "uniqueImages": 14
+    },
+    {
+      "page": "Leaderboard/Leaderboard.html",
+      "imageReferences": 6,
+      "uniqueImages": 5
+    },
+    {
+      "page": "Daily/Daily.html",
+      "imageReferences": 2,
+      "uniqueImages": 2
+    },
+    {
+      "page": "Daily/DailyChallenge.html",
+      "imageReferences": 13,
+      "uniqueImages": 7
+    },
+    {
+      "page": "Daily/DailyGift.html",
+      "imageReferences": 26,
+      "uniqueImages": 8
+    },
+    {
+      "page": "Analytics/Analytics.html",
+      "imageReferences": 1,
+      "uniqueImages": 1
+    },
+    {
+      "page": "Evidence/Evidence.html",
+      "imageReferences": 1,
+      "uniqueImages": 1
+    }
+  ]
+}
