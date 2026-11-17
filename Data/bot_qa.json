@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "checks": [
+    "Verified 42 / 75 / 107 midpoint examples",
+    "Exact week endpoints",
+    "Monotonic bounded point curves for all 121 legal speed values",
+    "Interactive changes and SVG rendering",
+    "Desktop/mobile layout",
+    "No browser exceptions"
+  ]
+}
