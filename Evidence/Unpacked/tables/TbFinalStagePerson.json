@@ -1,0 +1,37 @@
+{
+  "1": {
+    "ID": 1,
+    "CostMin": 0,
+    "CostMax": 1,
+    "PersonMin": 20,
+    "PersonMax": 31
+  },
+  "2": {
+    "ID": 2,
+    "CostMin": 1,
+    "CostMax": 900,
+    "PersonMin": 16,
+    "PersonMax": 21
+  },
+  "3": {
+    "ID": 3,
+    "CostMin": 900,
+    "CostMax": 1800,
+    "PersonMin": 12,
+    "PersonMax": 17
+  },
+  "4": {
+    "ID": 4,
+    "CostMin": 1800,
+    "CostMax": 3600,
+    "PersonMin": 10,
+    "PersonMax": 13
+  },
+  "5": {
+    "ID": 5,
+    "CostMin": 3600,
+    "CostMax": 0,
+    "PersonMin": 6,
+    "PersonMax": 11
+  }
+}

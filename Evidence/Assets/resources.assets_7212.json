@@ -1,0 +1,3494 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 33554432,
+    "m_PathID": 22179479552
+  },
+  "m_Name": "UiSkin",
+  "Font": {
+    "m_FileID": 0,
+    "m_PathID": 7203
+  },
+  "Sprites": [
+    {
+      "Key": "bar_event_band",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 621
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "bar_fill_green",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 638
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "bar_level_line",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 614
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "bar_loading_fill",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 727
+      },
+      "StandIn": 1
+    },
+    {
+      "Key": "bar_multiplier_x2",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 666
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "bar_multiplier_x3",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 601
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "bar_multiplier_x4",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 738
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "bar_nav_base",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 699
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "bar_path_line",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 801
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "bar_pipe_green",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 698
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "bar_segment",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 679
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "bar_segment_on",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 740
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "bar_track_gold",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 654
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "bg_home",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 685
+      },
+      "StandIn": 1
+    },
+    {
+      "Key": "bg_pattern",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 711
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "bg_sky",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 682
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "btn_blue",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 837
+      },
+      "StandIn": 1
+    },
+    {
+      "Key": "btn_booster_green",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 827
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "btn_buy",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 628
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "btn_close_hard",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 697
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "btn_close_normal",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 613
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "btn_close_red",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 712
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "btn_close_superhard",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 794
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "btn_close_x",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 647
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "btn_green",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 631
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "btn_holder_light",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 629
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "btn_info",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 706
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "btn_nav_selected",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 728
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "btn_play_frame",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 713
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "btn_play_hard",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 649
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "btn_play_normal",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 705
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "btn_play_superhard",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 645
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "btn_plus",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 809
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "btn_purple",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 692
+      },
+      "StandIn": 1
+    },
+    {
+      "Key": "btn_red",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 841
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "btn_settings",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 676
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "btn_side_no_ads",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 825
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "btn_side_special_gift",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 741
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "btn_side_starter_pack",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 770
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "btn_side_tower_bus",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 774
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "btn_square_blue",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 607
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "btn_toggle_knob",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 812
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "btn_toggle_off",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 734
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "btn_toggle_on",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 644
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "btn_toggle_track",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 648
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "btn_yellow",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 624
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "char_bus_broken",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 634
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "char_bus_happy",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 742
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "deco_awning",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 617
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "deco_city",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 674
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "deco_cloud",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 830
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "deco_floor_collar",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 784
+      },
+      "StandIn": 1
+    },
+    {
+      "Key": "deco_lift_platform",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 701
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "deco_lift_rail",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 717
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "deco_lift_shaft",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 776
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "deco_tower_base",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 729
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "deco_tower_platform",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 619
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "frame_booster",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 605
+      },
+      "StandIn": 1
+    },
+    {
+      "Key": "frame_counter_plate",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 722
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "frame_currency",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 813
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "frame_day",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 693
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "frame_day7",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 756
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "frame_day7_claim",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 824
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "frame_day_claim",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 789
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "frame_floor_target",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 633
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "frame_hud_tray_hard",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 643
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "frame_hud_tray_normal",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 732
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "frame_hud_tray_superhard",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 796
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "frame_info_panel",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 662
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "frame_item_special_gift",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 642
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "frame_item_starter_pack",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 747
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "frame_level_plate",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 840
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "frame_level_tab_hard",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 667
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "frame_level_tab_holder",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 658
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "frame_level_tab_normal",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 703
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "frame_level_tab_superhard",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 838
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "frame_loading_bar",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 818
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "frame_multiplier",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 671
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "frame_node_locked",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 615
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "frame_node_unlocked",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 797
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "frame_option",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 799
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "frame_panel_bus_streak",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 834
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "frame_panel_light",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 689
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "frame_panel_tower_bus",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 820
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "frame_popup_bus_streak",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 733
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "frame_popup_hard",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 819
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "frame_popup_no_ads",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 684
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "frame_popup_normal",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 764
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "frame_popup_special_gift",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 833
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "frame_popup_starter_pack",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 610
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "frame_popup_superhard",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 680
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "frame_popup_tower_bus",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 737
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "frame_rescue_offer",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 836
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "frame_reward_bubble",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 803
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "frame_side_label_no_ads",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 771
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "frame_side_label_special_gift",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 835
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "frame_side_label_starter_pack",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 808
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "frame_side_label_tower_bus",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 790
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "frame_streak_progress",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 783
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "frame_tab_special_gift",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 659
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "frame_tile_coin",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 655
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "frame_tile_no_ads",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 661
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "frame_timer",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 788
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "frame_timer_gold",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 759
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "frame_title_no_ads",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 625
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "frame_title_special_gift",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 754
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "frame_title_starter_pack",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 660
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "frame_tut_booster",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 687
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "frame_tut_bubble",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 691
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "fx_day7_glow",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 744
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "fx_day_glow",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 602
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "fx_glow",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 718
+      },
+      "StandIn": 1
+    },
+    {
+      "Key": "fx_rays",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 704
+      },
+      "StandIn": 1
+    },
+    {
+      "Key": "header_event_top",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 641
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "header_popup_hard",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 767
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "header_popup_normal",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 707
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "header_popup_superhard",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 758
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_ads",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 761
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_arrow_curve_left",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 839
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_arrow_up",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 657
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_avatar_guide",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 832
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_badge_red",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 749
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_booster_extra_slot",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 769
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_booster_pickup",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 604
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_booster_shuffle",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 762
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_booster_wand",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 725
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_bus",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 635
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_bus_glyph",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 736
+      },
+      "StandIn": 1
+    },
+    {
+      "Key": "icon_bus_pilot",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 695
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_calendar_blank",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 842
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_calendar_checked",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 751
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_check",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 746
+      },
+      "StandIn": 1
+    },
+    {
+      "Key": "icon_chest",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 675
+      },
+      "StandIn": 1
+    },
+    {
+      "Key": "icon_chest_coins",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 739
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_chest_coins_open",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 670
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_chest_gold_pile",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 709
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_chest_lv1",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 690
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_chest_lv1_open",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 757
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_chest_lv2",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 650
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_chest_lv2_open",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 816
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_chest_lv3",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 651
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_chest_lv3_open",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 765
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_chest_lv4",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 630
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_chest_lv4_open",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 653
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_chest_lv5",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 828
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_chest_lv5_open",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 782
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_chest_lv6",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 611
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_chest_lv6_open",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 745
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_chest_lv7",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 681
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_chest_lv7_open",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 806
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_chest_open",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 822
+      },
+      "StandIn": 1
+    },
+    {
+      "Key": "icon_chest_purple",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 606
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_coin",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 795
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_coin_pack_1",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 678
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_coin_pack_2",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 810
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_coin_pack_3",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 710
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_coin_pack_4",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 766
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_coin_pack_5",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 636
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_coin_pack_6",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 683
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_coin_pile",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 663
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_event_coin",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 609
+      },
+      "StandIn": 1
+    },
+    {
+      "Key": "icon_event_cup",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 708
+      },
+      "StandIn": 1
+    },
+    {
+      "Key": "icon_event_daily",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 637
+      },
+      "StandIn": 1
+    },
+    {
+      "Key": "icon_event_pass",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 817
+      },
+      "StandIn": 1
+    },
+    {
+      "Key": "icon_event_race",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 686
+      },
+      "StandIn": 1
+    },
+    {
+      "Key": "icon_event_royale",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 716
+      },
+      "StandIn": 1
+    },
+    {
+      "Key": "icon_event_streak",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 748
+      },
+      "StandIn": 1
+    },
+    {
+      "Key": "icon_event_tower",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 798
+      },
+      "StandIn": 1
+    },
+    {
+      "Key": "icon_gift_box",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 781
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_hand",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 702
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_hand_pointer",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 616
+      },
+      "StandIn": 1
+    },
+    {
+      "Key": "icon_haptic",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 768
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_heart",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 669
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_heart_broken",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 811
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_heart_infinite",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 700
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_heart_plus",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 632
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_lock",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 652
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_music",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 665
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_no_ads",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 814
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_no_ads_small",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 807
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_no_ads_tile",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 714
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_perk_gift_ads",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 608
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_perk_no_banner",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 603
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_perk_no_video",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 721
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_pip_off",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 780
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_pip_on",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 753
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_sale",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 715
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_select_marker",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 750
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_shop",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 786
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_skulls_hard",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 792
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_skulls_hard_wings",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 664
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_skulls_superhard",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 752
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_skulls_superhard_wings",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 775
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_sound",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 694
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_star",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 755
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_star_empty",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 787
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_star_gold",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 668
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_star_reached",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 785
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_star_target",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 677
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_tick",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 731
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "icon_timer",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 778
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "illus_bus_streak_wide",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 791
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "illus_tut_daily_reward",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 612
+      },
+      "StandIn": 1
+    },
+    {
+      "Key": "illus_tut_multipliers",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 743
+      },
+      "StandIn": 1
+    },
+    {
+      "Key": "logo_bus_streak",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 826
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "logo_daily_rewards",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 800
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "logo_tower_bus",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 618
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "logo_tower_bus_popup",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 763
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "logo_tower_bus_small",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 696
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "shape_pill",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 688
+      },
+      "StandIn": 1
+    },
+    {
+      "Key": "shape_ring",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 823
+      },
+      "StandIn": 1
+    },
+    {
+      "Key": "shape_round",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 772
+      },
+      "StandIn": 1
+    },
+    {
+      "Key": "shape_round_small",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 821
+      },
+      "StandIn": 1
+    },
+    {
+      "Key": "tag_body",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 730
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "tag_ring",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 815
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "tag_string",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 656
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "txt_bus_streak",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 672
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "txt_completed",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 802
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "txt_no_ads",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 646
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "txt_rescue_offer",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 627
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "txt_special_gift",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 622
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "txt_starter_pack",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 600
+      },
+      "StandIn": 0
+    },
+    {
+      "Key": "txt_welcome_back",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 639
+      },
+      "StandIn": 0
+    }
+  ],
+  "Materials": [
+    {
+      "Key": "Plain",
+      "Material": {
+        "m_FileID": 0,
+        "m_PathID": 1
+      }
+    },
+    {
+      "Key": "Title",
+      "Material": {
+        "m_FileID": 0,
+        "m_PathID": 26
+      }
+    },
+    {
+      "Key": "Navy",
+      "Material": {
+        "m_FileID": 0,
+        "m_PathID": 15
+      }
+    },
+    {
+      "Key": "TitleHard",
+      "Material": {
+        "m_FileID": 0,
+        "m_PathID": 27
+      }
+    },
+    {
+      "Key": "TitleSuper",
+      "Material": {
+        "m_FileID": 0,
+        "m_PathID": 28
+      }
+    },
+    {
+      "Key": "Clock",
+      "Material": {
+        "m_FileID": 0,
+        "m_PathID": 6
+      }
+    },
+    {
+      "Key": "PlateRed",
+      "Material": {
+        "m_FileID": 0,
+        "m_PathID": 20
+      }
+    },
+    {
+      "Key": "PlateNavy",
+      "Material": {
+        "m_FileID": 0,
+        "m_PathID": 19
+      }
+    },
+    {
+      "Key": "PlateAds",
+      "Material": {
+        "m_FileID": 0,
+        "m_PathID": 18
+      }
+    },
+    {
+      "Key": "Gold",
+      "Material": {
+        "m_FileID": 0,
+        "m_PathID": 9
+      }
+    },
+    {
+      "Key": "Award",
+      "Material": {
+        "m_FileID": 0,
+        "m_PathID": 2
+      }
+    },
+    {
+      "Key": "Sky",
+      "Material": {
+        "m_FileID": 0,
+        "m_PathID": 24
+      }
+    },
+    {
+      "Key": "Green",
+      "Material": {
+        "m_FileID": 0,
+        "m_PathID": 10
+      }
+    },
+    {
+      "Key": "Red",
+      "Material": {
+        "m_FileID": 0,
+        "m_PathID": 22
+      }
+    },
+    {
+      "Key": "Orange",
+      "Material": {
+        "m_FileID": 0,
+        "m_PathID": 17
+      }
+    },
+    {
+      "Key": "Rust",
+      "Material": {
+        "m_FileID": 0,
+        "m_PathID": 23
+      }
+    },
+    {
+      "Key": "Ember",
+      "Material": {
+        "m_FileID": 0,
+        "m_PathID": 8
+      }
+    },
+    {
+      "Key": "Ocean",
+      "Material": {
+        "m_FileID": 0,
+        "m_PathID": 16
+      }
+    },
+    {
+      "Key": "Tag",
+      "Material": {
+        "m_FileID": 0,
+        "m_PathID": 25
+      }
+    },
+    {
+      "Key": "LevelNormal",
+      "Material": {
+        "m_FileID": 0,
+        "m_PathID": 12
+      }
+    },
+    {
+      "Key": "LevelHard",
+      "Material": {
+        "m_FileID": 0,
+        "m_PathID": 11
+      }
+    },
+    {
+      "Key": "LevelSuper",
+      "Material": {
+        "m_FileID": 0,
+        "m_PathID": 13
+      }
+    },
+    {
+      "Key": "LevelSuperSub",
+      "Material": {
+        "m_FileID": 0,
+        "m_PathID": 14
+      }
+    },
+    {
+      "Key": "Purple",
+      "Material": {
+        "m_FileID": 0,
+        "m_PathID": 21
+      }
+    },
+    {
+      "Key": "Blue",
+      "Material": {
+        "m_FileID": 0,
+        "m_PathID": 4
+      }
+    },
+    {
+      "Key": "Dark",
+      "Material": {
+        "m_FileID": 0,
+        "m_PathID": 7
+      }
+    },
+    {
+      "Key": "Badge",
+      "Material": {
+        "m_FileID": 0,
+        "m_PathID": 3
+      }
+    },
+    {
+      "Key": "Brown",
+      "Material": {
+        "m_FileID": 0,
+        "m_PathID": 5
+      }
+    },
+    {
+      "Key": "TutGreen",
+      "Material": {
+        "m_FileID": 0,
+        "m_PathID": 30
+      }
+    },
+    {
+      "Key": "TutPurple",
+      "Material": {
+        "m_FileID": 0,
+        "m_PathID": 31
+      }
+    },
+    {
+      "Key": "TutRed",
+      "Material": {
+        "m_FileID": 0,
+        "m_PathID": 32
+      }
+    },
+    {
+      "Key": "TutAmount",
+      "Material": {
+        "m_FileID": 0,
+        "m_PathID": 29
+      }
+    }
+  ],
+  "Aliases": [
+    {
+      "From": "Asset.png/bar_currency",
+      "To": "frame_currency"
+    },
+    {
+      "From": "Asset.png/btn_Play",
+      "To": "btn_play_frame"
+    },
+    {
+      "From": "Asset.png/btn_home_base",
+      "To": "bar_nav_base"
+    },
+    {
+      "From": "Asset.png/btn_home_sellect",
+      "To": "btn_nav_selected"
+    },
+    {
+      "From": "Asset.png/btn_plus",
+      "To": "btn_plus"
+    },
+    {
+      "From": "Asset.png/btn_red_green",
+      "To": "btn_play_normal"
+    },
+    {
+      "From": "Asset.png/btn_red_play",
+      "To": "btn_play_superhard"
+    },
+    {
+      "From": "Asset.png/btn_red_purple",
+      "To": "btn_play_hard"
+    },
+    {
+      "From": "Asset.png/btn_setting",
+      "To": "btn_settings"
+    },
+    {
+      "From": "Asset.png/icon_Bus",
+      "To": "icon_bus"
+    },
+    {
+      "From": "Asset.png/icon_Lock",
+      "To": "icon_lock"
+    },
+    {
+      "From": "Asset.png/icon_Shop",
+      "To": "icon_shop"
+    },
+    {
+      "From": "Asset.png/icon_daulau_1",
+      "To": "icon_skulls_hard_wings"
+    },
+    {
+      "From": "Asset.png/icon_daulau_2",
+      "To": "icon_skulls_superhard_wings"
+    },
+    {
+      "From": "Asset.png/icon_heart",
+      "To": "icon_heart"
+    },
+    {
+      "From": "Asset.png/icon_heart_infi",
+      "To": "icon_heart_infinite"
+    },
+    {
+      "From": "BG_Home_Trim",
+      "To": "bg_home"
+    },
+    {
+      "From": "BG_sky",
+      "To": "bg_sky"
+    },
+    {
+      "From": "Board_bus",
+      "To": "deco_lift_platform"
+    },
+    {
+      "From": "Board_bus_2",
+      "To": "deco_lift_shaft"
+    },
+    {
+      "From": "Bus Streak/Bus Streak_text",
+      "To": "txt_bus_streak"
+    },
+    {
+      "From": "Bus Streak/Group 69 copy 2",
+      "To": "icon_tick"
+    },
+    {
+      "From": "Bus Streak/Title_popup_event_top",
+      "To": "header_event_top"
+    },
+    {
+      "From": "Bus Streak/btn_BG_bus treak",
+      "To": "bar_path_line"
+    },
+    {
+      "From": "Bus Streak/btn_Green_loading",
+      "To": "bar_fill_green"
+    },
+    {
+      "From": "Bus Streak/btn_bot_Loading",
+      "To": "bar_track_gold"
+    },
+    {
+      "From": "Bus Streak/btn_box gift",
+      "To": "frame_reward_bubble"
+    },
+    {
+      "From": "Bus Streak/btn_clock_gold",
+      "To": "frame_timer_gold"
+    },
+    {
+      "From": "Bus Streak/btn_layer_level",
+      "To": "bar_level_line"
+    },
+    {
+      "From": "Bus Streak/btn_number_lock",
+      "To": "frame_node_locked"
+    },
+    {
+      "From": "Bus Streak/btn_number_unlock",
+      "To": "frame_node_unlocked"
+    },
+    {
+      "From": "Bus Streak/btn_progress_home_event",
+      "To": "frame_streak_progress"
+    },
+    {
+      "From": "Bus Streak/btn_progress_number",
+      "To": "bar_segment"
+    },
+    {
+      "From": "Bus Streak/btn_progress_number_unlock",
+      "To": "bar_segment_on"
+    },
+    {
+      "From": "Bus Streak/btn_title_event",
+      "To": "bar_event_band"
+    },
+    {
+      "From": "Bus Streak/icon_sao_bus streak",
+      "To": "icon_star_gold"
+    },
+    {
+      "From": "Bus Streak/illus_Bus streak_2",
+      "To": "illus_bus_streak_wide"
+    },
+    {
+      "From": "Bus Streak_text",
+      "To": "txt_bus_streak"
+    },
+    {
+      "From": "City_blur_deco",
+      "To": "deco_city"
+    },
+    {
+      "From": "Completed",
+      "To": "txt_completed"
+    },
+    {
+      "From": "Daily Reward/Logo_Daily Rewards!",
+      "To": "logo_daily_rewards"
+    },
+    {
+      "From": "Daily Reward/btn_day",
+      "To": "frame_day"
+    },
+    {
+      "From": "Daily Reward/btn_day 7",
+      "To": "frame_day7"
+    },
+    {
+      "From": "Daily Reward/btn_day 7 claim",
+      "To": "frame_day7_claim"
+    },
+    {
+      "From": "Daily Reward/btn_day_claim",
+      "To": "frame_day_claim"
+    },
+    {
+      "From": "Daily Reward/btn_light_claim_day",
+      "To": "fx_day_glow"
+    },
+    {
+      "From": "Daily Reward/btn_light_claim_day 7",
+      "To": "fx_day7_glow"
+    },
+    {
+      "From": "Daily Reward/icon_chest_coin",
+      "To": "icon_chest_coins"
+    },
+    {
+      "From": "Daily Reward/icon_chest_target",
+      "To": "icon_chest_purple"
+    },
+    {
+      "From": "Daily Reward/icon_note_1",
+      "To": "icon_calendar_checked"
+    },
+    {
+      "From": "Daily Reward/icon_note_2",
+      "To": "icon_calendar_blank"
+    },
+    {
+      "From": "Dot_on off",
+      "To": "btn_toggle_knob"
+    },
+    {
+      "From": "Group 69 copy 2",
+      "To": "icon_tick"
+    },
+    {
+      "From": "Hand 1",
+      "To": "icon_hand"
+    },
+    {
+      "From": "Layer 1",
+      "To": "char_bus_happy"
+    },
+    {
+      "From": "Layer 2",
+      "To": "char_bus_broken"
+    },
+    {
+      "From": "Logo_Daily Rewards!",
+      "To": "logo_daily_rewards"
+    },
+    {
+      "From": "Logo_Tower Bus",
+      "To": "logo_tower_bus_small"
+    },
+    {
+      "From": "No Ads",
+      "To": "txt_no_ads"
+    },
+    {
+      "From": "No ads/No Ads",
+      "To": "txt_no_ads"
+    },
+    {
+      "From": "No ads/btn_no ads_option",
+      "To": "frame_option"
+    },
+    {
+      "From": "Noti_off",
+      "To": "icon_pip_off"
+    },
+    {
+      "From": "Noti_on",
+      "To": "icon_pip_on"
+    },
+    {
+      "From": "Progress_color_x2",
+      "To": "bar_multiplier_x2"
+    },
+    {
+      "From": "Progress_color_x3",
+      "To": "bar_multiplier_x3"
+    },
+    {
+      "From": "Progress_color_x4",
+      "To": "bar_multiplier_x4"
+    },
+    {
+      "From": "Progress_x4",
+      "To": "frame_multiplier"
+    },
+    {
+      "From": "Rectangle 11",
+      "To": "frame_level_plate"
+    },
+    {
+      "From": "Rescue Offer",
+      "To": "txt_rescue_offer"
+    },
+    {
+      "From": "Resue Offer/Rescue Offer",
+      "To": "txt_rescue_offer"
+    },
+    {
+      "From": "Resue Offer/btn_Rescue Offer",
+      "To": "frame_rescue_offer"
+    },
+    {
+      "From": "Shop/Shop_coin_1",
+      "To": "icon_coin_pack_1"
+    },
+    {
+      "From": "Shop/Shop_coin_2",
+      "To": "icon_coin_pack_2"
+    },
+    {
+      "From": "Shop/Shop_coin_3",
+      "To": "icon_coin_pack_3"
+    },
+    {
+      "From": "Shop/Shop_coin_4",
+      "To": "icon_coin_pack_4"
+    },
+    {
+      "From": "Shop/Shop_coin_5",
+      "To": "icon_coin_pack_5"
+    },
+    {
+      "From": "Shop/Shop_coin_6",
+      "To": "icon_coin_pack_6"
+    },
+    {
+      "From": "Shop/btn_No Ads_shop",
+      "To": "frame_tile_no_ads"
+    },
+    {
+      "From": "Shop/btn_buy_shop",
+      "To": "btn_buy"
+    },
+    {
+      "From": "Shop/btn_home_base_2",
+      "To": "deco_awning"
+    },
+    {
+      "From": "Shop/btn_shop_coin",
+      "To": "frame_tile_coin"
+    },
+    {
+      "From": "Shop/icon_ADs_shop",
+      "To": "icon_no_ads_tile"
+    },
+    {
+      "From": "Shop/patten_shop",
+      "To": "bg_pattern"
+    },
+    {
+      "From": "Shop_coin_1",
+      "To": "icon_coin_pack_1"
+    },
+    {
+      "From": "Shop_coin_2",
+      "To": "icon_coin_pack_2"
+    },
+    {
+      "From": "Shop_coin_3",
+      "To": "icon_coin_pack_3"
+    },
+    {
+      "From": "Shop_coin_4",
+      "To": "icon_coin_pack_4"
+    },
+    {
+      "From": "Shop_coin_5",
+      "To": "icon_coin_pack_5"
+    },
+    {
+      "From": "Shop_coin_6",
+      "To": "icon_coin_pack_6"
+    },
+    {
+      "From": "Starter Special/Logo_Tower Bus",
+      "To": "logo_tower_bus_small"
+    },
+    {
+      "From": "Starter Special/btn_icon_speacial gift",
+      "To": "frame_side_label_special_gift"
+    },
+    {
+      "From": "Starter Special/btn_icon_speacial gift_2",
+      "To": "btn_side_special_gift"
+    },
+    {
+      "From": "Starter Special/btn_icon_tower bus",
+      "To": "frame_side_label_tower_bus"
+    },
+    {
+      "From": "Starter Special/btn_icon_tower bus-1",
+      "To": "deco_tower_platform"
+    },
+    {
+      "From": "Starter Special/btn_icon_tower bus_2",
+      "To": "btn_side_tower_bus"
+    },
+    {
+      "From": "Starter Special/icon_box_special gift",
+      "To": "icon_gift_box"
+    },
+    {
+      "From": "Starter Special/icon_chest_starter Pack",
+      "To": "icon_chest_coins_open"
+    },
+    {
+      "From": "Starter Special/icon_circle_tag",
+      "To": "tag_ring"
+    },
+    {
+      "From": "Starter Special/icon_circle_tag_2",
+      "To": "tag_string"
+    },
+    {
+      "From": "Starter Special/icon_tag",
+      "To": "tag_body"
+    },
+    {
+      "From": "Starter Special/special Gift",
+      "To": "txt_special_gift"
+    },
+    {
+      "From": "Starter Special/starter Pack",
+      "To": "txt_starter_pack"
+    },
+    {
+      "From": "Title_popup_event_top",
+      "To": "header_event_top"
+    },
+    {
+      "From": "Title_popup_hard",
+      "To": "header_popup_hard"
+    },
+    {
+      "From": "Title_popup_normal",
+      "To": "header_popup_normal"
+    },
+    {
+      "From": "Title_popup_super hard",
+      "To": "header_popup_superhard"
+    },
+    {
+      "From": "Tower Bus/Tower Bus_logo_popup",
+      "To": "logo_tower_bus_popup"
+    },
+    {
+      "From": "Tower Bus_logo_popup",
+      "To": "logo_tower_bus_popup"
+    },
+    {
+      "From": "Tutorial/Hand 1",
+      "To": "icon_hand"
+    },
+    {
+      "From": "Tutorial/Welcomeback",
+      "To": "txt_welcome_back"
+    },
+    {
+      "From": "Tutorial/btn_tutorial",
+      "To": "frame_tut_bubble"
+    },
+    {
+      "From": "Welcomeback",
+      "To": "txt_welcome_back"
+    },
+    {
+      "From": "all popup.png/Completed",
+      "To": "txt_completed"
+    },
+    {
+      "From": "all popup.png/Dot_on off",
+      "To": "btn_toggle_knob"
+    },
+    {
+      "From": "all popup.png/Layer 1",
+      "To": "char_bus_happy"
+    },
+    {
+      "From": "all popup.png/Layer 2",
+      "To": "char_bus_broken"
+    },
+    {
+      "From": "all popup.png/Progress_color_x2",
+      "To": "bar_multiplier_x2"
+    },
+    {
+      "From": "all popup.png/Progress_color_x3",
+      "To": "bar_multiplier_x3"
+    },
+    {
+      "From": "all popup.png/Progress_color_x4",
+      "To": "bar_multiplier_x4"
+    },
+    {
+      "From": "all popup.png/Progress_x4",
+      "To": "frame_multiplier"
+    },
+    {
+      "From": "all popup.png/Rectangle 11",
+      "To": "frame_level_plate"
+    },
+    {
+      "From": "all popup.png/Title_popup_hard",
+      "To": "header_popup_hard"
+    },
+    {
+      "From": "all popup.png/Title_popup_normal",
+      "To": "header_popup_normal"
+    },
+    {
+      "From": "all popup.png/Title_popup_super hard",
+      "To": "header_popup_superhard"
+    },
+    {
+      "From": "all popup.png/arrow",
+      "To": "icon_arrow_up"
+    },
+    {
+      "From": "all popup.png/btn_Setting_X",
+      "To": "btn_close_normal"
+    },
+    {
+      "From": "all popup.png/btn_Setting_X hard",
+      "To": "btn_close_hard"
+    },
+    {
+      "From": "all popup.png/btn_Setting_X super hard",
+      "To": "btn_close_superhard"
+    },
+    {
+      "From": "all popup.png/btn_heart_plus",
+      "To": "icon_heart_plus"
+    },
+    {
+      "From": "all popup.png/btn_light",
+      "To": "frame_panel_light"
+    },
+    {
+      "From": "all popup.png/btn_off_red",
+      "To": "btn_toggle_off"
+    },
+    {
+      "From": "all popup.png/btn_on_green",
+      "To": "btn_toggle_on"
+    },
+    {
+      "From": "all popup.png/btn_on_off",
+      "To": "btn_toggle_track"
+    },
+    {
+      "From": "all popup.png/btn_popup_hard",
+      "To": "frame_popup_hard"
+    },
+    {
+      "From": "all popup.png/btn_popup_normal",
+      "To": "frame_popup_normal"
+    },
+    {
+      "From": "all popup.png/btn_popup_super hard",
+      "To": "frame_popup_superhard"
+    },
+    {
+      "From": "all popup.png/btn_red",
+      "To": "btn_red"
+    },
+    {
+      "From": "all popup.png/btn_tut_booster_mechanic",
+      "To": "frame_tut_booster"
+    },
+    {
+      "From": "all popup.png/btn_yellow",
+      "To": "btn_yellow"
+    },
+    {
+      "From": "all popup.png/frame_timer",
+      "To": "frame_timer"
+    },
+    {
+      "From": "all popup.png/icon_Ads",
+      "To": "icon_ads"
+    },
+    {
+      "From": "all popup.png/icon_Haptic",
+      "To": "icon_haptic"
+    },
+    {
+      "From": "all popup.png/icon_Heart crack",
+      "To": "icon_heart_broken"
+    },
+    {
+      "From": "all popup.png/icon_Sound",
+      "To": "icon_sound"
+    },
+    {
+      "From": "all popup.png/icon_booster_1",
+      "To": "icon_booster_extra_slot"
+    },
+    {
+      "From": "all popup.png/icon_booster_2",
+      "To": "icon_booster_wand"
+    },
+    {
+      "From": "all popup.png/icon_booster_4",
+      "To": "icon_booster_shuffle"
+    },
+    {
+      "From": "all popup.png/icon_booster_4-1",
+      "To": "icon_booster_pickup"
+    },
+    {
+      "From": "all popup.png/icon_coin_claim",
+      "To": "icon_coin_pile"
+    },
+    {
+      "From": "all popup.png/icon_music",
+      "To": "icon_music"
+    },
+    {
+      "From": "all popup.png/icon_sao",
+      "To": "icon_star"
+    },
+    {
+      "From": "all popup.png/icon_sao chim",
+      "To": "icon_star_empty"
+    },
+    {
+      "From": "all popup.png/icon_select",
+      "To": "icon_select_marker"
+    },
+    {
+      "From": "all popup.png/icon_timer",
+      "To": "icon_timer"
+    },
+    {
+      "From": "arrow",
+      "To": "icon_arrow_up"
+    },
+    {
+      "From": "avt_tut",
+      "To": "icon_avatar_guide"
+    },
+    {
+      "From": "bar_currency",
+      "To": "frame_currency"
+    },
+    {
+      "From": "btn_BG_bus treak",
+      "To": "bar_path_line"
+    },
+    {
+      "From": "btn_CTA",
+      "To": "btn_holder_light"
+    },
+    {
+      "From": "btn_Green",
+      "To": "btn_green"
+    },
+    {
+      "From": "btn_Green_loading",
+      "To": "bar_fill_green"
+    },
+    {
+      "From": "btn_Green_loading_1",
+      "To": "frame_loading_bar"
+    },
+    {
+      "From": "btn_Green_loading_fill",
+      "To": "bar_loading_fill"
+    },
+    {
+      "From": "btn_No Ads_shop",
+      "To": "frame_tile_no_ads"
+    },
+    {
+      "From": "btn_Play",
+      "To": "btn_play_frame"
+    },
+    {
+      "From": "btn_Rescue Offer",
+      "To": "frame_rescue_offer"
+    },
+    {
+      "From": "btn_Setting_X",
+      "To": "btn_close_normal"
+    },
+    {
+      "From": "btn_Setting_X hard",
+      "To": "btn_close_hard"
+    },
+    {
+      "From": "btn_Setting_X super hard",
+      "To": "btn_close_superhard"
+    },
+    {
+      "From": "btn_Setting_X_event copy",
+      "To": "btn_square_blue"
+    },
+    {
+      "From": "btn_X_red",
+      "To": "btn_close_red"
+    },
+    {
+      "From": "btn_board_level",
+      "To": "frame_level_tab_holder"
+    },
+    {
+      "From": "btn_booster_normal",
+      "To": "btn_booster_green"
+    },
+    {
+      "From": "btn_bot_Loading",
+      "To": "bar_track_gold"
+    },
+    {
+      "From": "btn_box gift",
+      "To": "frame_reward_bubble"
+    },
+    {
+      "From": "btn_buy_shop",
+      "To": "btn_buy"
+    },
+    {
+      "From": "btn_cham than",
+      "To": "btn_info"
+    },
+    {
+      "From": "btn_clock_gold",
+      "To": "frame_timer_gold"
+    },
+    {
+      "From": "btn_day",
+      "To": "frame_day"
+    },
+    {
+      "From": "btn_day 7",
+      "To": "frame_day7"
+    },
+    {
+      "From": "btn_day 7 claim",
+      "To": "frame_day7_claim"
+    },
+    {
+      "From": "btn_day_claim",
+      "To": "frame_day_claim"
+    },
+    {
+      "From": "btn_done_level",
+      "To": "bar_pipe_green"
+    },
+    {
+      "From": "btn_frame_booster",
+      "To": "frame_booster"
+    },
+    {
+      "From": "btn_half_blue",
+      "To": "btn_blue"
+    },
+    {
+      "From": "btn_half_purple",
+      "To": "btn_purple"
+    },
+    {
+      "From": "btn_heart_plus",
+      "To": "icon_heart_plus"
+    },
+    {
+      "From": "btn_home_base",
+      "To": "bar_nav_base"
+    },
+    {
+      "From": "btn_home_base_2",
+      "To": "deco_awning"
+    },
+    {
+      "From": "btn_home_sellect",
+      "To": "btn_nav_selected"
+    },
+    {
+      "From": "btn_icon_Ads_circle",
+      "To": "btn_side_no_ads"
+    },
+    {
+      "From": "btn_icon_Ads_home",
+      "To": "frame_side_label_no_ads"
+    },
+    {
+      "From": "btn_icon_speacial gift",
+      "To": "frame_side_label_special_gift"
+    },
+    {
+      "From": "btn_icon_speacial gift_2",
+      "To": "btn_side_special_gift"
+    },
+    {
+      "From": "btn_icon_tower bus",
+      "To": "frame_side_label_tower_bus"
+    },
+    {
+      "From": "btn_icon_tower bus-1",
+      "To": "deco_tower_platform"
+    },
+    {
+      "From": "btn_icon_tower bus_2",
+      "To": "btn_side_tower_bus"
+    },
+    {
+      "From": "btn_ingame_hard",
+      "To": "frame_hud_tray_hard"
+    },
+    {
+      "From": "btn_ingame_hard level",
+      "To": "frame_hud_tray_superhard"
+    },
+    {
+      "From": "btn_ingame_normal",
+      "To": "frame_hud_tray_normal"
+    },
+    {
+      "From": "btn_layer_level",
+      "To": "bar_level_line"
+    },
+    {
+      "From": "btn_level_hard_top",
+      "To": "frame_level_tab_hard"
+    },
+    {
+      "From": "btn_level_super hard_top",
+      "To": "frame_level_tab_superhard"
+    },
+    {
+      "From": "btn_level_top",
+      "To": "frame_level_tab_normal"
+    },
+    {
+      "From": "btn_level_tảget",
+      "To": "frame_floor_target"
+    },
+    {
+      "From": "btn_light",
+      "To": "frame_panel_light"
+    },
+    {
+      "From": "btn_light_claim_day",
+      "To": "fx_day_glow"
+    },
+    {
+      "From": "btn_light_claim_day 7",
+      "To": "fx_day7_glow"
+    },
+    {
+      "From": "btn_no ads_option",
+      "To": "frame_option"
+    },
+    {
+      "From": "btn_noti on off",
+      "To": "frame_counter_plate"
+    },
+    {
+      "From": "btn_number",
+      "To": "icon_badge_red"
+    },
+    {
+      "From": "btn_number_lock",
+      "To": "frame_node_locked"
+    },
+    {
+      "From": "btn_number_unlock",
+      "To": "frame_node_unlocked"
+    },
+    {
+      "From": "btn_off_red",
+      "To": "btn_toggle_off"
+    },
+    {
+      "From": "btn_on_green",
+      "To": "btn_toggle_on"
+    },
+    {
+      "From": "btn_on_off",
+      "To": "btn_toggle_track"
+    },
+    {
+      "From": "btn_popup_hard",
+      "To": "frame_popup_hard"
+    },
+    {
+      "From": "btn_popup_normal",
+      "To": "frame_popup_normal"
+    },
+    {
+      "From": "btn_popup_super hard",
+      "To": "frame_popup_superhard"
+    },
+    {
+      "From": "btn_progress_home_event",
+      "To": "frame_streak_progress"
+    },
+    {
+      "From": "btn_progress_number",
+      "To": "bar_segment"
+    },
+    {
+      "From": "btn_progress_number_unlock",
+      "To": "bar_segment_on"
+    },
+    {
+      "From": "btn_red_green",
+      "To": "btn_play_normal"
+    },
+    {
+      "From": "btn_red_play",
+      "To": "btn_play_superhard"
+    },
+    {
+      "From": "btn_red_purple",
+      "To": "btn_play_hard"
+    },
+    {
+      "From": "btn_setting",
+      "To": "btn_settings"
+    },
+    {
+      "From": "btn_shop_coin",
+      "To": "frame_tile_coin"
+    },
+    {
+      "From": "btn_text_Tower Bus",
+      "To": "frame_info_panel"
+    },
+    {
+      "From": "btn_title_event",
+      "To": "bar_event_band"
+    },
+    {
+      "From": "btn_tut_booster_mechanic",
+      "To": "frame_tut_booster"
+    },
+    {
+      "From": "btn_tutorial",
+      "To": "frame_tut_bubble"
+    },
+    {
+      "From": "chest 1",
+      "To": "icon_chest_lv1"
+    },
+    {
+      "From": "chest 10",
+      "To": "icon_chest_lv3_open"
+    },
+    {
+      "From": "chest 11",
+      "To": "icon_chest_lv4_open"
+    },
+    {
+      "From": "chest 12",
+      "To": "icon_chest_lv5_open"
+    },
+    {
+      "From": "chest 13",
+      "To": "icon_chest_lv6_open"
+    },
+    {
+      "From": "chest 14",
+      "To": "icon_chest_gold_pile"
+    },
+    {
+      "From": "chest 14_1",
+      "To": "icon_chest_lv7_open"
+    },
+    {
+      "From": "chest 2",
+      "To": "icon_chest_lv2"
+    },
+    {
+      "From": "chest 3",
+      "To": "icon_chest_lv3"
+    },
+    {
+      "From": "chest 4",
+      "To": "icon_chest_lv4"
+    },
+    {
+      "From": "chest 5",
+      "To": "icon_chest_lv5"
+    },
+    {
+      "From": "chest 6",
+      "To": "icon_chest_lv6"
+    },
+    {
+      "From": "chest 7",
+      "To": "icon_chest_lv7"
+    },
+    {
+      "From": "chest 8",
+      "To": "icon_chest_lv1_open"
+    },
+    {
+      "From": "chest 9",
+      "To": "icon_chest_lv2_open"
+    },
+    {
+      "From": "collar_floor",
+      "To": "deco_floor_collar"
+    },
+    {
+      "From": "event_1/BG_sky",
+      "To": "bg_sky"
+    },
+    {
+      "From": "event_1/Board_bus",
+      "To": "deco_lift_platform"
+    },
+    {
+      "From": "event_1/Board_bus_2",
+      "To": "deco_lift_shaft"
+    },
+    {
+      "From": "event_1/City_blur_deco",
+      "To": "deco_city"
+    },
+    {
+      "From": "event_1/Logo_Tower Bus",
+      "To": "logo_tower_bus"
+    },
+    {
+      "From": "event_1/avt_tut",
+      "To": "icon_avatar_guide"
+    },
+    {
+      "From": "event_1/btn_Green_loading_1",
+      "To": "frame_loading_bar"
+    },
+    {
+      "From": "event_1/btn_Setting_X_event copy",
+      "To": "btn_square_blue"
+    },
+    {
+      "From": "event_1/btn_X_red",
+      "To": "btn_close_red"
+    },
+    {
+      "From": "event_1/btn_cham than",
+      "To": "btn_info"
+    },
+    {
+      "From": "event_1/btn_done_level",
+      "To": "bar_pipe_green"
+    },
+    {
+      "From": "event_1/btn_level_tảget",
+      "To": "frame_floor_target"
+    },
+    {
+      "From": "event_1/btn_text_Tower Bus",
+      "To": "frame_info_panel"
+    },
+    {
+      "From": "event_1/chest 1",
+      "To": "icon_chest_lv1"
+    },
+    {
+      "From": "event_1/chest 10",
+      "To": "icon_chest_lv3_open"
+    },
+    {
+      "From": "event_1/chest 11",
+      "To": "icon_chest_lv4_open"
+    },
+    {
+      "From": "event_1/chest 12",
+      "To": "icon_chest_lv5_open"
+    },
+    {
+      "From": "event_1/chest 13",
+      "To": "icon_chest_lv6_open"
+    },
+    {
+      "From": "event_1/chest 14",
+      "To": "icon_chest_gold_pile"
+    },
+    {
+      "From": "event_1/chest 14_1",
+      "To": "icon_chest_lv7_open"
+    },
+    {
+      "From": "event_1/chest 2",
+      "To": "icon_chest_lv2"
+    },
+    {
+      "From": "event_1/chest 3",
+      "To": "icon_chest_lv3"
+    },
+    {
+      "From": "event_1/chest 4",
+      "To": "icon_chest_lv4"
+    },
+    {
+      "From": "event_1/chest 5",
+      "To": "icon_chest_lv5"
+    },
+    {
+      "From": "event_1/chest 6",
+      "To": "icon_chest_lv6"
+    },
+    {
+      "From": "event_1/chest 7",
+      "To": "icon_chest_lv7"
+    },
+    {
+      "From": "event_1/chest 8",
+      "To": "icon_chest_lv1_open"
+    },
+    {
+      "From": "event_1/chest 9",
+      "To": "icon_chest_lv2_open"
+    },
+    {
+      "From": "event_1/icon_bus_event",
+      "To": "icon_bus_pilot"
+    },
+    {
+      "From": "event_1/icon_mui ten",
+      "To": "icon_arrow_curve_left"
+    },
+    {
+      "From": "event_1/icon_sao_done",
+      "To": "icon_star_reached"
+    },
+    {
+      "From": "event_1/icon_sao_target",
+      "To": "icon_star_target"
+    },
+    {
+      "From": "event_1/illus_bar_level",
+      "To": "deco_lift_rail"
+    },
+    {
+      "From": "event_1/illus_house_event",
+      "To": "deco_tower_base"
+    },
+    {
+      "From": "event_1/illus_may 2",
+      "To": "deco_cloud"
+    },
+    {
+      "From": "icon_ADs_shop",
+      "To": "icon_no_ads_tile"
+    },
+    {
+      "From": "icon_Ads",
+      "To": "icon_ads"
+    },
+    {
+      "From": "icon_Bus",
+      "To": "icon_bus"
+    },
+    {
+      "From": "icon_Haptic",
+      "To": "icon_haptic"
+    },
+    {
+      "From": "icon_Heart crack",
+      "To": "icon_heart_broken"
+    },
+    {
+      "From": "icon_Lock",
+      "To": "icon_lock"
+    },
+    {
+      "From": "icon_Shop",
+      "To": "icon_shop"
+    },
+    {
+      "From": "icon_Sound",
+      "To": "icon_sound"
+    },
+    {
+      "From": "icon_ads_home",
+      "To": "icon_no_ads"
+    },
+    {
+      "From": "icon_booster_1",
+      "To": "icon_booster_extra_slot"
+    },
+    {
+      "From": "icon_booster_2",
+      "To": "icon_booster_wand"
+    },
+    {
+      "From": "icon_booster_4",
+      "To": "icon_booster_shuffle"
+    },
+    {
+      "From": "icon_booster_4-1",
+      "To": "icon_booster_pickup"
+    },
+    {
+      "From": "icon_box_special gift",
+      "To": "icon_gift_box"
+    },
+    {
+      "From": "icon_bus_event",
+      "To": "icon_bus_pilot"
+    },
+    {
+      "From": "icon_chest_coin",
+      "To": "icon_chest_coins"
+    },
+    {
+      "From": "icon_chest_starter Pack",
+      "To": "icon_chest_coins_open"
+    },
+    {
+      "From": "icon_chest_target",
+      "To": "icon_chest_purple"
+    },
+    {
+      "From": "icon_circle_tag",
+      "To": "tag_ring"
+    },
+    {
+      "From": "icon_circle_tag_2",
+      "To": "tag_string"
+    },
+    {
+      "From": "icon_coin_claim",
+      "To": "icon_coin_pile"
+    },
+    {
+      "From": "icon_daulau_1",
+      "To": "icon_skulls_hard_wings"
+    },
+    {
+      "From": "icon_daulau_2",
+      "To": "icon_skulls_superhard_wings"
+    },
+    {
+      "From": "icon_daulau_3",
+      "To": "icon_skulls_hard"
+    },
+    {
+      "From": "icon_daulau_4",
+      "To": "icon_skulls_superhard"
+    },
+    {
+      "From": "icon_ev_coin",
+      "To": "icon_event_coin"
+    },
+    {
+      "From": "icon_ev_cup",
+      "To": "icon_event_cup"
+    },
+    {
+      "From": "icon_ev_daily",
+      "To": "icon_event_daily"
+    },
+    {
+      "From": "icon_ev_pass",
+      "To": "icon_event_pass"
+    },
+    {
+      "From": "icon_ev_race",
+      "To": "icon_event_race"
+    },
+    {
+      "From": "icon_ev_royale",
+      "To": "icon_event_royale"
+    },
+    {
+      "From": "icon_ev_streak",
+      "To": "icon_event_streak"
+    },
+    {
+      "From": "icon_ev_tower",
+      "To": "icon_event_tower"
+    },
+    {
+      "From": "icon_heart_infi",
+      "To": "icon_heart_infinite"
+    },
+    {
+      "From": "icon_mui ten",
+      "To": "icon_arrow_curve_left"
+    },
+    {
+      "From": "icon_note_1",
+      "To": "icon_calendar_checked"
+    },
+    {
+      "From": "icon_note_2",
+      "To": "icon_calendar_blank"
+    },
+    {
+      "From": "icon_popup_no ads_1",
+      "To": "icon_perk_no_video"
+    },
+    {
+      "From": "icon_popup_no ads_2",
+      "To": "icon_perk_no_banner"
+    },
+    {
+      "From": "icon_popup_no ads_3",
+      "To": "icon_perk_gift_ads"
+    },
+    {
+      "From": "icon_sao",
+      "To": "icon_star"
+    },
+    {
+      "From": "icon_sao chim",
+      "To": "icon_star_empty"
+    },
+    {
+      "From": "icon_sao_bus streak",
+      "To": "icon_star_gold"
+    },
+    {
+      "From": "icon_sao_done",
+      "To": "icon_star_reached"
+    },
+    {
+      "From": "icon_sao_target",
+      "To": "icon_star_target"
+    },
+    {
+      "From": "icon_select",
+      "To": "icon_select_marker"
+    },
+    {
+      "From": "icon_tag",
+      "To": "tag_body"
+    },
+    {
+      "From": "icon_tut_Daily reward_blank",
+      "To": "illus_tut_daily_reward"
+    },
+    {
+      "From": "illus_Bus streak_2",
+      "To": "illus_bus_streak_wide"
+    },
+    {
+      "From": "illus_bar_level",
+      "To": "deco_lift_rail"
+    },
+    {
+      "From": "illus_house_event",
+      "To": "deco_tower_base"
+    },
+    {
+      "From": "illus_may 2",
+      "To": "deco_cloud"
+    },
+    {
+      "From": "illus_tut_bus streak_blank",
+      "To": "illus_tut_multipliers"
+    },
+    {
+      "From": "ingame.png/Noti_off",
+      "To": "icon_pip_off"
+    },
+    {
+      "From": "ingame.png/Noti_on",
+      "To": "icon_pip_on"
+    },
+    {
+      "From": "ingame.png/btn_board_level",
+      "To": "frame_level_tab_holder"
+    },
+    {
+      "From": "ingame.png/btn_booster_normal",
+      "To": "btn_booster_green"
+    },
+    {
+      "From": "ingame.png/btn_ingame_hard",
+      "To": "frame_hud_tray_hard"
+    },
+    {
+      "From": "ingame.png/btn_ingame_hard level",
+      "To": "frame_hud_tray_superhard"
+    },
+    {
+      "From": "ingame.png/btn_ingame_normal",
+      "To": "frame_hud_tray_normal"
+    },
+    {
+      "From": "ingame.png/btn_level_hard_top",
+      "To": "frame_level_tab_hard"
+    },
+    {
+      "From": "ingame.png/btn_level_super hard_top",
+      "To": "frame_level_tab_superhard"
+    },
+    {
+      "From": "ingame.png/btn_level_top",
+      "To": "frame_level_tab_normal"
+    },
+    {
+      "From": "ingame.png/btn_noti on off",
+      "To": "frame_counter_plate"
+    },
+    {
+      "From": "ingame.png/btn_number",
+      "To": "icon_badge_red"
+    },
+    {
+      "From": "ingame.png/icon_daulau_3",
+      "To": "icon_skulls_hard"
+    },
+    {
+      "From": "ingame.png/icon_daulau_4",
+      "To": "icon_skulls_superhard"
+    },
+    {
+      "From": "patten_shop",
+      "To": "bg_pattern"
+    },
+    {
+      "From": "pill_white",
+      "To": "shape_pill"
+    },
+    {
+      "From": "remove ads/btn_CTA",
+      "To": "btn_holder_light"
+    },
+    {
+      "From": "remove ads/btn_Green",
+      "To": "btn_green"
+    },
+    {
+      "From": "remove ads/btn_X_red",
+      "To": "btn_close_red"
+    },
+    {
+      "From": "remove ads/btn_icon_Ads_circle",
+      "To": "btn_side_no_ads"
+    },
+    {
+      "From": "remove ads/btn_icon_Ads_home",
+      "To": "frame_side_label_no_ads"
+    },
+    {
+      "From": "remove ads/icon_ads_home",
+      "To": "icon_no_ads"
+    },
+    {
+      "From": "remove ads/icon_popup_no ads_1",
+      "To": "icon_perk_no_video"
+    },
+    {
+      "From": "remove ads/icon_popup_no ads_2",
+      "To": "icon_perk_no_banner"
+    },
+    {
+      "From": "remove ads/icon_popup_no ads_3",
+      "To": "icon_perk_gift_ads"
+    },
+    {
+      "From": "ring_white",
+      "To": "shape_ring"
+    },
+    {
+      "From": "round_white",
+      "To": "shape_round"
+    },
+    {
+      "From": "round_white_s",
+      "To": "shape_round_small"
+    },
+    {
+      "From": "special Gift",
+      "To": "txt_special_gift"
+    },
+    {
+      "From": "starter Pack",
+      "To": "txt_starter_pack"
+    },
+    {
+      "From": "ui_hand_tut",
+      "To": "icon_hand_pointer"
+    }
+  ]
+}

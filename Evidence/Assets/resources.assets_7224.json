@@ -1,0 +1,14 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 33554432,
+    "m_PathID": 33554432000
+  },
+  "m_Name": "DinoSetting",
+  "logLevel": 2,
+  "appstoreId": ""
+}

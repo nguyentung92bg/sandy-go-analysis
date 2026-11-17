@@ -1,0 +1,59 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 33554432,
+    "m_PathID": 22179479552
+  },
+  "m_Name": "UiSkinBoot",
+  "Font": {
+    "m_FileID": 0,
+    "m_PathID": 7203
+  },
+  "Sprites": [
+    {
+      "Key": "bar_loading_fill",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 727
+      },
+      "StandIn": 1
+    },
+    {
+      "Key": "bg_home",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 685
+      },
+      "StandIn": 1
+    },
+    {
+      "Key": "frame_loading_bar",
+      "Sprite": {
+        "m_FileID": 0,
+        "m_PathID": 818
+      },
+      "StandIn": 0
+    }
+  ],
+  "Materials": [
+    {
+      "Key": "Plain",
+      "Material": {
+        "m_FileID": 0,
+        "m_PathID": 1
+      }
+    },
+    {
+      "Key": "Brown",
+      "Material": {
+        "m_FileID": 0,
+        "m_PathID": 5
+      }
+    }
+  ],
+  "Aliases": []
+}

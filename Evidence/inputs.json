@@ -1,0 +1,8 @@
+{
+  "Binary": "D:\\APK Decompiler\\IL2CPP Workbench\\Results\\Run-20261116-142514-505449\\Inputs\\libil2cpp.so",
+  "Metadata": "D:\\APK Decompiler\\IL2CPP Workbench\\Results\\Run-20261116-142514-505449\\Inputs\\global-metadata.dat",
+  "OriginalBinary": "D:\\APK Decompiler\\IL2CPP Workbench\\Imports\\AssetRipper-20261116-142301-12140507\\Inputs\\arm64-v8a\\libil2cpp.so",
+  "OriginalMetadata": "D:\\APK Decompiler\\IL2CPP Workbench\\Imports\\AssetRipper-20261116-142301-12140507\\Inputs\\global-metadata.dat",
+  "MetadataVersion": 31,
+  "Backend": "Il2CppDumper"
+}

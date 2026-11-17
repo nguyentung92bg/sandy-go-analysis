@@ -1,0 +1,8329 @@
+{
+  "TbActivityOpenPeriod": {
+    "1": {
+      "Id": 1,
+      "ActivityOpenPeriodGroupId": 1,
+      "ActivityType": "StreakRate",
+      "ActivityIdList": [
+        3000
+      ],
+      "PeriodType": [
+        "EveryWeek"
+      ],
+      "StartTimeList": [
+        "1-000000"
+      ],
+      "EndTimeList": [
+        "4-235959"
+      ],
+      "CycleType": "PeriodLoop",
+      "LastTime": 0
+    },
+    "2": {
+      "Id": 2,
+      "ActivityOpenPeriodGroupId": 1,
+      "ActivityType": "StreakRate",
+      "ActivityIdList": [
+        3001
+      ],
+      "PeriodType": [
+        "EveryWeek"
+      ],
+      "StartTimeList": [
+        "5-000000"
+      ],
+      "EndTimeList": [
+        "7-235959"
+      ],
+      "CycleType": "PeriodLoop",
+      "LastTime": 0
+    },
+    "3": {
+      "Id": 3,
+      "ActivityOpenPeriodGroupId": 1,
+      "ActivityType": "ClimbTower",
+      "ActivityIdList": [
+        2001
+      ],
+      "PeriodType": [
+        "EveryWeek"
+      ],
+      "StartTimeList": [
+        "1-000000"
+      ],
+      "EndTimeList": [
+        "7-235959"
+      ],
+      "CycleType": "PeriodLoop",
+      "LastTime": 0
+    },
+    "4": {
+      "Id": 4,
+      "ActivityOpenPeriodGroupId": 1,
+      "ActivityType": "BattleRoyale",
+      "ActivityIdList": [
+        4001
+      ],
+      "PeriodType": [
+        "EveryDay"
+      ],
+      "StartTimeList": [
+        "000000"
+      ],
+      "EndTimeList": [
+        "235959"
+      ],
+      "CycleType": "PeriodLoop",
+      "LastTime": 0
+    },
+    "5": {
+      "Id": 5,
+      "ActivityOpenPeriodGroupId": 1,
+      "ActivityType": "YachtRacing",
+      "ActivityIdList": [
+        5001
+      ],
+      "PeriodType": [
+        "EveryDay"
+      ],
+      "StartTimeList": [
+        "000000"
+      ],
+      "EndTimeList": [
+        "235959"
+      ],
+      "CycleType": "PeriodLoop",
+      "LastTime": 0
+    },
+    "6": {
+      "Id": 6,
+      "ActivityOpenPeriodGroupId": 2,
+      "ActivityType": "BattleRoyale",
+      "ActivityIdList": [
+        4001
+      ],
+      "PeriodType": [
+        "OpenWeekDays"
+      ],
+      "StartTimeList": [
+        "1357"
+      ],
+      "EndTimeList": [
+        "1357"
+      ],
+      "CycleType": "PeriodLoop",
+      "LastTime": 0
+    }
+  },
+  "TbActivitySettleOrder": {
+    "1": {
+      "Id": 1,
+      "GroupId": 1,
+      "ControlPanelName": "Continue",
+      "ControlParams": {
+        "StreakRate": "1-4"
+      },
+      "Order": [
+        "BattleRoyale",
+        "StreakRate"
+      ],
+      "ContinueOrder": [],
+      "MaxShowCount": 0
+    },
+    "2": {
+      "Id": 2,
+      "GroupId": 1,
+      "ControlPanelName": "TryAgagin",
+      "ControlParams": {
+        "StreakRate": "1-4"
+      },
+      "Order": [
+        "StreakRate"
+      ],
+      "ContinueOrder": [],
+      "MaxShowCount": 0
+    },
+    "3": {
+      "Id": 3,
+      "GroupId": 1,
+      "ControlPanelName": "GameWin",
+      "ControlParams": {},
+      "Order": [
+        "StreakRate"
+      ],
+      "ContinueOrder": [],
+      "MaxShowCount": 0
+    },
+    "4": {
+      "Id": 4,
+      "GroupId": 1,
+      "ControlPanelName": "Quit",
+      "ControlParams": {
+        "StreakRate": "1-4"
+      },
+      "Order": [
+        "BattleRoyale",
+        "StreakRate"
+      ],
+      "ContinueOrder": [],
+      "MaxShowCount": 0
+    },
+    "5": {
+      "Id": 5,
+      "GroupId": 1,
+      "ControlPanelName": "SpecialLose",
+      "ControlParams": {},
+      "Order": [],
+      "ContinueOrder": [
+        "BattleRoyale",
+        "ClimbTower"
+      ],
+      "MaxShowCount": 0
+    },
+    "6": {
+      "Id": 6,
+      "GroupId": 2,
+      "ControlPanelName": "Continue",
+      "ControlParams": {
+        "ClimbTower": "1-59",
+        "StreakRate": "1-4"
+      },
+      "Order": [],
+      "ContinueOrder": [
+        "YachtRacing",
+        "BattleRoyale",
+        "ClimbTower",
+        "StreakRate",
+        "Passport"
+      ],
+      "MaxShowCount": 2
+    },
+    "7": {
+      "Id": 7,
+      "GroupId": 2,
+      "ControlPanelName": "TryAgagin",
+      "ControlParams": {
+        "ClimbTower": "1-59",
+        "StreakRate": "1-4"
+      },
+      "Order": [
+        "YachtRacing",
+        "ClimbTower",
+        "StreakRate"
+      ],
+      "ContinueOrder": [],
+      "MaxShowCount": 0
+    },
+    "8": {
+      "Id": 8,
+      "GroupId": 2,
+      "ControlPanelName": "GameWin",
+      "ControlParams": {
+        "ClimbTower": "0-59"
+      },
+      "Order": [
+        "YachtRacing",
+        "ClimbTower",
+        "StreakRate"
+      ],
+      "ContinueOrder": [],
+      "MaxShowCount": 0
+    },
+    "9": {
+      "Id": 9,
+      "GroupId": 2,
+      "ControlPanelName": "Quit",
+      "ControlParams": {
+        "ClimbTower": "1-59",
+        "StreakRate": "1-4"
+      },
+      "Order": [],
+      "ContinueOrder": [
+        "YachtRacing",
+        "BattleRoyale",
+        "ClimbTower",
+        "StreakRate"
+      ],
+      "MaxShowCount": 2
+    },
+    "10": {
+      "Id": 10,
+      "GroupId": 2,
+      "ControlPanelName": "SpecialLose",
+      "ControlParams": {},
+      "Order": [],
+      "ContinueOrder": [
+        "BattleRoyale",
+        "YachtRacing",
+        "ClimbTower"
+      ],
+      "MaxShowCount": 2
+    }
+  },
+  "TbBattleRoyale": {
+    "4001": {
+      "ID": 4001,
+      "MaxRewardTimes": 1,
+      "Reward": [
+        [
+          1001,
+          10000
+        ]
+      ],
+      "PersonNum": 100,
+      "TotalStageNum": 7,
+      "LoseStreak": 2,
+      "ColdTime": 1800,
+      "PersonaGroup": 1,
+      "HideCD": 4,
+      "WinHideCD": 0,
+      "WinColdTime": 1800
+    }
+  },
+  "TbClimbTower": {
+    "1": {
+      "Id": 1,
+      "ActivityId": 2001,
+      "ArchivePointList": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "WinPointList": [
+        0,
+        2,
+        5,
+        8,
+        11,
+        17,
+        22,
+        28,
+        33,
+        42,
+        60
+      ],
+      "RewardList": [
+        -1,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "TreasureBoxList": [
+        -1,
+        1,
+        1,
+        2,
+        2,
+        3,
+        3,
+        4,
+        4,
+        5,
+        5
+      ],
+      "PlatformList": [
+        -1,
+        1,
+        1,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        4,
+        4
+      ]
+    }
+  },
+  "TbCommentPopGlobalConfig": {
+    "1": {
+      "ID": 1,
+      "Enabled": 1,
+      "FirstShowLevel": 14,
+      "MaxShowCount": 4,
+      "FeedbackIntervalActiveDays": 4,
+      "CloseBaseIntervalActiveDays": 2
+    }
+  },
+  "TbFinalStagePerson": {
+    "1": {
+      "ID": 1,
+      "CostMin": 0,
+      "CostMax": 1,
+      "PersonMin": 20,
+      "PersonMax": 31
+    },
+    "2": {
+      "ID": 2,
+      "CostMin": 1,
+      "CostMax": 900,
+      "PersonMin": 16,
+      "PersonMax": 21
+    },
+    "3": {
+      "ID": 3,
+      "CostMin": 900,
+      "CostMax": 1800,
+      "PersonMin": 12,
+      "PersonMax": 17
+    },
+    "4": {
+      "ID": 4,
+      "CostMin": 1800,
+      "CostMax": 3600,
+      "PersonMin": 10,
+      "PersonMax": 13
+    },
+    "5": {
+      "ID": 5,
+      "CostMin": 3600,
+      "CostMax": 0,
+      "PersonMin": 6,
+      "PersonMax": 11
+    }
+  },
+  "TbGameplay": {
+    "Config": {
+      "ID": "Config",
+      "vehicleSpeed": 1.3
+    }
+  },
+  "TbGiftPackConfig": {
+    "1004": {
+      "ID": 1004,
+      "PackId": "personal_cycle",
+      "PackType": "Normal",
+      "IconDiscount": 1,
+      "PackName": "普通礼包",
+      "PopupMode": "PopPanel",
+      "ShopItemId": 2001,
+      "KeepActiveAfterPurchase": 0,
+      "TriggerCondition": "{\n  \"1\": {\n    \"CoinLeft\": \"900\"\n  }\n}",
+      "MaxPurchaseCount": 0,
+      "ActiveDelayTime": 0,
+      "EndCoolDownMinute": 0,
+      "EndCoolDownDay": 0,
+      "CooldownMinute": 0,
+      "CooldownDay": 0,
+      "ContinuePriority": 5,
+      "Priority": 2,
+      "UIPath": "",
+      "IconPath": "",
+      "TitleKey": "",
+      "DescKey": "",
+      "IsEnabled": 1,
+      "FirstTriggerCondition": "{\n  \"1\": {\n    \"LevelProgress\": \"32\"\n  }\n}",
+      "CycleType": 0,
+      "CycleStartTime": "7,060000",
+      "CycleEndTime": "3,055959",
+      "IsFirstCycleTimeEnabled": 0,
+      "IsCycleTimeEnabled": 1,
+      "PackThemeIds": "1,2,3",
+      "ThemeCycleMode": 2
+    },
+    "1005": {
+      "ID": 1005,
+      "PackId": "fixed_cycle_1",
+      "PackType": "Passport",
+      "IconDiscount": 0,
+      "PackName": "通行证（月）",
+      "PopupMode": "PopPanel",
+      "ShopItemId": 4004,
+      "KeepActiveAfterPurchase": 1,
+      "TriggerCondition": "",
+      "MaxPurchaseCount": 0,
+      "ActiveDelayTime": 0,
+      "EndCoolDownMinute": 0,
+      "EndCoolDownDay": 0,
+      "CooldownMinute": 0,
+      "CooldownDay": 0,
+      "ContinuePriority": 3,
+      "Priority": 1,
+      "UIPath": "",
+      "IconPath": "",
+      "TitleKey": "",
+      "DescKey": "",
+      "IsEnabled": 1,
+      "FirstTriggerCondition": "{\n  \"1\": {\n    \"LevelProgress\": \"48\"\n  }\n}",
+      "CycleType": 3,
+      "CycleStartTime": "1,080000",
+      "CycleEndTime": "1,075959",
+      "IsFirstCycleTimeEnabled": 1,
+      "IsCycleTimeEnabled": 1,
+      "PackThemeIds": "4",
+      "ThemeCycleMode": 0
+    },
+    "1007": {
+      "ID": 1007,
+      "PackId": "fixed_cycle_3",
+      "PackType": "Golden",
+      "IconDiscount": 0,
+      "PackName": "金币礼包",
+      "PopupMode": "PopPanel",
+      "ShopItemId": 4002,
+      "KeepActiveAfterPurchase": 1,
+      "TriggerCondition": "{\n  \"1\": {\n    \"DailyLevel\": \"15\"\n  },\n  \"2\": {\n    \"CoinLeft\": \"900\"\n  }\n}",
+      "MaxPurchaseCount": 0,
+      "ActiveDelayTime": 0,
+      "EndCoolDownMinute": 0,
+      "EndCoolDownDay": 0,
+      "CooldownMinute": 0,
+      "CooldownDay": 0,
+      "ContinuePriority": 2,
+      "Priority": 3,
+      "UIPath": "",
+      "IconPath": "",
+      "TitleKey": "",
+      "DescKey": "",
+      "IsEnabled": 1,
+      "FirstTriggerCondition": "{\n  \"1\": {\n    \"LevelProgress\": \"58\",\n    \"TotalPayAmount\": \"0\"\n  }\n}",
+      "CycleType": 0,
+      "CycleStartTime": "6,080000",
+      "CycleEndTime": "1,075959",
+      "IsFirstCycleTimeEnabled": 1,
+      "IsCycleTimeEnabled": 1,
+      "PackThemeIds": "6",
+      "ThemeCycleMode": 0
+    },
+    "1009": {
+      "ID": 1009,
+      "PackId": "fixed_cycle_5",
+      "PackType": "Combo",
+      "IconDiscount": 0,
+      "PackName": "组合礼包",
+      "PopupMode": "PopPanel",
+      "ShopItemId": 4204,
+      "KeepActiveAfterPurchase": 1,
+      "TriggerCondition": "{\n  \"1\": {\n    \"WeekSpentUSD\": \"0\"\n  },\n  \"2\": {\n    \"PassportActivating\": \"1\"\n  }\n}",
+      "MaxPurchaseCount": 0,
+      "ActiveDelayTime": 480,
+      "EndCoolDownMinute": 0,
+      "EndCoolDownDay": 0,
+      "CooldownMinute": 0,
+      "CooldownDay": 0,
+      "ContinuePriority": 0,
+      "Priority": 1,
+      "UIPath": "",
+      "IconPath": "",
+      "TitleKey": "",
+      "DescKey": "",
+      "IsEnabled": 1,
+      "FirstTriggerCondition": "{\n  \"1\": {\n    \"LevelProgress\": \"32\",\n    \"WeekSpentUSD\": \"0\"\n  },\n  \"2\": {\n    \"LevelProgress\": \"32\",\n    \"PassportActivating\": \"1\"\n  }\n}",
+      "CycleType": 0,
+      "CycleStartTime": "1,080000",
+      "CycleEndTime": "1,075959",
+      "IsFirstCycleTimeEnabled": 1,
+      "IsCycleTimeEnabled": 1,
+      "PackThemeIds": "",
+      "ThemeCycleMode": 0
+    }
+  },
+  "TbGiftPackGlobalConfig": {
+    "1": {
+      "ID": 1,
+      "ReturningUserThresholdDays": 3,
+      "PurchaseCoolHours": 0.0,
+      "UnpurchaseCoolHours": 0.167,
+      "ReturningUserCoolHours": 0.0,
+      "SessionLimitCount": 0,
+      "RoundLimitCount": 0,
+      "MaxConcurrentActivePacks": 1
+    }
+  },
+  "TbGiftPackTheme": {
+    "1": {
+      "ID": 1,
+      "Order": 1,
+      "IsEnabled": 1,
+      "UIPath": "UIGiftPackPanelPurple",
+      "IconPath": "Btn_purpleBreakIceGift",
+      "TitleKey": "UI_IAP_beginner",
+      "DescKey": "gift_break_ice_desc"
+    },
+    "2": {
+      "ID": 2,
+      "Order": 2,
+      "IsEnabled": 1,
+      "UIPath": "UIGiftPackPanelGreen",
+      "IconPath": "Btn_redBreakIceGift",
+      "TitleKey": "UI_IAP_limit",
+      "DescKey": "gift_time_limited_desc"
+    },
+    "3": {
+      "ID": 3,
+      "Order": 3,
+      "IsEnabled": 1,
+      "UIPath": "UIGiftPackPanelRed",
+      "IconPath": "Btn_blueBreakIceGift",
+      "TitleKey": "UI_IAP_stuck",
+      "DescKey": "gift_stuck_desc"
+    },
+    "4": {
+      "ID": 4,
+      "Order": 1,
+      "IsEnabled": 0,
+      "UIPath": "",
+      "IconPath": "",
+      "TitleKey": "",
+      "DescKey": ""
+    },
+    "5": {
+      "ID": 5,
+      "Order": 1,
+      "IsEnabled": 0,
+      "UIPath": "UIEndlessGiftPackPanel",
+      "IconPath": "Btn_EndlessGiftPack",
+      "TitleKey": "",
+      "DescKey": ""
+    },
+    "6": {
+      "ID": 6,
+      "Order": 1,
+      "IsEnabled": 1,
+      "UIPath": "UIGoldenCoinGiftPackPanel",
+      "IconPath": "Btn_GoldenCoinGiftPack",
+      "TitleKey": "",
+      "DescKey": ""
+    },
+    "7": {
+      "ID": 7,
+      "Order": 1,
+      "IsEnabled": 1,
+      "UIPath": "UIGiftPackPanelPurpleGp4",
+      "IconPath": "Btn_purpleBreakIceGift",
+      "TitleKey": "UI_IAP_beginner",
+      "DescKey": "gift_break_ice_desc"
+    },
+    "8": {
+      "ID": 8,
+      "Order": 2,
+      "IsEnabled": 1,
+      "UIPath": "UIGiftPackPanelGreenGp4",
+      "IconPath": "Btn_redBreakIceGift",
+      "TitleKey": "UI_IAP_limit",
+      "DescKey": "gift_time_limited_desc"
+    },
+    "9": {
+      "ID": 9,
+      "Order": 3,
+      "IsEnabled": 1,
+      "UIPath": "UIGiftPackPanelRedGp4",
+      "IconPath": "Btn_blueBreakIceGift",
+      "TitleKey": "UI_IAP_stuck",
+      "DescKey": "gift_stuck_desc"
+    }
+  },
+  "TbGoldenCoinGiftPack": {
+    "1": {
+      "ID": 1,
+      "GiftPackId": 1007,
+      "StageList": [
+        {
+          "Stage": 1,
+          "WinNum": 1,
+          "CoinNum": 20
+        },
+        {
+          "Stage": 2,
+          "WinNum": 3,
+          "CoinNum": 40
+        },
+        {
+          "Stage": 3,
+          "WinNum": 5,
+          "CoinNum": 60
+        },
+        {
+          "Stage": 4,
+          "WinNum": 10,
+          "CoinNum": 80
+        },
+        {
+          "Stage": 5,
+          "WinNum": 15,
+          "CoinNum": 100
+        },
+        {
+          "Stage": 6,
+          "WinNum": 20,
+          "CoinNum": 125
+        },
+        {
+          "Stage": 7,
+          "WinNum": 30,
+          "CoinNum": 150
+        },
+        {
+          "Stage": 8,
+          "WinNum": 40,
+          "CoinNum": 175
+        },
+        {
+          "Stage": 9,
+          "WinNum": 50,
+          "CoinNum": 200
+        },
+        {
+          "Stage": 10,
+          "WinNum": 60,
+          "CoinNum": 300
+        },
+        {
+          "Stage": 11,
+          "WinNum": 80,
+          "CoinNum": 500
+        },
+        {
+          "Stage": 12,
+          "WinNum": 120,
+          "CoinNum": 1250
+        }
+      ]
+    }
+  },
+  "TbGuideConfig": {
+    "1": {
+      "ID": 1,
+      "TriggerType": 1,
+      "TriggerParam": "UIGame",
+      "LevelMin": 1,
+      "LevelMax": 1,
+      "CanRepeat": true,
+      "Desc": "guide_1_1",
+      "ShowHand": true,
+      "GuideType": 1,
+      "UiName": "UIGame",
+      "GuideIndexId": 1,
+      "GuideTargetType": 0,
+      "GuideTargetId": 0,
+      "GuideLevelSource": 0,
+      "ContentOffsetX": 0,
+      "ContentOffsetY": -350,
+      "ContentOffsetZ": 0,
+      "HandOffsetX": -20,
+      "HandOffsetY": -20,
+      "HandOffsetZ": 0,
+      "ContentSize": 600,
+      "OpenDelay": 300,
+      "CanMaskClick": false,
+      "BlockClickPropagation": false,
+      "HoleScale": 10,
+      "PlayHoleScaleAnim": 500
+    },
+    "2": {
+      "ID": 2,
+      "TriggerType": 2,
+      "TriggerParam": "1",
+      "LevelMin": 1,
+      "LevelMax": 1,
+      "CanRepeat": true,
+      "Desc": "guide_1_2",
+      "ShowHand": false,
+      "GuideType": 1,
+      "UiName": "UIGame",
+      "GuideIndexId": 2,
+      "GuideTargetType": 0,
+      "GuideTargetId": 0,
+      "GuideLevelSource": 0,
+      "ContentOffsetX": 0,
+      "ContentOffsetY": -340,
+      "ContentOffsetZ": 0,
+      "HandOffsetX": 0,
+      "HandOffsetY": 0,
+      "HandOffsetZ": 0,
+      "ContentSize": 0,
+      "OpenDelay": 500,
+      "CanMaskClick": true,
+      "BlockClickPropagation": true,
+      "HoleScale": 7,
+      "PlayHoleScaleAnim": 500
+    },
+    "3": {
+      "ID": 3,
+      "TriggerType": 1,
+      "TriggerParam": "UIGame",
+      "LevelMin": 7,
+      "LevelMax": 7,
+      "CanRepeat": false,
+      "Desc": "",
+      "ShowHand": true,
+      "GuideType": 1,
+      "UiName": "UIGame",
+      "GuideIndexId": 3,
+      "GuideTargetType": 1,
+      "GuideTargetId": 10002,
+      "GuideLevelSource": 1,
+      "ContentOffsetX": 0,
+      "ContentOffsetY": 260,
+      "ContentOffsetZ": 0,
+      "HandOffsetX": -20,
+      "HandOffsetY": -20,
+      "HandOffsetZ": 0,
+      "ContentSize": 600,
+      "OpenDelay": 300,
+      "CanMaskClick": false,
+      "BlockClickPropagation": false,
+      "HoleScale": 5,
+      "PlayHoleScaleAnim": 500
+    },
+    "4": {
+      "ID": 4,
+      "TriggerType": 1,
+      "TriggerParam": "UIGame",
+      "LevelMin": 14,
+      "LevelMax": 14,
+      "CanRepeat": false,
+      "Desc": "",
+      "ShowHand": true,
+      "GuideType": 1,
+      "UiName": "UIGame",
+      "GuideIndexId": 4,
+      "GuideTargetType": 1,
+      "GuideTargetId": 10003,
+      "GuideLevelSource": 1,
+      "ContentOffsetX": 0,
+      "ContentOffsetY": 260,
+      "ContentOffsetZ": 0,
+      "HandOffsetX": -20,
+      "HandOffsetY": -20,
+      "HandOffsetZ": 0,
+      "ContentSize": 600,
+      "OpenDelay": 300,
+      "CanMaskClick": false,
+      "BlockClickPropagation": false,
+      "HoleScale": 5,
+      "PlayHoleScaleAnim": 500
+    },
+    "5": {
+      "ID": 5,
+      "TriggerType": 1,
+      "TriggerParam": "UIGame",
+      "LevelMin": 18,
+      "LevelMax": 18,
+      "CanRepeat": false,
+      "Desc": "",
+      "ShowHand": true,
+      "GuideType": 1,
+      "UiName": "UIGame",
+      "GuideIndexId": 5,
+      "GuideTargetType": 1,
+      "GuideTargetId": 10004,
+      "GuideLevelSource": 1,
+      "ContentOffsetX": 0,
+      "ContentOffsetY": 260,
+      "ContentOffsetZ": 0,
+      "HandOffsetX": -20,
+      "HandOffsetY": -20,
+      "HandOffsetZ": 0,
+      "ContentSize": 600,
+      "OpenDelay": 300,
+      "CanMaskClick": false,
+      "BlockClickPropagation": false,
+      "HoleScale": 5,
+      "PlayHoleScaleAnim": 500
+    },
+    "6": {
+      "ID": 6,
+      "TriggerType": 1,
+      "TriggerParam": "UIGame",
+      "LevelMin": 20,
+      "LevelMax": 20,
+      "CanRepeat": false,
+      "Desc": "",
+      "ShowHand": true,
+      "GuideType": 1,
+      "UiName": "UIGame",
+      "GuideIndexId": 6,
+      "GuideTargetType": 1,
+      "GuideTargetId": 10005,
+      "GuideLevelSource": 1,
+      "ContentOffsetX": 0,
+      "ContentOffsetY": 260,
+      "ContentOffsetZ": 0,
+      "HandOffsetX": -20,
+      "HandOffsetY": -20,
+      "HandOffsetZ": 0,
+      "ContentSize": 600,
+      "OpenDelay": 300,
+      "CanMaskClick": false,
+      "BlockClickPropagation": false,
+      "HoleScale": 5,
+      "PlayHoleScaleAnim": 500
+    }
+  },
+  "TbHeadConfig": {
+    "200001": {
+      "ID": 200001,
+      "Icon": "eyu"
+    },
+    "200002": {
+      "ID": 200002,
+      "Icon": "gou"
+    },
+    "200003": {
+      "ID": 200003,
+      "Icon": "keji"
+    },
+    "200004": {
+      "ID": 200004,
+      "Icon": "mao"
+    },
+    "200005": {
+      "ID": 200005,
+      "Icon": "niu"
+    },
+    "200006": {
+      "ID": 200006,
+      "Icon": "shu"
+    },
+    "200007": {
+      "ID": 200007,
+      "Icon": "tuzi"
+    },
+    "200008": {
+      "ID": 200008,
+      "Icon": "xiong"
+    },
+    "200009": {
+      "ID": 200009,
+      "Icon": "yingwu"
+    }
+  },
+  "TbItemConfig": {
+    "1001": {
+      "ID": 1001,
+      "itemType": "Currency",
+      "ItemEnum": 0,
+      "name": "",
+      "desc": "",
+      "Icon": "img_shop_cion",
+      "Icon1": "",
+      "Icon3": "icon_coin_small",
+      "Icon4": "",
+      "maxCount": 0,
+      "Conversion": 10000
+    },
+    "1002": {
+      "ID": 1002,
+      "itemType": "Power",
+      "ItemEnum": 0,
+      "name": "",
+      "desc": "",
+      "Icon": "icon_heart_big",
+      "Icon1": "icon_heart_wuxian",
+      "Icon3": "icon_heart_small",
+      "Icon4": "icon_heart_wuxian_small",
+      "maxCount": 5,
+      "Conversion": 5000
+    },
+    "1003": {
+      "ID": 1003,
+      "itemType": "Prop",
+      "ItemEnum": 0,
+      "name": "Game_Booster_HeadStart",
+      "desc": "Booster_HeadStart_Des",
+      "Icon": "icon_huojian_big",
+      "Icon1": "",
+      "Icon3": "icon_huojian_small",
+      "Icon4": "",
+      "maxCount": 0,
+      "Conversion": 5000
+    },
+    "10001": {
+      "ID": 10001,
+      "itemType": "Prop",
+      "ItemEnum": 0,
+      "name": "Booster_PlusSlot",
+      "desc": "Booster_PlusSlot_Des",
+      "Icon": "icon_ewaiqiu_big",
+      "Icon1": "",
+      "Icon3": "icon_ewaiqiu_s",
+      "Icon4": "",
+      "maxCount": 0,
+      "Conversion": 5000
+    },
+    "10002": {
+      "ID": 10002,
+      "itemType": "Prop",
+      "ItemEnum": 0,
+      "name": "Booster_Shuffle",
+      "desc": "Booster_Shuffle_Desc",
+      "Icon": "icon_chaodapao_big",
+      "Icon1": "",
+      "Icon3": "icon_chaodapao_s",
+      "Icon4": "",
+      "maxCount": 0,
+      "Conversion": 5000
+    },
+    "10003": {
+      "ID": 10003,
+      "itemType": "Prop",
+      "ItemEnum": 0,
+      "name": "Booster_PickUp",
+      "desc": "Booster_PickUp_Desc",
+      "Icon": "icon_jiguang_big",
+      "Icon1": "",
+      "Icon3": "icon_jiguang_s",
+      "Icon4": "",
+      "maxCount": 0,
+      "Conversion": 5000
+    },
+    "10004": {
+      "ID": 10004,
+      "itemType": "Prop",
+      "ItemEnum": 0,
+      "name": "UI_Wand_Title",
+      "desc": "UI_Wand_Des_1",
+      "Icon": "icon_wuxian_big",
+      "Icon1": "",
+      "Icon3": "icon_wuxian_s",
+      "Icon4": "",
+      "maxCount": 0,
+      "Conversion": 5000
+    },
+    "10005": {
+      "ID": 10005,
+      "itemType": "Prop",
+      "ItemEnum": 0,
+      "name": "UI_ExtraSlot_Title",
+      "desc": "UI_ExtraSlot_Des_1",
+      "Icon": "icon_lianji_big",
+      "Icon1": "",
+      "Icon3": "icon_lianji_s",
+      "Icon4": "",
+      "maxCount": 0,
+      "Conversion": 5000
+    }
+  },
+  "TbLevelRewards": {
+    "1": {
+      "ID": 1,
+      "Group": 1,
+      "settler": [
+        [
+          1001,
+          20
+        ]
+      ],
+      "settlerByNut": [],
+      "StreakRate": 1
+    },
+    "2": {
+      "ID": 2,
+      "Group": 1,
+      "settler": [
+        [
+          1001,
+          60
+        ]
+      ],
+      "settlerByNut": [],
+      "StreakRate": 3
+    },
+    "3": {
+      "ID": 3,
+      "Group": 1,
+      "settler": [
+        [
+          1001,
+          100
+        ]
+      ],
+      "settlerByNut": [],
+      "StreakRate": 5
+    }
+  },
+  "TbLevelTypeMatchConfig": {
+    "1": {
+      "ID": 1,
+      "Group": 1,
+      "LType": "nl",
+      "StartLevel": 0,
+      "PerLevel": 0
+    },
+    "2": {
+      "ID": 2,
+      "Group": 1,
+      "LType": "h",
+      "StartLevel": 14,
+      "PerLevel": 10
+    },
+    "3": {
+      "ID": 3,
+      "Group": 1,
+      "LType": "sh",
+      "StartLevel": 19,
+      "PerLevel": 10
+    }
+  },
+  "TbMonetization": {
+    "Booster_ExtraSlot": {
+      "ID": "Booster_ExtraSlot",
+      "item": 10005,
+      "shop": 2008,
+      "unlockLevel": 2,
+      "coinPrice": 900,
+      "buyCount": 1,
+      "adCount": 1
+    },
+    "Booster_Shuffle": {
+      "ID": "Booster_Shuffle",
+      "item": 10002,
+      "shop": 2004,
+      "unlockLevel": 10,
+      "coinPrice": 900,
+      "buyCount": 1,
+      "adCount": 1
+    },
+    "Booster_PickUp": {
+      "ID": "Booster_PickUp",
+      "item": 10003,
+      "shop": 2006,
+      "unlockLevel": 6,
+      "coinPrice": 300,
+      "buyCount": 1,
+      "adCount": 1
+    },
+    "Booster_Wand": {
+      "ID": "Booster_Wand",
+      "item": 10004,
+      "shop": 2007,
+      "unlockLevel": 4,
+      "coinPrice": 300,
+      "buyCount": 1,
+      "adCount": 1
+    },
+    "Booster_HeadStart": {
+      "ID": "Booster_HeadStart",
+      "item": 1003,
+      "shop": 2001,
+      "coinPrice": 300,
+      "buyCount": 1,
+      "adCount": 1
+    },
+    "Booster_PlusSlot": {
+      "ID": "Booster_PlusSlot",
+      "item": 10001,
+      "shop": 2005,
+      "coinPrice": 300,
+      "buyCount": 1,
+      "adCount": 1
+    },
+    "Revive": {
+      "ID": "Revive",
+      "coinPrice": 900,
+      "prices": [
+        900,
+        1900,
+        2900
+      ]
+    },
+    "RescueRevive": {
+      "ID": "RescueRevive",
+      "seconds": 30
+    },
+    "WinReward": {
+      "ID": "WinReward",
+      "normal": 20,
+      "hard": 60,
+      "superHard": 100
+    },
+    "WinChest": {
+      "ID": "WinChest",
+      "enabled": 1,
+      "fromLevel": 6,
+      "steps": [
+        5,
+        6,
+        8
+      ],
+      "every": 10,
+      "get": [
+        [
+          1001,
+          40
+        ],
+        [
+          10005,
+          1
+        ]
+      ]
+    },
+    "DailyGift": {
+      "ID": "DailyGift",
+      "enabled": 1,
+      "fromLevel": 8,
+      "chestDays": 30,
+      "chest": [
+        [
+          1001,
+          500
+        ],
+        [
+          10005,
+          1
+        ],
+        [
+          10003,
+          1
+        ],
+        [
+          10002,
+          1
+        ],
+        [
+          10004,
+          1
+        ]
+      ],
+      "days": [
+        [
+          [
+            10005,
+            1
+          ]
+        ],
+        [
+          [
+            1001,
+            50
+          ]
+        ],
+        [
+          [
+            10003,
+            1
+          ]
+        ],
+        [
+          [
+            1001,
+            100
+          ]
+        ],
+        [
+          [
+            10002,
+            1
+          ]
+        ],
+        [
+          [
+            1001,
+            50
+          ],
+          [
+            10004,
+            1
+          ]
+        ],
+        [
+          [
+            1001,
+            150
+          ],
+          [
+            10005,
+            1
+          ]
+        ]
+      ]
+    },
+    "WelcomeBack": {
+      "ID": "WelcomeBack",
+      "enabled": 1,
+      "awayDays": 3,
+      "cooldownDays": 7,
+      "get": [
+        [
+          10005,
+          1
+        ],
+        [
+          1001,
+          100
+        ]
+      ]
+    },
+    "StuckHelp": {
+      "ID": "StuckHelp",
+      "enabled": 1,
+      "losses": 3,
+      "get": [
+        [
+          10005,
+          1
+        ]
+      ]
+    }
+  },
+  "TbPassports": {
+    "10005": {
+      "ID": 10005,
+      "GiftPackId": 1005,
+      "StageNeedKeyList": [
+        0,
+        2,
+        3,
+        5,
+        5,
+        10,
+        10,
+        15,
+        15,
+        20,
+        30,
+        25,
+        30,
+        35,
+        40,
+        50,
+        40,
+        50,
+        60,
+        70,
+        80
+      ],
+      "StageFreeItemList": [
+        [
+          [
+            1001,
+            20
+          ]
+        ],
+        [
+          [
+            1001,
+            10
+          ]
+        ],
+        [
+          [
+            1001,
+            20
+          ]
+        ],
+        [
+          [
+            1001,
+            30
+          ]
+        ],
+        [
+          [
+            1001,
+            40
+          ]
+        ],
+        [
+          [
+            1001,
+            30
+          ]
+        ],
+        [
+          [
+            1001,
+            50
+          ]
+        ],
+        [
+          [
+            1001,
+            60
+          ]
+        ],
+        [
+          [
+            1001,
+            80
+          ]
+        ],
+        [
+          [
+            1001,
+            100
+          ]
+        ],
+        [
+          [
+            10002,
+            1
+          ]
+        ],
+        [
+          [
+            1001,
+            120
+          ]
+        ],
+        [
+          [
+            1001,
+            150
+          ]
+        ],
+        [
+          [
+            10002,
+            1
+          ]
+        ],
+        [
+          [
+            1001,
+            200
+          ]
+        ],
+        [
+          [
+            1001,
+            50
+          ]
+        ],
+        [
+          [
+            1001,
+            250
+          ]
+        ],
+        [
+          [
+            10005,
+            1
+          ]
+        ],
+        [
+          [
+            1001,
+            300
+          ]
+        ],
+        [
+          [
+            1001,
+            500
+          ]
+        ],
+        [
+          [
+            10003,
+            1
+          ]
+        ]
+      ],
+      "StageFreeRewardBoxList": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "StagePassItemList": [
+        [
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            1001,
+            50
+          ]
+        ],
+        [
+          [
+            1001,
+            100
+          ]
+        ],
+        [
+          [
+            10002,
+            1
+          ]
+        ],
+        [
+          [
+            1001,
+            150
+          ]
+        ],
+        [
+          [
+            1001,
+            50
+          ]
+        ],
+        [
+          [
+            1001,
+            200
+          ]
+        ],
+        [
+          [
+            1001,
+            250
+          ]
+        ],
+        [
+          [
+            10005,
+            1
+          ]
+        ],
+        [
+          [
+            1001,
+            300
+          ]
+        ],
+        [
+          [
+            1001,
+            80
+          ]
+        ],
+        [
+          [
+            1001,
+            350
+          ]
+        ],
+        [
+          [
+            1001,
+            400
+          ]
+        ],
+        [
+          [
+            10002,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            1001,
+            150
+          ]
+        ],
+        [
+          [
+            1001,
+            650
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            10003,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ]
+        ]
+      ],
+      "StagePassRewardBoxList": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2108,
+        0,
+        0,
+        2109,
+        0,
+        2110,
+        2111
+      ],
+      "ProduceNL": 1,
+      "ProduceHard": 1,
+      "ProduceSuperHard": 1,
+      "BonusBankNeed": 15,
+      "BonusBankSingleReward": [
+        [
+          1001,
+          100
+        ]
+      ],
+      "BonusBankMaxChangeTimes": 50,
+      "PrivilegeId": 1
+    }
+  },
+  "TbPersonaConfig": {
+    "1": {
+      "ID": 1,
+      "GroupId": 1,
+      "Strategy": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "Weight": 10,
+      "avgHistoryCostPerRound": 55
+    },
+    "2": {
+      "ID": 2,
+      "GroupId": 1,
+      "Strategy": [
+        1,
+        6,
+        6,
+        6,
+        2,
+        6,
+        1
+      ],
+      "Weight": 10,
+      "avgHistoryCostPerRound": 55
+    },
+    "3": {
+      "ID": 3,
+      "GroupId": 1,
+      "Strategy": [
+        1,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "Weight": 10,
+      "avgHistoryCostPerRound": 55
+    }
+  },
+  "TbPlayerDecorateConfig": {
+    "300001": {
+      "ID": 300001,
+      "Type": "Frame",
+      "Path": "Frame_Default",
+      "LockTips": "",
+      "Order": 1,
+      "Source": "",
+      "NoneActive": false,
+      "AutoSet": 0
+    },
+    "300002": {
+      "ID": 300002,
+      "Type": "Frame",
+      "Path": "Frame_Gold",
+      "LockTips": "LockTip_Passport_Frame",
+      "Order": 2,
+      "Source": "Passport",
+      "NoneActive": false,
+      "AutoSet": 0
+    },
+    "400001": {
+      "ID": 400001,
+      "Type": "Name",
+      "Path": "Name_Default",
+      "LockTips": "",
+      "Order": 1,
+      "Source": "",
+      "NoneActive": false,
+      "AutoSet": 0
+    },
+    "400002": {
+      "ID": 400002,
+      "Type": "Name",
+      "Path": "Name_Gold",
+      "LockTips": "LockTip_Passport_NamePlate",
+      "Order": 2,
+      "Source": "Passport",
+      "NoneActive": false,
+      "AutoSet": 0
+    }
+  },
+  "TbPlayerRoleName": [
+    {
+      "Country": [
+        "EN_US",
+        "EN_GB"
+      ],
+      "Rolename": "James"
+    },
+    {
+      "Country": [
+        "EN_US",
+        "EN_GB"
+      ],
+      "Rolename": "Mary"
+    },
+    {
+      "Country": [
+        "EN_US",
+        "EN_GB"
+      ],
+      "Rolename": "John"
+    },
+    {
+      "Country": [
+        "EN_US",
+        "EN_GB"
+      ],
+      "Rolename": "Jennifer"
+    },
+    {
+      "Country": [
+        "EN_US",
+        "EN_GB"
+      ],
+      "Rolename": "Michael"
+    },
+    {
+      "Country": [
+        "EN_US",
+        "EN_GB"
+      ],
+      "Rolename": "Emily"
+    },
+    {
+      "Country": [
+        "EN_US",
+        "EN_GB"
+      ],
+      "Rolename": "William"
+    },
+    {
+      "Country": [
+        "EN_US",
+        "EN_GB"
+      ],
+      "Rolename": "Sarah"
+    },
+    {
+      "Country": [
+        "EN_US",
+        "EN_GB"
+      ],
+      "Rolename": "David"
+    },
+    {
+      "Country": [
+        "EN_US",
+        "EN_GB"
+      ],
+      "Rolename": "Jessica"
+    },
+    {
+      "Country": [
+        "EN_US",
+        "EN_GB"
+      ],
+      "Rolename": "Robert"
+    },
+    {
+      "Country": [
+        "EN_US",
+        "EN_GB"
+      ],
+      "Rolename": "Linda"
+    },
+    {
+      "Country": [
+        "EN_US",
+        "EN_GB"
+      ],
+      "Rolename": "Joseph"
+    },
+    {
+      "Country": [
+        "EN_US",
+        "EN_GB"
+      ],
+      "Rolename": "Karen"
+    },
+    {
+      "Country": [
+        "EN_US",
+        "EN_GB"
+      ],
+      "Rolename": "Charles"
+    },
+    {
+      "Country": [
+        "EN_US",
+        "EN_GB"
+      ],
+      "Rolename": "Susan"
+    },
+    {
+      "Country": [
+        "EN_US",
+        "EN_GB"
+      ],
+      "Rolename": "Daniel"
+    },
+    {
+      "Country": [
+        "EN_US",
+        "EN_GB"
+      ],
+      "Rolename": "Patricia"
+    },
+    {
+      "Country": [
+        "EN_US",
+        "EN_GB"
+      ],
+      "Rolename": "Thomas"
+    },
+    {
+      "Country": [
+        "EN_US",
+        "EN_GB"
+      ],
+      "Rolename": "Helen"
+    },
+    {
+      "Country": [
+        "EN_US",
+        "EN_GB"
+      ],
+      "Rolename": "Richard"
+    },
+    {
+      "Country": [
+        "EN_US",
+        "EN_GB"
+      ],
+      "Rolename": "Nancy"
+    },
+    {
+      "Country": [
+        "EN_US",
+        "EN_GB"
+      ],
+      "Rolename": "Christopher"
+    },
+    {
+      "Country": [
+        "EN_US",
+        "EN_GB"
+      ],
+      "Rolename": "Betty"
+    },
+    {
+      "Country": [
+        "EN_US",
+        "EN_GB"
+      ],
+      "Rolename": "Matthew"
+    },
+    {
+      "Country": [
+        "EN_US",
+        "EN_GB"
+      ],
+      "Rolename": "Dorothy"
+    },
+    {
+      "Country": [
+        "EN_US",
+        "EN_GB"
+      ],
+      "Rolename": "Anthony"
+    },
+    {
+      "Country": [
+        "EN_US",
+        "EN_GB"
+      ],
+      "Rolename": "Margaret"
+    },
+    {
+      "Country": [
+        "EN_US",
+        "EN_GB"
+      ],
+      "Rolename": "Mark"
+    },
+    {
+      "Country": [
+        "EN_US",
+        "EN_GB"
+      ],
+      "Rolename": "Sandra"
+    },
+    {
+      "Country": [
+        "EN_US",
+        "EN_GB"
+      ],
+      "Rolename": "Steven"
+    },
+    {
+      "Country": [
+        "EN_US",
+        "EN_GB"
+      ],
+      "Rolename": "Deborah"
+    },
+    {
+      "Country": [
+        "EN_US",
+        "EN_GB"
+      ],
+      "Rolename": "Andrew"
+    },
+    {
+      "Country": [
+        "EN_US",
+        "EN_GB"
+      ],
+      "Rolename": "Laura"
+    },
+    {
+      "Country": [
+        "EN_US",
+        "EN_GB"
+      ],
+      "Rolename": "Paul"
+    },
+    {
+      "Country": [
+        "EN_US",
+        "EN_GB"
+      ],
+      "Rolename": "Kimberly"
+    },
+    {
+      "Country": [
+        "EN_US",
+        "EN_GB"
+      ],
+      "Rolename": "Kenneth"
+    },
+    {
+      "Country": [
+        "EN_US",
+        "EN_GB"
+      ],
+      "Rolename": "Rachel"
+    },
+    {
+      "Country": [
+        "EN_US",
+        "EN_GB"
+      ],
+      "Rolename": "George"
+    },
+    {
+      "Country": [
+        "EN_US",
+        "EN_GB"
+      ],
+      "Rolename": "Shirley"
+    },
+    {
+      "Country": [
+        "EN_US",
+        "EN_GB"
+      ],
+      "Rolename": "Kevin"
+    },
+    {
+      "Country": [
+        "EN_US",
+        "EN_GB"
+      ],
+      "Rolename": "Ruth"
+    },
+    {
+      "Country": [
+        "EN_US",
+        "EN_GB"
+      ],
+      "Rolename": "Brian"
+    },
+    {
+      "Country": [
+        "EN_US",
+        "EN_GB"
+      ],
+      "Rolename": "Emily"
+    },
+    {
+      "Country": [
+        "EN_US",
+        "EN_GB"
+      ],
+      "Rolename": "Jacob"
+    },
+    {
+      "Country": [
+        "EN_US",
+        "EN_GB"
+      ],
+      "Rolename": "Christine"
+    },
+    {
+      "Country": [
+        "EN_US",
+        "EN_GB"
+      ],
+      "Rolename": "Edward"
+    },
+    {
+      "Country": [
+        "EN_US",
+        "EN_GB"
+      ],
+      "Rolename": "Carol"
+    },
+    {
+      "Country": [
+        "EN_US",
+        "EN_GB"
+      ],
+      "Rolename": "Jonathan"
+    },
+    {
+      "Country": [
+        "EN_US",
+        "EN_GB"
+      ],
+      "Rolename": "Lisa"
+    },
+    {
+      "Country": [
+        "ES",
+        "ES_419"
+      ],
+      "Rolename": "Alejandro"
+    },
+    {
+      "Country": [
+        "ES",
+        "ES_419"
+      ],
+      "Rolename": "María"
+    },
+    {
+      "Country": [
+        "ES",
+        "ES_419"
+      ],
+      "Rolename": "Carlos"
+    },
+    {
+      "Country": [
+        "ES",
+        "ES_419"
+      ],
+      "Rolename": "Lucía"
+    },
+    {
+      "Country": [
+        "ES",
+        "ES_419"
+      ],
+      "Rolename": "José"
+    },
+    {
+      "Country": [
+        "ES",
+        "ES_419"
+      ],
+      "Rolename": "Sofía"
+    },
+    {
+      "Country": [
+        "ES",
+        "ES_419"
+      ],
+      "Rolename": "Antonio"
+    },
+    {
+      "Country": [
+        "ES",
+        "ES_419"
+      ],
+      "Rolename": "Isabella"
+    },
+    {
+      "Country": [
+        "ES",
+        "ES_419"
+      ],
+      "Rolename": "Juan"
+    },
+    {
+      "Country": [
+        "ES",
+        "ES_419"
+      ],
+      "Rolename": "Valentina"
+    },
+    {
+      "Country": [
+        "ES",
+        "ES_419"
+      ],
+      "Rolename": "Luis"
+    },
+    {
+      "Country": [
+        "ES",
+        "ES_419"
+      ],
+      "Rolename": "Camila"
+    },
+    {
+      "Country": [
+        "ES",
+        "ES_419"
+      ],
+      "Rolename": "Pedro"
+    },
+    {
+      "Country": [
+        "ES",
+        "ES_419"
+      ],
+      "Rolename": "Gabriela"
+    },
+    {
+      "Country": [
+        "ES",
+        "ES_419"
+      ],
+      "Rolename": "Fernando"
+    },
+    {
+      "Country": [
+        "ES",
+        "ES_419"
+      ],
+      "Rolename": "Daniela"
+    },
+    {
+      "Country": [
+        "ES",
+        "ES_419"
+      ],
+      "Rolename": "Jorge"
+    },
+    {
+      "Country": [
+        "ES",
+        "ES_419"
+      ],
+      "Rolename": "Elena"
+    },
+    {
+      "Country": [
+        "ES",
+        "ES_419"
+      ],
+      "Rolename": "Andrés"
+    },
+    {
+      "Country": [
+        "ES",
+        "ES_419"
+      ],
+      "Rolename": "Paula"
+    },
+    {
+      "Country": [
+        "ES",
+        "ES_419"
+      ],
+      "Rolename": "Manuel"
+    },
+    {
+      "Country": [
+        "ES",
+        "ES_419"
+      ],
+      "Rolename": "Sara"
+    },
+    {
+      "Country": [
+        "ES",
+        "ES_419"
+      ],
+      "Rolename": "Francisco"
+    },
+    {
+      "Country": [
+        "ES",
+        "ES_419"
+      ],
+      "Rolename": "Carla"
+    },
+    {
+      "Country": [
+        "ES",
+        "ES_419"
+      ],
+      "Rolename": "Diego"
+    },
+    {
+      "Country": [
+        "ES",
+        "ES_419"
+      ],
+      "Rolename": "Martina"
+    },
+    {
+      "Country": [
+        "ES",
+        "ES_419"
+      ],
+      "Rolename": "Rafael"
+    },
+    {
+      "Country": [
+        "ES",
+        "ES_419"
+      ],
+      "Rolename": "Laura"
+    },
+    {
+      "Country": [
+        "ES",
+        "ES_419"
+      ],
+      "Rolename": "Óscar"
+    },
+    {
+      "Country": [
+        "ES",
+        "ES_419"
+      ],
+      "Rolename": "Julia"
+    },
+    {
+      "Country": [
+        "ES",
+        "ES_419"
+      ],
+      "Rolename": "Ricardo"
+    },
+    {
+      "Country": [
+        "ES",
+        "ES_419"
+      ],
+      "Rolename": "Claudia"
+    },
+    {
+      "Country": [
+        "ES",
+        "ES_419"
+      ],
+      "Rolename": "Eduardo"
+    },
+    {
+      "Country": [
+        "ES",
+        "ES_419"
+      ],
+      "Rolename": "Patricia"
+    },
+    {
+      "Country": [
+        "ES",
+        "ES_419"
+      ],
+      "Rolename": "Ramón"
+    },
+    {
+      "Country": [
+        "ES",
+        "ES_419"
+      ],
+      "Rolename": "Rocío"
+    },
+    {
+      "Country": [
+        "ES",
+        "ES_419"
+      ],
+      "Rolename": "Mario"
+    },
+    {
+      "Country": [
+        "ES",
+        "ES_419"
+      ],
+      "Rolename": "Natalia"
+    },
+    {
+      "Country": [
+        "ES",
+        "ES_419"
+      ],
+      "Rolename": "Hugo"
+    },
+    {
+      "Country": [
+        "ES",
+        "ES_419"
+      ],
+      "Rolename": "Verónica"
+    },
+    {
+      "Country": [
+        "ES",
+        "ES_419"
+      ],
+      "Rolename": "Pablo"
+    },
+    {
+      "Country": [
+        "ES",
+        "ES_419"
+      ],
+      "Rolename": "Lola"
+    },
+    {
+      "Country": [
+        "ES",
+        "ES_419"
+      ],
+      "Rolename": "Iván"
+    },
+    {
+      "Country": [
+        "ES",
+        "ES_419"
+      ],
+      "Rolename": "Alejandra"
+    },
+    {
+      "Country": [
+        "ES",
+        "ES_419"
+      ],
+      "Rolename": "Raúl"
+    },
+    {
+      "Country": [
+        "ES",
+        "ES_419"
+      ],
+      "Rolename": "Irene"
+    },
+    {
+      "Country": [
+        "ES",
+        "ES_419"
+      ],
+      "Rolename": "Tomás"
+    },
+    {
+      "Country": [
+        "ES",
+        "ES_419"
+      ],
+      "Rolename": "Noelia"
+    },
+    {
+      "Country": [
+        "ES",
+        "ES_419"
+      ],
+      "Rolename": "Santiago"
+    },
+    {
+      "Country": [
+        "ES",
+        "ES_419"
+      ],
+      "Rolename": "Bianca"
+    },
+    {
+      "Country": [
+        "ES",
+        "ES_419"
+      ],
+      "Rolename": "Emilio"
+    },
+    {
+      "Country": [
+        "PT_PT",
+        "PT_BR"
+      ],
+      "Rolename": "João"
+    },
+    {
+      "Country": [
+        "PT_PT",
+        "PT_BR"
+      ],
+      "Rolename": "Maria"
+    },
+    {
+      "Country": [
+        "PT_PT",
+        "PT_BR"
+      ],
+      "Rolename": "Pedro"
+    },
+    {
+      "Country": [
+        "PT_PT",
+        "PT_BR"
+      ],
+      "Rolename": "Ana"
+    },
+    {
+      "Country": [
+        "PT_PT",
+        "PT_BR"
+      ],
+      "Rolename": "Lucas"
+    },
+    {
+      "Country": [
+        "PT_PT",
+        "PT_BR"
+      ],
+      "Rolename": "Beatriz"
+    },
+    {
+      "Country": [
+        "PT_PT",
+        "PT_BR"
+      ],
+      "Rolename": "Gabriel"
+    },
+    {
+      "Country": [
+        "PT_PT",
+        "PT_BR"
+      ],
+      "Rolename": "Luísa"
+    },
+    {
+      "Country": [
+        "PT_PT",
+        "PT_BR"
+      ],
+      "Rolename": "Rafael"
+    },
+    {
+      "Country": [
+        "PT_PT",
+        "PT_BR"
+      ],
+      "Rolename": "Clara"
+    },
+    {
+      "Country": [
+        "PT_PT",
+        "PT_BR"
+      ],
+      "Rolename": "Mateus"
+    },
+    {
+      "Country": [
+        "PT_PT",
+        "PT_BR"
+      ],
+      "Rolename": "Camila"
+    },
+    {
+      "Country": [
+        "PT_PT",
+        "PT_BR"
+      ],
+      "Rolename": "Bruno"
+    },
+    {
+      "Country": [
+        "PT_PT",
+        "PT_BR"
+      ],
+      "Rolename": "Lara"
+    },
+    {
+      "Country": [
+        "PT_PT",
+        "PT_BR"
+      ],
+      "Rolename": "Tiago"
+    },
+    {
+      "Country": [
+        "PT_PT",
+        "PT_BR"
+      ],
+      "Rolename": "Helena"
+    },
+    {
+      "Country": [
+        "PT_PT",
+        "PT_BR"
+      ],
+      "Rolename": "André"
+    },
+    {
+      "Country": [
+        "PT_PT",
+        "PT_BR"
+      ],
+      "Rolename": "Mariana"
+    },
+    {
+      "Country": [
+        "PT_PT",
+        "PT_BR"
+      ],
+      "Rolename": "Ricardo"
+    },
+    {
+      "Country": [
+        "PT_PT",
+        "PT_BR"
+      ],
+      "Rolename": "Isabela"
+    },
+    {
+      "Country": [
+        "PT_PT",
+        "PT_BR"
+      ],
+      "Rolename": "Gustavo"
+    },
+    {
+      "Country": [
+        "PT_PT",
+        "PT_BR"
+      ],
+      "Rolename": "Rita"
+    },
+    {
+      "Country": [
+        "PT_PT",
+        "PT_BR"
+      ],
+      "Rolename": "Leandro"
+    },
+    {
+      "Country": [
+        "PT_PT",
+        "PT_BR"
+      ],
+      "Rolename": "Sofia"
+    },
+    {
+      "Country": [
+        "PT_PT",
+        "PT_BR"
+      ],
+      "Rolename": "Felipe"
+    },
+    {
+      "Country": [
+        "PT_PT",
+        "PT_BR"
+      ],
+      "Rolename": "Carolina"
+    },
+    {
+      "Country": [
+        "PT_PT",
+        "PT_BR"
+      ],
+      "Rolename": "Daniel"
+    },
+    {
+      "Country": [
+        "PT_PT",
+        "PT_BR"
+      ],
+      "Rolename": "Inês"
+    },
+    {
+      "Country": [
+        "PT_PT",
+        "PT_BR"
+      ],
+      "Rolename": "Rodrigo"
+    },
+    {
+      "Country": [
+        "PT_PT",
+        "PT_BR"
+      ],
+      "Rolename": "Letícia"
+    },
+    {
+      "Country": [
+        "PT_PT",
+        "PT_BR"
+      ],
+      "Rolename": "Caio"
+    },
+    {
+      "Country": [
+        "PT_PT",
+        "PT_BR"
+      ],
+      "Rolename": "Vitória"
+    },
+    {
+      "Country": [
+        "PT_PT",
+        "PT_BR"
+      ],
+      "Rolename": "Henrique"
+    },
+    {
+      "Country": [
+        "PT_PT",
+        "PT_BR"
+      ],
+      "Rolename": "Bianca"
+    },
+    {
+      "Country": [
+        "PT_PT",
+        "PT_BR"
+      ],
+      "Rolename": "Fernando"
+    },
+    {
+      "Country": [
+        "PT_PT",
+        "PT_BR"
+      ],
+      "Rolename": "Daniela"
+    },
+    {
+      "Country": [
+        "PT_PT",
+        "PT_BR"
+      ],
+      "Rolename": "Eduardo"
+    },
+    {
+      "Country": [
+        "PT_PT",
+        "PT_BR"
+      ],
+      "Rolename": "Gabriela"
+    },
+    {
+      "Country": [
+        "PT_PT",
+        "PT_BR"
+      ],
+      "Rolename": "Diogo"
+    },
+    {
+      "Country": [
+        "PT_PT",
+        "PT_BR"
+      ],
+      "Rolename": "Juliana"
+    },
+    {
+      "Country": [
+        "PT_PT",
+        "PT_BR"
+      ],
+      "Rolename": "Paulo"
+    },
+    {
+      "Country": [
+        "PT_PT",
+        "PT_BR"
+      ],
+      "Rolename": "Manuela"
+    },
+    {
+      "Country": [
+        "PT_PT",
+        "PT_BR"
+      ],
+      "Rolename": "Alexandre"
+    },
+    {
+      "Country": [
+        "PT_PT",
+        "PT_BR"
+      ],
+      "Rolename": "Patrícia"
+    },
+    {
+      "Country": [
+        "PT_PT",
+        "PT_BR"
+      ],
+      "Rolename": "Vinícius"
+    },
+    {
+      "Country": [
+        "PT_PT",
+        "PT_BR"
+      ],
+      "Rolename": "Renata"
+    },
+    {
+      "Country": [
+        "PT_PT",
+        "PT_BR"
+      ],
+      "Rolename": "Antônio"
+    },
+    {
+      "Country": [
+        "PT_PT",
+        "PT_BR"
+      ],
+      "Rolename": "Catarina"
+    },
+    {
+      "Country": [
+        "PT_PT",
+        "PT_BR"
+      ],
+      "Rolename": "Murilo"
+    },
+    {
+      "Country": [
+        "PT_PT",
+        "PT_BR"
+      ],
+      "Rolename": "Jéssica"
+    },
+    {
+      "Country": [
+        "RU"
+      ],
+      "Rolename": "Александр"
+    },
+    {
+      "Country": [
+        "RU"
+      ],
+      "Rolename": "Мария"
+    },
+    {
+      "Country": [
+        "RU"
+      ],
+      "Rolename": "Дмитрий"
+    },
+    {
+      "Country": [
+        "RU"
+      ],
+      "Rolename": "Анна"
+    },
+    {
+      "Country": [
+        "RU"
+      ],
+      "Rolename": "Сергей"
+    },
+    {
+      "Country": [
+        "RU"
+      ],
+      "Rolename": "Екатерина"
+    },
+    {
+      "Country": [
+        "RU"
+      ],
+      "Rolename": "Андрей"
+    },
+    {
+      "Country": [
+        "RU"
+      ],
+      "Rolename": "Ольга"
+    },
+    {
+      "Country": [
+        "RU"
+      ],
+      "Rolename": "Алексей"
+    },
+    {
+      "Country": [
+        "RU"
+      ],
+      "Rolename": "Наталья"
+    },
+    {
+      "Country": [
+        "RU"
+      ],
+      "Rolename": "Иван"
+    },
+    {
+      "Country": [
+        "RU"
+      ],
+      "Rolename": "Татьяна"
+    },
+    {
+      "Country": [
+        "RU"
+      ],
+      "Rolename": "Николай"
+    },
+    {
+      "Country": [
+        "RU"
+      ],
+      "Rolename": "Ирина"
+    },
+    {
+      "Country": [
+        "RU"
+      ],
+      "Rolename": "Владимир"
+    },
+    {
+      "Country": [
+        "RU"
+      ],
+      "Rolename": "Елена"
+    },
+    {
+      "Country": [
+        "RU"
+      ],
+      "Rolename": "Михаил"
+    },
+    {
+      "Country": [
+        "RU"
+      ],
+      "Rolename": "Юлия"
+    },
+    {
+      "Country": [
+        "RU"
+      ],
+      "Rolename": "Павел"
+    },
+    {
+      "Country": [
+        "RU"
+      ],
+      "Rolename": "Светлана"
+    },
+    {
+      "Country": [
+        "RU"
+      ],
+      "Rolename": "Евгений"
+    },
+    {
+      "Country": [
+        "RU"
+      ],
+      "Rolename": "Марина"
+    },
+    {
+      "Country": [
+        "RU"
+      ],
+      "Rolename": "Максим"
+    },
+    {
+      "Country": [
+        "RU"
+      ],
+      "Rolename": "Анастасия"
+    },
+    {
+      "Country": [
+        "RU"
+      ],
+      "Rolename": "Виктор"
+    },
+    {
+      "Country": [
+        "RU"
+      ],
+      "Rolename": "Любовь"
+    },
+    {
+      "Country": [
+        "RU"
+      ],
+      "Rolename": "Артём"
+    },
+    {
+      "Country": [
+        "RU"
+      ],
+      "Rolename": "Галина"
+    },
+    {
+      "Country": [
+        "RU"
+      ],
+      "Rolename": "Игорь"
+    },
+    {
+      "Country": [
+        "RU"
+      ],
+      "Rolename": "Валентина"
+    },
+    {
+      "Country": [
+        "RU"
+      ],
+      "Rolename": "Роман"
+    },
+    {
+      "Country": [
+        "RU"
+      ],
+      "Rolename": "Людмила"
+    },
+    {
+      "Country": [
+        "RU"
+      ],
+      "Rolename": "Олег"
+    },
+    {
+      "Country": [
+        "RU"
+      ],
+      "Rolename": "Алёна"
+    },
+    {
+      "Country": [
+        "RU"
+      ],
+      "Rolename": "Ярослав"
+    },
+    {
+      "Country": [
+        "RU"
+      ],
+      "Rolename": "Ксения"
+    },
+    {
+      "Country": [
+        "RU"
+      ],
+      "Rolename": "Борис"
+    },
+    {
+      "Country": [
+        "RU"
+      ],
+      "Rolename": "Нина"
+    },
+    {
+      "Country": [
+        "RU"
+      ],
+      "Rolename": "Григорий"
+    },
+    {
+      "Country": [
+        "RU"
+      ],
+      "Rolename": "Зоя"
+    },
+    {
+      "Country": [
+        "RU"
+      ],
+      "Rolename": "Тимур"
+    },
+    {
+      "Country": [
+        "RU"
+      ],
+      "Rolename": "Вера"
+    },
+    {
+      "Country": [
+        "RU"
+      ],
+      "Rolename": "Василий"
+    },
+    {
+      "Country": [
+        "RU"
+      ],
+      "Rolename": "Полина"
+    },
+    {
+      "Country": [
+        "RU"
+      ],
+      "Rolename": "Леонид"
+    },
+    {
+      "Country": [
+        "RU"
+      ],
+      "Rolename": "Дарья"
+    },
+    {
+      "Country": [
+        "RU"
+      ],
+      "Rolename": "Константин"
+    },
+    {
+      "Country": [
+        "RU"
+      ],
+      "Rolename": "Жанна"
+    },
+    {
+      "Country": [
+        "RU"
+      ],
+      "Rolename": "Никита"
+    },
+    {
+      "Country": [
+        "RU"
+      ],
+      "Rolename": "Алиса"
+    },
+    {
+      "Country": [
+        "TR"
+      ],
+      "Rolename": "Ahmet"
+    },
+    {
+      "Country": [
+        "TR"
+      ],
+      "Rolename": "Ayşe"
+    },
+    {
+      "Country": [
+        "TR"
+      ],
+      "Rolename": "Mehmet"
+    },
+    {
+      "Country": [
+        "TR"
+      ],
+      "Rolename": "Fatma"
+    },
+    {
+      "Country": [
+        "TR"
+      ],
+      "Rolename": "Mustafa"
+    },
+    {
+      "Country": [
+        "TR"
+      ],
+      "Rolename": "Emine"
+    },
+    {
+      "Country": [
+        "TR"
+      ],
+      "Rolename": "Ali"
+    },
+    {
+      "Country": [
+        "TR"
+      ],
+      "Rolename": "Zeynep"
+    },
+    {
+      "Country": [
+        "TR"
+      ],
+      "Rolename": "Hasan"
+    },
+    {
+      "Country": [
+        "TR"
+      ],
+      "Rolename": "Elif"
+    },
+    {
+      "Country": [
+        "TR"
+      ],
+      "Rolename": "Hüseyin"
+    },
+    {
+      "Country": [
+        "TR"
+      ],
+      "Rolename": "Hatice"
+    },
+    {
+      "Country": [
+        "TR"
+      ],
+      "Rolename": "İbrahim"
+    },
+    {
+      "Country": [
+        "TR"
+      ],
+      "Rolename": "Meryem"
+    },
+    {
+      "Country": [
+        "TR"
+      ],
+      "Rolename": "Yusuf"
+    },
+    {
+      "Country": [
+        "TR"
+      ],
+      "Rolename": "Aylin"
+    },
+    {
+      "Country": [
+        "TR"
+      ],
+      "Rolename": "Osman"
+    },
+    {
+      "Country": [
+        "TR"
+      ],
+      "Rolename": "Selin"
+    },
+    {
+      "Country": [
+        "TR"
+      ],
+      "Rolename": "Ramazan"
+    },
+    {
+      "Country": [
+        "TR"
+      ],
+      "Rolename": "Gamze"
+    },
+    {
+      "Country": [
+        "TR"
+      ],
+      "Rolename": "Murat"
+    },
+    {
+      "Country": [
+        "TR"
+      ],
+      "Rolename": "Seda"
+    },
+    {
+      "Country": [
+        "TR"
+      ],
+      "Rolename": "Halil"
+    },
+    {
+      "Country": [
+        "TR"
+      ],
+      "Rolename": "Buse"
+    },
+    {
+      "Country": [
+        "TR"
+      ],
+      "Rolename": "Kemal"
+    },
+    {
+      "Country": [
+        "TR"
+      ],
+      "Rolename": "Derya"
+    },
+    {
+      "Country": [
+        "TR"
+      ],
+      "Rolename": "Bekir"
+    },
+    {
+      "Country": [
+        "TR"
+      ],
+      "Rolename": "Gül"
+    },
+    {
+      "Country": [
+        "TR"
+      ],
+      "Rolename": "Veli"
+    },
+    {
+      "Country": [
+        "TR"
+      ],
+      "Rolename": "Tuğba"
+    },
+    {
+      "Country": [
+        "TR"
+      ],
+      "Rolename": "Recep"
+    },
+    {
+      "Country": [
+        "TR"
+      ],
+      "Rolename": "Cansu"
+    },
+    {
+      "Country": [
+        "TR"
+      ],
+      "Rolename": "Tuncay"
+    },
+    {
+      "Country": [
+        "TR"
+      ],
+      "Rolename": "Yasemin"
+    },
+    {
+      "Country": [
+        "TR"
+      ],
+      "Rolename": "Metin"
+    },
+    {
+      "Country": [
+        "TR"
+      ],
+      "Rolename": "İrem"
+    },
+    {
+      "Country": [
+        "TR"
+      ],
+      "Rolename": "Sinan"
+    },
+    {
+      "Country": [
+        "TR"
+      ],
+      "Rolename": "Melis"
+    },
+    {
+      "Country": [
+        "TR"
+      ],
+      "Rolename": "Cem"
+    },
+    {
+      "Country": [
+        "TR"
+      ],
+      "Rolename": "Nazan"
+    },
+    {
+      "Country": [
+        "TR"
+      ],
+      "Rolename": "Serkan"
+    },
+    {
+      "Country": [
+        "TR"
+      ],
+      "Rolename": "Pelin"
+    },
+    {
+      "Country": [
+        "TR"
+      ],
+      "Rolename": "Orhan"
+    },
+    {
+      "Country": [
+        "TR"
+      ],
+      "Rolename": "Şeyma"
+    },
+    {
+      "Country": [
+        "TR"
+      ],
+      "Rolename": "Can"
+    },
+    {
+      "Country": [
+        "TR"
+      ],
+      "Rolename": "Nurgül"
+    },
+    {
+      "Country": [
+        "TR"
+      ],
+      "Rolename": "Volkan"
+    },
+    {
+      "Country": [
+        "TR"
+      ],
+      "Rolename": "Ezgi"
+    },
+    {
+      "Country": [
+        "TR"
+      ],
+      "Rolename": "Barış"
+    },
+    {
+      "Country": [
+        "TR"
+      ],
+      "Rolename": "Aslı"
+    },
+    {
+      "Country": [
+        "FR"
+      ],
+      "Rolename": "Jean"
+    },
+    {
+      "Country": [
+        "FR"
+      ],
+      "Rolename": "Marie"
+    },
+    {
+      "Country": [
+        "FR"
+      ],
+      "Rolename": "Pierre"
+    },
+    {
+      "Country": [
+        "FR"
+      ],
+      "Rolename": "Claire"
+    },
+    {
+      "Country": [
+        "FR"
+      ],
+      "Rolename": "Michel"
+    },
+    {
+      "Country": [
+        "FR"
+      ],
+      "Rolename": "Sophie"
+    },
+    {
+      "Country": [
+        "FR"
+      ],
+      "Rolename": "Jacques"
+    },
+    {
+      "Country": [
+        "FR"
+      ],
+      "Rolename": "Camille"
+    },
+    {
+      "Country": [
+        "FR"
+      ],
+      "Rolename": "Alain"
+    },
+    {
+      "Country": [
+        "FR"
+      ],
+      "Rolename": "Julie"
+    },
+    {
+      "Country": [
+        "FR"
+      ],
+      "Rolename": "André"
+    },
+    {
+      "Country": [
+        "FR"
+      ],
+      "Rolename": "Chloé"
+    },
+    {
+      "Country": [
+        "FR"
+      ],
+      "Rolename": "Louis"
+    },
+    {
+      "Country": [
+        "FR"
+      ],
+      "Rolename": "Émilie"
+    },
+    {
+      "Country": [
+        "FR"
+      ],
+      "Rolename": "Paul"
+    },
+    {
+      "Country": [
+        "FR"
+      ],
+      "Rolename": "Manon"
+    },
+    {
+      "Country": [
+        "FR"
+      ],
+      "Rolename": "Henri"
+    },
+    {
+      "Country": [
+        "FR"
+      ],
+      "Rolename": "Lucie"
+    },
+    {
+      "Country": [
+        "FR"
+      ],
+      "Rolename": "Marc"
+    },
+    {
+      "Country": [
+        "FR"
+      ],
+      "Rolename": "Sarah"
+    },
+    {
+      "Country": [
+        "FR"
+      ],
+      "Rolename": "Georges"
+    },
+    {
+      "Country": [
+        "FR"
+      ],
+      "Rolename": "Charlotte"
+    },
+    {
+      "Country": [
+        "FR"
+      ],
+      "Rolename": "René"
+    },
+    {
+      "Country": [
+        "FR"
+      ],
+      "Rolename": "Léa"
+    },
+    {
+      "Country": [
+        "FR"
+      ],
+      "Rolename": "Raymond"
+    },
+    {
+      "Country": [
+        "FR"
+      ],
+      "Rolename": "Emma"
+    },
+    {
+      "Country": [
+        "FR"
+      ],
+      "Rolename": "Bernard"
+    },
+    {
+      "Country": [
+        "FR"
+      ],
+      "Rolename": "Anaïs"
+    },
+    {
+      "Country": [
+        "FR"
+      ],
+      "Rolename": "Gérard"
+    },
+    {
+      "Country": [
+        "FR"
+      ],
+      "Rolename": "Zoé"
+    },
+    {
+      "Country": [
+        "FR"
+      ],
+      "Rolename": "Claude"
+    },
+    {
+      "Country": [
+        "FR"
+      ],
+      "Rolename": "Laura"
+    },
+    {
+      "Country": [
+        "FR"
+      ],
+      "Rolename": "Daniel"
+    },
+    {
+      "Country": [
+        "FR"
+      ],
+      "Rolename": "Nina"
+    },
+    {
+      "Country": [
+        "FR"
+      ],
+      "Rolename": "François"
+    },
+    {
+      "Country": [
+        "FR"
+      ],
+      "Rolename": "Océane"
+    },
+    {
+      "Country": [
+        "FR"
+      ],
+      "Rolename": "Christian"
+    },
+    {
+      "Country": [
+        "FR"
+      ],
+      "Rolename": "Élodie"
+    },
+    {
+      "Country": [
+        "FR"
+      ],
+      "Rolename": "Thierry"
+    },
+    {
+      "Country": [
+        "FR"
+      ],
+      "Rolename": "Lola"
+    },
+    {
+      "Country": [
+        "FR"
+      ],
+      "Rolename": "Jean-Luc"
+    },
+    {
+      "Country": [
+        "FR"
+      ],
+      "Rolename": "Justine"
+    },
+    {
+      "Country": [
+        "FR"
+      ],
+      "Rolename": "Laurent"
+    },
+    {
+      "Country": [
+        "FR"
+      ],
+      "Rolename": "Inès"
+    },
+    {
+      "Country": [
+        "FR"
+      ],
+      "Rolename": "Pascal"
+    },
+    {
+      "Country": [
+        "FR"
+      ],
+      "Rolename": "Clémence"
+    },
+    {
+      "Country": [
+        "FR"
+      ],
+      "Rolename": "Roger"
+    },
+    {
+      "Country": [
+        "FR"
+      ],
+      "Rolename": "Mathilde"
+    },
+    {
+      "Country": [
+        "FR"
+      ],
+      "Rolename": "Nicolas"
+    },
+    {
+      "Country": [
+        "FR"
+      ],
+      "Rolename": "Alice"
+    },
+    {
+      "Country": [
+        "AR"
+      ],
+      "Rolename": "أحمد"
+    },
+    {
+      "Country": [
+        "AR"
+      ],
+      "Rolename": "نور"
+    },
+    {
+      "Country": [
+        "AR"
+      ],
+      "Rolename": "سمير"
+    },
+    {
+      "Country": [
+        "AR"
+      ],
+      "Rolename": "ليلى"
+    },
+    {
+      "Country": [
+        "AR"
+      ],
+      "Rolename": "رامي"
+    },
+    {
+      "Country": [
+        "AR"
+      ],
+      "Rolename": "هناء"
+    },
+    {
+      "Country": [
+        "AR"
+      ],
+      "Rolename": "طارق"
+    },
+    {
+      "Country": [
+        "AR"
+      ],
+      "Rolename": "أميرة"
+    },
+    {
+      "Country": [
+        "AR"
+      ],
+      "Rolename": "زيد"
+    },
+    {
+      "Country": [
+        "AR"
+      ],
+      "Rolename": "داليا"
+    },
+    {
+      "Country": [
+        "AR"
+      ],
+      "Rolename": "فادي"
+    },
+    {
+      "Country": [
+        "AR"
+      ],
+      "Rolename": "مايا"
+    },
+    {
+      "Country": [
+        "AR"
+      ],
+      "Rolename": "نبيل"
+    },
+    {
+      "Country": [
+        "AR"
+      ],
+      "Rolename": "ياسمين"
+    },
+    {
+      "Country": [
+        "AR"
+      ],
+      "Rolename": "رانيا"
+    },
+    {
+      "Country": [
+        "AR"
+      ],
+      "Rolename": "عمر"
+    },
+    {
+      "Country": [
+        "AR"
+      ],
+      "Rolename": "سلمى"
+    },
+    {
+      "Country": [
+        "AR"
+      ],
+      "Rolename": "خالد"
+    },
+    {
+      "Country": [
+        "AR"
+      ],
+      "Rolename": "رشا"
+    },
+    {
+      "Country": [
+        "AR"
+      ],
+      "Rolename": "علي"
+    },
+    {
+      "Country": [
+        "AR"
+      ],
+      "Rolename": "ليلى"
+    },
+    {
+      "Country": [
+        "AR"
+      ],
+      "Rolename": "فارس"
+    },
+    {
+      "Country": [
+        "AR"
+      ],
+      "Rolename": "ليلى"
+    },
+    {
+      "Country": [
+        "AR"
+      ],
+      "Rolename": "كريم"
+    },
+    {
+      "Country": [
+        "AR"
+      ],
+      "Rolename": "زينب"
+    },
+    {
+      "Country": [
+        "AR"
+      ],
+      "Rolename": "بلال"
+    },
+    {
+      "Country": [
+        "AR"
+      ],
+      "Rolename": "ملاك"
+    },
+    {
+      "Country": [
+        "AR"
+      ],
+      "Rolename": "سميرة"
+    },
+    {
+      "Country": [
+        "AR"
+      ],
+      "Rolename": "طارق"
+    },
+    {
+      "Country": [
+        "AR"
+      ],
+      "Rolename": "ميساء"
+    },
+    {
+      "Country": [
+        "AR"
+      ],
+      "Rolename": "زين"
+    },
+    {
+      "Country": [
+        "AR"
+      ],
+      "Rolename": "نجوى"
+    },
+    {
+      "Country": [
+        "AR"
+      ],
+      "Rolename": "عادل"
+    },
+    {
+      "Country": [
+        "AR"
+      ],
+      "Rolename": "فرح"
+    },
+    {
+      "Country": [
+        "AR"
+      ],
+      "Rolename": "عماد"
+    },
+    {
+      "Country": [
+        "AR"
+      ],
+      "Rolename": "نادين"
+    },
+    {
+      "Country": [
+        "AR"
+      ],
+      "Rolename": "رامي"
+    },
+    {
+      "Country": [
+        "AR"
+      ],
+      "Rolename": "سارة"
+    },
+    {
+      "Country": [
+        "AR"
+      ],
+      "Rolename": "يوسف"
+    },
+    {
+      "Country": [
+        "AR"
+      ],
+      "Rolename": "نوران"
+    },
+    {
+      "Country": [
+        "AR"
+      ],
+      "Rolename": "سامي"
+    },
+    {
+      "Country": [
+        "AR"
+      ],
+      "Rolename": "ربا"
+    },
+    {
+      "Country": [
+        "AR"
+      ],
+      "Rolename": "نادر"
+    },
+    {
+      "Country": [
+        "AR"
+      ],
+      "Rolename": "حنان"
+    },
+    {
+      "Country": [
+        "AR"
+      ],
+      "Rolename": "وليد"
+    },
+    {
+      "Country": [
+        "AR"
+      ],
+      "Rolename": "سهى"
+    },
+    {
+      "Country": [
+        "AR"
+      ],
+      "Rolename": "حسن"
+    },
+    {
+      "Country": [
+        "AR"
+      ],
+      "Rolename": "سناء"
+    },
+    {
+      "Country": [
+        "AR"
+      ],
+      "Rolename": "مروان"
+    },
+    {
+      "Country": [
+        "AR"
+      ],
+      "Rolename": "نسرين"
+    },
+    {
+      "Country": [
+        "ID"
+      ],
+      "Rolename": "Adi"
+    },
+    {
+      "Country": [
+        "ID"
+      ],
+      "Rolename": "Ayu"
+    },
+    {
+      "Country": [
+        "ID"
+      ],
+      "Rolename": "Budi"
+    },
+    {
+      "Country": [
+        "ID"
+      ],
+      "Rolename": "Citra"
+    },
+    {
+      "Country": [
+        "ID"
+      ],
+      "Rolename": "Dwi"
+    },
+    {
+      "Country": [
+        "ID"
+      ],
+      "Rolename": "Eka"
+    },
+    {
+      "Country": [
+        "ID"
+      ],
+      "Rolename": "Fajar"
+    },
+    {
+      "Country": [
+        "ID"
+      ],
+      "Rolename": "Fitri"
+    },
+    {
+      "Country": [
+        "ID"
+      ],
+      "Rolename": "Gita"
+    },
+    {
+      "Country": [
+        "ID"
+      ],
+      "Rolename": "Hana"
+    },
+    {
+      "Country": [
+        "ID"
+      ],
+      "Rolename": "Ika"
+    },
+    {
+      "Country": [
+        "ID"
+      ],
+      "Rolename": "Indra"
+    },
+    {
+      "Country": [
+        "ID"
+      ],
+      "Rolename": "Joko"
+    },
+    {
+      "Country": [
+        "ID"
+      ],
+      "Rolename": "Kartika"
+    },
+    {
+      "Country": [
+        "ID"
+      ],
+      "Rolename": "Lestari"
+    },
+    {
+      "Country": [
+        "ID"
+      ],
+      "Rolename": "Mahira"
+    },
+    {
+      "Country": [
+        "ID"
+      ],
+      "Rolename": "Nanda"
+    },
+    {
+      "Country": [
+        "ID"
+      ],
+      "Rolename": "Novi"
+    },
+    {
+      "Country": [
+        "ID"
+      ],
+      "Rolename": "Putra"
+    },
+    {
+      "Country": [
+        "ID"
+      ],
+      "Rolename": "Rani"
+    },
+    {
+      "Country": [
+        "ID"
+      ],
+      "Rolename": "Rudi"
+    },
+    {
+      "Country": [
+        "ID"
+      ],
+      "Rolename": "Sari"
+    },
+    {
+      "Country": [
+        "ID"
+      ],
+      "Rolename": "Santoso"
+    },
+    {
+      "Country": [
+        "ID"
+      ],
+      "Rolename": "Siti"
+    },
+    {
+      "Country": [
+        "ID"
+      ],
+      "Rolename": "Surya"
+    },
+    {
+      "Country": [
+        "ID"
+      ],
+      "Rolename": "Tika"
+    },
+    {
+      "Country": [
+        "ID"
+      ],
+      "Rolename": "Wawan"
+    },
+    {
+      "Country": [
+        "ID"
+      ],
+      "Rolename": "Wati"
+    },
+    {
+      "Country": [
+        "ID"
+      ],
+      "Rolename": "Yani"
+    },
+    {
+      "Country": [
+        "ID"
+      ],
+      "Rolename": "Yudha"
+    },
+    {
+      "Country": [
+        "ID"
+      ],
+      "Rolename": "Anggi"
+    },
+    {
+      "Country": [
+        "ID"
+      ],
+      "Rolename": "Dinda"
+    },
+    {
+      "Country": [
+        "ID"
+      ],
+      "Rolename": "Hadi"
+    },
+    {
+      "Country": [
+        "ID"
+      ],
+      "Rolename": "Ilham"
+    },
+    {
+      "Country": [
+        "ID"
+      ],
+      "Rolename": "Jihan"
+    },
+    {
+      "Country": [
+        "ID"
+      ],
+      "Rolename": "Kiki"
+    },
+    {
+      "Country": [
+        "ID"
+      ],
+      "Rolename": "Lila"
+    },
+    {
+      "Country": [
+        "ID"
+      ],
+      "Rolename": "Melati"
+    },
+    {
+      "Country": [
+        "ID"
+      ],
+      "Rolename": "Nia"
+    },
+    {
+      "Country": [
+        "ID"
+      ],
+      "Rolename": "Prita"
+    },
+    {
+      "Country": [
+        "ID"
+      ],
+      "Rolename": "Rizki"
+    },
+    {
+      "Country": [
+        "ID"
+      ],
+      "Rolename": "Siska"
+    },
+    {
+      "Country": [
+        "ID"
+      ],
+      "Rolename": "Tanti"
+    },
+    {
+      "Country": [
+        "ID"
+      ],
+      "Rolename": "Vina"
+    },
+    {
+      "Country": [
+        "ID"
+      ],
+      "Rolename": "Wanda"
+    },
+    {
+      "Country": [
+        "ID"
+      ],
+      "Rolename": "Zainab"
+    },
+    {
+      "Country": [
+        "ID"
+      ],
+      "Rolename": "Fina"
+    },
+    {
+      "Country": [
+        "ID"
+      ],
+      "Rolename": "Reza"
+    },
+    {
+      "Country": [
+        "ID"
+      ],
+      "Rolename": "Dedi"
+    },
+    {
+      "Country": [
+        "ID"
+      ],
+      "Rolename": "Taufik"
+    },
+    {
+      "Country": [
+        "KO"
+      ],
+      "Rolename": "지민"
+    },
+    {
+      "Country": [
+        "KO"
+      ],
+      "Rolename": "예린"
+    },
+    {
+      "Country": [
+        "KO"
+      ],
+      "Rolename": "현우"
+    },
+    {
+      "Country": [
+        "KO"
+      ],
+      "Rolename": "수빈"
+    },
+    {
+      "Country": [
+        "KO"
+      ],
+      "Rolename": "태현"
+    },
+    {
+      "Country": [
+        "KO"
+      ],
+      "Rolename": "민지"
+    },
+    {
+      "Country": [
+        "KO"
+      ],
+      "Rolename": "하늘"
+    },
+    {
+      "Country": [
+        "KO"
+      ],
+      "Rolename": "승민"
+    },
+    {
+      "Country": [
+        "KO"
+      ],
+      "Rolename": "다현"
+    },
+    {
+      "Country": [
+        "KO"
+      ],
+      "Rolename": "은지"
+    },
+    {
+      "Country": [
+        "KO"
+      ],
+      "Rolename": "서준"
+    },
+    {
+      "Country": [
+        "KO"
+      ],
+      "Rolename": "예준"
+    },
+    {
+      "Country": [
+        "KO"
+      ],
+      "Rolename": "유진"
+    },
+    {
+      "Country": [
+        "KO"
+      ],
+      "Rolename": "준호"
+    },
+    {
+      "Country": [
+        "KO"
+      ],
+      "Rolename": "수현"
+    },
+    {
+      "Country": [
+        "KO"
+      ],
+      "Rolename": "지아"
+    },
+    {
+      "Country": [
+        "KO"
+      ],
+      "Rolename": "민석"
+    },
+    {
+      "Country": [
+        "KO"
+      ],
+      "Rolename": "소윤"
+    },
+    {
+      "Country": [
+        "KO"
+      ],
+      "Rolename": "준영"
+    },
+    {
+      "Country": [
+        "KO"
+      ],
+      "Rolename": "효진"
+    },
+    {
+      "Country": [
+        "KO"
+      ],
+      "Rolename": "민호"
+    },
+    {
+      "Country": [
+        "KO"
+      ],
+      "Rolename": "지은"
+    },
+    {
+      "Country": [
+        "KO"
+      ],
+      "Rolename": "태민"
+    },
+    {
+      "Country": [
+        "KO"
+      ],
+      "Rolename": "선우"
+    },
+    {
+      "Country": [
+        "KO"
+      ],
+      "Rolename": "다연"
+    },
+    {
+      "Country": [
+        "KO"
+      ],
+      "Rolename": "세진"
+    },
+    {
+      "Country": [
+        "KO"
+      ],
+      "Rolename": "현정"
+    },
+    {
+      "Country": [
+        "KO"
+      ],
+      "Rolename": "지후"
+    },
+    {
+      "Country": [
+        "KO"
+      ],
+      "Rolename": "연우"
+    },
+    {
+      "Country": [
+        "KO"
+      ],
+      "Rolename": "지혜"
+    },
+    {
+      "Country": [
+        "KO"
+      ],
+      "Rolename": "강민"
+    },
+    {
+      "Country": [
+        "KO"
+      ],
+      "Rolename": "윤호"
+    },
+    {
+      "Country": [
+        "KO"
+      ],
+      "Rolename": "나영"
+    },
+    {
+      "Country": [
+        "KO"
+      ],
+      "Rolename": "은혜"
+    },
+    {
+      "Country": [
+        "KO"
+      ],
+      "Rolename": "서현"
+    },
+    {
+      "Country": [
+        "KO"
+      ],
+      "Rolename": "현아"
+    },
+    {
+      "Country": [
+        "KO"
+      ],
+      "Rolename": "선미"
+    },
+    {
+      "Country": [
+        "KO"
+      ],
+      "Rolename": "정수"
+    },
+    {
+      "Country": [
+        "KO"
+      ],
+      "Rolename": "한별"
+    },
+    {
+      "Country": [
+        "KO"
+      ],
+      "Rolename": "은서"
+    },
+    {
+      "Country": [
+        "KO"
+      ],
+      "Rolename": "유나"
+    },
+    {
+      "Country": [
+        "KO"
+      ],
+      "Rolename": "기현"
+    },
+    {
+      "Country": [
+        "KO"
+      ],
+      "Rolename": "서영"
+    },
+    {
+      "Country": [
+        "KO"
+      ],
+      "Rolename": "나래"
+    },
+    {
+      "Country": [
+        "KO"
+      ],
+      "Rolename": "수빈"
+    },
+    {
+      "Country": [
+        "KO"
+      ],
+      "Rolename": "우진"
+    },
+    {
+      "Country": [
+        "KO"
+      ],
+      "Rolename": "영은"
+    },
+    {
+      "Country": [
+        "KO"
+      ],
+      "Rolename": "지윤"
+    },
+    {
+      "Country": [
+        "KO"
+      ],
+      "Rolename": "정민"
+    },
+    {
+      "Country": [
+        "KO"
+      ],
+      "Rolename": "세영"
+    },
+    {
+      "Country": [
+        "DE"
+      ],
+      "Rolename": "Lukas"
+    },
+    {
+      "Country": [
+        "DE"
+      ],
+      "Rolename": "Emma"
+    },
+    {
+      "Country": [
+        "DE"
+      ],
+      "Rolename": "Paul"
+    },
+    {
+      "Country": [
+        "DE"
+      ],
+      "Rolename": "Mia"
+    },
+    {
+      "Country": [
+        "DE"
+      ],
+      "Rolename": "Leon"
+    },
+    {
+      "Country": [
+        "DE"
+      ],
+      "Rolename": "Anna"
+    },
+    {
+      "Country": [
+        "DE"
+      ],
+      "Rolename": "Elias"
+    },
+    {
+      "Country": [
+        "DE"
+      ],
+      "Rolename": "Sophie"
+    },
+    {
+      "Country": [
+        "DE"
+      ],
+      "Rolename": "Max"
+    },
+    {
+      "Country": [
+        "DE"
+      ],
+      "Rolename": "Maria"
+    },
+    {
+      "Country": [
+        "DE"
+      ],
+      "Rolename": "Jonas"
+    },
+    {
+      "Country": [
+        "DE"
+      ],
+      "Rolename": "Laura"
+    },
+    {
+      "Country": [
+        "DE"
+      ],
+      "Rolename": "Noah"
+    },
+    {
+      "Country": [
+        "DE"
+      ],
+      "Rolename": "Lena"
+    },
+    {
+      "Country": [
+        "DE"
+      ],
+      "Rolename": "Felix"
+    },
+    {
+      "Country": [
+        "DE"
+      ],
+      "Rolename": "Hannah"
+    },
+    {
+      "Country": [
+        "DE"
+      ],
+      "Rolename": "Ben"
+    },
+    {
+      "Country": [
+        "DE"
+      ],
+      "Rolename": "Sarah"
+    },
+    {
+      "Country": [
+        "DE"
+      ],
+      "Rolename": "Alexander"
+    },
+    {
+      "Country": [
+        "DE"
+      ],
+      "Rolename": "Julia"
+    },
+    {
+      "Country": [
+        "DE"
+      ],
+      "Rolename": "Luis"
+    },
+    {
+      "Country": [
+        "DE"
+      ],
+      "Rolename": "Marie"
+    },
+    {
+      "Country": [
+        "DE"
+      ],
+      "Rolename": "Tim"
+    },
+    {
+      "Country": [
+        "DE"
+      ],
+      "Rolename": "Clara"
+    },
+    {
+      "Country": [
+        "DE"
+      ],
+      "Rolename": "David"
+    },
+    {
+      "Country": [
+        "DE"
+      ],
+      "Rolename": "Lilly"
+    },
+    {
+      "Country": [
+        "DE"
+      ],
+      "Rolename": "Samuel"
+    },
+    {
+      "Country": [
+        "DE"
+      ],
+      "Rolename": "Zoe"
+    },
+    {
+      "Country": [
+        "DE"
+      ],
+      "Rolename": "Gabriel"
+    },
+    {
+      "Country": [
+        "DE"
+      ],
+      "Rolename": "Eva"
+    },
+    {
+      "Country": [
+        "DE"
+      ],
+      "Rolename": "Adrian"
+    },
+    {
+      "Country": [
+        "DE"
+      ],
+      "Rolename": "Lea"
+    },
+    {
+      "Country": [
+        "DE"
+      ],
+      "Rolename": "Christian"
+    },
+    {
+      "Country": [
+        "DE"
+      ],
+      "Rolename": "Charlotte"
+    },
+    {
+      "Country": [
+        "DE"
+      ],
+      "Rolename": "Oskar"
+    },
+    {
+      "Country": [
+        "DE"
+      ],
+      "Rolename": "Johanna"
+    },
+    {
+      "Country": [
+        "DE"
+      ],
+      "Rolename": "Vincent"
+    },
+    {
+      "Country": [
+        "DE"
+      ],
+      "Rolename": "Emily"
+    },
+    {
+      "Country": [
+        "DE"
+      ],
+      "Rolename": "Moritz"
+    },
+    {
+      "Country": [
+        "DE"
+      ],
+      "Rolename": "Stella"
+    },
+    {
+      "Country": [
+        "DE"
+      ],
+      "Rolename": "Friedrich"
+    },
+    {
+      "Country": [
+        "DE"
+      ],
+      "Rolename": "Carla"
+    },
+    {
+      "Country": [
+        "DE"
+      ],
+      "Rolename": "Jonathan"
+    },
+    {
+      "Country": [
+        "DE"
+      ],
+      "Rolename": "Greta"
+    },
+    {
+      "Country": [
+        "DE"
+      ],
+      "Rolename": "Emil"
+    },
+    {
+      "Country": [
+        "DE"
+      ],
+      "Rolename": "Luisa"
+    },
+    {
+      "Country": [
+        "DE"
+      ],
+      "Rolename": "Richard"
+    },
+    {
+      "Country": [
+        "DE"
+      ],
+      "Rolename": "Nora"
+    },
+    {
+      "Country": [
+        "DE"
+      ],
+      "Rolename": "Simon"
+    },
+    {
+      "Country": [
+        "DE"
+      ],
+      "Rolename": "Ida"
+    }
+  ],
+  "TbPrivilege": {
+    "1": {
+      "ID": 1,
+      "PowerLimitAdd": 3,
+      "FrameId": 300002,
+      "NamePlateId": 400002
+    }
+  },
+  "TbRacingRobotConfig": {
+    "1001": {
+      "ID": 1001,
+      "RobotType": 1,
+      "Speed": "1:60",
+      "FailedProbability": "1:0",
+      "Hangup": "1:0",
+      "formula": "1"
+    },
+    "1002": {
+      "ID": 1002,
+      "RobotType": 1,
+      "Speed": "2:[60,80]",
+      "FailedProbability": "1:0",
+      "Hangup": "1:0",
+      "formula": "1"
+    },
+    "1003": {
+      "ID": 1003,
+      "RobotType": 1,
+      "Speed": "3:2500/max(userscore_stage1,20)",
+      "FailedProbability": "1:0",
+      "Hangup": "1:0",
+      "formula": "1"
+    },
+    "2001": {
+      "ID": 2001,
+      "RobotType": 2,
+      "Speed": "1:60,70,80,90,100",
+      "FailedProbability": "1:0",
+      "Hangup": "1:0",
+      "formula": "1"
+    },
+    "2002": {
+      "ID": 2002,
+      "RobotType": 2,
+      "Speed": "2:60*(1+0.5*floor(robotstage/4))",
+      "FailedProbability": "1:0",
+      "Hangup": "1:0",
+      "formula": "1"
+    },
+    "2003": {
+      "ID": 2003,
+      "RobotType": 2,
+      "Speed": "2:80/(1+floor(robotstage/4))",
+      "FailedProbability": "1:0",
+      "Hangup": "1:0",
+      "formula": "1"
+    },
+    "3001": {
+      "ID": 3001,
+      "RobotType": 3,
+      "Speed": "1:[-2,-1]",
+      "FailedProbability": "1",
+      "Hangup": "1:0",
+      "formula": "1"
+    },
+    "1011": {
+      "ID": 1011,
+      "RobotType": 1,
+      "Speed": "1:60",
+      "FailedProbability": "5:0.2",
+      "Hangup": "1:0",
+      "formula": "1"
+    },
+    "1004": {
+      "ID": 1004,
+      "RobotType": 1,
+      "Speed": "1:60",
+      "FailedProbability": "1:0",
+      "Hangup": "1:1",
+      "formula": "1"
+    },
+    "1005": {
+      "ID": 1005,
+      "RobotType": 1,
+      "Speed": "2:[60,100]",
+      "FailedProbability": "4:0.75",
+      "Hangup": "1:0",
+      "formula": "1"
+    },
+    "1006": {
+      "ID": 1006,
+      "RobotType": 1,
+      "Speed": "2:60*(1+random(0,0.5))",
+      "FailedProbability": "1:0",
+      "Hangup": "1:0",
+      "formula": "1"
+    },
+    "1007": {
+      "ID": 1007,
+      "RobotType": 1,
+      "Speed": "1:60",
+      "FailedProbability": "1:0.1,2:0.2,3:0.3",
+      "Hangup": "1:0",
+      "formula": "1"
+    },
+    "1008": {
+      "ID": 1008,
+      "RobotType": 1,
+      "Speed": "1:80",
+      "FailedProbability": "1:0",
+      "Hangup": "1:0",
+      "formula": "1"
+    },
+    "1009": {
+      "ID": 1009,
+      "RobotType": 1,
+      "Speed": "1:100",
+      "FailedProbability": "1:0",
+      "Hangup": "1:0",
+      "formula": "1"
+    },
+    "1010": {
+      "ID": 1010,
+      "RobotType": 1,
+      "Speed": "1:60",
+      "FailedProbability": "1:0",
+      "Hangup": "1:2",
+      "formula": "1"
+    },
+    "1012": {
+      "ID": 1012,
+      "RobotType": 1,
+      "Speed": "1:100",
+      "FailedProbability": "1:0.1,2:0.2,3:0.3",
+      "Hangup": "1:0",
+      "formula": "1"
+    },
+    "1015": {
+      "ID": 1015,
+      "RobotType": 1,
+      "Speed": "1:100",
+      "FailedProbability": "4:0.75",
+      "Hangup": "1:0",
+      "formula": "1"
+    },
+    "1016": {
+      "ID": 1016,
+      "RobotType": 1,
+      "Speed": "1:80",
+      "FailedProbability": "4:0.75",
+      "Hangup": "1:0",
+      "formula": "1"
+    },
+    "1017": {
+      "ID": 1017,
+      "RobotType": 1,
+      "Speed": "1:60",
+      "FailedProbability": "4:0.75",
+      "Hangup": "1:0",
+      "formula": "1"
+    },
+    "1018": {
+      "ID": 1018,
+      "RobotType": 1,
+      "Speed": "2:[60,90]",
+      "FailedProbability": "1:0.1,2:0.2,3:0.3",
+      "Hangup": "1:1",
+      "formula": "1"
+    },
+    "1019": {
+      "ID": 1019,
+      "RobotType": 1,
+      "Speed": "2:[90,120]",
+      "FailedProbability": "1:0.2,2:0.4,3:0.6",
+      "Hangup": "1:0",
+      "formula": "1"
+    },
+    "1020": {
+      "ID": 1020,
+      "RobotType": 1,
+      "Speed": "1:80",
+      "FailedProbability": "1:0",
+      "Hangup": "1:1",
+      "formula": "1"
+    },
+    "1021": {
+      "ID": 1021,
+      "RobotType": 1,
+      "Speed": "2:[60,90]",
+      "FailedProbability": "1:0.1,2:0.2,3:0.3",
+      "Hangup": "1:0",
+      "formula": "1"
+    },
+    "1022": {
+      "ID": 1022,
+      "RobotType": 1,
+      "Speed": "2:[80,110]",
+      "FailedProbability": "1:0.1,2:0.2,3:0.3",
+      "Hangup": "1:0",
+      "formula": "1"
+    },
+    "1023": {
+      "ID": 1023,
+      "RobotType": 1,
+      "Speed": "2:[60,80]",
+      "FailedProbability": "1:0.2,2:0.4,3:0.6",
+      "Hangup": "1:0",
+      "formula": "1"
+    }
+  },
+  "TbRacingRobotGlobalConfig": {
+    "1": {
+      "ID": 1,
+      "Stage1W1": 80,
+      "Stage1W2": 5,
+      "Stage1W3": 15,
+      "Stage1W4": 0,
+      "Stage2k": 1.0,
+      "StageThresholdBase": 500,
+      "StageThresholdBase2": 0.05,
+      "StageThresholdStageMultiplier": 1.0,
+      "CompetingRobotMinCount": 1,
+      "CompetingRobotMaxCount": 2,
+      "CompetingRobotDistanceMin": -3,
+      "CompetingRobotDistanceMax": -1
+    }
+  },
+  "TbRacingRobotGroupConfig": {
+    "1": {
+      "ID": 1,
+      "Stage": "1,2,3",
+      "ScoreMin": 0.0,
+      "ScoreMax": 50.0,
+      "FixedRobotIds": "1009,1010,1007,1008",
+      "NonThreatRobotIds": "",
+      "ThreatRobotIds": "",
+      "FixedRobotCount": 4,
+      "NonThreatCount": 0,
+      "ThreatCount": 0,
+      "PickMode": 1,
+      "CountThreatScore": 0,
+      "Weight": 0
+    },
+    "2": {
+      "ID": 2,
+      "Stage": "1,2,3",
+      "ScoreMin": 0.0,
+      "ScoreMax": 100.0,
+      "FixedRobotIds": "1006,1009,1004,2002",
+      "NonThreatRobotIds": "",
+      "ThreatRobotIds": "",
+      "FixedRobotCount": 4,
+      "NonThreatCount": 0,
+      "ThreatCount": 0,
+      "PickMode": 1,
+      "CountThreatScore": 0,
+      "Weight": 0
+    },
+    "3": {
+      "ID": 3,
+      "Stage": "1,2,3",
+      "ScoreMin": 50.0,
+      "ScoreMax": 100.0,
+      "FixedRobotIds": "1001,2003,1005,1004",
+      "NonThreatRobotIds": "",
+      "ThreatRobotIds": "",
+      "FixedRobotCount": 4,
+      "NonThreatCount": 0,
+      "ThreatCount": 0,
+      "PickMode": 1,
+      "CountThreatScore": 0,
+      "Weight": 0
+    },
+    "4": {
+      "ID": 4,
+      "Stage": "1,2,3",
+      "ScoreMin": 0.0,
+      "ScoreMax": 100.0,
+      "FixedRobotIds": "1007,1009,1010",
+      "NonThreatRobotIds": "",
+      "ThreatRobotIds": "1003",
+      "FixedRobotCount": 3,
+      "NonThreatCount": 0,
+      "ThreatCount": 1,
+      "PickMode": 1,
+      "CountThreatScore": 0,
+      "Weight": 0
+    },
+    "5": {
+      "ID": 5,
+      "Stage": "1,2,3",
+      "ScoreMin": 75.0,
+      "ScoreMax": 100.0,
+      "FixedRobotIds": "1002,1004,1006,1009",
+      "NonThreatRobotIds": "",
+      "ThreatRobotIds": "",
+      "FixedRobotCount": 4,
+      "NonThreatCount": 0,
+      "ThreatCount": 0,
+      "PickMode": 1,
+      "CountThreatScore": 0,
+      "Weight": 0
+    },
+    "6": {
+      "ID": 6,
+      "Stage": "1,2,3",
+      "ScoreMin": 0.0,
+      "ScoreMax": 25.0,
+      "FixedRobotIds": "1007,1004,1010,3001",
+      "NonThreatRobotIds": "",
+      "ThreatRobotIds": "",
+      "FixedRobotCount": 4,
+      "NonThreatCount": 0,
+      "ThreatCount": 0,
+      "PickMode": 1,
+      "CountThreatScore": 0,
+      "Weight": 0
+    },
+    "7": {
+      "ID": 7,
+      "Stage": "1",
+      "ScoreMin": 0.0,
+      "ScoreMax": 50.0,
+      "FixedRobotIds": "3001,1012,1004,1015",
+      "NonThreatRobotIds": "",
+      "ThreatRobotIds": "",
+      "FixedRobotCount": 4,
+      "NonThreatCount": 0,
+      "ThreatCount": 0,
+      "PickMode": 1,
+      "CountThreatScore": 0,
+      "Weight": 0
+    },
+    "8": {
+      "ID": 8,
+      "Stage": "1",
+      "ScoreMin": 50.0,
+      "ScoreMax": 100.0,
+      "FixedRobotIds": "1016,3001,1007,1009",
+      "NonThreatRobotIds": "",
+      "ThreatRobotIds": "",
+      "FixedRobotCount": 4,
+      "NonThreatCount": 0,
+      "ThreatCount": 0,
+      "PickMode": 1,
+      "CountThreatScore": 0,
+      "Weight": 0
+    },
+    "9": {
+      "ID": 9,
+      "Stage": "1",
+      "ScoreMin": 0.0,
+      "ScoreMax": 100.0,
+      "FixedRobotIds": "3001,1004,1009,1011",
+      "NonThreatRobotIds": "",
+      "ThreatRobotIds": "",
+      "FixedRobotCount": 4,
+      "NonThreatCount": 0,
+      "ThreatCount": 0,
+      "PickMode": 1,
+      "CountThreatScore": 0,
+      "Weight": 0
+    },
+    "10": {
+      "ID": 10,
+      "Stage": "2",
+      "ScoreMin": 0.0,
+      "ScoreMax": 50.0,
+      "FixedRobotIds": "1015,1012,1009",
+      "NonThreatRobotIds": "",
+      "ThreatRobotIds": "",
+      "FixedRobotCount": 4,
+      "NonThreatCount": 0,
+      "ThreatCount": 0,
+      "PickMode": 1,
+      "CountThreatScore": 0,
+      "Weight": 0
+    },
+    "11": {
+      "ID": 11,
+      "Stage": "2",
+      "ScoreMin": 50.0,
+      "ScoreMax": 100.0,
+      "FixedRobotIds": "1016,1007,1008",
+      "NonThreatRobotIds": "",
+      "ThreatRobotIds": "",
+      "FixedRobotCount": 4,
+      "NonThreatCount": 0,
+      "ThreatCount": 0,
+      "PickMode": 1,
+      "CountThreatScore": 0,
+      "Weight": 0
+    },
+    "12": {
+      "ID": 12,
+      "Stage": "2",
+      "ScoreMin": 0.0,
+      "ScoreMax": 100.0,
+      "FixedRobotIds": "1017,1009,1011",
+      "NonThreatRobotIds": "",
+      "ThreatRobotIds": "",
+      "FixedRobotCount": 4,
+      "NonThreatCount": 0,
+      "ThreatCount": 0,
+      "PickMode": 1,
+      "CountThreatScore": 0,
+      "Weight": 0
+    },
+    "13": {
+      "ID": 13,
+      "Stage": "3",
+      "ScoreMin": 0.0,
+      "ScoreMax": 50.0,
+      "FixedRobotIds": "1012,1009",
+      "NonThreatRobotIds": "",
+      "ThreatRobotIds": "",
+      "FixedRobotCount": 4,
+      "NonThreatCount": 0,
+      "ThreatCount": 0,
+      "PickMode": 1,
+      "CountThreatScore": 0,
+      "Weight": 0
+    },
+    "14": {
+      "ID": 14,
+      "Stage": "3",
+      "ScoreMin": 50.0,
+      "ScoreMax": 100.0,
+      "FixedRobotIds": "1007,1002",
+      "NonThreatRobotIds": "",
+      "ThreatRobotIds": "",
+      "FixedRobotCount": 4,
+      "NonThreatCount": 0,
+      "ThreatCount": 0,
+      "PickMode": 1,
+      "CountThreatScore": 0,
+      "Weight": 0
+    },
+    "15": {
+      "ID": 15,
+      "Stage": "3",
+      "ScoreMin": 0.0,
+      "ScoreMax": 100.0,
+      "FixedRobotIds": "1008,1012",
+      "NonThreatRobotIds": "",
+      "ThreatRobotIds": "",
+      "FixedRobotCount": 4,
+      "NonThreatCount": 0,
+      "ThreatCount": 0,
+      "PickMode": 1,
+      "CountThreatScore": 0,
+      "Weight": 0
+    },
+    "16": {
+      "ID": 16,
+      "Stage": "1",
+      "ScoreMin": 0.0,
+      "ScoreMax": 50.0,
+      "FixedRobotIds": "3001,1018,1019,1015",
+      "NonThreatRobotIds": "",
+      "ThreatRobotIds": "",
+      "FixedRobotCount": 4,
+      "NonThreatCount": 0,
+      "ThreatCount": 0,
+      "PickMode": 1,
+      "CountThreatScore": 0,
+      "Weight": 60
+    },
+    "17": {
+      "ID": 17,
+      "Stage": "1",
+      "ScoreMin": 50.0,
+      "ScoreMax": 100.0,
+      "FixedRobotIds": "3001,1020,1018,1005",
+      "NonThreatRobotIds": "",
+      "ThreatRobotIds": "",
+      "FixedRobotCount": 4,
+      "NonThreatCount": 0,
+      "ThreatCount": 0,
+      "PickMode": 1,
+      "CountThreatScore": 0,
+      "Weight": 15
+    },
+    "18": {
+      "ID": 18,
+      "Stage": "1",
+      "ScoreMin": 0.0,
+      "ScoreMax": 100.0,
+      "FixedRobotIds": "3001,1018,1019,1016",
+      "NonThreatRobotIds": "",
+      "ThreatRobotIds": "",
+      "FixedRobotCount": 4,
+      "NonThreatCount": 0,
+      "ThreatCount": 0,
+      "PickMode": 1,
+      "CountThreatScore": 0,
+      "Weight": 25
+    },
+    "19": {
+      "ID": 19,
+      "Stage": "2",
+      "ScoreMin": 0.0,
+      "ScoreMax": 50.0,
+      "FixedRobotIds": "1016,1022,1023",
+      "NonThreatRobotIds": "",
+      "ThreatRobotIds": "",
+      "FixedRobotCount": 4,
+      "NonThreatCount": 0,
+      "ThreatCount": 0,
+      "PickMode": 1,
+      "CountThreatScore": 0,
+      "Weight": 60
+    },
+    "20": {
+      "ID": 20,
+      "Stage": "2",
+      "ScoreMin": 50.0,
+      "ScoreMax": 100.0,
+      "FixedRobotIds": "1019,1015,1018",
+      "NonThreatRobotIds": "",
+      "ThreatRobotIds": "",
+      "FixedRobotCount": 4,
+      "NonThreatCount": 0,
+      "ThreatCount": 0,
+      "PickMode": 1,
+      "CountThreatScore": 0,
+      "Weight": 15
+    },
+    "21": {
+      "ID": 21,
+      "Stage": "2",
+      "ScoreMin": 0.0,
+      "ScoreMax": 100.0,
+      "FixedRobotIds": "1016,1019,1018",
+      "NonThreatRobotIds": "",
+      "ThreatRobotIds": "",
+      "FixedRobotCount": 4,
+      "NonThreatCount": 0,
+      "ThreatCount": 0,
+      "PickMode": 1,
+      "CountThreatScore": 0,
+      "Weight": 25
+    },
+    "22": {
+      "ID": 22,
+      "Stage": "3",
+      "ScoreMin": 0.0,
+      "ScoreMax": 50.0,
+      "FixedRobotIds": "1015,1022",
+      "NonThreatRobotIds": "",
+      "ThreatRobotIds": "",
+      "FixedRobotCount": 4,
+      "NonThreatCount": 0,
+      "ThreatCount": 0,
+      "PickMode": 1,
+      "CountThreatScore": 0,
+      "Weight": 60
+    },
+    "23": {
+      "ID": 23,
+      "Stage": "3",
+      "ScoreMin": 50.0,
+      "ScoreMax": 100.0,
+      "FixedRobotIds": "1016,1021",
+      "NonThreatRobotIds": "",
+      "ThreatRobotIds": "",
+      "FixedRobotCount": 4,
+      "NonThreatCount": 0,
+      "ThreatCount": 0,
+      "PickMode": 1,
+      "CountThreatScore": 0,
+      "Weight": 15
+    },
+    "24": {
+      "ID": 24,
+      "Stage": "3",
+      "ScoreMin": 0.0,
+      "ScoreMax": 100.0,
+      "FixedRobotIds": "1015,1023",
+      "NonThreatRobotIds": "",
+      "ThreatRobotIds": "",
+      "FixedRobotCount": 4,
+      "NonThreatCount": 0,
+      "ThreatCount": 0,
+      "PickMode": 1,
+      "CountThreatScore": 0,
+      "Weight": 25
+    }
+  },
+  "TbRacingStageConfig": {
+    "1": {
+      "ID": 1,
+      "MaxTime": 1200,
+      "TotalLevelCount": 3,
+      "RobotPickCount": 4,
+      "MaxSameProgressRobotCount": 3,
+      "MaxSameProgressAsPlayerCount": 1
+    },
+    "2": {
+      "ID": 2,
+      "MaxTime": 1500,
+      "TotalLevelCount": 5,
+      "RobotPickCount": 3,
+      "MaxSameProgressRobotCount": 3,
+      "MaxSameProgressAsPlayerCount": 1
+    },
+    "3": {
+      "ID": 3,
+      "MaxTime": 1800,
+      "TotalLevelCount": 7,
+      "RobotPickCount": 2,
+      "MaxSameProgressRobotCount": 3,
+      "MaxSameProgressAsPlayerCount": 1
+    }
+  },
+  "TbRateConfig": {
+    "1": {
+      "ID": 1,
+      "GroupId": 1,
+      "Wintimes": 0,
+      "Rate": 1,
+      "index": 0
+    },
+    "2": {
+      "ID": 2,
+      "GroupId": 1,
+      "Wintimes": 1,
+      "Rate": 5,
+      "index": 1
+    },
+    "3": {
+      "ID": 3,
+      "GroupId": 1,
+      "Wintimes": 2,
+      "Rate": 10,
+      "index": 2
+    },
+    "4": {
+      "ID": 4,
+      "GroupId": 1,
+      "Wintimes": 3,
+      "Rate": 25,
+      "index": 3
+    },
+    "5": {
+      "ID": 5,
+      "GroupId": 1,
+      "Wintimes": 4,
+      "Rate": 100,
+      "index": 4
+    }
+  },
+  "TbRewardConfig": {
+    "10001": {
+      "ID": 10001,
+      "get": [
+        [
+          1001,
+          130
+        ]
+      ],
+      "effect": "haidao",
+      "icon": ""
+    },
+    "10002": {
+      "ID": 10002,
+      "get": [
+        [
+          10002,
+          2
+        ],
+        [
+          1001,
+          150
+        ]
+      ],
+      "effect": "luyingdi",
+      "icon": ""
+    },
+    "10003": {
+      "ID": 10003,
+      "get": [
+        [
+          1001,
+          250
+        ],
+        [
+          10002,
+          1
+        ]
+      ],
+      "effect": "maxi",
+      "icon": ""
+    },
+    "10004": {
+      "ID": 10004,
+      "get": [
+        [
+          1001,
+          300
+        ],
+        [
+          10002,
+          1
+        ]
+      ],
+      "effect": "bingxue",
+      "icon": ""
+    },
+    "10005": {
+      "ID": 10005,
+      "get": [
+        [
+          1001,
+          500
+        ],
+        [
+          10002,
+          1
+        ]
+      ],
+      "effect": "nongchang",
+      "icon": ""
+    },
+    "10006": {
+      "ID": 10006,
+      "get": [
+        [
+          1001,
+          700
+        ],
+        [
+          10002,
+          1
+        ]
+      ],
+      "effect": "aiji",
+      "icon": ""
+    },
+    "10007": {
+      "ID": 10007,
+      "get": [
+        [
+          1001,
+          200
+        ],
+        [
+          10002,
+          2
+        ]
+      ],
+      "effect": "haidao",
+      "icon": ""
+    },
+    "10008": {
+      "ID": 10008,
+      "get": [
+        [
+          1001,
+          400
+        ],
+        [
+          10002,
+          3
+        ]
+      ],
+      "effect": "luyingdi",
+      "icon": ""
+    },
+    "10009": {
+      "ID": 10009,
+      "get": [
+        [
+          1001,
+          500
+        ],
+        [
+          10002,
+          5
+        ]
+      ],
+      "effect": "maxi",
+      "icon": ""
+    },
+    "10010": {
+      "ID": 10010,
+      "get": [
+        [
+          1001,
+          550
+        ],
+        [
+          10002,
+          5
+        ]
+      ],
+      "effect": "bingxue",
+      "icon": ""
+    },
+    "10011": {
+      "ID": 10011,
+      "get": [
+        [
+          1001,
+          600
+        ],
+        [
+          10002,
+          5
+        ]
+      ],
+      "effect": "nongchang",
+      "icon": ""
+    },
+    "10012": {
+      "ID": 10012,
+      "get": [
+        [
+          1001,
+          650
+        ],
+        [
+          10002,
+          5
+        ]
+      ],
+      "effect": "aiji",
+      "icon": ""
+    },
+    "10013": {
+      "ID": 10013,
+      "get": [
+        [
+          1001,
+          330
+        ],
+        [
+          10002,
+          1
+        ]
+      ],
+      "effect": "haidao",
+      "icon": ""
+    },
+    "10014": {
+      "ID": 10014,
+      "get": [
+        [
+          1001,
+          400
+        ],
+        [
+          10002,
+          2
+        ]
+      ],
+      "effect": "luyingdi",
+      "icon": ""
+    },
+    "10015": {
+      "ID": 10015,
+      "get": [
+        [
+          1001,
+          550
+        ],
+        [
+          10002,
+          3
+        ]
+      ],
+      "effect": "maxi",
+      "icon": ""
+    },
+    "10016": {
+      "ID": 10016,
+      "get": [
+        [
+          1001,
+          700
+        ],
+        [
+          10002,
+          3
+        ]
+      ],
+      "effect": "bingxue",
+      "icon": ""
+    },
+    "10017": {
+      "ID": 10017,
+      "get": [
+        [
+          1001,
+          750
+        ],
+        [
+          10002,
+          3
+        ]
+      ],
+      "effect": "nongchang",
+      "icon": ""
+    },
+    "10018": {
+      "ID": 10018,
+      "get": [
+        [
+          1001,
+          800
+        ],
+        [
+          10002,
+          3
+        ]
+      ],
+      "effect": "aiji",
+      "icon": ""
+    },
+    "20001": {
+      "ID": 20001,
+      "get": [
+        [
+          1001,
+          500
+        ]
+      ],
+      "effect": "haidao",
+      "icon": ""
+    },
+    "20002": {
+      "ID": 20002,
+      "get": [
+        [
+          1001,
+          380
+        ],
+        [
+          10002,
+          1
+        ]
+      ],
+      "effect": "haidao",
+      "icon": ""
+    },
+    "20003": {
+      "ID": 20003,
+      "get": [
+        [
+          1001,
+          300
+        ],
+        [
+          10003,
+          1
+        ],
+        [
+          10005,
+          1
+        ]
+      ],
+      "effect": "maxi",
+      "icon": ""
+    },
+    "10": {
+      "ID": 10,
+      "get": [
+        [
+          1001,
+          40
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "11": {
+      "ID": 11,
+      "get": [
+        [
+          10005,
+          1
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "12": {
+      "ID": 12,
+      "get": [
+        [
+          1001,
+          70
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "13": {
+      "ID": 13,
+      "get": [
+        [
+          10002,
+          1
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "14": {
+      "ID": 14,
+      "get": [
+        [
+          1001,
+          140
+        ],
+        [
+          10003,
+          1
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "15": {
+      "ID": 15,
+      "get": [
+        [
+          10005,
+          1
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "16": {
+      "ID": 16,
+      "get": [
+        [
+          1001,
+          210
+        ],
+        [
+          10004,
+          1
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "17": {
+      "ID": 17,
+      "get": [
+        [
+          10003,
+          1
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "18": {
+      "ID": 18,
+      "get": [
+        [
+          1001,
+          280
+        ],
+        [
+          10005,
+          1
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "19": {
+      "ID": 19,
+      "get": [
+        [
+          1001,
+          700
+        ],
+        [
+          10005,
+          2
+        ],
+        [
+          10003,
+          1
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "1001": {
+      "ID": 1001,
+      "get": [
+        [
+          1001,
+          50
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "1002": {
+      "ID": 1002,
+      "get": [
+        [
+          1001,
+          50
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "1003": {
+      "ID": 1003,
+      "get": [
+        [
+          10002,
+          1
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "1004": {
+      "ID": 1004,
+      "get": [
+        [
+          1001,
+          100
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "1005": {
+      "ID": 1005,
+      "get": [
+        [
+          1001,
+          80
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "1006": {
+      "ID": 1006,
+      "get": [
+        [
+          1001,
+          150
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "1007": {
+      "ID": 1007,
+      "get": [
+        [
+          1001,
+          200
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "1008": {
+      "ID": 1008,
+      "get": [
+        [
+          10005,
+          1
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "1009": {
+      "ID": 1009,
+      "get": [
+        [
+          1001,
+          300
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "1010": {
+      "ID": 1010,
+      "get": [
+        [
+          1001,
+          100
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "1011": {
+      "ID": 1011,
+      "get": [
+        [
+          1001,
+          400
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "1012": {
+      "ID": 1012,
+      "get": [
+        [
+          1001,
+          500
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "1013": {
+      "ID": 1013,
+      "get": [
+        [
+          10002,
+          1
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "1014": {
+      "ID": 1014,
+      "get": [
+        [
+          1001,
+          600
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "1015": {
+      "ID": 1015,
+      "get": [
+        [
+          1001,
+          150
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "1016": {
+      "ID": 1016,
+      "get": [
+        [
+          1001,
+          700
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "1017": {
+      "ID": 1017,
+      "get": [
+        [
+          1001,
+          800
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "1018": {
+      "ID": 1018,
+      "get": [
+        [
+          10003,
+          1
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "1019": {
+      "ID": 1019,
+      "get": [
+        [
+          1001,
+          1000
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "1020": {
+      "ID": 1020,
+      "get": [
+        [
+          1001,
+          5000
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "1021": {
+      "ID": 1021,
+      "get": [
+        [
+          10005,
+          1
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "1022": {
+      "ID": 1022,
+      "get": [
+        [
+          1001,
+          40
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "1023": {
+      "ID": 1023,
+      "get": [
+        [
+          10002,
+          1
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "1024": {
+      "ID": 1024,
+      "get": [
+        [
+          1001,
+          70
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "1025": {
+      "ID": 1025,
+      "get": [
+        [
+          10003,
+          1
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "1026": {
+      "ID": 1026,
+      "get": [
+        [
+          1001,
+          100
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "1027": {
+      "ID": 1027,
+      "get": [
+        [
+          10005,
+          1
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "1028": {
+      "ID": 1028,
+      "get": [
+        [
+          1001,
+          140
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "1029": {
+      "ID": 1029,
+      "get": [
+        [
+          1001,
+          180
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "1030": {
+      "ID": 1030,
+      "get": [
+        [
+          10004,
+          1
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "1031": {
+      "ID": 1031,
+      "get": [
+        [
+          1001,
+          210
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "1032": {
+      "ID": 1032,
+      "get": [
+        [
+          10005,
+          1
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "1033": {
+      "ID": 1033,
+      "get": [
+        [
+          1001,
+          280
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "1034": {
+      "ID": 1034,
+      "get": [
+        [
+          10002,
+          1
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "1035": {
+      "ID": 1035,
+      "get": [
+        [
+          10003,
+          1
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "1036": {
+      "ID": 1036,
+      "get": [
+        [
+          1001,
+          280
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "1037": {
+      "ID": 1037,
+      "get": [
+        [
+          10005,
+          2
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "1038": {
+      "ID": 1038,
+      "get": [
+        [
+          1001,
+          350
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "1039": {
+      "ID": 1039,
+      "get": [
+        [
+          10003,
+          2
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "1040": {
+      "ID": 1040,
+      "get": [
+        [
+          1001,
+          700
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "1041": {
+      "ID": 1041,
+      "get": [
+        [
+          1001,
+          1000
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "1042": {
+      "ID": 1042,
+      "get": [
+        [
+          1001,
+          1000
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "1043": {
+      "ID": 1043,
+      "get": [
+        [
+          1001,
+          1000
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "1044": {
+      "ID": 1044,
+      "get": [
+        [
+          1001,
+          1000
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "1045": {
+      "ID": 1045,
+      "get": [
+        [
+          1001,
+          1000
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "1046": {
+      "ID": 1046,
+      "get": [
+        [
+          1001,
+          50
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "1047": {
+      "ID": 1047,
+      "get": [
+        [
+          1001,
+          350
+        ],
+        [
+          10002,
+          1
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "1048": {
+      "ID": 1048,
+      "get": [
+        [
+          1001,
+          1100
+        ],
+        [
+          10005,
+          1
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "1049": {
+      "ID": 1049,
+      "get": [
+        [
+          10002,
+          2
+        ]
+      ],
+      "effect": "",
+      "icon": "GiftPack_box_icon_1"
+    },
+    "1050": {
+      "ID": 1050,
+      "get": [
+        [
+          10002,
+          4
+        ],
+        [
+          1001,
+          300
+        ]
+      ],
+      "effect": "",
+      "icon": "GiftPack_box_icon_2"
+    },
+    "1051": {
+      "ID": 1051,
+      "get": [
+        [
+          10002,
+          8
+        ],
+        [
+          1001,
+          500
+        ]
+      ],
+      "effect": "",
+      "icon": "GiftPack_box_icon_3"
+    },
+    "1052": {
+      "ID": 1052,
+      "get": [
+        [
+          10002,
+          20
+        ],
+        [
+          1001,
+          500
+        ]
+      ],
+      "effect": "",
+      "icon": "GiftPack_box_icon_4"
+    },
+    "1053": {
+      "ID": 1053,
+      "get": [
+        [
+          10002,
+          32
+        ],
+        [
+          1001,
+          500
+        ]
+      ],
+      "effect": "",
+      "icon": "GiftPack_box_icon_5"
+    },
+    "1054": {
+      "ID": 1054,
+      "get": [
+        [
+          10002,
+          60
+        ],
+        [
+          1001,
+          500
+        ]
+      ],
+      "effect": "",
+      "icon": "GiftPack_box_icon_6"
+    },
+    "2000": {
+      "ID": 2000,
+      "get": [
+        [
+          10002,
+          2
+        ]
+      ],
+      "effect": "",
+      "icon": "img_box_1"
+    },
+    "2001": {
+      "ID": 2001,
+      "get": [
+        [
+          10002,
+          4
+        ],
+        [
+          1001,
+          300
+        ]
+      ],
+      "effect": "",
+      "icon": "img_box_2"
+    },
+    "2002": {
+      "ID": 2002,
+      "get": [
+        [
+          10002,
+          8
+        ],
+        [
+          1001,
+          500
+        ]
+      ],
+      "effect": "",
+      "icon": "img_box_3"
+    },
+    "2003": {
+      "ID": 2003,
+      "get": [
+        [
+          10002,
+          20
+        ],
+        [
+          1001,
+          500
+        ]
+      ],
+      "effect": "",
+      "icon": "img_box_4"
+    },
+    "2004": {
+      "ID": 2004,
+      "get": [
+        [
+          10002,
+          32
+        ],
+        [
+          1001,
+          500
+        ]
+      ],
+      "effect": "",
+      "icon": "img_box_5"
+    },
+    "2005": {
+      "ID": 2005,
+      "get": [
+        [
+          10002,
+          60
+        ],
+        [
+          1001,
+          500
+        ]
+      ],
+      "effect": "",
+      "icon": "img_box_6"
+    },
+    "2006": {
+      "ID": 2006,
+      "get": [
+        [
+          10002,
+          60
+        ],
+        [
+          1001,
+          500
+        ]
+      ],
+      "effect": "",
+      "icon": "img_box_7"
+    },
+    "2100": {
+      "ID": 2100,
+      "get": [
+        [
+          1001,
+          100
+        ],
+        [
+          10002,
+          1
+        ]
+      ],
+      "effect": "",
+      "icon": "img_box_1"
+    },
+    "2101": {
+      "ID": 2101,
+      "get": [
+        [
+          1001,
+          200
+        ],
+        [
+          10002,
+          2
+        ]
+      ],
+      "effect": "",
+      "icon": "img_box_2"
+    },
+    "2102": {
+      "ID": 2102,
+      "get": [
+        [
+          10002,
+          1
+        ],
+        [
+          1001,
+          150
+        ]
+      ],
+      "effect": "",
+      "icon": "img_box_1"
+    },
+    "2103": {
+      "ID": 2103,
+      "get": [
+        [
+          10002,
+          2
+        ],
+        [
+          1001,
+          300
+        ]
+      ],
+      "effect": "",
+      "icon": "img_box_3"
+    },
+    "2104": {
+      "ID": 2104,
+      "get": [
+        [
+          1001,
+          500
+        ]
+      ],
+      "effect": "",
+      "icon": "img_box_1"
+    },
+    "2105": {
+      "ID": 2105,
+      "get": [
+        [
+          10002,
+          1
+        ],
+        [
+          1001,
+          500
+        ]
+      ],
+      "effect": "",
+      "icon": "img_box_4"
+    },
+    "2106": {
+      "ID": 2106,
+      "get": [
+        [
+          10002,
+          3
+        ],
+        [
+          1001,
+          300
+        ]
+      ],
+      "effect": "",
+      "icon": "img_box_1"
+    },
+    "2107": {
+      "ID": 2107,
+      "get": [
+        [
+          10002,
+          4
+        ],
+        [
+          1001,
+          300
+        ]
+      ],
+      "effect": "",
+      "icon": "img_box_3"
+    },
+    "2108": {
+      "ID": 2108,
+      "get": [
+        [
+          1001,
+          700
+        ],
+        [
+          10002,
+          1
+        ]
+      ],
+      "effect": "",
+      "icon": "img_box_4"
+    },
+    "2109": {
+      "ID": 2109,
+      "get": [
+        [
+          1001,
+          1000
+        ],
+        [
+          10005,
+          1
+        ]
+      ],
+      "effect": "",
+      "icon": "img_box_5"
+    },
+    "2110": {
+      "ID": 2110,
+      "get": [
+        [
+          1001,
+          3500
+        ],
+        [
+          10004,
+          1
+        ]
+      ],
+      "effect": "",
+      "icon": "img_box_6"
+    },
+    "2111": {
+      "ID": 2111,
+      "get": [
+        [
+          10005,
+          1
+        ],
+        [
+          10004,
+          1
+        ],
+        [
+          10003,
+          1
+        ],
+        [
+          10002,
+          1
+        ]
+      ],
+      "effect": "",
+      "icon": "img_box_7"
+    },
+    "2112": {
+      "ID": 2112,
+      "get": [
+        [
+          1001,
+          80
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "2113": {
+      "ID": 2113,
+      "get": [
+        [
+          10002,
+          1
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "2114": {
+      "ID": 2114,
+      "get": [
+        [
+          1001,
+          150
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "2115": {
+      "ID": 2115,
+      "get": [
+        [
+          1001,
+          100
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "2116": {
+      "ID": 2116,
+      "get": [
+        [
+          1001,
+          50
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "2117": {
+      "ID": 2117,
+      "get": [
+        [
+          1001,
+          300
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "2118": {
+      "ID": 2118,
+      "get": [
+        [
+          10002,
+          2
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "2119": {
+      "ID": 2119,
+      "get": [
+        [
+          1001,
+          300
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "2120": {
+      "ID": 2120,
+      "get": [
+        [
+          1001,
+          150
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "2121": {
+      "ID": 2121,
+      "get": [
+        [
+          1001,
+          400
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "2122": {
+      "ID": 2122,
+      "get": [
+        [
+          1001,
+          500
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "2123": {
+      "ID": 2123,
+      "get": [
+        [
+          1001,
+          200
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "2124": {
+      "ID": 2124,
+      "get": [
+        [
+          1001,
+          500
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "2125": {
+      "ID": 2125,
+      "get": [
+        [
+          10002,
+          3
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "2126": {
+      "ID": 2126,
+      "get": [
+        [
+          1001,
+          800
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "2127": {
+      "ID": 2127,
+      "get": [
+        [
+          1001,
+          600
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "2128": {
+      "ID": 2128,
+      "get": [
+        [
+          1001,
+          1000
+        ]
+      ],
+      "effect": "",
+      "icon": ""
+    },
+    "30001": {
+      "ID": 30001,
+      "get": [
+        [
+          1001,
+          50
+        ]
+      ],
+      "effect": "dailyboxreward_1",
+      "icon": ""
+    },
+    "30002": {
+      "ID": 30002,
+      "get": [
+        [
+          1001,
+          200
+        ]
+      ],
+      "effect": "dailyboxreward_2",
+      "icon": ""
+    },
+    "30003": {
+      "ID": 30003,
+      "get": [
+        [
+          1001,
+          500
+        ],
+        [
+          10005,
+          1
+        ]
+      ],
+      "effect": "dailyboxreward_3",
+      "icon": ""
+    }
+  },
+  "TbSettingLanguage": {
+    "English": {
+      "Key": "English",
+      "TitleId": "Common_Settings_Language_EN_US",
+      "AllLanguageCode": [
+        "EN_US",
+        "EN_GB"
+      ],
+      "SortId": 1,
+      "IsShow": 1
+    },
+    "简体中文": {
+      "Key": "简体中文",
+      "TitleId": "Common_Settings_Language_ZH_CN",
+      "AllLanguageCode": [
+        "ZH_CN"
+      ],
+      "SortId": 2,
+      "IsShow": 1
+    },
+    "繁體中文": {
+      "Key": "繁體中文",
+      "TitleId": "Common_Settings_Language_ZH_HK",
+      "AllLanguageCode": [
+        "ZH_HK",
+        "ZH_TW"
+      ],
+      "SortId": 3,
+      "IsShow": 1
+    },
+    "العربية": {
+      "Key": "العربية",
+      "TitleId": "Common_Settings_Language_AR",
+      "AllLanguageCode": [
+        "AR"
+      ],
+      "SortId": 28,
+      "IsShow": 1
+    },
+    "Português": {
+      "Key": "Português",
+      "TitleId": "Common_Settings_Language_PT_PT",
+      "AllLanguageCode": [
+        "PT_PT",
+        "PT_BR"
+      ],
+      "SortId": 10,
+      "IsShow": 1
+    },
+    "Hrvatski": {
+      "Key": "Hrvatski",
+      "TitleId": "Common_Settings_Language_HR",
+      "AllLanguageCode": [
+        "HR"
+      ],
+      "SortId": 24,
+      "IsShow": 1
+    },
+    "Český": {
+      "Key": "Český",
+      "TitleId": "Common_Settings_Language_CS",
+      "AllLanguageCode": [
+        "CS"
+      ],
+      "SortId": 25,
+      "IsShow": 1
+    },
+    "Dansk": {
+      "Key": "Dansk",
+      "TitleId": "Common_Settings_Language_DA",
+      "AllLanguageCode": [
+        "DA"
+      ],
+      "SortId": 22,
+      "IsShow": 1
+    },
+    "Nederlands": {
+      "Key": "Nederlands",
+      "TitleId": "Common_Settings_Language_NL",
+      "AllLanguageCode": [
+        "NL"
+      ],
+      "SortId": 11,
+      "IsShow": 1
+    },
+    "Español": {
+      "Key": "Español",
+      "TitleId": "Common_Settings_Language_ES",
+      "AllLanguageCode": [
+        "ES",
+        "ES_419"
+      ],
+      "SortId": 5,
+      "IsShow": 1
+    },
+    "Suomi": {
+      "Key": "Suomi",
+      "TitleId": "Common_Settings_Language_FI",
+      "AllLanguageCode": [
+        "FI"
+      ],
+      "SortId": 26,
+      "IsShow": 1
+    },
+    "Français": {
+      "Key": "Français",
+      "TitleId": "Common_Settings_Language_FR",
+      "AllLanguageCode": [
+        "FR"
+      ],
+      "SortId": 6,
+      "IsShow": 1
+    },
+    "Deutsch": {
+      "Key": "Deutsch",
+      "TitleId": "Common_Settings_Language_DE",
+      "AllLanguageCode": [
+        "DE"
+      ],
+      "SortId": 9,
+      "IsShow": 1
+    },
+    "Ελληνικά": {
+      "Key": "Ελληνικά",
+      "TitleId": "Common_Settings_Language_EL",
+      "AllLanguageCode": [
+        "EL"
+      ],
+      "SortId": 27,
+      "IsShow": 1
+    },
+    "Italiano": {
+      "Key": "Italiano",
+      "TitleId": "Common_Settings_Language_IT",
+      "AllLanguageCode": [
+        "IT"
+      ],
+      "SortId": 12,
+      "IsShow": 1
+    },
+    "日本語": {
+      "Key": "日本語",
+      "TitleId": "Common_Settings_Language_JA",
+      "AllLanguageCode": [
+        "JA"
+      ],
+      "SortId": 7,
+      "IsShow": 1
+    },
+    "한국어": {
+      "Key": "한국어",
+      "TitleId": "Common_Settings_Language_KO",
+      "AllLanguageCode": [
+        "KO"
+      ],
+      "SortId": 8,
+      "IsShow": 1
+    },
+    "Norsk": {
+      "Key": "Norsk",
+      "TitleId": "Common_Settings_Language_NO",
+      "AllLanguageCode": [
+        "NO"
+      ],
+      "SortId": 18,
+      "IsShow": 1
+    },
+    "Polski": {
+      "Key": "Polski",
+      "TitleId": "Common_Settings_Language_PL",
+      "AllLanguageCode": [
+        "PL"
+      ],
+      "SortId": 17,
+      "IsShow": 1
+    },
+    "Română": {
+      "Key": "Română",
+      "TitleId": "Common_Settings_Language_RO",
+      "AllLanguageCode": [
+        "RO"
+      ],
+      "SortId": 23,
+      "IsShow": 1
+    },
+    "Русский": {
+      "Key": "Русский",
+      "TitleId": "Common_Settings_Language_RU",
+      "AllLanguageCode": [
+        "RU"
+      ],
+      "SortId": 4,
+      "IsShow": 1
+    },
+    "Svenska": {
+      "Key": "Svenska",
+      "TitleId": "Common_Settings_Language_SV",
+      "AllLanguageCode": [
+        "SV"
+      ],
+      "SortId": 16,
+      "IsShow": 1
+    },
+    "ไทย": {
+      "Key": "ไทย",
+      "TitleId": "Common_Settings_Language_TH",
+      "AllLanguageCode": [
+        "TH"
+      ],
+      "SortId": 13,
+      "IsShow": 1
+    },
+    "Türkçe": {
+      "Key": "Türkçe",
+      "TitleId": "Common_Settings_Language_TR",
+      "AllLanguageCode": [
+        "TR"
+      ],
+      "SortId": 14,
+      "IsShow": 1
+    },
+    "Українська": {
+      "Key": "Українська",
+      "TitleId": "Common_Settings_Language_UK",
+      "AllLanguageCode": [
+        "UK"
+      ],
+      "SortId": 21,
+      "IsShow": 1
+    },
+    "Tiếng Việt": {
+      "Key": "Tiếng Việt",
+      "TitleId": "Common_Settings_Language_VI",
+      "AllLanguageCode": [
+        "VI"
+      ],
+      "SortId": 19,
+      "IsShow": 1
+    },
+    "हिंदी": {
+      "Key": "हिंदी",
+      "TitleId": "Common_Settings_Language_HI",
+      "AllLanguageCode": [
+        "HI"
+      ],
+      "SortId": 20,
+      "IsShow": 1
+    },
+    "Indonesia": {
+      "Key": "Indonesia",
+      "TitleId": "Common_Settings_Language_ID",
+      "AllLanguageCode": [
+        "ID"
+      ],
+      "SortId": 15,
+      "IsShow": 1
+    },
+    "Bahasa Melayu": {
+      "Key": "Bahasa Melayu",
+      "TitleId": "Common_Settings_Language_MS",
+      "AllLanguageCode": [
+        "MS"
+      ],
+      "SortId": 29,
+      "IsShow": 1
+    },
+    "עברית": {
+      "Key": "עברית",
+      "TitleId": "Common_Settings_Language_HE",
+      "AllLanguageCode": [
+        "HE"
+      ],
+      "SortId": 30,
+      "IsShow": 1
+    },
+    "Slovačina": {
+      "Key": "Slovačina",
+      "TitleId": "Common_Settings_Language_SK",
+      "AllLanguageCode": [
+        "SK"
+      ],
+      "SortId": 31,
+      "IsShow": 1
+    },
+    "Български": {
+      "Key": "Български",
+      "TitleId": "Common_Settings_Language_BG",
+      "AllLanguageCode": [
+        "BG"
+      ],
+      "SortId": 32,
+      "IsShow": 1
+    },
+    "ភាសាខ្មែរ": {
+      "Key": "ភាសាខ្មែរ",
+      "TitleId": "Common_Settings_Language_KM",
+      "AllLanguageCode": [
+        "KM"
+      ],
+      "SortId": 33,
+      "IsShow": 1
+    },
+    "Lietuvių": {
+      "Key": "Lietuvių",
+      "TitleId": "Common_Settings_Language_LT",
+      "AllLanguageCode": [
+        "LT"
+      ],
+      "SortId": 34,
+      "IsShow": 1
+    },
+    "Latviešu": {
+      "Key": "Latviešu",
+      "TitleId": "Common_Settings_Language_LV",
+      "AllLanguageCode": [
+        "LV"
+      ],
+      "SortId": 35,
+      "IsShow": 1
+    },
+    "Հայերեն": {
+      "Key": "Հայերեն",
+      "TitleId": "Common_Settings_Language_HY",
+      "AllLanguageCode": [
+        "HY"
+      ],
+      "SortId": 36,
+      "IsShow": 1
+    },
+    "Azərbaycanlı": {
+      "Key": "Azərbaycanlı",
+      "TitleId": "Common_Settings_Language_AZ",
+      "AllLanguageCode": [
+        "AZ"
+      ],
+      "SortId": 37,
+      "IsShow": 1
+    },
+    "Македонски": {
+      "Key": "Македонски",
+      "TitleId": "Common_Settings_Language_MK",
+      "AllLanguageCode": [
+        "MK"
+      ],
+      "SortId": 38,
+      "IsShow": 1
+    },
+    "Srpski": {
+      "Key": "Srpski",
+      "TitleId": "Common_Settings_Language_SR",
+      "AllLanguageCode": [
+        "SR"
+      ],
+      "SortId": 39,
+      "IsShow": 1
+    },
+    "Magyar": {
+      "Key": "Magyar",
+      "TitleId": "Common_Settings_Language_HU",
+      "AllLanguageCode": [
+        "HU"
+      ],
+      "SortId": 40,
+      "IsShow": 1
+    }
+  },
+  "TbShopConfig": {
+    "2001": {
+      "ID": 2001,
+      "get": {
+        "1003": 1
+      },
+      "cost": {
+        "1001": 300
+      }
+    },
+    "2002": {
+      "ID": 2002,
+      "get": {
+        "1002": 9999
+      },
+      "cost": {
+        "1001": 900
+      }
+    },
+    "2003": {
+      "ID": 2003,
+      "get": {},
+      "cost": {
+        "1001": 900
+      }
+    },
+    "2004": {
+      "ID": 2004,
+      "get": {
+        "10002": 1
+      },
+      "cost": {
+        "1001": 600
+      }
+    },
+    "2005": {
+      "ID": 2005,
+      "get": {
+        "10001": 1
+      },
+      "cost": {
+        "1001": 300
+      }
+    },
+    "2006": {
+      "ID": 2006,
+      "get": {
+        "10003": 1
+      },
+      "cost": {
+        "1001": 900
+      }
+    },
+    "2007": {
+      "ID": 2007,
+      "get": {
+        "10004": 1
+      },
+      "cost": {
+        "1001": 900
+      }
+    },
+    "2008": {
+      "ID": 2008,
+      "get": {
+        "10005": 1
+      },
+      "cost": {
+        "1001": 300
+      }
+    }
+  },
+  "TbStoreConfig": {
+    "7000": {
+      "ID": 7000,
+      "TabList": [
+        6002,
+        6000
+      ]
+    }
+  },
+  "TbStoreItemConfig": {
+    "5001": {
+      "ID": 5001,
+      "GPStoreId": "com.dino.sand.bus.coins_1000",
+      "IOSStoreId": "com.dino.sand.bus.coins_1000",
+      "ItemType": 3,
+      "get": [
+        [
+          1001,
+          1000
+        ]
+      ],
+      "popular": 0,
+      "price": "$1.99",
+      "coinIcon": 0,
+      "title": "",
+      "LimitedCount": 0,
+      "discount": "",
+      "duration": 0
+    },
+    "5002": {
+      "ID": 5002,
+      "GPStoreId": "com.dino.sand.bus.coins_5000",
+      "IOSStoreId": "com.dino.sand.bus.coins_5000",
+      "ItemType": 3,
+      "get": [
+        [
+          1001,
+          5000
+        ]
+      ],
+      "popular": 0,
+      "price": "$7.99",
+      "coinIcon": 0,
+      "title": "",
+      "LimitedCount": 0,
+      "discount": "",
+      "duration": 0
+    },
+    "5003": {
+      "ID": 5003,
+      "GPStoreId": "com.dino.sand.bus.coins_10000",
+      "IOSStoreId": "com.dino.sand.bus.coins_10000",
+      "ItemType": 3,
+      "get": [
+        [
+          1001,
+          10000
+        ]
+      ],
+      "popular": 0,
+      "price": "$14.99",
+      "coinIcon": 0,
+      "title": "",
+      "LimitedCount": 0,
+      "discount": "",
+      "duration": 0
+    },
+    "5004": {
+      "ID": 5004,
+      "GPStoreId": "com.dino.sand.bus.coins_25000",
+      "IOSStoreId": "com.dino.sand.bus.coins_25000",
+      "ItemType": 3,
+      "get": [
+        [
+          1001,
+          25000
+        ]
+      ],
+      "popular": 0,
+      "price": "$29.99",
+      "coinIcon": 0,
+      "title": "",
+      "LimitedCount": 0,
+      "discount": "",
+      "duration": 0
+    },
+    "5005": {
+      "ID": 5005,
+      "GPStoreId": "com.dino.sand.bus.coins_50000",
+      "IOSStoreId": "com.dino.sand.bus.coins_50000",
+      "ItemType": 3,
+      "get": [
+        [
+          1001,
+          50000
+        ]
+      ],
+      "popular": 0,
+      "price": "$54.99",
+      "coinIcon": 0,
+      "title": "",
+      "LimitedCount": 0,
+      "discount": "",
+      "duration": 0
+    },
+    "5006": {
+      "ID": 5006,
+      "GPStoreId": "com.dino.sand.bus.coins_100000",
+      "IOSStoreId": "com.dino.sand.bus.coins_100000",
+      "ItemType": 3,
+      "get": [
+        [
+          1001,
+          100000
+        ]
+      ],
+      "popular": 0,
+      "price": "$99.99",
+      "coinIcon": 0,
+      "title": "",
+      "LimitedCount": 0,
+      "discount": "",
+      "duration": 0
+    },
+    "9001": {
+      "ID": 9001,
+      "GPStoreId": "com.dino.sand.bus.no_ads",
+      "IOSStoreId": "com.dino.sand.bus.no_ads",
+      "ItemType": 9,
+      "get": [],
+      "popular": 0,
+      "price": "$7.99",
+      "coinIcon": 0,
+      "title": "",
+      "LimitedCount": 1,
+      "discount": "",
+      "duration": 0
+    },
+    "9002": {
+      "ID": 9002,
+      "GPStoreId": "com.dino.sand.bus.starter_pack",
+      "IOSStoreId": "com.dino.sand.bus.starter_pack",
+      "ItemType": 5,
+      "get": [
+        [
+          1001,
+          1000
+        ],
+        [
+          10005,
+          1
+        ],
+        [
+          10002,
+          1
+        ],
+        [
+          10003,
+          1
+        ],
+        [
+          10004,
+          1
+        ]
+      ],
+      "popular": 0,
+      "price": "$1.99",
+      "coinIcon": 0,
+      "title": "UI_Starter_Title",
+      "LimitedCount": 1,
+      "discount": "70",
+      "duration": 0
+    },
+    "4004": {
+      "ID": 4004,
+      "GPStoreId": "com.dino.sand.bus.passport",
+      "IOSStoreId": "com.dino.sand.bus.passport",
+      "ItemType": 4,
+      "get": [],
+      "popular": 0,
+      "price": "$9.99",
+      "coinIcon": 0,
+      "title": "UI_VaultPass_Title",
+      "LimitedCount": 0,
+      "discount": "",
+      "duration": 0
+    },
+    "2001": {
+      "ID": 2001,
+      "GPStoreId": "com.dino.sand.bus.gift_pack",
+      "IOSStoreId": "com.dino.sand.bus.gift_pack",
+      "ItemType": 5,
+      "get": [
+        [
+          1001,
+          1500
+        ],
+        [
+          10002,
+          2
+        ],
+        [
+          10003,
+          2
+        ]
+      ],
+      "popular": 0,
+      "price": "$2.99",
+      "coinIcon": 0,
+      "title": "",
+      "LimitedCount": 0,
+      "discount": "67",
+      "duration": 0
+    },
+    "4002": {
+      "ID": 4002,
+      "GPStoreId": "com.dino.sand.bus.golden_coin",
+      "IOSStoreId": "com.dino.sand.bus.golden_coin",
+      "ItemType": 7,
+      "get": [],
+      "popular": 0,
+      "price": "$0.99",
+      "coinIcon": 0,
+      "title": "",
+      "LimitedCount": 0,
+      "discount": "84",
+      "duration": 0
+    },
+    "4201": {
+      "ID": 4201,
+      "GPStoreId": "com.dino.sand.bus.combo_small",
+      "IOSStoreId": "com.dino.sand.bus.combo_small",
+      "ItemType": 10,
+      "get": [
+        [
+          1001,
+          1500
+        ],
+        [
+          10003,
+          1
+        ]
+      ],
+      "popular": 0,
+      "price": "$2.99",
+      "coinIcon": 0,
+      "title": "",
+      "LimitedCount": 0,
+      "discount": "",
+      "duration": 0
+    },
+    "4202": {
+      "ID": 4202,
+      "GPStoreId": "com.dino.sand.bus.combo_medium",
+      "IOSStoreId": "com.dino.sand.bus.combo_medium",
+      "ItemType": 10,
+      "get": [
+        [
+          1001,
+          2500
+        ],
+        [
+          10002,
+          1
+        ],
+        [
+          10004,
+          1
+        ]
+      ],
+      "popular": 0,
+      "price": "$4.99",
+      "coinIcon": 0,
+      "title": "",
+      "LimitedCount": 0,
+      "discount": "",
+      "duration": 0
+    },
+    "4203": {
+      "ID": 4203,
+      "GPStoreId": "com.dino.sand.bus.combo_large",
+      "IOSStoreId": "com.dino.sand.bus.combo_large",
+      "ItemType": 10,
+      "get": [
+        [
+          1001,
+          4000
+        ],
+        [
+          10002,
+          2
+        ],
+        [
+          10003,
+          2
+        ],
+        [
+          10004,
+          2
+        ]
+      ],
+      "popular": 0,
+      "price": "$9.99",
+      "coinIcon": 0,
+      "title": "",
+      "LimitedCount": 0,
+      "discount": "",
+      "duration": 0
+    },
+    "4204": {
+      "ID": 4204,
+      "GPStoreId": "com.dino.sand.bus.combo_all",
+      "IOSStoreId": "com.dino.sand.bus.combo_all",
+      "ItemType": 10,
+      "get": [
+        [
+          1001,
+          8000
+        ],
+        [
+          10002,
+          3
+        ],
+        [
+          10003,
+          3
+        ],
+        [
+          10004,
+          3
+        ]
+      ],
+      "popular": 0,
+      "price": "$13.99",
+      "coinIcon": 0,
+      "title": "",
+      "LimitedCount": 0,
+      "discount": "22",
+      "duration": 0
+    },
+    "4301": {
+      "ID": 4301,
+      "GPStoreId": "com.dino.sand.bus.play_on",
+      "IOSStoreId": "com.dino.sand.bus.play_on",
+      "ItemType": 10,
+      "get": [
+        [
+          1001,
+          2700
+        ],
+        [
+          10005,
+          1
+        ],
+        [
+          10004,
+          1
+        ],
+        [
+          10003,
+          1
+        ],
+        [
+          10002,
+          1
+        ]
+      ],
+      "popular": 0,
+      "price": "$5.99",
+      "coinIcon": 0,
+      "title": "UI_PlayOn_Offer",
+      "LimitedCount": 0,
+      "discount": "",
+      "duration": 0
+    },
+    "9003": {
+      "ID": 9003,
+      "GPStoreId": "com.dino.sand.bus.no_ads_bundle",
+      "IOSStoreId": "com.dino.sand.bus.no_ads_bundle",
+      "ItemType": 9,
+      "get": [
+        [
+          1001,
+          2000
+        ],
+        [
+          10005,
+          1
+        ],
+        [
+          10002,
+          1
+        ],
+        [
+          10003,
+          1
+        ],
+        [
+          10004,
+          1
+        ]
+      ],
+      "popular": 0,
+      "price": "$11.99",
+      "coinIcon": 0,
+      "title": "UI_NoAdsBundle_Title",
+      "LimitedCount": 1,
+      "discount": "",
+      "duration": 0
+    }
+  },
+  "TbStoreTabConfig": {
+    "6000": {
+      "ID": 6000,
+      "TabType": 3,
+      "ItemList": [
+        5001,
+        5002,
+        5003,
+        5004,
+        5005,
+        5006
+      ],
+      "Title": "UI_shop_coins"
+    },
+    "6002": {
+      "ID": 6002,
+      "TabType": 1,
+      "ItemList": [
+        4004,
+        4002
+      ],
+      "Title": "UI_shop_pass"
+    }
+  },
+  "TbStreakRate": {
+    "3000": {
+      "ID": 3000,
+      "NeedScoreList": [
+        20,
+        20,
+        25,
+        30,
+        40,
+        20,
+        25,
+        30,
+        40,
+        50,
+        30,
+        40,
+        50,
+        60,
+        80,
+        50,
+        60,
+        70,
+        80,
+        100
+      ],
+      "RewardList": [
+        1021,
+        1022,
+        1023,
+        1024,
+        1025,
+        1026,
+        1027,
+        1028,
+        1029,
+        1030,
+        1031,
+        1032,
+        1033,
+        1034,
+        1035,
+        1036,
+        1037,
+        1038,
+        1039,
+        1040
+      ],
+      "RateGroup": 1
+    },
+    "3001": {
+      "ID": 3001,
+      "NeedScoreList": [
+        20,
+        20,
+        25,
+        30,
+        40,
+        20,
+        25,
+        30,
+        40,
+        50,
+        30,
+        40,
+        50,
+        60,
+        80,
+        50,
+        60,
+        70,
+        80,
+        100
+      ],
+      "RewardList": [
+        1021,
+        1022,
+        1023,
+        1024,
+        1025,
+        1026,
+        1027,
+        1028,
+        1029,
+        1030,
+        1031,
+        1032,
+        1033,
+        1034,
+        1035,
+        1036,
+        1037,
+        1038,
+        1039,
+        1040
+      ],
+      "RateGroup": 1
+    }
+  },
+  "TbSystemOpenConfig": {
+    "2": {
+      "ID": 2,
+      "NeedShowGuide": 1,
+      "GuidType": 1,
+      "ArrowMirror": 0,
+      "condition_level": 35,
+      "NextNeedWinTimes": 4,
+      "condition_day": 0
+    },
+    "3": {
+      "ID": 3,
+      "NeedShowGuide": 1,
+      "GuidType": 2,
+      "ArrowMirror": 0,
+      "condition_level": 20,
+      "NextNeedWinTimes": 4,
+      "condition_day": 0
+    },
+    "4": {
+      "ID": 4,
+      "NeedShowGuide": 1,
+      "GuidType": 1,
+      "ArrowMirror": 0,
+      "condition_level": 30,
+      "NextNeedWinTimes": 4,
+      "condition_day": 0
+    },
+    "5": {
+      "ID": 5,
+      "NeedShowGuide": 1,
+      "GuidType": 1,
+      "ArrowMirror": 0,
+      "condition_level": 35,
+      "NextNeedWinTimes": 4,
+      "condition_day": 0
+    },
+    "6": {
+      "ID": 6,
+      "NeedShowGuide": 1,
+      "GuidType": 1,
+      "ArrowMirror": 1,
+      "condition_level": 48,
+      "NextNeedWinTimes": 0,
+      "condition_day": 0
+    },
+    "7": {
+      "ID": 7,
+      "NeedShowGuide": 1,
+      "GuidType": 2,
+      "ArrowMirror": 0,
+      "condition_level": 0,
+      "NextNeedWinTimes": 0,
+      "condition_day": 0
+    },
+    "9": {
+      "ID": 9,
+      "NeedShowGuide": 1,
+      "GuidType": 2,
+      "ArrowMirror": 0,
+      "condition_level": 0,
+      "NextNeedWinTimes": 0,
+      "condition_day": 0
+    },
+    "10": {
+      "ID": 10,
+      "NeedShowGuide": 0,
+      "GuidType": 0,
+      "ArrowMirror": 0,
+      "condition_level": 8,
+      "NextNeedWinTimes": 0,
+      "condition_day": 1
+    },
+    "11": {
+      "ID": 11,
+      "NeedShowGuide": 1,
+      "GuidType": 2,
+      "ArrowMirror": 0,
+      "condition_level": 30,
+      "NextNeedWinTimes": 0,
+      "condition_day": 0
+    }
+  },
+  "TbWinStreak": {
+    "Config": {
+      "ID": "Config",
+      "enabled": 1,
+      "unlockLevel": 15,
+      "cycleDays": 7,
+      "anchor": 1791763200,
+      "killIsLoss": 1
+    },
+    "CP1": {
+      "ID": "CP1",
+      "floor": 2,
+      "chest": 1,
+      "get": [
+        [
+          1001,
+          50
+        ]
+      ]
+    },
+    "CP2": {
+      "ID": "CP2",
+      "floor": 4,
+      "chest": 1,
+      "get": [
+        [
+          10005,
+          1
+        ]
+      ]
+    },
+    "CP3": {
+      "ID": "CP3",
+      "floor": 8,
+      "chest": 2,
+      "get": [
+        [
+          10003,
+          1
+        ]
+      ]
+    },
+    "CP4": {
+      "ID": "CP4",
+      "floor": 12,
+      "chest": 3,
+      "get": [
+        [
+          1001,
+          100
+        ]
+      ]
+    },
+    "CP5": {
+      "ID": "CP5",
+      "floor": 18,
+      "chest": 4,
+      "get": [
+        [
+          10002,
+          1
+        ]
+      ]
+    },
+    "CP6": {
+      "ID": "CP6",
+      "floor": 24,
+      "chest": 5,
+      "get": [
+        [
+          10004,
+          1
+        ],
+        [
+          1001,
+          100
+        ]
+      ]
+    },
+    "CP7": {
+      "ID": "CP7",
+      "floor": 30,
+      "chest": 5,
+      "get": [
+        [
+          10002,
+          1
+        ],
+        [
+          10005,
+          1
+        ]
+      ]
+    },
+    "CP8": {
+      "ID": "CP8",
+      "floor": 38,
+      "chest": 6,
+      "get": [
+        [
+          1001,
+          300
+        ]
+      ]
+    },
+    "CP9": {
+      "ID": "CP9",
+      "floor": 48,
+      "chest": 6,
+      "get": [
+        [
+          10003,
+          1
+        ],
+        [
+          10004,
+          1
+        ]
+      ]
+    },
+    "CP10": {
+      "ID": "CP10",
+      "floor": 60,
+      "chest": 7,
+      "get": [
+        [
+          1001,
+          1000
+        ],
+        [
+          10005,
+          1
+        ],
+        [
+          10002,
+          1
+        ],
+        [
+          10003,
+          1
+        ],
+        [
+          10004,
+          1
+        ]
+      ]
+    }
+  },
+  "TbYachtRacing": {
+    "1": {
+      "Id": 1,
+      "ActivityId": 5001,
+      "StageList": [
+        {
+          "Stage": 1,
+          "Reward": 1046,
+          "FailedLimitTimes": 20,
+          "FailedCoolTime": 1800,
+          "FailedCoolLevelCount": 5
+        },
+        {
+          "Stage": 2,
+          "Reward": 1047,
+          "FailedLimitTimes": 20,
+          "FailedCoolTime": 1800,
+          "FailedCoolLevelCount": 5
+        },
+        {
+          "Stage": 3,
+          "Reward": 1048,
+          "FailedLimitTimes": 20,
+          "FailedCoolTime": 1800,
+          "FailedCoolLevelCount": 5
+        }
+      ],
+      "FirstParticipationReward": 1001,
+      "RoundCount": 1,
+      "NewRoundNeedLevelTimes": 0,
+      "MatchBotRefreshTime": 10,
+      "MatchBotRefreshLevels": 1
+    }
+  }
+}

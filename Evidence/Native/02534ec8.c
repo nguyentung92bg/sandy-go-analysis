@@ -1,0 +1,109 @@
+/* IL2CPP: Dino.BusSand.Sdk.SandBusAdsRemoteConfig$$Install
+void Dino_BusSand_Sdk_SandBusAdsRemoteConfig__Install (const MethodInfo* method);
+Native pseudo-C; inferred types require review. */
+
+
+/* IL2CPP: Dino.BusSand.Sdk.SandBusAdsRemoteConfig$$Install
+   void Dino_BusSand_Sdk_SandBusAdsRemoteConfig__Install (const MethodInfo* method); */
+
+void Dino_BusSand_Sdk_SandBusAdsRemoteConfig__Install_2434ec8(void)
+
+{
+  undefined *puVar1;
+  undefined *puVar2;
+  long lVar3;
+  long lVar4;
+  undefined8 uVar5;
+  long *plVar6;
+  undefined8 *puVar7;
+  ulong uVar8;
+  int *piVar9;
+  long *plVar10;
+  long *plVar11;
+  long lVar12;
+  undefined1 auStack_44 [4];
+  
+  puVar2 = PTR_DAT_04cbf228;
+  puVar1 = PTR_DAT_04cbf200;
+  if ((bRam0000000004f9cc40 & 1) == 0) {
+    FUN_02132f7c(PTR_DAT_04caa458);
+    FUN_02132f7c(PTR_DAT_04cbf230);
+    FUN_02132f7c(PTR_DAT_04cacfd8);
+    FUN_02132f7c(PTR_DAT_04cbf238);
+    FUN_02132f7c(PTR_DAT_04cbf240);
+    FUN_02132f7c(PTR_DAT_04cbf248);
+    FUN_02132f7c(PTR_DAT_04cbf200);
+    FUN_02132f7c(PTR_DAT_04cbf250);
+    FUN_02132f7c(PTR_DAT_04cbf228);
+    bRam0000000004f9cc40 = 1;
+  }
+  auStack_44[0] = 0;
+  lVar3 = thunk_FUN_0216e89c(*(undefined8 *)puVar2);
+  System_Object___ctor_4870e5c(lVar3,0);
+  if (**(long **)(*(long *)puVar1 + 0xb8) != 0) {
+    return;
+  }
+  lVar4 = thunk_FUN_0216e89c();
+  Dino_BusSand_Sdk_SandBusAdsRemoteConfig___ctor_243514c();
+  **(long **)(*(long *)puVar1 + 0xb8) = lVar4;
+  thunk_FUN_02134474(*(undefined8 *)(*(long *)puVar1 + 0xb8),lVar4);
+  if (lVar3 != 0) {
+    plVar10 = (long *)(lVar3 + 0x10);
+    *plVar10 = lVar4;
+    thunk_FUN_02134474(plVar10,lVar4);
+    Dino_BusSand_Sdk_SandBusAdsRemoteConfig__DropStaleCache_2435194();
+    puVar1 = PTR_DAT_04caa458;
+    lVar4 = *plVar10;
+    if (lVar4 != 0) {
+      plVar11 = (long *)(lVar4 + 0x38);
+      lVar12 = *plVar11;
+      uVar5 = thunk_FUN_0216e89c(*(undefined8 *)PTR_DAT_04caa458);
+      System_Action___ctor_47b5ed0(uVar5,lVar4,*(undefined8 *)PTR_DAT_04cbf248,0);
+      plVar6 = (long *)System_Delegate__Combine_4872324(lVar12,uVar5,0);
+      if ((plVar6 != (long *)0x0) && (*plVar6 != *(long *)puVar1)) {
+                    /* WARNING: Subroutine does not return */
+        FUN_021335a4(plVar6);
+      }
+      *plVar11 = (long)plVar6;
+      thunk_FUN_02134474(plVar11,plVar6);
+      uVar5 = thunk_FUN_0216e89c(*(undefined8 *)puVar1);
+      System_Action___ctor_47b5ed0(uVar5,lVar3,*(undefined8 *)PTR_DAT_04cbf250,0);
+      puVar1 = PTR_DAT_04cacfd8;
+      lVar3 = *(long *)PTR_DAT_04cacfd8;
+      if (*(int *)(lVar3 + 0xe4) == 0) {
+        thunk_FUN_0218fdac();
+        lVar3 = *(long *)puVar1;
+      }
+      puVar7 = (undefined8 *)(*(long *)(lVar3 + 0xb8) + 0x50);
+      *puVar7 = uVar5;
+      thunk_FUN_02134474(puVar7,uVar5);
+      plVar6 = (long *)*plVar10;
+      if (plVar6 != (long *)0x0) {
+        lVar3 = *plVar6;
+        uVar8 = (ulong)*(ushort *)(lVar3 + 0x12e);
+        if (uVar8 != 0) {
+          piVar9 = (int *)(*(long *)(lVar3 + 0xb0) + 8);
+          do {
+            if (*(long *)(piVar9 + -2) == *(long *)PTR_DAT_04cbf230) {
+              puVar7 = (undefined8 *)(lVar3 + (long)*piVar9 * 0x10 + 0x138);
+              goto LAB_025350f8;
+            }
+            uVar8 = uVar8 - 1;
+            piVar9 = piVar9 + 4;
+          } while (uVar8 != 0);
+        }
+        puVar7 = (undefined8 *)FUN_0216b7a4(plVar6,*(long *)PTR_DAT_04cbf230,0);
+LAB_025350f8:
+        (*(code *)*puVar7)(plVar6,puVar7[1]);
+        if (*plVar10 != 0) {
+          auStack_44[0] = Dino_BusSand_Sdk_SandBusAdsRemoteConfig__Schedule_2435330();
+          Cysharp_Threading_Tasks_UniTaskVoid__Forget_4078d30(auStack_44,0);
+          return;
+        }
+      }
+    }
+  }
+                    /* WARNING: Subroutine does not return */
+  FUN_02133224();
+}
+

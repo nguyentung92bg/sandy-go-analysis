@@ -1,0 +1,17 @@
+{
+  "1": {
+    "ID": 1,
+    "Stage1W1": 80,
+    "Stage1W2": 5,
+    "Stage1W3": 15,
+    "Stage1W4": 0,
+    "Stage2k": 1.0,
+    "StageThresholdBase": 500,
+    "StageThresholdBase2": 0.05,
+    "StageThresholdStageMultiplier": 1.0,
+    "CompetingRobotMinCount": 1,
+    "CompetingRobotMaxCount": 2,
+    "CompetingRobotDistanceMin": -3,
+    "CompetingRobotDistanceMax": -1
+  }
+}

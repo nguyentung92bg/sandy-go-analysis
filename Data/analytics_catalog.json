@@ -1,0 +1,8085 @@
+{
+  "scope": "Resolved literal event-name arguments at TrackingPlan.Record / Analytics.Log; Req/Opt keys are method-level, not guaranteed full runtime payloads.",
+  "records": [
+    {
+      "method": "Dino.BusSand.App.GameApp$$OnPlayState",
+      "file": "Evidence/Native/02265fe0.c",
+      "events": [
+        "g_game_died",
+        "g_game_end"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cac5f8",
+          "value": "items_used"
+        },
+        {
+          "pointer": "04cac600",
+          "value": "pre_items"
+        },
+        {
+          "pointer": "04cac608",
+          "value": "UIGameFailed"
+        },
+        {
+          "pointer": "04cac610",
+          "value": "bus_parked"
+        },
+        {
+          "pointer": "04cabb50",
+          "value": "taps"
+        },
+        {
+          "pointer": "04cac618",
+          "value": "fail_type"
+        },
+        {
+          "pointer": "04cac620",
+          "value": "sand_left_pct"
+        },
+        {
+          "pointer": "04cac628",
+          "value": "Game_Fail_Yard"
+        },
+        {
+          "pointer": "04cac630",
+          "value": "g_game_died"
+        },
+        {
+          "pointer": "04cac638",
+          "value": "none_left"
+        },
+        {
+          "pointer": "04cac640",
+          "value": "yard_deadlock"
+        },
+        {
+          "pointer": "04cabc80",
+          "value": "progress"
+        },
+        {
+          "pointer": "04cac648",
+          "value": "game_time"
+        },
+        {
+          "pointer": "04cac650",
+          "value": "revive"
+        },
+        {
+          "pointer": "04cac688",
+          "value": "UIGameLevelEnter"
+        },
+        {
+          "pointer": "04cac690",
+          "value": "result"
+        },
+        {
+          "pointer": "04cac698",
+          "value": "g_game_end"
+        },
+        {
+          "pointer": "04cac6a0",
+          "value": "lose"
+        },
+        {
+          "pointer": "04cabaa0",
+          "value": "fail"
+        },
+        {
+          "pointer": "04cac6a8",
+          "value": "失败"
+        },
+        {
+          "pointer": "04ca9ce8",
+          "value": "status"
+        },
+        {
+          "pointer": "04cf78c8",
+          "value": "routine is null"
+        },
+        {
+          "pointer": "04cf78b0",
+          "value": "Coroutines can only be stopped on a MonoBehaviour"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.GameApp$$OnFailed",
+      "file": "Evidence/Native/02266ae0.c",
+      "events": [
+        "g_game_end"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cac5f8",
+          "value": "items_used"
+        },
+        {
+          "pointer": "04cac600",
+          "value": "pre_items"
+        },
+        {
+          "pointer": "04cac610",
+          "value": "bus_parked"
+        },
+        {
+          "pointer": "04cac688",
+          "value": "UIGameLevelEnter"
+        },
+        {
+          "pointer": "04cabb50",
+          "value": "taps"
+        },
+        {
+          "pointer": "04cac690",
+          "value": "result"
+        },
+        {
+          "pointer": "04cac698",
+          "value": "g_game_end"
+        },
+        {
+          "pointer": "04cac618",
+          "value": "fail_type"
+        },
+        {
+          "pointer": "04cac620",
+          "value": "sand_left_pct"
+        },
+        {
+          "pointer": "04cac6a0",
+          "value": "lose"
+        },
+        {
+          "pointer": "04cabaa0",
+          "value": "fail"
+        },
+        {
+          "pointer": "04cac6a8",
+          "value": "失败"
+        },
+        {
+          "pointer": "04cabc80",
+          "value": "progress"
+        },
+        {
+          "pointer": "04cac648",
+          "value": "game_time"
+        },
+        {
+          "pointer": "04cac650",
+          "value": "revive"
+        },
+        {
+          "pointer": "04ca9ce8",
+          "value": "status"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.GameApp$$CompleteRevive",
+      "file": "Evidence/Native/022681b0.c",
+      "events": [
+        "g_game_revive_use"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cac768",
+          "value": "item_id"
+        },
+        {
+          "pointer": "04cac770",
+          "value": "bgm_level"
+        },
+        {
+          "pointer": "04cac778",
+          "value": "g_game_revive_use"
+        },
+        {
+          "pointer": "04cac780",
+          "value": "number"
+        },
+        {
+          "pointer": "04cac788",
+          "value": "offer"
+        },
+        {
+          "pointer": "04cac790",
+          "value": "ad"
+        },
+        {
+          "pointer": "04cac798",
+          "value": "1001"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.GameApp$$ReviveWithAd",
+      "file": "Evidence/Native/02268530.c",
+      "events": [
+        "g_ad_visit"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cac740",
+          "value": "Revive"
+        },
+        {
+          "pointer": "04cacab0",
+          "value": "session_time"
+        },
+        {
+          "pointer": "04cacab8",
+          "value": " open"
+        },
+        {
+          "pointer": "04cad0a8",
+          "value": "rewarded "
+        },
+        {
+          "pointer": "04cacad0",
+          "value": "g_ad_visit"
+        },
+        {
+          "pointer": "04cabba0",
+          "value": "play"
+        },
+        {
+          "pointer": "04cad0b0",
+          "value": "reward"
+        },
+        {
+          "pointer": "04cad0b8",
+          "value": "[Ads] rewarded "
+        },
+        {
+          "pointer": "04cacae8",
+          "value": "ad_visit_action"
+        },
+        {
+          "pointer": "04cacaf0",
+          "value": "ad_is_ready"
+        },
+        {
+          "pointer": "04cacaf8",
+          "value": "ad_visit_scene"
+        },
+        {
+          "pointer": "04cac790",
+          "value": "ad"
+        },
+        {
+          "pointer": "04caa858",
+          "value": "ad_type"
+        },
+        {
+          "pointer": "04cad0c0",
+          "value": " ignored: another rewarded request is still open"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.GameApp$$ReviveWithOffer",
+      "file": "Evidence/Native/022686bc.c",
+      "events": [
+        "g_game_revive_use"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cac7d8",
+          "value": "UIRewards2D"
+        },
+        {
+          "pointer": "04cac788",
+          "value": "offer"
+        },
+        {
+          "pointer": "04cac768",
+          "value": "item_id"
+        },
+        {
+          "pointer": "04cac770",
+          "value": "bgm_level"
+        },
+        {
+          "pointer": "04cac778",
+          "value": "g_game_revive_use"
+        },
+        {
+          "pointer": "04cac780",
+          "value": "number"
+        },
+        {
+          "pointer": "04cac790",
+          "value": "ad"
+        },
+        {
+          "pointer": "04cac798",
+          "value": "1001"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.GameApp$$ReviveFromActivity",
+      "file": "Evidence/Native/02268b58.c",
+      "events": [
+        "g_game_revive_use"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cac768",
+          "value": "item_id"
+        },
+        {
+          "pointer": "04cac770",
+          "value": "bgm_level"
+        },
+        {
+          "pointer": "04cac778",
+          "value": "g_game_revive_use"
+        },
+        {
+          "pointer": "04cac780",
+          "value": "number"
+        },
+        {
+          "pointer": "04cac798",
+          "value": "1001"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.GameApp$$QuitClosed",
+      "file": "Evidence/Native/02268f40.c",
+      "events": [
+        "g_game_end"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cac828",
+          "value": "quit_fail"
+        },
+        {
+          "pointer": "04cac5f8",
+          "value": "items_used"
+        },
+        {
+          "pointer": "04cac600",
+          "value": "pre_items"
+        },
+        {
+          "pointer": "04cac610",
+          "value": "bus_parked"
+        },
+        {
+          "pointer": "04cabb50",
+          "value": "taps"
+        },
+        {
+          "pointer": "04cac690",
+          "value": "result"
+        },
+        {
+          "pointer": "04cac698",
+          "value": "g_game_end"
+        },
+        {
+          "pointer": "04cac618",
+          "value": "fail_type"
+        },
+        {
+          "pointer": "04cac620",
+          "value": "sand_left_pct"
+        },
+        {
+          "pointer": "04cac830",
+          "value": "reset"
+        },
+        {
+          "pointer": "04cac838",
+          "value": "quit"
+        },
+        {
+          "pointer": "04cac6a8",
+          "value": "失败"
+        },
+        {
+          "pointer": "04cabc80",
+          "value": "progress"
+        },
+        {
+          "pointer": "04cac648",
+          "value": "game_time"
+        },
+        {
+          "pointer": "04cac650",
+          "value": "revive"
+        },
+        {
+          "pointer": "04ca9ce8",
+          "value": "status"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.GameApp$$<ReviveWithOffer>b__108_0",
+      "file": "Evidence/Native/0226a2f8.c",
+      "events": [
+        "g_game_revive_use"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cac788",
+          "value": "offer"
+        },
+        {
+          "pointer": "04cac768",
+          "value": "item_id"
+        },
+        {
+          "pointer": "04cac770",
+          "value": "bgm_level"
+        },
+        {
+          "pointer": "04cac778",
+          "value": "g_game_revive_use"
+        },
+        {
+          "pointer": "04cac780",
+          "value": "number"
+        },
+        {
+          "pointer": "04cac790",
+          "value": "ad"
+        },
+        {
+          "pointer": "04cac798",
+          "value": "1001"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.GameApp.<>c__DisplayClass106_0$$<ReviveWithAd>b__0",
+      "file": "Evidence/Native/0226a9b4.c",
+      "events": [
+        "g_ad_visit"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cac790",
+          "value": "ad"
+        },
+        {
+          "pointer": "04cac740",
+          "value": "Revive"
+        },
+        {
+          "pointer": "04cacab0",
+          "value": "session_time"
+        },
+        {
+          "pointer": "04cacab8",
+          "value": " open"
+        },
+        {
+          "pointer": "04cad0a8",
+          "value": "rewarded "
+        },
+        {
+          "pointer": "04cacad0",
+          "value": "g_ad_visit"
+        },
+        {
+          "pointer": "04cabba0",
+          "value": "play"
+        },
+        {
+          "pointer": "04cad0b0",
+          "value": "reward"
+        },
+        {
+          "pointer": "04cad0b8",
+          "value": "[Ads] rewarded "
+        },
+        {
+          "pointer": "04cacae8",
+          "value": "ad_visit_action"
+        },
+        {
+          "pointer": "04cacaf0",
+          "value": "ad_is_ready"
+        },
+        {
+          "pointer": "04cacaf8",
+          "value": "ad_visit_scene"
+        },
+        {
+          "pointer": "04caa858",
+          "value": "ad_type"
+        },
+        {
+          "pointer": "04cad0c0",
+          "value": " ignored: another rewarded request is still open"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.GameApp.<Boot>d__84$$MoveNext",
+      "file": "Evidence/Native/0226b654.c",
+      "events": [
+        "boot_stalled",
+        "app_start"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cac948",
+          "value": "BootStalled: the previous boot stopped at "
+        },
+        {
+          "pointer": "04cac718",
+          "value": "home"
+        },
+        {
+          "pointer": "04cac950",
+          "value": "UIGame"
+        },
+        {
+          "pointer": "04cac958",
+          "value": "UISetting"
+        },
+        {
+          "pointer": "04cac608",
+          "value": "UIGameFailed"
+        },
+        {
+          "pointer": "04cac960",
+          "value": "event_stake"
+        },
+        {
+          "pointer": "04cac968",
+          "value": "app_start"
+        },
+        {
+          "pointer": "04cac688",
+          "value": "UIGameLevelEnter"
+        },
+        {
+          "pointer": "04cac970",
+          "value": "meta"
+        },
+        {
+          "pointer": "04cac978",
+          "value": "update_check"
+        },
+        {
+          "pointer": "04cac980",
+          "value": "loader_drawn"
+        },
+        {
+          "pointer": "04cac988",
+          "value": "welcome_back"
+        },
+        {
+          "pointer": "04cac990",
+          "value": "skin"
+        },
+        {
+          "pointer": "04cac760",
+          "value": "UIStorePanel"
+        },
+        {
+          "pointer": "04cac998",
+          "value": "first"
+        },
+        {
+          "pointer": "04cac9a0",
+          "value": "segments"
+        },
+        {
+          "pointer": "04cac9a8",
+          "value": "boot_stalled"
+        },
+        {
+          "pointer": "04cabc00",
+          "value": "level"
+        },
+        {
+          "pointer": "04cac530",
+          "value": "UIPause2D"
+        },
+        {
+          "pointer": "04cac9b0",
+          "value": "UIGameWinPanel_GP3"
+        },
+        {
+          "pointer": "04cac9b8",
+          "value": "step"
+        },
+        {
+          "pointer": "04cac9c0",
+          "value": "liveops"
+        },
+        {
+          "pointer": "04cac9c8",
+          "value": "content"
+        },
+        {
+          "pointer": "04cab280",
+          "value": "loader"
+        },
+        {
+          "pointer": "04cac4d0",
+          "value": "ui"
+        },
+        {
+          "pointer": "04cac9d0",
+          "value": "first_screen"
+        },
+        {
+          "pointer": "04cac9d8",
+          "value": "privacy"
+        },
+        {
+          "pointer": "04cac738",
+          "value": "UIHome2D"
+        },
+        {
+          "pointer": "04cac9e0",
+          "value": "done"
+        },
+        {
+          "pointer": "04cac9e8",
+          "value": "force_update"
+        },
+        {
+          "pointer": "04cac9f0",
+          "value": "loader_close"
+        },
+        {
+          "pointer": "04caba20",
+          "value": "boot"
+        },
+        {
+          "pointer": "04cac9f8",
+          "value": "kit:"
+        },
+        {
+          "pointer": "04cac598",
+          "value": "UIForceUpdate2D"
+        },
+        {
+          "pointer": "04caca00",
+          "value": "cold_start"
+        },
+        {
+          "pointer": "04caca08",
+          "value": "tracking"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.GameApp.<ChallengeWin>d__98$$MoveNext",
+      "file": "Evidence/Native/0226dcf8.c",
+      "events": [
+        "daily_challenge_win"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cac7d8",
+          "value": "UIRewards2D"
+        },
+        {
+          "pointer": "04cabc00",
+          "value": "level"
+        },
+        {
+          "pointer": "04caca90",
+          "value": "daily_challenge_win"
+        },
+        {
+          "pointer": "04caca98",
+          "value": "WinDecorate"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.Ads$$ShowInterstitialIfAllowed",
+      "file": "Evidence/Native/0226e370.c",
+      "events": [
+        "g_ad_visit"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cacab0",
+          "value": "session_time"
+        },
+        {
+          "pointer": "04cacab8",
+          "value": " open"
+        },
+        {
+          "pointer": "04cab270",
+          "value": " "
+        },
+        {
+          "pointer": "04cacac0",
+          "value": "[Ads] inter "
+        },
+        {
+          "pointer": "04cacac8",
+          "value": "allowed"
+        },
+        {
+          "pointer": "04cacad0",
+          "value": "g_ad_visit"
+        },
+        {
+          "pointer": "04cacad8",
+          "value": "inter "
+        },
+        {
+          "pointer": "04cabba0",
+          "value": "play"
+        },
+        {
+          "pointer": "04cabba8",
+          "value": "blocked"
+        },
+        {
+          "pointer": "04cacae0",
+          "value": "inter"
+        },
+        {
+          "pointer": "04cacae8",
+          "value": "ad_visit_action"
+        },
+        {
+          "pointer": "04cacaf0",
+          "value": "ad_is_ready"
+        },
+        {
+          "pointer": "04cacaf8",
+          "value": "ad_visit_scene"
+        },
+        {
+          "pointer": "04cac790",
+          "value": "ad"
+        },
+        {
+          "pointer": "04caa858",
+          "value": "ad_type"
+        },
+        {
+          "pointer": "04cacb00",
+          "value": " blocked: "
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.GameApp.<EnterLevelRoutine>d__94$$MoveNext",
+      "file": "Evidence/Native/0226ecd4.c",
+      "events": [
+        "g_game_open",
+        "g_game_start"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cacb40",
+          "value": "g_game_start"
+        },
+        {
+          "pointer": "04cac718",
+          "value": "home"
+        },
+        {
+          "pointer": "04cac950",
+          "value": "UIGame"
+        },
+        {
+          "pointer": "04cacb48",
+          "value": "daily "
+        },
+        {
+          "pointer": "04cacb50",
+          "value": "game_type"
+        },
+        {
+          "pointer": "04cacb58",
+          "value": "restart"
+        },
+        {
+          "pointer": "04cac770",
+          "value": "bgm_level"
+        },
+        {
+          "pointer": "04cacb60",
+          "value": "新始"
+        },
+        {
+          "pointer": "04cacb68",
+          "value": "FailReplay"
+        },
+        {
+          "pointer": "04cac728",
+          "value": "scene"
+        },
+        {
+          "pointer": "04cacb70",
+          "value": "bus_total"
+        },
+        {
+          "pointer": "04cacb78",
+          "value": "g_game_open"
+        },
+        {
+          "pointer": "04cacb80",
+          "value": "SettingReplay"
+        },
+        {
+          "pointer": "04cacb88",
+          "value": "PreLevelEnter"
+        },
+        {
+          "pointer": "04cabc00",
+          "value": "level"
+        },
+        {
+          "pointer": "04cab2b8",
+          "value": ")"
+        },
+        {
+          "pointer": "04cacb90",
+          "value": "重开"
+        },
+        {
+          "pointer": "04cacb98",
+          "value": "next"
+        },
+        {
+          "pointer": "04cacba0",
+          "value": "game_mode"
+        },
+        {
+          "pointer": "04cabf00",
+          "value": " ("
+        },
+        {
+          "pointer": "04ca9c30",
+          "value": ""
+        },
+        {
+          "pointer": "04cacba8",
+          "value": "enter level "
+        },
+        {
+          "pointer": "04ca9ce8",
+          "value": "status"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.Ads$$ShowRewarded",
+      "file": "Evidence/Native/02276c80.c",
+      "events": [
+        "g_ad_visit"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cacab0",
+          "value": "session_time"
+        },
+        {
+          "pointer": "04cacab8",
+          "value": " open"
+        },
+        {
+          "pointer": "04cad0a8",
+          "value": "rewarded "
+        },
+        {
+          "pointer": "04cacad0",
+          "value": "g_ad_visit"
+        },
+        {
+          "pointer": "04cabba0",
+          "value": "play"
+        },
+        {
+          "pointer": "04cad0b0",
+          "value": "reward"
+        },
+        {
+          "pointer": "04cad0b8",
+          "value": "[Ads] rewarded "
+        },
+        {
+          "pointer": "04cacae8",
+          "value": "ad_visit_action"
+        },
+        {
+          "pointer": "04cacaf0",
+          "value": "ad_is_ready"
+        },
+        {
+          "pointer": "04cacaf8",
+          "value": "ad_visit_scene"
+        },
+        {
+          "pointer": "04cac790",
+          "value": "ad"
+        },
+        {
+          "pointer": "04caa858",
+          "value": "ad_type"
+        },
+        {
+          "pointer": "04cad0c0",
+          "value": " ignored: another rewarded request is still open"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.Ads.<>c__DisplayClass35_0$$<ShowRewarded>g__Request|0",
+      "file": "Evidence/Native/022774e0.c",
+      "events": [
+        "g_game_ad_show_stage"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cacf58",
+          "value": "not_ready"
+        },
+        {
+          "pointer": "04cad0a8",
+          "value": "rewarded "
+        },
+        {
+          "pointer": "04cacab8",
+          "value": " open"
+        },
+        {
+          "pointer": "04cf78c8",
+          "value": "routine is null"
+        },
+        {
+          "pointer": "04cf78b0",
+          "value": "Coroutines can only be stopped on a MonoBehaviour"
+        },
+        {
+          "pointer": "04cad0e0",
+          "value": "reason"
+        },
+        {
+          "pointer": "04cad0e8",
+          "value": "g_game_ad_show"
+        },
+        {
+          "pointer": "04caccc8",
+          "value": ": "
+        },
+        {
+          "pointer": "04cad0f0",
+          "value": "display_failed"
+        },
+        {
+          "pointer": "04cad0f8",
+          "value": "ad_show_time"
+        },
+        {
+          "pointer": "04cac690",
+          "value": "result"
+        },
+        {
+          "pointer": "04cacc00",
+          "value": "game_id"
+        },
+        {
+          "pointer": "04cad100",
+          "value": " closed"
+        },
+        {
+          "pointer": "04cad108",
+          "value": "ad_end_timestamp"
+        },
+        {
+          "pointer": "04cad0b0",
+          "value": "reward"
+        },
+        {
+          "pointer": "04cad110",
+          "value": "success"
+        },
+        {
+          "pointer": "04cad118",
+          "value": "ad_stage"
+        },
+        {
+          "pointer": "04cad0b8",
+          "value": "[Ads] rewarded "
+        },
+        {
+          "pointer": "04ca9b68",
+          "value": "false"
+        },
+        {
+          "pointer": "04cad120",
+          "value": "ad_position"
+        },
+        {
+          "pointer": "04cad128",
+          "value": " → reward"
+        },
+        {
+          "pointer": "04cad130",
+          "value": " end"
+        },
+        {
+          "pointer": "04cad138",
+          "value": "end"
+        },
+        {
+          "pointer": "04cad140",
+          "value": "g_game_ad_show_stage"
+        },
+        {
+          "pointer": "04cad148",
+          "value": " failed"
+        },
+        {
+          "pointer": "04cab2b8",
+          "value": ")"
+        },
+        {
+          "pointer": "04cad150",
+          "value": "ad_start_timestamp"
+        },
+        {
+          "pointer": "04cac790",
+          "value": "ad"
+        },
+        {
+          "pointer": "04caa858",
+          "value": "ad_type"
+        },
+        {
+          "pointer": "04cad158",
+          "value": " → no reward"
+        },
+        {
+          "pointer": "04cabf00",
+          "value": " ("
+        },
+        {
+          "pointer": "04ca9c30",
+          "value": ""
+        },
+        {
+          "pointer": "04cad160",
+          "value": "BusSand"
+        },
+        {
+          "pointer": "04ca9ce8",
+          "value": "status"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.Ads.<>c__DisplayClass35_0$$<ShowRewarded>b__3",
+      "file": "Evidence/Native/0227894c.c",
+      "events": [
+        "g_game_ad_show_stage"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cad168",
+          "value": "ready"
+        },
+        {
+          "pointer": "04cad0e0",
+          "value": "reason"
+        },
+        {
+          "pointer": "04cad0e8",
+          "value": "g_game_ad_show"
+        },
+        {
+          "pointer": "04caccc8",
+          "value": ": "
+        },
+        {
+          "pointer": "04cad0a8",
+          "value": "rewarded "
+        },
+        {
+          "pointer": "04cad0f0",
+          "value": "display_failed"
+        },
+        {
+          "pointer": "04cad0f8",
+          "value": "ad_show_time"
+        },
+        {
+          "pointer": "04cac690",
+          "value": "result"
+        },
+        {
+          "pointer": "04cacc00",
+          "value": "game_id"
+        },
+        {
+          "pointer": "04cacf58",
+          "value": "not_ready"
+        },
+        {
+          "pointer": "04cad100",
+          "value": " closed"
+        },
+        {
+          "pointer": "04cad108",
+          "value": "ad_end_timestamp"
+        },
+        {
+          "pointer": "04cad0b0",
+          "value": "reward"
+        },
+        {
+          "pointer": "04cad110",
+          "value": "success"
+        },
+        {
+          "pointer": "04cad118",
+          "value": "ad_stage"
+        },
+        {
+          "pointer": "04cad0b8",
+          "value": "[Ads] rewarded "
+        },
+        {
+          "pointer": "04ca9b68",
+          "value": "false"
+        },
+        {
+          "pointer": "04cad120",
+          "value": "ad_position"
+        },
+        {
+          "pointer": "04cad128",
+          "value": " → reward"
+        },
+        {
+          "pointer": "04cad130",
+          "value": " end"
+        },
+        {
+          "pointer": "04cad138",
+          "value": "end"
+        },
+        {
+          "pointer": "04cad140",
+          "value": "g_game_ad_show_stage"
+        },
+        {
+          "pointer": "04cad148",
+          "value": " failed"
+        },
+        {
+          "pointer": "04cab2b8",
+          "value": ")"
+        },
+        {
+          "pointer": "04cad150",
+          "value": "ad_start_timestamp"
+        },
+        {
+          "pointer": "04cac790",
+          "value": "ad"
+        },
+        {
+          "pointer": "04caa858",
+          "value": "ad_type"
+        },
+        {
+          "pointer": "04cad158",
+          "value": " → no reward"
+        },
+        {
+          "pointer": "04cabf00",
+          "value": " ("
+        },
+        {
+          "pointer": "04ca9c30",
+          "value": ""
+        },
+        {
+          "pointer": "04cad160",
+          "value": "BusSand"
+        },
+        {
+          "pointer": "04ca9ce8",
+          "value": "status"
+        },
+        {
+          "pointer": "04cf78c8",
+          "value": "routine is null"
+        },
+        {
+          "pointer": "04cf78b0",
+          "value": "Coroutines can only be stopped on a MonoBehaviour"
+        },
+        {
+          "pointer": "04cacab8",
+          "value": " open"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.Ads.<>c__DisplayClass43_0$$<ShowInterstitialIfAllowed>g__Closed|1",
+      "file": "Evidence/Native/02278c1c.c",
+      "events": [
+        "g_game_ad_show"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cad0e8",
+          "value": "g_game_ad_show"
+        },
+        {
+          "pointer": "04cad0f8",
+          "value": "ad_show_time"
+        },
+        {
+          "pointer": "04cad188",
+          "value": "shown"
+        },
+        {
+          "pointer": "04cacc00",
+          "value": "game_id"
+        },
+        {
+          "pointer": "04cad100",
+          "value": " closed"
+        },
+        {
+          "pointer": "04cacad8",
+          "value": "inter "
+        },
+        {
+          "pointer": "04cad108",
+          "value": "ad_end_timestamp"
+        },
+        {
+          "pointer": "04cad110",
+          "value": "success"
+        },
+        {
+          "pointer": "04cacae0",
+          "value": "inter"
+        },
+        {
+          "pointer": "04cad120",
+          "value": "ad_position"
+        },
+        {
+          "pointer": "04cad130",
+          "value": " end"
+        },
+        {
+          "pointer": "04cad148",
+          "value": " failed"
+        },
+        {
+          "pointer": "04cabaa0",
+          "value": "fail"
+        },
+        {
+          "pointer": "04cad150",
+          "value": "ad_start_timestamp"
+        },
+        {
+          "pointer": "04cac790",
+          "value": "ad"
+        },
+        {
+          "pointer": "04caa858",
+          "value": "ad_type"
+        },
+        {
+          "pointer": "04ca9c30",
+          "value": ""
+        },
+        {
+          "pointer": "04cad190",
+          "value": "no_fill"
+        },
+        {
+          "pointer": "04cad160",
+          "value": "BusSand"
+        },
+        {
+          "pointer": "04ca9ce8",
+          "value": "status"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.Iap$$Restore",
+      "file": "Evidence/Native/0227a374.c",
+      "events": [
+        "iap_restore"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cad210",
+          "value": "iap_restore"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.Iap$$Deliver",
+      "file": "Evidence/Native/0227a7d4.c",
+      "events": [
+        "iap_success"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cad268",
+          "value": "product"
+        },
+        {
+          "pointer": "04cad270",
+          "value": "ItemType"
+        },
+        {
+          "pointer": "04cad1f8",
+          "value": "price"
+        },
+        {
+          "pointer": "04cad278",
+          "value": "iap_success"
+        },
+        {
+          "pointer": "04caceb8",
+          "value": "Store"
+        },
+        {
+          "pointer": "04cad238",
+          "value": "LimitedCount"
+        },
+        {
+          "pointer": "04cad280",
+          "value": "get"
+        },
+        {
+          "pointer": "04ca9c30",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.Iap$$DeliverUnclaimed",
+      "file": "Evidence/Native/0227b060.c",
+      "events": [
+        "iap_unclaimed_delivered"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cad268",
+          "value": "product"
+        },
+        {
+          "pointer": "04cad2a0",
+          "value": ": left pending"
+        },
+        {
+          "pointer": "04cad270",
+          "value": "ItemType"
+        },
+        {
+          "pointer": "04cad2a8",
+          "value": "GPStoreId"
+        },
+        {
+          "pointer": "04cad2b0",
+          "value": "[IAP] delivering unclaimed purchase "
+        },
+        {
+          "pointer": "04ca9c30",
+          "value": ""
+        },
+        {
+          "pointer": "04cad2b8",
+          "value": "[IAP] unclaimed purchase of an unknown product "
+        },
+        {
+          "pointer": "04cad200",
+          "value": "TbStoreItemConfig"
+        },
+        {
+          "pointer": "04cad2c0",
+          "value": "iap_unclaimed_delivered"
+        },
+        {
+          "pointer": "04cac1c8",
+          "value": "ID"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.Iap$$DeliverRestored",
+      "file": "Evidence/Native/0227b758.c",
+      "events": [
+        "iap_restore_delivered"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cad268",
+          "value": "product"
+        },
+        {
+          "pointer": "04cad2c8",
+          "value": "[IAP] restored "
+        },
+        {
+          "pointer": "04cad238",
+          "value": "LimitedCount"
+        },
+        {
+          "pointer": "04cad2d0",
+          "value": "iap_restore_delivered"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.Iap$$BuyStoreItem",
+      "file": "Evidence/Native/0227be78.c",
+      "events": [
+        "iap_click",
+        "iap_fail"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cad0e0",
+          "value": "reason"
+        },
+        {
+          "pointer": "04cad268",
+          "value": "product"
+        },
+        {
+          "pointer": "04cad308",
+          "value": "iap_click"
+        },
+        {
+          "pointer": "04cad270",
+          "value": "ItemType"
+        },
+        {
+          "pointer": "04cad310",
+          "value": "iap_fail"
+        },
+        {
+          "pointer": "04cad318",
+          "value": "purchase_limit"
+        },
+        {
+          "pointer": "04cad2a8",
+          "value": "GPStoreId"
+        },
+        {
+          "pointer": "04cad320",
+          "value": "purchase_blocked.limit"
+        },
+        {
+          "pointer": "04cad328",
+          "value": "store_item"
+        },
+        {
+          "pointer": "04ca9c30",
+          "value": ""
+        },
+        {
+          "pointer": "04cad200",
+          "value": "TbStoreItemConfig"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.Iap.<>c__DisplayClass26_0$$<BuyStoreItem>b__0",
+      "file": "Evidence/Native/0227c714.c",
+      "events": [
+        "iap_fail"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cad268",
+          "value": "product"
+        },
+        {
+          "pointer": "04cad310",
+          "value": "iap_fail"
+        },
+        {
+          "pointer": "04cad338",
+          "value": "Payment pending: your item arrives once it is confirmed"
+        },
+        {
+          "pointer": "04cad340",
+          "value": "UI_Restore_Done"
+        },
+        {
+          "pointer": "04cad2e0",
+          "value": "purchase_pending"
+        },
+        {
+          "pointer": "04cad348",
+          "value": "Purchases restored"
+        },
+        {
+          "pointer": "04cad2e8",
+          "value": "already_owned_restored"
+        },
+        {
+          "pointer": "04cad350",
+          "value": "UI_Payment_Pending"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.ActivityContinuePanel$$OnAd",
+      "file": "Evidence/Native/022872e8.c",
+      "events": [
+        "g_ad_visit"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cac740",
+          "value": "Revive"
+        },
+        {
+          "pointer": "04cacab0",
+          "value": "session_time"
+        },
+        {
+          "pointer": "04cacab8",
+          "value": " open"
+        },
+        {
+          "pointer": "04cad0a8",
+          "value": "rewarded "
+        },
+        {
+          "pointer": "04cacad0",
+          "value": "g_ad_visit"
+        },
+        {
+          "pointer": "04cabba0",
+          "value": "play"
+        },
+        {
+          "pointer": "04cad0b0",
+          "value": "reward"
+        },
+        {
+          "pointer": "04cad0b8",
+          "value": "[Ads] rewarded "
+        },
+        {
+          "pointer": "04cacae8",
+          "value": "ad_visit_action"
+        },
+        {
+          "pointer": "04cacaf0",
+          "value": "ad_is_ready"
+        },
+        {
+          "pointer": "04cacaf8",
+          "value": "ad_visit_scene"
+        },
+        {
+          "pointer": "04cac790",
+          "value": "ad"
+        },
+        {
+          "pointer": "04caa858",
+          "value": "ad_type"
+        },
+        {
+          "pointer": "04cad0c0",
+          "value": " ignored: another rewarded request is still open"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.SimpleActivityContinuePanel$$OnAd",
+      "file": "Evidence/Native/0228a5cc.c",
+      "events": [
+        "g_ad_visit"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cac740",
+          "value": "Revive"
+        },
+        {
+          "pointer": "04cacab0",
+          "value": "session_time"
+        },
+        {
+          "pointer": "04cacab8",
+          "value": " open"
+        },
+        {
+          "pointer": "04cad0a8",
+          "value": "rewarded "
+        },
+        {
+          "pointer": "04cacad0",
+          "value": "g_ad_visit"
+        },
+        {
+          "pointer": "04cabba0",
+          "value": "play"
+        },
+        {
+          "pointer": "04cad0b0",
+          "value": "reward"
+        },
+        {
+          "pointer": "04cad0b8",
+          "value": "[Ads] rewarded "
+        },
+        {
+          "pointer": "04cacae8",
+          "value": "ad_visit_action"
+        },
+        {
+          "pointer": "04cacaf0",
+          "value": "ad_is_ready"
+        },
+        {
+          "pointer": "04cacaf8",
+          "value": "ad_visit_scene"
+        },
+        {
+          "pointer": "04cac790",
+          "value": "ad"
+        },
+        {
+          "pointer": "04caa858",
+          "value": "ad_type"
+        },
+        {
+          "pointer": "04cad0c0",
+          "value": " ignored: another rewarded request is still open"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.GiftPackPanel$$OnClose",
+      "file": "Evidence/Native/022aa04c.c",
+      "events": [
+        "iap_close"
+      ],
+      "keys": [
+        "pack_name"
+      ],
+      "literals": [
+        {
+          "pointer": "04cb2678",
+          "value": "show_type"
+        },
+        {
+          "pointer": "04cb2680",
+          "value": "pack_name"
+        },
+        {
+          "pointer": "04cb26a0",
+          "value": "iap_close"
+        },
+        {
+          "pointer": "04cb2690",
+          "value": "trigger_type"
+        },
+        {
+          "pointer": "04cb26a8",
+          "value": "duration_iap"
+        },
+        {
+          "pointer": "04caa870",
+          "value": "placement"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.GiftPackPanel$$OnBuyClick",
+      "file": "Evidence/Native/022aaa58.c",
+      "events": [
+        "iap_click",
+        "iap_fail"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04caec78",
+          "value": "NewUserTutorial_Open"
+        },
+        {
+          "pointer": "04caed58",
+          "value": "支付"
+        },
+        {
+          "pointer": "04caed60",
+          "value": "sku_click"
+        },
+        {
+          "pointer": "04caecc0",
+          "value": "sku_close"
+        },
+        {
+          "pointer": "04cad0e0",
+          "value": "reason"
+        },
+        {
+          "pointer": "04cad268",
+          "value": "product"
+        },
+        {
+          "pointer": "04cad308",
+          "value": "iap_click"
+        },
+        {
+          "pointer": "04cad270",
+          "value": "ItemType"
+        },
+        {
+          "pointer": "04cad310",
+          "value": "iap_fail"
+        },
+        {
+          "pointer": "04cad318",
+          "value": "purchase_limit"
+        },
+        {
+          "pointer": "04cad2a8",
+          "value": "GPStoreId"
+        },
+        {
+          "pointer": "04cad320",
+          "value": "purchase_blocked.limit"
+        },
+        {
+          "pointer": "04cad328",
+          "value": "store_item"
+        },
+        {
+          "pointer": "04ca9c30",
+          "value": ""
+        },
+        {
+          "pointer": "04cad200",
+          "value": "TbStoreItemConfig"
+        },
+        {
+          "pointer": "04cb6280",
+          "value": "UI_no_internet_des"
+        },
+        {
+          "pointer": "04cb6288",
+          "value": "UI_no_internet_title"
+        },
+        {
+          "pointer": "04caec20",
+          "value": "UI_continue"
+        },
+        {
+          "pointer": "04cb6478",
+          "value": "UIGameTips"
+        },
+        {
+          "pointer": "04cc5288",
+          "value": "[UI] prefab not found: "
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.GiftPackUi$$Purchase",
+      "file": "Evidence/Native/022aac9c.c",
+      "events": [
+        "iap_click",
+        "iap_fail"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cad0e0",
+          "value": "reason"
+        },
+        {
+          "pointer": "04cad268",
+          "value": "product"
+        },
+        {
+          "pointer": "04cad308",
+          "value": "iap_click"
+        },
+        {
+          "pointer": "04cad270",
+          "value": "ItemType"
+        },
+        {
+          "pointer": "04cad310",
+          "value": "iap_fail"
+        },
+        {
+          "pointer": "04cad318",
+          "value": "purchase_limit"
+        },
+        {
+          "pointer": "04cad2a8",
+          "value": "GPStoreId"
+        },
+        {
+          "pointer": "04cad320",
+          "value": "purchase_blocked.limit"
+        },
+        {
+          "pointer": "04cad328",
+          "value": "store_item"
+        },
+        {
+          "pointer": "04ca9c30",
+          "value": ""
+        },
+        {
+          "pointer": "04cad200",
+          "value": "TbStoreItemConfig"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.GoldenCoinGiftPackPanel$$OnClose",
+      "file": "Evidence/Native/022b0808.c",
+      "events": [
+        "iap_close"
+      ],
+      "keys": [
+        "pack_name"
+      ],
+      "literals": [
+        {
+          "pointer": "04cb2678",
+          "value": "show_type"
+        },
+        {
+          "pointer": "04cb2680",
+          "value": "pack_name"
+        },
+        {
+          "pointer": "04cb26a0",
+          "value": "iap_close"
+        },
+        {
+          "pointer": "04cb2690",
+          "value": "trigger_type"
+        },
+        {
+          "pointer": "04cb26a8",
+          "value": "duration_iap"
+        },
+        {
+          "pointer": "04caa870",
+          "value": "placement"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.GoldenCoinGiftPackPanel$$OnBuyClick",
+      "file": "Evidence/Native/022b1c94.c",
+      "events": [
+        "iap_click",
+        "iap_fail"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04caed58",
+          "value": "支付"
+        },
+        {
+          "pointer": "04caf000",
+          "value": "GoldenPack_Open"
+        },
+        {
+          "pointer": "04caed60",
+          "value": "sku_click"
+        },
+        {
+          "pointer": "04cad0e0",
+          "value": "reason"
+        },
+        {
+          "pointer": "04cad268",
+          "value": "product"
+        },
+        {
+          "pointer": "04cad308",
+          "value": "iap_click"
+        },
+        {
+          "pointer": "04cad270",
+          "value": "ItemType"
+        },
+        {
+          "pointer": "04cad310",
+          "value": "iap_fail"
+        },
+        {
+          "pointer": "04cad318",
+          "value": "purchase_limit"
+        },
+        {
+          "pointer": "04cad2a8",
+          "value": "GPStoreId"
+        },
+        {
+          "pointer": "04cad320",
+          "value": "purchase_blocked.limit"
+        },
+        {
+          "pointer": "04cad328",
+          "value": "store_item"
+        },
+        {
+          "pointer": "04ca9c30",
+          "value": ""
+        },
+        {
+          "pointer": "04cad200",
+          "value": "TbStoreItemConfig"
+        },
+        {
+          "pointer": "04cb6280",
+          "value": "UI_no_internet_des"
+        },
+        {
+          "pointer": "04cb6288",
+          "value": "UI_no_internet_title"
+        },
+        {
+          "pointer": "04caec20",
+          "value": "UI_continue"
+        },
+        {
+          "pointer": "04cb6478",
+          "value": "UIGameTips"
+        },
+        {
+          "pointer": "04cc5288",
+          "value": "[UI] prefab not found: "
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.GoldenCoinGiftPackPanel$$OnPaySucClosed",
+      "file": "Evidence/Native/022b1e34.c",
+      "events": [
+        "g_game_revive_use"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04caee60",
+          "value": "商城点击"
+        },
+        {
+          "pointer": "04cf78c8",
+          "value": "routine is null"
+        },
+        {
+          "pointer": "04cf78b0",
+          "value": "Coroutines can only be stopped on a MonoBehaviour"
+        },
+        {
+          "pointer": "04cac768",
+          "value": "item_id"
+        },
+        {
+          "pointer": "04cac770",
+          "value": "bgm_level"
+        },
+        {
+          "pointer": "04cac778",
+          "value": "g_game_revive_use"
+        },
+        {
+          "pointer": "04cac780",
+          "value": "number"
+        },
+        {
+          "pointer": "04cac798",
+          "value": "1001"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.GoldenCoinGiftPackPanel$$<OnBuyClick>b__27_0",
+      "file": "Evidence/Native/022b210c.c",
+      "events": [
+        "g_game_revive_use"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04caf1c0",
+          "value": "UIGoldenCoinPaySuc"
+        },
+        {
+          "pointer": "04caee60",
+          "value": "商城点击"
+        },
+        {
+          "pointer": "04cf78c8",
+          "value": "routine is null"
+        },
+        {
+          "pointer": "04cf78b0",
+          "value": "Coroutines can only be stopped on a MonoBehaviour"
+        },
+        {
+          "pointer": "04cac768",
+          "value": "item_id"
+        },
+        {
+          "pointer": "04cac770",
+          "value": "bgm_level"
+        },
+        {
+          "pointer": "04cac778",
+          "value": "g_game_revive_use"
+        },
+        {
+          "pointer": "04cac780",
+          "value": "number"
+        },
+        {
+          "pointer": "04cac798",
+          "value": "1001"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.EventListPanel$$OnClose",
+      "file": "Evidence/Native/022b8538.c",
+      "events": [
+        "iap_close"
+      ],
+      "keys": [
+        "pack_name"
+      ],
+      "literals": [
+        {
+          "pointer": "04cb2678",
+          "value": "show_type"
+        },
+        {
+          "pointer": "04cb2680",
+          "value": "pack_name"
+        },
+        {
+          "pointer": "04cb26a0",
+          "value": "iap_close"
+        },
+        {
+          "pointer": "04cb2690",
+          "value": "trigger_type"
+        },
+        {
+          "pointer": "04cb26a8",
+          "value": "duration_iap"
+        },
+        {
+          "pointer": "04caa870",
+          "value": "placement"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.EventListPanel$$OnBuy",
+      "file": "Evidence/Native/022b85b0.c",
+      "events": [
+        "iap_click",
+        "iap_fail"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cad0e0",
+          "value": "reason"
+        },
+        {
+          "pointer": "04cad268",
+          "value": "product"
+        },
+        {
+          "pointer": "04cad308",
+          "value": "iap_click"
+        },
+        {
+          "pointer": "04cad270",
+          "value": "ItemType"
+        },
+        {
+          "pointer": "04cad310",
+          "value": "iap_fail"
+        },
+        {
+          "pointer": "04cad318",
+          "value": "purchase_limit"
+        },
+        {
+          "pointer": "04cad2a8",
+          "value": "GPStoreId"
+        },
+        {
+          "pointer": "04cad320",
+          "value": "purchase_blocked.limit"
+        },
+        {
+          "pointer": "04cad328",
+          "value": "store_item"
+        },
+        {
+          "pointer": "04ca9c30",
+          "value": ""
+        },
+        {
+          "pointer": "04cad200",
+          "value": "TbStoreItemConfig"
+        },
+        {
+          "pointer": "04cb6280",
+          "value": "UI_no_internet_des"
+        },
+        {
+          "pointer": "04cb6288",
+          "value": "UI_no_internet_title"
+        },
+        {
+          "pointer": "04caec20",
+          "value": "UI_continue"
+        },
+        {
+          "pointer": "04cb6478",
+          "value": "UIGameTips"
+        },
+        {
+          "pointer": "04cc5288",
+          "value": "[UI] prefab not found: "
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.EventListPanel.<>c__DisplayClass11_0$$<OnOpen>b__1",
+      "file": "Evidence/Native/022b8980.c",
+      "events": [
+        "iap_click",
+        "iap_fail"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cad0e0",
+          "value": "reason"
+        },
+        {
+          "pointer": "04cad268",
+          "value": "product"
+        },
+        {
+          "pointer": "04cad308",
+          "value": "iap_click"
+        },
+        {
+          "pointer": "04cad270",
+          "value": "ItemType"
+        },
+        {
+          "pointer": "04cad310",
+          "value": "iap_fail"
+        },
+        {
+          "pointer": "04cad318",
+          "value": "purchase_limit"
+        },
+        {
+          "pointer": "04cad2a8",
+          "value": "GPStoreId"
+        },
+        {
+          "pointer": "04cad320",
+          "value": "purchase_blocked.limit"
+        },
+        {
+          "pointer": "04cad328",
+          "value": "store_item"
+        },
+        {
+          "pointer": "04ca9c30",
+          "value": ""
+        },
+        {
+          "pointer": "04cad200",
+          "value": "TbStoreItemConfig"
+        },
+        {
+          "pointer": "04cb6280",
+          "value": "UI_no_internet_des"
+        },
+        {
+          "pointer": "04cb6288",
+          "value": "UI_no_internet_title"
+        },
+        {
+          "pointer": "04caec20",
+          "value": "UI_continue"
+        },
+        {
+          "pointer": "04cb6478",
+          "value": "UIGameTips"
+        },
+        {
+          "pointer": "04cc5288",
+          "value": "[UI] prefab not found: "
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.EventContinuePanel.<>c__DisplayClass4_0$$<OnOpen>b__2",
+      "file": "Evidence/Native/022c8f30.c",
+      "events": [
+        "g_ad_visit"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cac740",
+          "value": "Revive"
+        },
+        {
+          "pointer": "04cacab0",
+          "value": "session_time"
+        },
+        {
+          "pointer": "04cacab8",
+          "value": " open"
+        },
+        {
+          "pointer": "04cad0a8",
+          "value": "rewarded "
+        },
+        {
+          "pointer": "04cacad0",
+          "value": "g_ad_visit"
+        },
+        {
+          "pointer": "04cabba0",
+          "value": "play"
+        },
+        {
+          "pointer": "04cad0b0",
+          "value": "reward"
+        },
+        {
+          "pointer": "04cad0b8",
+          "value": "[Ads] rewarded "
+        },
+        {
+          "pointer": "04cacae8",
+          "value": "ad_visit_action"
+        },
+        {
+          "pointer": "04cacaf0",
+          "value": "ad_is_ready"
+        },
+        {
+          "pointer": "04cacaf8",
+          "value": "ad_visit_scene"
+        },
+        {
+          "pointer": "04cac790",
+          "value": "ad"
+        },
+        {
+          "pointer": "04caa858",
+          "value": "ad_type"
+        },
+        {
+          "pointer": "04cad0c0",
+          "value": " ignored: another rewarded request is still open"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.GiftPackKitPanel$$OnBuy",
+      "file": "Evidence/Native/022c9e94.c",
+      "events": [
+        "iap_click",
+        "iap_fail"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cad0e0",
+          "value": "reason"
+        },
+        {
+          "pointer": "04cad268",
+          "value": "product"
+        },
+        {
+          "pointer": "04cad308",
+          "value": "iap_click"
+        },
+        {
+          "pointer": "04cad270",
+          "value": "ItemType"
+        },
+        {
+          "pointer": "04cad310",
+          "value": "iap_fail"
+        },
+        {
+          "pointer": "04cad318",
+          "value": "purchase_limit"
+        },
+        {
+          "pointer": "04cad2a8",
+          "value": "GPStoreId"
+        },
+        {
+          "pointer": "04cad320",
+          "value": "purchase_blocked.limit"
+        },
+        {
+          "pointer": "04cad328",
+          "value": "store_item"
+        },
+        {
+          "pointer": "04ca9c30",
+          "value": ""
+        },
+        {
+          "pointer": "04cad200",
+          "value": "TbStoreItemConfig"
+        },
+        {
+          "pointer": "04cb6280",
+          "value": "UI_no_internet_des"
+        },
+        {
+          "pointer": "04cb6288",
+          "value": "UI_no_internet_title"
+        },
+        {
+          "pointer": "04caec20",
+          "value": "UI_continue"
+        },
+        {
+          "pointer": "04cb6478",
+          "value": "UIGameTips"
+        },
+        {
+          "pointer": "04cc5288",
+          "value": "[UI] prefab not found: "
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.NoAdsGiftPackPanel$$OnClose",
+      "file": "Evidence/Native/022cae94.c",
+      "events": [
+        "iap_close"
+      ],
+      "keys": [
+        "pack_name"
+      ],
+      "literals": [
+        {
+          "pointer": "04cb2678",
+          "value": "show_type"
+        },
+        {
+          "pointer": "04cb2680",
+          "value": "pack_name"
+        },
+        {
+          "pointer": "04cb26a0",
+          "value": "iap_close"
+        },
+        {
+          "pointer": "04cb2690",
+          "value": "trigger_type"
+        },
+        {
+          "pointer": "04cb26a8",
+          "value": "duration_iap"
+        },
+        {
+          "pointer": "04caa870",
+          "value": "placement"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.NoAdsGiftPackPanel$$OnBuyClick",
+      "file": "Evidence/Native/022caf90.c",
+      "events": [
+        "iap_click",
+        "iap_fail"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cb00b8",
+          "value": "NoAdsPack_Open"
+        },
+        {
+          "pointer": "04caed58",
+          "value": "支付"
+        },
+        {
+          "pointer": "04caed60",
+          "value": "sku_click"
+        },
+        {
+          "pointer": "04cad0e0",
+          "value": "reason"
+        },
+        {
+          "pointer": "04cad268",
+          "value": "product"
+        },
+        {
+          "pointer": "04cad308",
+          "value": "iap_click"
+        },
+        {
+          "pointer": "04cad270",
+          "value": "ItemType"
+        },
+        {
+          "pointer": "04cad310",
+          "value": "iap_fail"
+        },
+        {
+          "pointer": "04cad318",
+          "value": "purchase_limit"
+        },
+        {
+          "pointer": "04cad2a8",
+          "value": "GPStoreId"
+        },
+        {
+          "pointer": "04cad320",
+          "value": "purchase_blocked.limit"
+        },
+        {
+          "pointer": "04cad328",
+          "value": "store_item"
+        },
+        {
+          "pointer": "04ca9c30",
+          "value": ""
+        },
+        {
+          "pointer": "04cad200",
+          "value": "TbStoreItemConfig"
+        },
+        {
+          "pointer": "04cb6280",
+          "value": "UI_no_internet_des"
+        },
+        {
+          "pointer": "04cb6288",
+          "value": "UI_no_internet_title"
+        },
+        {
+          "pointer": "04caec20",
+          "value": "UI_continue"
+        },
+        {
+          "pointer": "04cb6478",
+          "value": "UIGameTips"
+        },
+        {
+          "pointer": "04cc5288",
+          "value": "[UI] prefab not found: "
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.PassportBuyPanel$$OnSure",
+      "file": "Evidence/Native/022cd280.c",
+      "events": [
+        "iap_click",
+        "iap_fail"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04caed58",
+          "value": "支付"
+        },
+        {
+          "pointer": "04cb0218",
+          "value": "Passport_Open"
+        },
+        {
+          "pointer": "04caed60",
+          "value": "sku_click"
+        },
+        {
+          "pointer": "04cad0e0",
+          "value": "reason"
+        },
+        {
+          "pointer": "04cad268",
+          "value": "product"
+        },
+        {
+          "pointer": "04cad308",
+          "value": "iap_click"
+        },
+        {
+          "pointer": "04cad270",
+          "value": "ItemType"
+        },
+        {
+          "pointer": "04cad310",
+          "value": "iap_fail"
+        },
+        {
+          "pointer": "04cad318",
+          "value": "purchase_limit"
+        },
+        {
+          "pointer": "04cad2a8",
+          "value": "GPStoreId"
+        },
+        {
+          "pointer": "04cad320",
+          "value": "purchase_blocked.limit"
+        },
+        {
+          "pointer": "04cad328",
+          "value": "store_item"
+        },
+        {
+          "pointer": "04ca9c30",
+          "value": ""
+        },
+        {
+          "pointer": "04cad200",
+          "value": "TbStoreItemConfig"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.PassportBuyPanel$$OnClose",
+      "file": "Evidence/Native/022cd4f0.c",
+      "events": [
+        "iap_close"
+      ],
+      "keys": [
+        "pack_name"
+      ],
+      "literals": [
+        {
+          "pointer": "04cb2678",
+          "value": "show_type"
+        },
+        {
+          "pointer": "04cb2680",
+          "value": "pack_name"
+        },
+        {
+          "pointer": "04cb26a0",
+          "value": "iap_close"
+        },
+        {
+          "pointer": "04cb2690",
+          "value": "trigger_type"
+        },
+        {
+          "pointer": "04cb26a8",
+          "value": "duration_iap"
+        },
+        {
+          "pointer": "04caa870",
+          "value": "placement"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.PassportContinuePanel$$OnCoin",
+      "file": "Evidence/Native/022cf428.c",
+      "events": [
+        "g_btn_click"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cb0358",
+          "value": "g_btn_click"
+        },
+        {
+          "pointer": "04cb0360",
+          "value": "click_type"
+        },
+        {
+          "pointer": "04cb0368",
+          "value": "stuck_continue"
+        },
+        {
+          "pointer": "04cac740",
+          "value": "Revive"
+        },
+        {
+          "pointer": "04cb0370",
+          "value": "action"
+        },
+        {
+          "pointer": "04cac758",
+          "value": "Not enough coins"
+        },
+        {
+          "pointer": "04cac760",
+          "value": "UIStorePanel"
+        },
+        {
+          "pointer": "04cb4e20",
+          "value": "Text"
+        },
+        {
+          "pointer": "04cafbb8",
+          "value": "Bg"
+        },
+        {
+          "pointer": "04cb6578",
+          "value": "Toast"
+        },
+        {
+          "pointer": "04ca9c30",
+          "value": ""
+        },
+        {
+          "pointer": "04cb64b8",
+          "value": "frame_tut_booster"
+        },
+        {
+          "pointer": "04cad4a8",
+          "value": "Plain"
+        },
+        {
+          "pointer": "04cc5288",
+          "value": "[UI] prefab not found: "
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.PassportContinuePanel$$OnAd",
+      "file": "Evidence/Native/022cf858.c",
+      "events": [
+        "g_ad_visit"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cac740",
+          "value": "Revive"
+        },
+        {
+          "pointer": "04cacab0",
+          "value": "session_time"
+        },
+        {
+          "pointer": "04cacab8",
+          "value": " open"
+        },
+        {
+          "pointer": "04cad0a8",
+          "value": "rewarded "
+        },
+        {
+          "pointer": "04cacad0",
+          "value": "g_ad_visit"
+        },
+        {
+          "pointer": "04cabba0",
+          "value": "play"
+        },
+        {
+          "pointer": "04cad0b0",
+          "value": "reward"
+        },
+        {
+          "pointer": "04cad0b8",
+          "value": "[Ads] rewarded "
+        },
+        {
+          "pointer": "04cacae8",
+          "value": "ad_visit_action"
+        },
+        {
+          "pointer": "04cacaf0",
+          "value": "ad_is_ready"
+        },
+        {
+          "pointer": "04cacaf8",
+          "value": "ad_visit_scene"
+        },
+        {
+          "pointer": "04cac790",
+          "value": "ad"
+        },
+        {
+          "pointer": "04caa858",
+          "value": "ad_type"
+        },
+        {
+          "pointer": "04cad0c0",
+          "value": " ignored: another rewarded request is still open"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.PassportContinuePanel$$OnCloseClick",
+      "file": "Evidence/Native/022cf924.c",
+      "events": [
+        "g_btn_click"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cb0358",
+          "value": "g_btn_click"
+        },
+        {
+          "pointer": "04cb0380",
+          "value": "stuck_continue_close"
+        },
+        {
+          "pointer": "04cb0360",
+          "value": "click_type"
+        },
+        {
+          "pointer": "04cb0370",
+          "value": "action"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.PassportUi$$ReviveFromPurchase",
+      "file": "Evidence/Native/022db524.c",
+      "events": [
+        "g_game_revive_use"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cac768",
+          "value": "item_id"
+        },
+        {
+          "pointer": "04cac770",
+          "value": "bgm_level"
+        },
+        {
+          "pointer": "04cac778",
+          "value": "g_game_revive_use"
+        },
+        {
+          "pointer": "04cac780",
+          "value": "number"
+        },
+        {
+          "pointer": "04cac798",
+          "value": "1001"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.PassportUi.<>c$$<Install>b__2_0",
+      "file": "Evidence/Native/022dcd14.c",
+      "events": [
+        "g_game_revive_use"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cac768",
+          "value": "item_id"
+        },
+        {
+          "pointer": "04cac770",
+          "value": "bgm_level"
+        },
+        {
+          "pointer": "04cac778",
+          "value": "g_game_revive_use"
+        },
+        {
+          "pointer": "04cac780",
+          "value": "number"
+        },
+        {
+          "pointer": "04cac798",
+          "value": "1001"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.Meta.AppUpdate$$Finish",
+      "file": "Evidence/Native/02301cdc.c",
+      "events": [
+        "update_check"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cac690",
+          "value": "result"
+        },
+        {
+          "pointer": "04cac978",
+          "value": "update_check"
+        },
+        {
+          "pointer": "04cad1a0",
+          "value": "timeout"
+        },
+        {
+          "pointer": "04cb1c18",
+          "value": "source"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.Meta.Economy$$BuyShop",
+      "file": "Evidence/Native/02303fd8.c",
+      "events": [
+        "shop_buy"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cb1d30",
+          "value": "count"
+        },
+        {
+          "pointer": "04cb1d38",
+          "value": "shop_id"
+        },
+        {
+          "pointer": "04cb1d20",
+          "value": "TbShopConfig"
+        },
+        {
+          "pointer": "04cb1d28",
+          "value": "cost"
+        },
+        {
+          "pointer": "04cad280",
+          "value": "get"
+        },
+        {
+          "pointer": "04cacf10",
+          "value": "Shop"
+        },
+        {
+          "pointer": "04cb1d40",
+          "value": "shop_buy"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.Meta.WinChest$$Open",
+      "file": "Evidence/Native/0230dba8.c",
+      "events": [
+        "win_chest_open"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cb21c8",
+          "value": "index"
+        },
+        {
+          "pointer": "04cb21d0",
+          "value": "times"
+        },
+        {
+          "pointer": "04cb21d8",
+          "value": "win_chest_open"
+        },
+        {
+          "pointer": "04cb21e0",
+          "value": "WinChestAd"
+        },
+        {
+          "pointer": "04cb1eb8",
+          "value": "WinChest"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.Meta.DailyGift$$Claim",
+      "file": "Evidence/Native/0230e2c0.c",
+      "events": [
+        "daily_gift_chest",
+        "daily_gift_claim"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cb21f0",
+          "value": "total"
+        },
+        {
+          "pointer": "04cb21d0",
+          "value": "times"
+        },
+        {
+          "pointer": "04cb21f8",
+          "value": "day"
+        },
+        {
+          "pointer": "04cb2200",
+          "value": "DailyGiftChest"
+        },
+        {
+          "pointer": "04cb2208",
+          "value": "DailyGiftAd"
+        },
+        {
+          "pointer": "04cb1e78",
+          "value": "DailyGift"
+        },
+        {
+          "pointer": "04cb2210",
+          "value": "daily_gift_chest"
+        },
+        {
+          "pointer": "04cb2218",
+          "value": "daily_gift_claim"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.Meta.WelcomeBack$$Claim",
+      "file": "Evidence/Native/0230ed38.c",
+      "events": [
+        "welcome_back_claim"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cb2220",
+          "value": "welcome_back_claim"
+        },
+        {
+          "pointer": "04cb2228",
+          "value": "days_away"
+        },
+        {
+          "pointer": "04cb1e90",
+          "value": "WelcomeBack"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.Meta.StuckHelp$$Claim",
+      "file": "Evidence/Native/0230f0dc.c",
+      "events": [
+        "stuck_help_claim"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cabb48",
+          "value": "losses"
+        },
+        {
+          "pointer": "04cb1e60",
+          "value": "StuckHelp"
+        },
+        {
+          "pointer": "04cb2230",
+          "value": "stuck_help_claim"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.Meta.GameTracking$$LevelStart",
+      "file": "Evidence/Native/02310f10.c",
+      "events": [
+        "level_start"
+      ],
+      "keys": [
+        "level"
+      ],
+      "literals": [
+        {
+          "pointer": "04cb2350",
+          "value": "play_type"
+        },
+        {
+          "pointer": "04cabc00",
+          "value": "level"
+        },
+        {
+          "pointer": "04cb2358",
+          "value": "level_start"
+        },
+        {
+          "pointer": "04ca9c30",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.Meta.GameTracking$$LevelEnd",
+      "file": "Evidence/Native/02312938.c",
+      "events": [
+        "level_end"
+      ],
+      "keys": [
+        "result",
+        "duration_play",
+        "play_type",
+        "items_total",
+        "items_cleared",
+        "progress",
+        "jr",
+        "suction_ms",
+        "sand_left_pct",
+        "cars_left"
+      ],
+      "literals": [
+        {
+          "pointer": "04cac690",
+          "value": "result"
+        },
+        {
+          "pointer": "04cb2350",
+          "value": "play_type"
+        },
+        {
+          "pointer": "04cb2448",
+          "value": "jr"
+        },
+        {
+          "pointer": "04cb2450",
+          "value": "cars_road"
+        },
+        {
+          "pointer": "04cac620",
+          "value": "sand_left_pct"
+        },
+        {
+          "pointer": "04ca9b60",
+          "value": "null"
+        },
+        {
+          "pointer": "04cac6a0",
+          "value": "lose"
+        },
+        {
+          "pointer": "04cabc00",
+          "value": "level"
+        },
+        {
+          "pointer": "04cb2458",
+          "value": "lose_by"
+        },
+        {
+          "pointer": "04cb2460",
+          "value": "level_end"
+        },
+        {
+          "pointer": "04cb2468",
+          "value": "suction_ms"
+        },
+        {
+          "pointer": "04cb2470",
+          "value": "duration_play"
+        },
+        {
+          "pointer": "04ca9c30",
+          "value": ""
+        },
+        {
+          "pointer": "04cabc80",
+          "value": "progress"
+        },
+        {
+          "pointer": "04cb2478",
+          "value": "cars_left"
+        },
+        {
+          "pointer": "04cb2480",
+          "value": "items_total"
+        },
+        {
+          "pointer": "04cb2488",
+          "value": "items_cleared"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.Meta.GameTracking$$EndSuction",
+      "file": "Evidence/Native/023139bc.c",
+      "events": [
+        "end_suction"
+      ],
+      "keys": [
+        "level",
+        "sand_left_pct",
+        "duration_play"
+      ],
+      "literals": [
+        {
+          "pointer": "04cac620",
+          "value": "sand_left_pct"
+        },
+        {
+          "pointer": "04cabc00",
+          "value": "level"
+        },
+        {
+          "pointer": "04cb2490",
+          "value": "end_suction"
+        },
+        {
+          "pointer": "04cb2470",
+          "value": "duration_play"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.Meta.GameTracking$$OnBoot",
+      "file": "Evidence/Native/02313f98.c",
+      "events": [
+        "level_end"
+      ],
+      "keys": [
+        "level",
+        "duration_play",
+        "loop_by",
+        "play_index",
+        "lose_index",
+        "level_config_id",
+        "play_type",
+        "items_total",
+        "items_cleared",
+        "aseq",
+        "jr",
+        "suction_ms"
+      ],
+      "literals": [
+        {
+          "pointer": "04cac690",
+          "value": "result"
+        },
+        {
+          "pointer": "04cb2350",
+          "value": "play_type"
+        },
+        {
+          "pointer": "04cb2498",
+          "value": "exit"
+        },
+        {
+          "pointer": "04cb2420",
+          "value": "aseq"
+        },
+        {
+          "pointer": "04cb2448",
+          "value": "jr"
+        },
+        {
+          "pointer": "04cac620",
+          "value": "sand_left_pct"
+        },
+        {
+          "pointer": "04ca9b60",
+          "value": "null"
+        },
+        {
+          "pointer": "04cb2428",
+          "value": "loop_by"
+        },
+        {
+          "pointer": "04cb2430",
+          "value": "level_config_id"
+        },
+        {
+          "pointer": "04cacc18",
+          "value": "play_index"
+        },
+        {
+          "pointer": "04cabc00",
+          "value": "level"
+        },
+        {
+          "pointer": "04cb2438",
+          "value": "mode"
+        },
+        {
+          "pointer": "04cb2458",
+          "value": "lose_by"
+        },
+        {
+          "pointer": "04cb2050",
+          "value": "normal"
+        },
+        {
+          "pointer": "04cb2460",
+          "value": "level_end"
+        },
+        {
+          "pointer": "04cb2440",
+          "value": "lose_index"
+        },
+        {
+          "pointer": "04cb2468",
+          "value": "suction_ms"
+        },
+        {
+          "pointer": "04cb2470",
+          "value": "duration_play"
+        },
+        {
+          "pointer": "04ca9c30",
+          "value": ""
+        },
+        {
+          "pointer": "04cb2480",
+          "value": "items_total"
+        },
+        {
+          "pointer": "04cb2488",
+          "value": "items_cleared"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.Meta.GameTracking$$AppPause",
+      "file": "Evidence/Native/02315124.c",
+      "events": [
+        "level_snapshot"
+      ],
+      "keys": [
+        "level"
+      ],
+      "literals": [
+        {
+          "pointer": "04cb24a0",
+          "value": "level_snapshot"
+        },
+        {
+          "pointer": "04cb2420",
+          "value": "aseq"
+        },
+        {
+          "pointer": "04cb2448",
+          "value": "jr"
+        },
+        {
+          "pointer": "04cabc00",
+          "value": "level"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.Meta.GameTracking$$RewardedAdUsed",
+      "file": "Evidence/Native/02315acc.c",
+      "events": [
+        "item"
+      ],
+      "keys": [
+        "resource_type",
+        "resource_amount",
+        "ad"
+      ],
+      "literals": [
+        {
+          "pointer": "04cac740",
+          "value": "Revive"
+        },
+        {
+          "pointer": "04cb2130",
+          "value": "item"
+        },
+        {
+          "pointer": "04cac790",
+          "value": "ad"
+        },
+        {
+          "pointer": "04cac650",
+          "value": "revive"
+        },
+        {
+          "pointer": "04cb24c8",
+          "value": "use"
+        },
+        {
+          "pointer": "04cad0e0",
+          "value": "reason"
+        },
+        {
+          "pointer": "04cb24e0",
+          "value": "resource_amount"
+        },
+        {
+          "pointer": "04cb24e8",
+          "value": "resource_balance"
+        },
+        {
+          "pointer": "04cb24f0",
+          "value": "resource_spend"
+        },
+        {
+          "pointer": "04cacc18",
+          "value": "play_index"
+        },
+        {
+          "pointer": "04cb24f8",
+          "value": "resource_type"
+        },
+        {
+          "pointer": "04cabc80",
+          "value": "progress"
+        },
+        {
+          "pointer": "04cb2480",
+          "value": "items_total"
+        },
+        {
+          "pointer": "04caa870",
+          "value": "placement"
+        },
+        {
+          "pointer": "04cb2488",
+          "value": "items_cleared"
+        },
+        {
+          "pointer": "04cb2500",
+          "value": "resource_name"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.Meta.GameTracking$$Resource",
+      "file": "Evidence/Native/0231629c.c",
+      "events": [
+        "resource_earn"
+      ],
+      "keys": [
+        "resource_type",
+        "resource_name",
+        "reason"
+      ],
+      "literals": [
+        {
+          "pointer": "04cad0e0",
+          "value": "reason"
+        },
+        {
+          "pointer": "04cb24e0",
+          "value": "resource_amount"
+        },
+        {
+          "pointer": "04cb24e8",
+          "value": "resource_balance"
+        },
+        {
+          "pointer": "04cb24f8",
+          "value": "resource_type"
+        },
+        {
+          "pointer": "04cad048",
+          "value": "Cheat"
+        },
+        {
+          "pointer": "04cb2540",
+          "value": "resource_earn"
+        },
+        {
+          "pointer": "04cb2548",
+          "value": "infinite_heart"
+        },
+        {
+          "pointer": "04caa870",
+          "value": "placement"
+        },
+        {
+          "pointer": "04cb2500",
+          "value": "resource_name"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.Meta.GameTracking$$IapClose",
+      "file": "Evidence/Native/02317d5c.c",
+      "events": [
+        "iap_close"
+      ],
+      "keys": [
+        "pack_name"
+      ],
+      "literals": [
+        {
+          "pointer": "04cb2678",
+          "value": "show_type"
+        },
+        {
+          "pointer": "04cb2680",
+          "value": "pack_name"
+        },
+        {
+          "pointer": "04cb26a0",
+          "value": "iap_close"
+        },
+        {
+          "pointer": "04cb2690",
+          "value": "trigger_type"
+        },
+        {
+          "pointer": "04cb26a8",
+          "value": "duration_iap"
+        },
+        {
+          "pointer": "04caa870",
+          "value": "placement"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.Meta.GameTracking$$IapClose",
+      "file": "Evidence/Native/0231840c.c",
+      "events": [
+        "iap_close"
+      ],
+      "keys": [
+        "pack_name"
+      ],
+      "literals": [
+        {
+          "pointer": "04cb2678",
+          "value": "show_type"
+        },
+        {
+          "pointer": "04cb2680",
+          "value": "pack_name"
+        },
+        {
+          "pointer": "04cb26a0",
+          "value": "iap_close"
+        },
+        {
+          "pointer": "04cb2690",
+          "value": "trigger_type"
+        },
+        {
+          "pointer": "04cb26a8",
+          "value": "duration_iap"
+        },
+        {
+          "pointer": "04caa870",
+          "value": "placement"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.Meta.GameTracking$$IapFailed",
+      "file": "Evidence/Native/023189dc.c",
+      "events": [
+        "iap_purchase_failed"
+      ],
+      "keys": [
+        "price",
+        "fail_reason"
+      ],
+      "literals": [
+        {
+          "pointer": "04caad48",
+          "value": "unknown"
+        },
+        {
+          "pointer": "04cad1f8",
+          "value": "price"
+        },
+        {
+          "pointer": "04cb26c0",
+          "value": "iap_purchase_failed"
+        },
+        {
+          "pointer": "04cb26c8",
+          "value": "fail_reason"
+        },
+        {
+          "pointer": "04ca9b60",
+          "value": "null"
+        },
+        {
+          "pointer": "04cb26d0",
+          "value": "error_code"
+        },
+        {
+          "pointer": "04caa840",
+          "value": "currency"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.Meta.GameTracking$$TutorialOpen",
+      "file": "Evidence/Native/02318c24.c",
+      "events": [
+        "tutorial_action"
+      ],
+      "keys": [
+        "action_cate"
+      ],
+      "literals": [
+        {
+          "pointer": "04cacd10",
+          "value": "start"
+        },
+        {
+          "pointer": "04cae0f0",
+          "value": "click"
+        },
+        {
+          "pointer": "04cb25a8",
+          "value": "use_booster"
+        },
+        {
+          "pointer": "04cb26d8",
+          "value": "action_cate"
+        },
+        {
+          "pointer": "04cb26e0",
+          "value": "action_name"
+        },
+        {
+          "pointer": "04cb26e8",
+          "value": "tutorial_action"
+        },
+        {
+          "pointer": "04cb26f0",
+          "value": "action_index"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.Meta.GameTracking$$Tutorial",
+      "file": "Evidence/Native/02318ce8.c",
+      "events": [
+        "tutorial_action"
+      ],
+      "keys": [
+        "action_cate"
+      ],
+      "literals": [
+        {
+          "pointer": "04cb26d8",
+          "value": "action_cate"
+        },
+        {
+          "pointer": "04cb26e0",
+          "value": "action_name"
+        },
+        {
+          "pointer": "04cb26e8",
+          "value": "tutorial_action"
+        },
+        {
+          "pointer": "04cb26f0",
+          "value": "action_index"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.Meta.GameTracking$$TutorialDone",
+      "file": "Evidence/Native/02318e1c.c",
+      "events": [
+        "tutorial_action"
+      ],
+      "keys": [
+        "action_cate"
+      ],
+      "literals": [
+        {
+          "pointer": "04cb26f8",
+          "value": "use_booster_"
+        },
+        {
+          "pointer": "04cae0f0",
+          "value": "click"
+        },
+        {
+          "pointer": "04cb2700",
+          "value": "click_1"
+        },
+        {
+          "pointer": "04cb2708",
+          "value": "finish"
+        },
+        {
+          "pointer": "04cb25a8",
+          "value": "use_booster"
+        },
+        {
+          "pointer": "04cb2710",
+          "value": "click_2"
+        },
+        {
+          "pointer": "04cb26d8",
+          "value": "action_cate"
+        },
+        {
+          "pointer": "04cb26e0",
+          "value": "action_name"
+        },
+        {
+          "pointer": "04cb26e8",
+          "value": "tutorial_action"
+        },
+        {
+          "pointer": "04cb26f0",
+          "value": "action_index"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.Meta.GameTracking$$ContinueOffer",
+      "file": "Evidence/Native/023193d0.c",
+      "events": [
+        "continue_offer"
+      ],
+      "keys": [
+        "level",
+        "continue_index",
+        "suction",
+        "sand_left_pct",
+        "items_total",
+        "items_cleared",
+        "fail_by",
+        "cars_left",
+        "cars_road",
+        "price"
+      ],
+      "literals": [
+        {
+          "pointer": "04cb2720",
+          "value": "continue_offer"
+        },
+        {
+          "pointer": "04cb2728",
+          "value": "continue_index"
+        },
+        {
+          "pointer": "04cb2730",
+          "value": "ads"
+        },
+        {
+          "pointer": "04cb2738",
+          "value": "fail_by"
+        },
+        {
+          "pointer": "04cad1f8",
+          "value": "price"
+        },
+        {
+          "pointer": "04cb2450",
+          "value": "cars_road"
+        },
+        {
+          "pointer": "04cac620",
+          "value": "sand_left_pct"
+        },
+        {
+          "pointer": "04cb2740",
+          "value": "suction"
+        },
+        {
+          "pointer": "04cabc00",
+          "value": "level"
+        },
+        {
+          "pointer": "04cb2478",
+          "value": "cars_left"
+        },
+        {
+          "pointer": "04cb2480",
+          "value": "items_total"
+        },
+        {
+          "pointer": "04cb0370",
+          "value": "action"
+        },
+        {
+          "pointer": "04cb2488",
+          "value": "items_cleared"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.Meta.BattleRoyaleTrack$$Reward",
+      "file": "Evidence/Native/02323cd4.c",
+      "events": [
+        "g_lava_reward"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cb2b08",
+          "value": "winner_cnt"
+        },
+        {
+          "pointer": "04cb2b10",
+          "value": "lava"
+        },
+        {
+          "pointer": "04cb2b18",
+          "value": "activity_reward"
+        },
+        {
+          "pointer": "04cb2b20",
+          "value": "g_lava_reward"
+        },
+        {
+          "pointer": "04cb2b28",
+          "value": "campaign_name"
+        },
+        {
+          "pointer": "04cb2b30",
+          "value": "round_no"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.Meta.BattleRoyaleTrack$$StageAdvance",
+      "file": "Evidence/Native/023250c0.c",
+      "events": [
+        "g_lava_stage_advance"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cb2ba8",
+          "value": "before_player_num"
+        },
+        {
+          "pointer": "04cb2bb0",
+          "value": "change_type"
+        },
+        {
+          "pointer": "04cb2b10",
+          "value": "lava"
+        },
+        {
+          "pointer": "04cb2bb8",
+          "value": "after_player_num"
+        },
+        {
+          "pointer": "04cb2b28",
+          "value": "campaign_name"
+        },
+        {
+          "pointer": "04cb2bc0",
+          "value": "to_stage"
+        },
+        {
+          "pointer": "04cb2bc8",
+          "value": "g_lava_stage_advance"
+        },
+        {
+          "pointer": "04cb2b30",
+          "value": "round_no"
+        },
+        {
+          "pointer": "04cb2bd0",
+          "value": "is_final_round"
+        },
+        {
+          "pointer": "04cb2bd8",
+          "value": "remain_duration"
+        },
+        {
+          "pointer": "04cb2be0",
+          "value": "from_stage"
+        },
+        {
+          "pointer": "04cb2be8",
+          "value": "round_times"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.Meta.ClimbTowerFeature$$TrackStageAdvance",
+      "file": "Evidence/Native/0232b9a4.c",
+      "events": [
+        "g_ballon_stage_advance"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cb2bb0",
+          "value": "change_type"
+        },
+        {
+          "pointer": "04cb2e30",
+          "value": "ballon"
+        },
+        {
+          "pointer": "04cb2b28",
+          "value": "campaign_name"
+        },
+        {
+          "pointer": "04cb2bc0",
+          "value": "to_stage"
+        },
+        {
+          "pointer": "04cb2e38",
+          "value": "g_ballon_stage_advance"
+        },
+        {
+          "pointer": "04cb2b30",
+          "value": "round_no"
+        },
+        {
+          "pointer": "04cb2bd0",
+          "value": "is_final_round"
+        },
+        {
+          "pointer": "04cb2bd8",
+          "value": "remain_duration"
+        },
+        {
+          "pointer": "04cb2be0",
+          "value": "from_stage"
+        },
+        {
+          "pointer": "04cb2be8",
+          "value": "round_times"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.Meta.ClimbTowerFeature$$Lose",
+      "file": "Evidence/Native/0232c374.c",
+      "events": [
+        "g_ballon_stage_advance"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cb2bb0",
+          "value": "change_type"
+        },
+        {
+          "pointer": "04cb2e30",
+          "value": "ballon"
+        },
+        {
+          "pointer": "04cb2b28",
+          "value": "campaign_name"
+        },
+        {
+          "pointer": "04cb2bc0",
+          "value": "to_stage"
+        },
+        {
+          "pointer": "04cb2e38",
+          "value": "g_ballon_stage_advance"
+        },
+        {
+          "pointer": "04cb2b30",
+          "value": "round_no"
+        },
+        {
+          "pointer": "04cb2bd0",
+          "value": "is_final_round"
+        },
+        {
+          "pointer": "04cb2bd8",
+          "value": "remain_duration"
+        },
+        {
+          "pointer": "04cb2be0",
+          "value": "from_stage"
+        },
+        {
+          "pointer": "04cb2be8",
+          "value": "round_times"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.Meta.GiftPackTrack$$GoldStageAdvance",
+      "file": "Evidence/Native/0233c028.c",
+      "events": [
+        "g_gold_gift_stage_advance"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cb2bb0",
+          "value": "change_type"
+        },
+        {
+          "pointer": "04cb3648",
+          "value": "frist_unlock_stage"
+        },
+        {
+          "pointer": "04cb3650",
+          "value": "gold_gift_stage"
+        },
+        {
+          "pointer": "04cb2bc0",
+          "value": "to_stage"
+        },
+        {
+          "pointer": "04cb3658",
+          "value": "is_paid_gold_gift"
+        },
+        {
+          "pointer": "04cb3660",
+          "value": "g_gold_gift_stage_advance"
+        },
+        {
+          "pointer": "04cb2b30",
+          "value": "round_no"
+        },
+        {
+          "pointer": "04cb2bd8",
+          "value": "remain_duration"
+        },
+        {
+          "pointer": "04cb2be0",
+          "value": "from_stage"
+        },
+        {
+          "pointer": "04cb2be8",
+          "value": "round_times"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.Meta.GiftPackTrack$$GoldRewardGet",
+      "file": "Evidence/Native/0233cf94.c",
+      "events": [
+        "g_gold_gift_reward_get"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cb2bb0",
+          "value": "change_type"
+        },
+        {
+          "pointer": "04cb3670",
+          "value": "g_gold_gift_reward_get"
+        },
+        {
+          "pointer": "04cb2b18",
+          "value": "activity_reward"
+        },
+        {
+          "pointer": "04cb3650",
+          "value": "gold_gift_stage"
+        },
+        {
+          "pointer": "04cb2b30",
+          "value": "round_no"
+        },
+        {
+          "pointer": "04cb2bd8",
+          "value": "remain_duration"
+        },
+        {
+          "pointer": "04cb2be8",
+          "value": "round_times"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.Meta.GiftPackTrack$$IapAction",
+      "file": "Evidence/Native/0233fb44.c",
+      "events": [
+        "g_iap_action"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04caecc0",
+          "value": "sku_close"
+        },
+        {
+          "pointer": "04cad1f8",
+          "value": "price"
+        },
+        {
+          "pointer": "04cac728",
+          "value": "scene"
+        },
+        {
+          "pointer": "04cadcf0",
+          "value": "label"
+        },
+        {
+          "pointer": "04cb3778",
+          "value": "g_iap_action"
+        },
+        {
+          "pointer": "04cb3750",
+          "value": "sku"
+        },
+        {
+          "pointer": "04ca9c30",
+          "value": ""
+        },
+        {
+          "pointer": "04cb3760",
+          "value": "sku_type"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.Meta.PassportFeature$$ActivePrivilege",
+      "file": "Evidence/Native/02345b54.c",
+      "events": [
+        "resource_earn"
+      ],
+      "keys": [
+        "resource_type",
+        "resource_name",
+        "reason"
+      ],
+      "literals": [
+        {
+          "pointer": "04cb39f0",
+          "value": "TbPrivilege"
+        },
+        {
+          "pointer": "04cb39f8",
+          "value": "PowerLimitAdd"
+        },
+        {
+          "pointer": "04cb25f0",
+          "value": "PassportReward"
+        },
+        {
+          "pointer": "04cad0e0",
+          "value": "reason"
+        },
+        {
+          "pointer": "04cb24e0",
+          "value": "resource_amount"
+        },
+        {
+          "pointer": "04cb24e8",
+          "value": "resource_balance"
+        },
+        {
+          "pointer": "04cb24f8",
+          "value": "resource_type"
+        },
+        {
+          "pointer": "04cad048",
+          "value": "Cheat"
+        },
+        {
+          "pointer": "04cb2540",
+          "value": "resource_earn"
+        },
+        {
+          "pointer": "04cb2548",
+          "value": "infinite_heart"
+        },
+        {
+          "pointer": "04caa870",
+          "value": "placement"
+        },
+        {
+          "pointer": "04cb2500",
+          "value": "resource_name"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.Meta.PassportFeature$$TrackUnlockStage",
+      "file": "Evidence/Native/02347500.c",
+      "events": [
+        "g_pass_stage_advance"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cb2e48",
+          "value": "stage_id"
+        },
+        {
+          "pointer": "04cb3a00",
+          "value": "is_paid_pass"
+        },
+        {
+          "pointer": "04cb3a08",
+          "value": "g_pass_stage_advance"
+        },
+        {
+          "pointer": "04cb2b30",
+          "value": "round_no"
+        },
+        {
+          "pointer": "04cb2bd8",
+          "value": "remain_duration"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.Meta.PassportFeature$$TrackReward",
+      "file": "Evidence/Native/02347b68.c",
+      "events": [
+        "g_pass_reward_get"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cb3a10",
+          "value": "g_pass_reward_get"
+        },
+        {
+          "pointer": "04cb2bb0",
+          "value": "change_type"
+        },
+        {
+          "pointer": "04cb2b18",
+          "value": "activity_reward"
+        },
+        {
+          "pointer": "04cb2e48",
+          "value": "stage_id"
+        },
+        {
+          "pointer": "04cb2b30",
+          "value": "round_no"
+        },
+        {
+          "pointer": "04cb3a18",
+          "value": "pass_type"
+        },
+        {
+          "pointer": "04cb2bd8",
+          "value": "remain_duration"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.Meta.StreakRateFeature$$TrackLose",
+      "file": "Evidence/Native/0234e5d8.c",
+      "events": [
+        "g_pearl_stage_advance"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cb2bb0",
+          "value": "change_type"
+        },
+        {
+          "pointer": "04cb3be8",
+          "value": "pearl"
+        },
+        {
+          "pointer": "04cb3bf0",
+          "value": "g_pearl_stage_advance"
+        },
+        {
+          "pointer": "04cb3bf8",
+          "value": "change_num"
+        },
+        {
+          "pointer": "04cb2b28",
+          "value": "campaign_name"
+        },
+        {
+          "pointer": "04cb2bc0",
+          "value": "to_stage"
+        },
+        {
+          "pointer": "04cb2b30",
+          "value": "round_no"
+        },
+        {
+          "pointer": "04cb2bd8",
+          "value": "remain_duration"
+        },
+        {
+          "pointer": "04cb2be0",
+          "value": "from_stage"
+        },
+        {
+          "pointer": "04cb2be8",
+          "value": "round_times"
+        },
+        {
+          "pointer": "04cb3c00",
+          "value": "win_streak_times"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.Meta.StreakRateFeature$$TrackUnlock",
+      "file": "Evidence/Native/0234f208.c",
+      "events": [
+        "g_pearl_reward_unlock"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cb2bb0",
+          "value": "change_type"
+        },
+        {
+          "pointer": "04cb3be8",
+          "value": "pearl"
+        },
+        {
+          "pointer": "04cb2b18",
+          "value": "activity_reward"
+        },
+        {
+          "pointer": "04cb2e48",
+          "value": "stage_id"
+        },
+        {
+          "pointer": "04cb3c08",
+          "value": "g_pearl_reward_unlock"
+        },
+        {
+          "pointer": "04cb2b28",
+          "value": "campaign_name"
+        },
+        {
+          "pointer": "04cb2b30",
+          "value": "round_no"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.Meta.StreakRateFeature$$TrackWin",
+      "file": "Evidence/Native/0234f858.c",
+      "events": [
+        "g_pearl_stage_advance"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cb2bb0",
+          "value": "change_type"
+        },
+        {
+          "pointer": "04cb3be8",
+          "value": "pearl"
+        },
+        {
+          "pointer": "04cb3bf0",
+          "value": "g_pearl_stage_advance"
+        },
+        {
+          "pointer": "04cb3bf8",
+          "value": "change_num"
+        },
+        {
+          "pointer": "04cb2b28",
+          "value": "campaign_name"
+        },
+        {
+          "pointer": "04cb2bc0",
+          "value": "to_stage"
+        },
+        {
+          "pointer": "04cb2b30",
+          "value": "round_no"
+        },
+        {
+          "pointer": "04cb2bd8",
+          "value": "remain_duration"
+        },
+        {
+          "pointer": "04cb2be0",
+          "value": "from_stage"
+        },
+        {
+          "pointer": "04cb2be8",
+          "value": "round_times"
+        },
+        {
+          "pointer": "04cb3c00",
+          "value": "win_streak_times"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.Meta.YachtRacingCore$$Track",
+      "file": "Evidence/Native/0235659c.c",
+      "events": [
+        "g_race_stage_advance"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cb3eb8",
+          "value": "stage_times"
+        },
+        {
+          "pointer": "04cb3ec0",
+          "value": "g_race_stage_advance"
+        },
+        {
+          "pointer": "04cb2bb0",
+          "value": "change_type"
+        },
+        {
+          "pointer": "04cb3ec8",
+          "value": "to_rank"
+        },
+        {
+          "pointer": "04cb3ed0",
+          "value": "from_rank"
+        },
+        {
+          "pointer": "04cb3ed8",
+          "value": "robot_group_id"
+        },
+        {
+          "pointer": "04cb3ee0",
+          "value": "stage_userscore"
+        },
+        {
+          "pointer": "04cb3ee8",
+          "value": "racing"
+        },
+        {
+          "pointer": "04cb3ef0",
+          "value": "to_level"
+        },
+        {
+          "pointer": "04cb2b28",
+          "value": "campaign_name"
+        },
+        {
+          "pointer": "04cb2bc0",
+          "value": "to_stage"
+        },
+        {
+          "pointer": "04cb2b30",
+          "value": "round_no"
+        },
+        {
+          "pointer": "04cb2bd0",
+          "value": "is_final_round"
+        },
+        {
+          "pointer": "04cb2bd8",
+          "value": "remain_duration"
+        },
+        {
+          "pointer": "04cb2be0",
+          "value": "from_stage"
+        },
+        {
+          "pointer": "04cb2be8",
+          "value": "round_times"
+        },
+        {
+          "pointer": "04cb1ee0",
+          "value": "from_level"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.Meta.YachtRacingCore$$TrackReward",
+      "file": "Evidence/Native/0235709c.c",
+      "events": [
+        "g_race_reward_unlock"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cac768",
+          "value": "item_id"
+        },
+        {
+          "pointer": "04cb2bb0",
+          "value": "change_type"
+        },
+        {
+          "pointer": "04cb07f8",
+          "value": "TbRewardConfig"
+        },
+        {
+          "pointer": "04cb2b18",
+          "value": "activity_reward"
+        },
+        {
+          "pointer": "04cacc78",
+          "value": "item_name"
+        },
+        {
+          "pointer": "04cb2e48",
+          "value": "stage_id"
+        },
+        {
+          "pointer": "04cb3ee8",
+          "value": "racing"
+        },
+        {
+          "pointer": "04cb3ef8",
+          "value": "g_race_reward_unlock"
+        },
+        {
+          "pointer": "04cb2b28",
+          "value": "campaign_name"
+        },
+        {
+          "pointer": "04cacc88",
+          "value": "item_num"
+        },
+        {
+          "pointer": "04cb2b30",
+          "value": "round_no"
+        },
+        {
+          "pointer": "04cad280",
+          "value": "get"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.Meta.Profile$$Load",
+      "file": "Evidence/Native/0236fa7c.c",
+      "events": [
+        "save_recovered"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cb47a8",
+          "value": "[Profile] no readable save: starting a new player (unreadable file kept as .corrupt)"
+        },
+        {
+          "pointer": "04cb47b0",
+          "value": "from"
+        },
+        {
+          "pointer": "04cb47b8",
+          "value": "save_recovered"
+        },
+        {
+          "pointer": "04cabb68",
+          "value": ".tmp"
+        },
+        {
+          "pointer": "04cb47c0",
+          "value": "[Profile] main save unreadable: recovered from "
+        },
+        {
+          "pointer": "04cac078",
+          "value": "EN_US"
+        },
+        {
+          "pointer": "04cb47c8",
+          "value": ".corrupt"
+        },
+        {
+          "pointer": "04cb4730",
+          "value": ".bak"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.Meta.Profile$$Add",
+      "file": "Evidence/Native/02372578.c",
+      "events": [
+        "resource_earn"
+      ],
+      "keys": [
+        "resource_type",
+        "resource_name",
+        "reason"
+      ],
+      "literals": [
+        {
+          "pointer": "04cad0e0",
+          "value": "reason"
+        },
+        {
+          "pointer": "04cb24e0",
+          "value": "resource_amount"
+        },
+        {
+          "pointer": "04cb24e8",
+          "value": "resource_balance"
+        },
+        {
+          "pointer": "04cb24f8",
+          "value": "resource_type"
+        },
+        {
+          "pointer": "04cad048",
+          "value": "Cheat"
+        },
+        {
+          "pointer": "04cb2540",
+          "value": "resource_earn"
+        },
+        {
+          "pointer": "04cb2548",
+          "value": "infinite_heart"
+        },
+        {
+          "pointer": "04caa870",
+          "value": "placement"
+        },
+        {
+          "pointer": "04cb2500",
+          "value": "resource_name"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.Meta.StoreReview.<>c__DisplayClass1_0$$<Request>b__0",
+      "file": "Evidence/Native/02374c1c.c",
+      "events": [
+        "rate_review"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cb4838",
+          "value": "in_app"
+        },
+        {
+          "pointer": "04cb4840",
+          "value": "rate_review"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.Meta.WinStreak$$Start",
+      "file": "Evidence/Native/02393a18.c",
+      "events": [
+        "winstreak_start"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cb5480",
+          "value": "cycle"
+        },
+        {
+          "pointer": "04cb5488",
+          "value": "winstreak_start"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.Meta.WinStreak$$OnBoot",
+      "file": "Evidence/Native/02393c80.c",
+      "events": [
+        "winstreak_kill"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cb5490",
+          "value": "winstreak_kill"
+        },
+        {
+          "pointer": "04cb4088",
+          "value": "floor"
+        },
+        {
+          "pointer": "04cb5470",
+          "value": "winstreak"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.Meta.WinStreak$$OnLose",
+      "file": "Evidence/Native/02393e0c.c",
+      "events": [
+        "winstreak_fall"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cb47b0",
+          "value": "from"
+        },
+        {
+          "pointer": "04cb5498",
+          "value": "winstreak_fall"
+        },
+        {
+          "pointer": "04cb54a0",
+          "value": "to"
+        },
+        {
+          "pointer": "04cb5470",
+          "value": "winstreak"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.Meta.WinStreak$$OnWin",
+      "file": "Evidence/Native/023940bc.c",
+      "events": [
+        "winstreak_floor"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cb54a8",
+          "value": "winstreak_floor"
+        },
+        {
+          "pointer": "04cb4088",
+          "value": "floor"
+        },
+        {
+          "pointer": "04cb5470",
+          "value": "winstreak"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.Meta.WinStreak$$Claim",
+      "file": "Evidence/Native/023945c8.c",
+      "events": [
+        "winstreak_claim"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cb54b0",
+          "value": "winstreak_claim"
+        },
+        {
+          "pointer": "04cb2570",
+          "value": "WinStreak"
+        },
+        {
+          "pointer": "04cb1e68",
+          "value": "chest"
+        },
+        {
+          "pointer": "04cb4088",
+          "value": "floor"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.Gameplay.GameplayController$$<Awake>b__96_4",
+      "file": "Evidence/Native/0239fe44.c",
+      "events": [
+        "end_suction"
+      ],
+      "keys": [
+        "level",
+        "sand_left_pct",
+        "duration_play"
+      ],
+      "literals": [
+        {
+          "pointer": "04cac620",
+          "value": "sand_left_pct"
+        },
+        {
+          "pointer": "04cabc00",
+          "value": "level"
+        },
+        {
+          "pointer": "04cb2490",
+          "value": "end_suction"
+        },
+        {
+          "pointer": "04cb2470",
+          "value": "duration_play"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.CommentPopPanel$$OnOpen",
+      "file": "Evidence/Native/023a513c.c",
+      "events": [
+        "comment_show"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cb1d30",
+          "value": "count"
+        },
+        {
+          "pointer": "04caf448",
+          "value": "Rect_Center"
+        },
+        {
+          "pointer": "04cb5c38",
+          "value": "Are you enjoying our game?\nPlease give us a rating!"
+        },
+        {
+          "pointer": "04cb3b20",
+          "value": "Rate"
+        },
+        {
+          "pointer": "04cb5c40",
+          "value": "Button_Star"
+        },
+        {
+          "pointer": "04cb5c48",
+          "value": "Rate us!"
+        },
+        {
+          "pointer": "04cabc00",
+          "value": "level"
+        },
+        {
+          "pointer": "04cb5c50",
+          "value": "text_ItemTip"
+        },
+        {
+          "pointer": "04cb5c58",
+          "value": "comment_show"
+        },
+        {
+          "pointer": "04cb5c60",
+          "value": "A94C00"
+        },
+        {
+          "pointer": "04cb5c68",
+          "value": "icon_star"
+        },
+        {
+          "pointer": "04cb5c70",
+          "value": "Common_Evaluate_Des"
+        },
+        {
+          "pointer": "04caf208",
+          "value": "Btn_sureBtn"
+        },
+        {
+          "pointer": "04cad948",
+          "value": "sfx_common_button_scale_click"
+        },
+        {
+          "pointer": "04cb5c78",
+          "value": "Common_Evaluate_Title"
+        },
+        {
+          "pointer": "04cad4a8",
+          "value": "Plain"
+        },
+        {
+          "pointer": "04cb5c80",
+          "value": "Common_Evaluate_Button_Send"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.CommentPopPanel$$SetStarCount",
+      "file": "Evidence/Native/023a5cdc.c",
+      "events": [
+        "comment_star"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cb22a0",
+          "value": "stars"
+        },
+        {
+          "pointer": "04cb5c88",
+          "value": "icon_star_empty"
+        },
+        {
+          "pointer": "04cb5c68",
+          "value": "icon_star"
+        },
+        {
+          "pointer": "04cb5c90",
+          "value": "comment_star"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.CommentPopPanel$$OnRateClick",
+      "file": "Evidence/Native/023a608c.c",
+      "events": [
+        "comment_submit"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cb22a0",
+          "value": "stars"
+        },
+        {
+          "pointer": "04cb5c10",
+          "value": "CommentPopPermanentlyDone"
+        },
+        {
+          "pointer": "04cb5ca8",
+          "value": "comment_submit"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.CommentPopPanel$$OnSendClick",
+      "file": "Evidence/Native/023a6dec.c",
+      "events": [
+        "comment_feedback"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cb22a0",
+          "value": "stars"
+        },
+        {
+          "pointer": "04cb5d38",
+          "value": "comment_feedback"
+        },
+        {
+          "pointer": "04cabc50",
+          "value": "text"
+        },
+        {
+          "pointer": "04cb5d40",
+          "value": "UIThankYou2D"
+        },
+        {
+          "pointer": "04cb5d48",
+          "value": "NULL:User no comments"
+        },
+        {
+          "pointer": "04ca9c30",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.CommentPopPanel$$OnCloseClick",
+      "file": "Evidence/Native/023a7138.c",
+      "events": [
+        "comment_close"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cb22a0",
+          "value": "stars"
+        },
+        {
+          "pointer": "04cb5d50",
+          "value": "comment_close"
+        },
+        {
+          "pointer": "04cac9b8",
+          "value": "step"
+        },
+        {
+          "pointer": "04cb22d0",
+          "value": "feedback"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.CommentPopPanel.<>c__DisplayClass18_0$$<OnOpen>b__0",
+      "file": "Evidence/Native/023a74d8.c",
+      "events": [
+        "comment_star"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cb22a0",
+          "value": "stars"
+        },
+        {
+          "pointer": "04cb5c88",
+          "value": "icon_star_empty"
+        },
+        {
+          "pointer": "04cb5c68",
+          "value": "icon_star"
+        },
+        {
+          "pointer": "04cb5c90",
+          "value": "comment_star"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.PowerBuyPanel$$OnOpen",
+      "file": "Evidence/Native/023af6d8.c",
+      "events": [
+        "hp_buy_show"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cb6028",
+          "value": "Refill lives"
+        },
+        {
+          "pointer": "04cb6030",
+          "value": "TimePill"
+        },
+        {
+          "pointer": "04cb6038",
+          "value": "UI_heart_restore"
+        },
+        {
+          "pointer": "04cad078",
+          "value": "EnergyRefill"
+        },
+        {
+          "pointer": "04cb6040",
+          "value": "Rect_timeMini"
+        },
+        {
+          "pointer": "04cb6048",
+          "value": "hp_buy_show"
+        },
+        {
+          "pointer": "04cb6050",
+          "value": "+1"
+        },
+        {
+          "pointer": "04caf5f0",
+          "value": "icon_coin"
+        },
+        {
+          "pointer": "04cabb90",
+          "value": "hearts"
+        },
+        {
+          "pointer": "04cb1f58",
+          "value": "buy_count"
+        },
+        {
+          "pointer": "04cb6058",
+          "value": "timetitle"
+        },
+        {
+          "pointer": "04cad488",
+          "value": "Clock"
+        },
+        {
+          "pointer": "04cb6060",
+          "value": "icon_heart_plus"
+        },
+        {
+          "pointer": "04cb0330",
+          "value": "addnum"
+        },
+        {
+          "pointer": "04cb4ea8",
+          "value": "Red"
+        },
+        {
+          "pointer": "04caec30",
+          "value": "TxtM_time"
+        },
+        {
+          "pointer": "04caffa8",
+          "value": "icon_ads"
+        },
+        {
+          "pointer": "04cb6068",
+          "value": "UI_Refill_Lives"
+        },
+        {
+          "pointer": "04cb6070",
+          "value": "Heart"
+        },
+        {
+          "pointer": "04cad498",
+          "value": "icon_timer"
+        },
+        {
+          "pointer": "04cb6078",
+          "value": "Btn_adBtn"
+        },
+        {
+          "pointer": "04cb6080",
+          "value": "Time to next life:"
+        },
+        {
+          "pointer": "04cb6088",
+          "value": "frame_timer"
+        },
+        {
+          "pointer": "04cad9e8",
+          "value": "Btn_buyBtn"
+        },
+        {
+          "pointer": "04ca9c30",
+          "value": ""
+        },
+        {
+          "pointer": "04cad460",
+          "value": "Btn_close"
+        },
+        {
+          "pointer": "04cad948",
+          "value": "sfx_common_button_scale_click"
+        },
+        {
+          "pointer": "04cad4a8",
+          "value": "Plain"
+        },
+        {
+          "pointer": "04cab288",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.PowerBuyPanel$$OnCloseClick",
+      "file": "Evidence/Native/023b0860.c",
+      "events": [
+        "hp_buy_close"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cb60a0",
+          "value": "hp_buy_close"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.PowerBuyPanel$$OnBuyClick",
+      "file": "Evidence/Native/023b0c94.c",
+      "events": [
+        "hp_fill_click"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cabb38",
+          "value": "coins"
+        },
+        {
+          "pointer": "04cb60a8",
+          "value": "by"
+        },
+        {
+          "pointer": "04cb60b0",
+          "value": "hp_fill_click"
+        },
+        {
+          "pointer": "04cac758",
+          "value": "Not enough coins"
+        },
+        {
+          "pointer": "04cac760",
+          "value": "UIStorePanel"
+        },
+        {
+          "pointer": "04cb4e20",
+          "value": "Text"
+        },
+        {
+          "pointer": "04cafbb8",
+          "value": "Bg"
+        },
+        {
+          "pointer": "04cb6578",
+          "value": "Toast"
+        },
+        {
+          "pointer": "04ca9c30",
+          "value": ""
+        },
+        {
+          "pointer": "04cb64b8",
+          "value": "frame_tut_booster"
+        },
+        {
+          "pointer": "04cad4a8",
+          "value": "Plain"
+        },
+        {
+          "pointer": "04cc5288",
+          "value": "[UI] prefab not found: "
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.PowerBuyPanel$$OnAdClick",
+      "file": "Evidence/Native/023b0f80.c",
+      "events": [
+        "hp_fill_click",
+        "g_ad_visit"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cad078",
+          "value": "EnergyRefill"
+        },
+        {
+          "pointer": "04cb60a8",
+          "value": "by"
+        },
+        {
+          "pointer": "04cac888",
+          "value": "UI_Ad_Failed"
+        },
+        {
+          "pointer": "04cac790",
+          "value": "ad"
+        },
+        {
+          "pointer": "04cb60b0",
+          "value": "hp_fill_click"
+        },
+        {
+          "pointer": "04cacab0",
+          "value": "session_time"
+        },
+        {
+          "pointer": "04cacab8",
+          "value": " open"
+        },
+        {
+          "pointer": "04cad0a8",
+          "value": "rewarded "
+        },
+        {
+          "pointer": "04cacad0",
+          "value": "g_ad_visit"
+        },
+        {
+          "pointer": "04cabba0",
+          "value": "play"
+        },
+        {
+          "pointer": "04cad0b0",
+          "value": "reward"
+        },
+        {
+          "pointer": "04cad0b8",
+          "value": "[Ads] rewarded "
+        },
+        {
+          "pointer": "04cacae8",
+          "value": "ad_visit_action"
+        },
+        {
+          "pointer": "04cacaf0",
+          "value": "ad_is_ready"
+        },
+        {
+          "pointer": "04cacaf8",
+          "value": "ad_visit_scene"
+        },
+        {
+          "pointer": "04caa858",
+          "value": "ad_type"
+        },
+        {
+          "pointer": "04cad0c0",
+          "value": " ignored: another rewarded request is still open"
+        },
+        {
+          "pointer": "04cb4e20",
+          "value": "Text"
+        },
+        {
+          "pointer": "04cafbb8",
+          "value": "Bg"
+        },
+        {
+          "pointer": "04cb6578",
+          "value": "Toast"
+        },
+        {
+          "pointer": "04ca9c30",
+          "value": ""
+        },
+        {
+          "pointer": "04cb64b8",
+          "value": "frame_tut_booster"
+        },
+        {
+          "pointer": "04cad4a8",
+          "value": "Plain"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.PurchaseItemPanel$$OnOpen",
+      "file": "Evidence/Native/023b1ac0.c",
+      "events": [
+        "purchase_item_show"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cb1d38",
+          "value": "shop_id"
+        },
+        {
+          "pointer": "04cad9a0",
+          "value": "Btn_freeAd"
+        },
+        {
+          "pointer": "04caf5f0",
+          "value": "icon_coin"
+        },
+        {
+          "pointer": "04cb60f8",
+          "value": "UI_Buy_Booster"
+        },
+        {
+          "pointer": "04cb6100",
+          "value": "purchase_item_show"
+        },
+        {
+          "pointer": "04cb6108",
+          "value": "Buy Booster!"
+        },
+        {
+          "pointer": "04cad088",
+          "value": "ItemRefill"
+        },
+        {
+          "pointer": "04cb6110",
+          "value": "UI_Get_X"
+        },
+        {
+          "pointer": "04caffa8",
+          "value": "icon_ads"
+        },
+        {
+          "pointer": "04cb6118",
+          "value": "Get x{0}"
+        },
+        {
+          "pointer": "04cad9e8",
+          "value": "Btn_buyBtn"
+        },
+        {
+          "pointer": "04cad460",
+          "value": "Btn_close"
+        },
+        {
+          "pointer": "04cad948",
+          "value": "sfx_common_button_scale_click"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.PurchaseItemPanel$$OnBuyClick",
+      "file": "Evidence/Native/023b25d0.c",
+      "events": [
+        "purchase_item_fail"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cad0e0",
+          "value": "reason"
+        },
+        {
+          "pointer": "04cb6120",
+          "value": "purchase_item_fail"
+        },
+        {
+          "pointer": "04cabb38",
+          "value": "coins"
+        },
+        {
+          "pointer": "04cb1d38",
+          "value": "shop_id"
+        },
+        {
+          "pointer": "04cad9e8",
+          "value": "Btn_buyBtn"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.PurchaseItemPanel$$OnFreeAdClick",
+      "file": "Evidence/Native/023b28d8.c",
+      "events": [
+        "g_ad_visit"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cad088",
+          "value": "ItemRefill"
+        },
+        {
+          "pointer": "04cacab0",
+          "value": "session_time"
+        },
+        {
+          "pointer": "04cacab8",
+          "value": " open"
+        },
+        {
+          "pointer": "04cad0a8",
+          "value": "rewarded "
+        },
+        {
+          "pointer": "04cacad0",
+          "value": "g_ad_visit"
+        },
+        {
+          "pointer": "04cabba0",
+          "value": "play"
+        },
+        {
+          "pointer": "04cad0b0",
+          "value": "reward"
+        },
+        {
+          "pointer": "04cad0b8",
+          "value": "[Ads] rewarded "
+        },
+        {
+          "pointer": "04cacae8",
+          "value": "ad_visit_action"
+        },
+        {
+          "pointer": "04cacaf0",
+          "value": "ad_is_ready"
+        },
+        {
+          "pointer": "04cacaf8",
+          "value": "ad_visit_scene"
+        },
+        {
+          "pointer": "04cac790",
+          "value": "ad"
+        },
+        {
+          "pointer": "04caa858",
+          "value": "ad_type"
+        },
+        {
+          "pointer": "04cad0c0",
+          "value": " ignored: another rewarded request is still open"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.PurchaseItemPanel$$<OnFreeAdClick>b__9_0",
+      "file": "Evidence/Native/023b2bcc.c",
+      "events": [
+        "purchase_item_ad"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cb1d38",
+          "value": "shop_id"
+        },
+        {
+          "pointer": "04caceb0",
+          "value": "Ad"
+        },
+        {
+          "pointer": "04cb6130",
+          "value": "purchase_item_ad"
+        },
+        {
+          "pointer": "04cac888",
+          "value": "UI_Ad_Failed"
+        },
+        {
+          "pointer": "04cac890",
+          "value": "closed"
+        },
+        {
+          "pointer": "04cb4e20",
+          "value": "Text"
+        },
+        {
+          "pointer": "04cafbb8",
+          "value": "Bg"
+        },
+        {
+          "pointer": "04cb6578",
+          "value": "Toast"
+        },
+        {
+          "pointer": "04ca9c30",
+          "value": ""
+        },
+        {
+          "pointer": "04cb64b8",
+          "value": "frame_tut_booster"
+        },
+        {
+          "pointer": "04cad4a8",
+          "value": "Plain"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.RemoveAdsPanel$$OnOpen",
+      "file": "Evidence/Native/023b3284.c",
+      "events": [
+        "noads_show"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cb6160",
+          "value": "icon_perk_no_banner"
+        },
+        {
+          "pointer": "04cb6168",
+          "value": "Play without interruptions"
+        },
+        {
+          "pointer": "04cb6170",
+          "value": "Rust"
+        },
+        {
+          "pointer": "04caad48",
+          "value": "unknown"
+        },
+        {
+          "pointer": "04cb6178",
+          "value": "Line0"
+        },
+        {
+          "pointer": "04cb6180",
+          "value": "No Ads"
+        },
+        {
+          "pointer": "04cb6188",
+          "value": "UI_Best_Offer"
+        },
+        {
+          "pointer": "04cb6190",
+          "value": "Icon0"
+        },
+        {
+          "pointer": "04cb1c18",
+          "value": "source"
+        },
+        {
+          "pointer": "04cb3cd0",
+          "value": "Icon1"
+        },
+        {
+          "pointer": "04cb0138",
+          "value": "UI_Ad_Remove_Short"
+        },
+        {
+          "pointer": "04cb6198",
+          "value": "Line2"
+        },
+        {
+          "pointer": "04cb61a0",
+          "value": "Tag"
+        },
+        {
+          "pointer": "04cb61a8",
+          "value": "UI_NoAds_Line2"
+        },
+        {
+          "pointer": "04cae5d0",
+          "value": "Icon"
+        },
+        {
+          "pointer": "04cafc30",
+          "value": "Line"
+        },
+        {
+          "pointer": "04cb61b0",
+          "value": "UI_NoAds_Line1"
+        },
+        {
+          "pointer": "04cb61b8",
+          "value": "Keep optional ads for rewards"
+        },
+        {
+          "pointer": "04cb61c0",
+          "value": "Line1"
+        },
+        {
+          "pointer": "04cb61c8",
+          "value": "icon_perk_no_video"
+        },
+        {
+          "pointer": "04cad9e8",
+          "value": "Btn_buyBtn"
+        },
+        {
+          "pointer": "04cb61d0",
+          "value": "Icon2"
+        },
+        {
+          "pointer": "04cb61d8",
+          "value": "noads_show"
+        },
+        {
+          "pointer": "04cad460",
+          "value": "Btn_close"
+        },
+        {
+          "pointer": "04cb61e0",
+          "value": "Best\nOffer!"
+        },
+        {
+          "pointer": "04cb61e8",
+          "value": "BestOffer"
+        },
+        {
+          "pointer": "04cb61f0",
+          "value": "UI_NoAds_Line3"
+        },
+        {
+          "pointer": "04cb61f8",
+          "value": "Btn_bundleBtn"
+        },
+        {
+          "pointer": "04cad948",
+          "value": "sfx_common_button_scale_click"
+        },
+        {
+          "pointer": "04cb6200",
+          "value": "Remove all forced ads"
+        },
+        {
+          "pointer": "04cb6208",
+          "value": "icon_perk_gift_ads"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.RemoveAdsPanel$$OnClose",
+      "file": "Evidence/Native/023b527c.c",
+      "events": [
+        "iap_close"
+      ],
+      "keys": [
+        "pack_name"
+      ],
+      "literals": [
+        {
+          "pointer": "04cb2678",
+          "value": "show_type"
+        },
+        {
+          "pointer": "04cb2680",
+          "value": "pack_name"
+        },
+        {
+          "pointer": "04cb26a0",
+          "value": "iap_close"
+        },
+        {
+          "pointer": "04cb2690",
+          "value": "trigger_type"
+        },
+        {
+          "pointer": "04cb26a8",
+          "value": "duration_iap"
+        },
+        {
+          "pointer": "04caa870",
+          "value": "placement"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.RemoveAdsPanel$$OnBuy",
+      "file": "Evidence/Native/023b5308.c",
+      "events": [
+        "iap_click",
+        "iap_fail"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cad0e0",
+          "value": "reason"
+        },
+        {
+          "pointer": "04cad268",
+          "value": "product"
+        },
+        {
+          "pointer": "04cad308",
+          "value": "iap_click"
+        },
+        {
+          "pointer": "04cad270",
+          "value": "ItemType"
+        },
+        {
+          "pointer": "04cad310",
+          "value": "iap_fail"
+        },
+        {
+          "pointer": "04cad318",
+          "value": "purchase_limit"
+        },
+        {
+          "pointer": "04cad2a8",
+          "value": "GPStoreId"
+        },
+        {
+          "pointer": "04cad320",
+          "value": "purchase_blocked.limit"
+        },
+        {
+          "pointer": "04cad328",
+          "value": "store_item"
+        },
+        {
+          "pointer": "04ca9c30",
+          "value": ""
+        },
+        {
+          "pointer": "04cad200",
+          "value": "TbStoreItemConfig"
+        },
+        {
+          "pointer": "04cb6280",
+          "value": "UI_no_internet_des"
+        },
+        {
+          "pointer": "04cb6288",
+          "value": "UI_no_internet_title"
+        },
+        {
+          "pointer": "04caec20",
+          "value": "UI_continue"
+        },
+        {
+          "pointer": "04cb6478",
+          "value": "UIGameTips"
+        },
+        {
+          "pointer": "04cc5288",
+          "value": "[UI] prefab not found: "
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.RemoveAdsPanel$$Done",
+      "file": "Evidence/Native/023b577c.c",
+      "events": [
+        "noads_bought"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cb2130",
+          "value": "item"
+        },
+        {
+          "pointer": "04cb6290",
+          "value": "UI_NoAds_Done"
+        },
+        {
+          "pointer": "04cb6298",
+          "value": "noads_bought"
+        },
+        {
+          "pointer": "04cac7d8",
+          "value": "UIRewards2D"
+        },
+        {
+          "pointer": "04cb1c18",
+          "value": "source"
+        },
+        {
+          "pointer": "04cb62a0",
+          "value": "Ads removed. Enjoy!"
+        },
+        {
+          "pointer": "04cb62a8",
+          "value": "UI_purchase_fail_title"
+        },
+        {
+          "pointer": "04cb62b0",
+          "value": "UI_purchase_fail_des"
+        },
+        {
+          "pointer": "04caec20",
+          "value": "UI_continue"
+        },
+        {
+          "pointer": "04cb6280",
+          "value": "UI_no_internet_des"
+        },
+        {
+          "pointer": "04cb6288",
+          "value": "UI_no_internet_title"
+        },
+        {
+          "pointer": "04cb6478",
+          "value": "UIGameTips"
+        },
+        {
+          "pointer": "04cc5288",
+          "value": "[UI] prefab not found: "
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.RemoveAdsPanel$$<OnBuy>b__31_1",
+      "file": "Evidence/Native/023b6294.c",
+      "events": [
+        "noads_bought"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cb2130",
+          "value": "item"
+        },
+        {
+          "pointer": "04cb6290",
+          "value": "UI_NoAds_Done"
+        },
+        {
+          "pointer": "04cb6298",
+          "value": "noads_bought"
+        },
+        {
+          "pointer": "04cac7d8",
+          "value": "UIRewards2D"
+        },
+        {
+          "pointer": "04cb1c18",
+          "value": "source"
+        },
+        {
+          "pointer": "04cb62a0",
+          "value": "Ads removed. Enjoy!"
+        },
+        {
+          "pointer": "04cb62a8",
+          "value": "UI_purchase_fail_title"
+        },
+        {
+          "pointer": "04cb62b0",
+          "value": "UI_purchase_fail_des"
+        },
+        {
+          "pointer": "04caec20",
+          "value": "UI_continue"
+        },
+        {
+          "pointer": "04cb6478",
+          "value": "UIGameTips"
+        },
+        {
+          "pointer": "04cc5288",
+          "value": "[UI] prefab not found: "
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.RemoveAdsPanel.<>c__DisplayClass22_0$$<OnOpen>b__1",
+      "file": "Evidence/Native/023b629c.c",
+      "events": [
+        "iap_click",
+        "iap_fail"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cad0e0",
+          "value": "reason"
+        },
+        {
+          "pointer": "04cad268",
+          "value": "product"
+        },
+        {
+          "pointer": "04cad308",
+          "value": "iap_click"
+        },
+        {
+          "pointer": "04cad270",
+          "value": "ItemType"
+        },
+        {
+          "pointer": "04cad310",
+          "value": "iap_fail"
+        },
+        {
+          "pointer": "04cad318",
+          "value": "purchase_limit"
+        },
+        {
+          "pointer": "04cad2a8",
+          "value": "GPStoreId"
+        },
+        {
+          "pointer": "04cad320",
+          "value": "purchase_blocked.limit"
+        },
+        {
+          "pointer": "04cad328",
+          "value": "store_item"
+        },
+        {
+          "pointer": "04ca9c30",
+          "value": ""
+        },
+        {
+          "pointer": "04cad200",
+          "value": "TbStoreItemConfig"
+        },
+        {
+          "pointer": "04cb6280",
+          "value": "UI_no_internet_des"
+        },
+        {
+          "pointer": "04cb6288",
+          "value": "UI_no_internet_title"
+        },
+        {
+          "pointer": "04caec20",
+          "value": "UI_continue"
+        },
+        {
+          "pointer": "04cb6478",
+          "value": "UIGameTips"
+        },
+        {
+          "pointer": "04cc5288",
+          "value": "[UI] prefab not found: "
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.RemoveAdsPanel.<>c__DisplayClass22_0$$<OnOpen>b__0",
+      "file": "Evidence/Native/023b62b8.c",
+      "events": [
+        "iap_click",
+        "iap_fail"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cad0e0",
+          "value": "reason"
+        },
+        {
+          "pointer": "04cad268",
+          "value": "product"
+        },
+        {
+          "pointer": "04cad308",
+          "value": "iap_click"
+        },
+        {
+          "pointer": "04cad270",
+          "value": "ItemType"
+        },
+        {
+          "pointer": "04cad310",
+          "value": "iap_fail"
+        },
+        {
+          "pointer": "04cad318",
+          "value": "purchase_limit"
+        },
+        {
+          "pointer": "04cad2a8",
+          "value": "GPStoreId"
+        },
+        {
+          "pointer": "04cad320",
+          "value": "purchase_blocked.limit"
+        },
+        {
+          "pointer": "04cad328",
+          "value": "store_item"
+        },
+        {
+          "pointer": "04ca9c30",
+          "value": ""
+        },
+        {
+          "pointer": "04cad200",
+          "value": "TbStoreItemConfig"
+        },
+        {
+          "pointer": "04cb6280",
+          "value": "UI_no_internet_des"
+        },
+        {
+          "pointer": "04cb6288",
+          "value": "UI_no_internet_title"
+        },
+        {
+          "pointer": "04caec20",
+          "value": "UI_continue"
+        },
+        {
+          "pointer": "04cb6478",
+          "value": "UIGameTips"
+        },
+        {
+          "pointer": "04cc5288",
+          "value": "[UI] prefab not found: "
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.StorePanel$$OnOpen",
+      "file": "Evidence/Native/023b6324.c",
+      "events": [
+        "shop_open"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cb62f8",
+          "value": "bg_pattern"
+        },
+        {
+          "pointer": "04cb6300",
+          "value": "Awning"
+        },
+        {
+          "pointer": "04cae0f8",
+          "value": "SRect_scrollview"
+        },
+        {
+          "pointer": "04cb6308",
+          "value": "3C2ECE"
+        },
+        {
+          "pointer": "04cb6310",
+          "value": "VGroup_grid"
+        },
+        {
+          "pointer": "04cb6318",
+          "value": "store_id"
+        },
+        {
+          "pointer": "04caf3c8",
+          "value": "Fill"
+        },
+        {
+          "pointer": "04cadc30",
+          "value": "Img_Mask"
+        },
+        {
+          "pointer": "04cad460",
+          "value": "Btn_close"
+        },
+        {
+          "pointer": "04cadf50",
+          "value": "Rect_Top"
+        },
+        {
+          "pointer": "04cad948",
+          "value": "sfx_common_button_scale_click"
+        },
+        {
+          "pointer": "04cb6320",
+          "value": "deco_awning"
+        },
+        {
+          "pointer": "04cb6328",
+          "value": "shop_open"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.StorePanel$$OnCloseClick",
+      "file": "Evidence/Native/023b7c40.c",
+      "events": [
+        "shop_close"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cb6318",
+          "value": "store_id"
+        },
+        {
+          "pointer": "04cb6350",
+          "value": "shop_close"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.StorePanel$$OnBuy",
+      "file": "Evidence/Native/023b96f4.c",
+      "events": [
+        "shop_item_click"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cad268",
+          "value": "product"
+        },
+        {
+          "pointer": "04cad1f8",
+          "value": "price"
+        },
+        {
+          "pointer": "04cb6418",
+          "value": "shop_item_click"
+        },
+        {
+          "pointer": "04cad2a8",
+          "value": "GPStoreId"
+        },
+        {
+          "pointer": "04cad328",
+          "value": "store_item"
+        },
+        {
+          "pointer": "04ca9c30",
+          "value": ""
+        },
+        {
+          "pointer": "04cad200",
+          "value": "TbStoreItemConfig"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.StorePanel.<>c__DisplayClass36_0$$<Tile>b__0",
+      "file": "Evidence/Native/023ba24c.c",
+      "events": [
+        "shop_item_click"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cad268",
+          "value": "product"
+        },
+        {
+          "pointer": "04cad1f8",
+          "value": "price"
+        },
+        {
+          "pointer": "04cb6418",
+          "value": "shop_item_click"
+        },
+        {
+          "pointer": "04cad2a8",
+          "value": "GPStoreId"
+        },
+        {
+          "pointer": "04cad328",
+          "value": "store_item"
+        },
+        {
+          "pointer": "04ca9c30",
+          "value": ""
+        },
+        {
+          "pointer": "04cad200",
+          "value": "TbStoreItemConfig"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.StorePanel.<>c__DisplayClass36_0$$<Tile>b__1",
+      "file": "Evidence/Native/023ba268.c",
+      "events": [
+        "shop_item_click"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cad268",
+          "value": "product"
+        },
+        {
+          "pointer": "04cad1f8",
+          "value": "price"
+        },
+        {
+          "pointer": "04cb6418",
+          "value": "shop_item_click"
+        },
+        {
+          "pointer": "04cad2a8",
+          "value": "GPStoreId"
+        },
+        {
+          "pointer": "04cad328",
+          "value": "store_item"
+        },
+        {
+          "pointer": "04ca9c30",
+          "value": ""
+        },
+        {
+          "pointer": "04cad200",
+          "value": "TbStoreItemConfig"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.GuidePanel$$OnOpen",
+      "file": "Evidence/Native/023c7d48.c",
+      "events": [
+        "guide_open"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cb69b8",
+          "value": "guide_open"
+        },
+        {
+          "pointer": "04cb69c0",
+          "value": "Textoutline"
+        },
+        {
+          "pointer": "04cadc80",
+          "value": "anchor"
+        },
+        {
+          "pointer": "04cb69c8",
+          "value": "Rect_hand"
+        },
+        {
+          "pointer": "04cb69d0",
+          "value": "Rect_guideArrow"
+        },
+        {
+          "pointer": "04cb69d8",
+          "value": "guide_id"
+        },
+        {
+          "pointer": "04cae110",
+          "value": "Rect_guideTips"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.GuidePanel$$MarkTriggered",
+      "file": "Evidence/Native/023cd0ac.c",
+      "events": [
+        "guide_finish"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cb1980",
+          "value": "ItemGuideShown_"
+        },
+        {
+          "pointer": "04cb6b00",
+          "value": "guide_finish"
+        },
+        {
+          "pointer": "04cb69d8",
+          "value": "guide_id"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.LanguagePanel$$OnPick",
+      "file": "Evidence/Native/023f8b98.c",
+      "events": [
+        "language_set"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cb4fa0",
+          "value": "UI_map_unlock"
+        },
+        {
+          "pointer": "04cb7960",
+          "value": "code"
+        },
+        {
+          "pointer": "04cb7968",
+          "value": "language_set"
+        },
+        {
+          "pointer": "04cad948",
+          "value": "sfx_common_button_scale_click"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.LanguagePanel.<>c__DisplayClass15_0$$<BuildRow>b__0",
+      "file": "Evidence/Native/023f95fc.c",
+      "events": [
+        "language_set"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cb4fa0",
+          "value": "UI_map_unlock"
+        },
+        {
+          "pointer": "04cb7960",
+          "value": "code"
+        },
+        {
+          "pointer": "04cb7968",
+          "value": "language_set"
+        },
+        {
+          "pointer": "04cad948",
+          "value": "sfx_common_button_scale_click"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.SettingPanel$$OnSecretTap",
+      "file": "Evidence/Native/02405998.c",
+      "events": [
+        "qa_unlocked"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cb7ea8",
+          "value": "qa_unlocked"
+        },
+        {
+          "pointer": "04cb7eb0",
+          "value": "Cheat / QA"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.SettingPanel$$OnRestoreClick",
+      "file": "Evidence/Native/02406e88.c",
+      "events": [
+        "setting_restore",
+        "iap_restore"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cb7fa0",
+          "value": "setting_restore"
+        },
+        {
+          "pointer": "04cad210",
+          "value": "iap_restore"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.SettingPanel.<>c__DisplayClass9_0$$<AddQaCorner>b__0",
+      "file": "Evidence/Native/024078c4.c",
+      "events": [
+        "qa_unlocked"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cb7ea8",
+          "value": "qa_unlocked"
+        },
+        {
+          "pointer": "04cb7eb0",
+          "value": "Cheat / QA"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.HudPanel$$OnItemClick",
+      "file": "Evidence/Native/0240d99c.c",
+      "events": [
+        "item_click"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cb81b8",
+          "value": "Level_Reach"
+        },
+        {
+          "pointer": "04cb81d0",
+          "value": "UIPurchaseItemPanel"
+        },
+        {
+          "pointer": "04cb81d8",
+          "value": "BoosterBuy"
+        },
+        {
+          "pointer": "04cac768",
+          "value": "item_id"
+        },
+        {
+          "pointer": "04cb81e0",
+          "value": "Game_Pickup_Tip"
+        },
+        {
+          "pointer": "04cb81e8",
+          "value": "Game_Wand_Tip"
+        },
+        {
+          "pointer": "04cb81f0",
+          "value": "item_click"
+        },
+        {
+          "pointer": "04cb27d0",
+          "value": "free"
+        },
+        {
+          "pointer": "04cbb588",
+          "value": "booster_disarm"
+        },
+        {
+          "pointer": "04cbb228",
+          "value": "SFX"
+        },
+        {
+          "pointer": "04cbb268",
+          "value": "[AudioHub] unknown event: "
+        },
+        {
+          "pointer": "04cbb230",
+          "value": "BGM"
+        },
+        {
+          "pointer": "04cbb270",
+          "value": "event:"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.HudPanel$$UseItem",
+      "file": "Evidence/Native/0240de38.c",
+      "events": [
+        "item_click"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cac768",
+          "value": "item_id"
+        },
+        {
+          "pointer": "04cb81e0",
+          "value": "Game_Pickup_Tip"
+        },
+        {
+          "pointer": "04cb81e8",
+          "value": "Game_Wand_Tip"
+        },
+        {
+          "pointer": "04cb81f0",
+          "value": "item_click"
+        },
+        {
+          "pointer": "04cb27d0",
+          "value": "free"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.HudPanel$$Consume",
+      "file": "Evidence/Native/0240e91c.c",
+      "events": [
+        "item_use_ingame"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cac768",
+          "value": "item_id"
+        },
+        {
+          "pointer": "04cb81f8",
+          "value": "item_use_ingame"
+        },
+        {
+          "pointer": "04cace90",
+          "value": "GameSub"
+        },
+        {
+          "pointer": "04cb27d0",
+          "value": "free"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.HudPanel.<>c__DisplayClass62_0$$<AddItem>b__0",
+      "file": "Evidence/Native/0240f7d0.c",
+      "events": [
+        "item_click"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cb81b8",
+          "value": "Level_Reach"
+        },
+        {
+          "pointer": "04cb81d0",
+          "value": "UIPurchaseItemPanel"
+        },
+        {
+          "pointer": "04cb81d8",
+          "value": "BoosterBuy"
+        },
+        {
+          "pointer": "04cac768",
+          "value": "item_id"
+        },
+        {
+          "pointer": "04cb81e0",
+          "value": "Game_Pickup_Tip"
+        },
+        {
+          "pointer": "04cb81e8",
+          "value": "Game_Wand_Tip"
+        },
+        {
+          "pointer": "04cb81f0",
+          "value": "item_click"
+        },
+        {
+          "pointer": "04cb27d0",
+          "value": "free"
+        },
+        {
+          "pointer": "04cbb588",
+          "value": "booster_disarm"
+        },
+        {
+          "pointer": "04cbb228",
+          "value": "SFX"
+        },
+        {
+          "pointer": "04cbb268",
+          "value": "[AudioHub] unknown event: "
+        },
+        {
+          "pointer": "04cbb230",
+          "value": "BGM"
+        },
+        {
+          "pointer": "04cbb270",
+          "value": "event:"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.WinPanel$$OnOpen",
+      "file": "Evidence/Native/02410e68.c",
+      "events": [
+        "win_popup_show"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cabb10",
+          "value": "x"
+        },
+        {
+          "pointer": "04cb82a8",
+          "value": "WinMultiplier"
+        },
+        {
+          "pointer": "04cb6230",
+          "value": "Coins"
+        },
+        {
+          "pointer": "04cb82b0",
+          "value": "txt_completed"
+        },
+        {
+          "pointer": "04cad9a0",
+          "value": "Btn_freeAd"
+        },
+        {
+          "pointer": "04cb82b8",
+          "value": "Completed!"
+        },
+        {
+          "pointer": "04cb82c0",
+          "value": "win_popup_show"
+        },
+        {
+          "pointer": "04caf570",
+          "value": "Claim"
+        },
+        {
+          "pointer": "04cb82c8",
+          "value": "UI_Your_Reward"
+        },
+        {
+          "pointer": "04caf460",
+          "value": "Brown"
+        },
+        {
+          "pointer": "04caf588",
+          "value": "Btn_claim"
+        },
+        {
+          "pointer": "04cafe08",
+          "value": "Gold"
+        },
+        {
+          "pointer": "04cb82d0",
+          "value": "UI_Completed"
+        },
+        {
+          "pointer": "04cb82d8",
+          "value": "icon_coin_pile"
+        },
+        {
+          "pointer": "04caf3a8",
+          "value": "Txt_Reward"
+        },
+        {
+          "pointer": "04cb82e0",
+          "value": "Your Reward:"
+        },
+        {
+          "pointer": "04caf5a0",
+          "value": "UI_Claim"
+        },
+        {
+          "pointer": "04cb82e8",
+          "value": "ad_offer"
+        },
+        {
+          "pointer": "04cabc00",
+          "value": "level"
+        },
+        {
+          "pointer": "04caffa8",
+          "value": "icon_ads"
+        },
+        {
+          "pointer": "04cb1498",
+          "value": "Rect_Reward"
+        },
+        {
+          "pointer": "04cad948",
+          "value": "sfx_common_button_scale_click"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.WinPanel$$OnAd",
+      "file": "Evidence/Native/02413e18.c",
+      "events": [
+        "g_ad_visit"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cb82a8",
+          "value": "WinMultiplier"
+        },
+        {
+          "pointer": "04cacab0",
+          "value": "session_time"
+        },
+        {
+          "pointer": "04cacab8",
+          "value": " open"
+        },
+        {
+          "pointer": "04cad0a8",
+          "value": "rewarded "
+        },
+        {
+          "pointer": "04cacad0",
+          "value": "g_ad_visit"
+        },
+        {
+          "pointer": "04cabba0",
+          "value": "play"
+        },
+        {
+          "pointer": "04cad0b0",
+          "value": "reward"
+        },
+        {
+          "pointer": "04cad0b8",
+          "value": "[Ads] rewarded "
+        },
+        {
+          "pointer": "04cacae8",
+          "value": "ad_visit_action"
+        },
+        {
+          "pointer": "04cacaf0",
+          "value": "ad_is_ready"
+        },
+        {
+          "pointer": "04cacaf8",
+          "value": "ad_visit_scene"
+        },
+        {
+          "pointer": "04cac790",
+          "value": "ad"
+        },
+        {
+          "pointer": "04caa858",
+          "value": "ad_type"
+        },
+        {
+          "pointer": "04cad0c0",
+          "value": " ignored: another rewarded request is still open"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.WinPanel.<>c__DisplayClass33_0$$<OnAd>b__0",
+      "file": "Evidence/Native/02414e38.c",
+      "events": [
+        "win_ad_multiplier"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cb83c8",
+          "value": "mult"
+        },
+        {
+          "pointer": "04cb83d0",
+          "value": "win_ad_multiplier"
+        },
+        {
+          "pointer": "04cb2590",
+          "value": "WinAd"
+        },
+        {
+          "pointer": "04cb83d8",
+          "value": "extra"
+        },
+        {
+          "pointer": "04cf78c8",
+          "value": "routine is null"
+        },
+        {
+          "pointer": "04cf78b0",
+          "value": "Coroutines can only be stopped on a MonoBehaviour"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.FailPanel$$OnClose",
+      "file": "Evidence/Native/0241780c.c",
+      "events": [
+        "iap_close"
+      ],
+      "keys": [
+        "pack_name"
+      ],
+      "literals": [
+        {
+          "pointer": "04cb2678",
+          "value": "show_type"
+        },
+        {
+          "pointer": "04cb2680",
+          "value": "pack_name"
+        },
+        {
+          "pointer": "04cb26a0",
+          "value": "iap_close"
+        },
+        {
+          "pointer": "04cb2690",
+          "value": "trigger_type"
+        },
+        {
+          "pointer": "04cb26a8",
+          "value": "duration_iap"
+        },
+        {
+          "pointer": "04caa870",
+          "value": "placement"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.FailPanel$$OnOffer",
+      "file": "Evidence/Native/02417864.c",
+      "events": [
+        "iap_click",
+        "iap_fail"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cad0e0",
+          "value": "reason"
+        },
+        {
+          "pointer": "04cad268",
+          "value": "product"
+        },
+        {
+          "pointer": "04cad308",
+          "value": "iap_click"
+        },
+        {
+          "pointer": "04cad270",
+          "value": "ItemType"
+        },
+        {
+          "pointer": "04cad310",
+          "value": "iap_fail"
+        },
+        {
+          "pointer": "04cad318",
+          "value": "purchase_limit"
+        },
+        {
+          "pointer": "04cad2a8",
+          "value": "GPStoreId"
+        },
+        {
+          "pointer": "04cad320",
+          "value": "purchase_blocked.limit"
+        },
+        {
+          "pointer": "04cad328",
+          "value": "store_item"
+        },
+        {
+          "pointer": "04ca9c30",
+          "value": ""
+        },
+        {
+          "pointer": "04cad200",
+          "value": "TbStoreItemConfig"
+        },
+        {
+          "pointer": "04cb6280",
+          "value": "UI_no_internet_des"
+        },
+        {
+          "pointer": "04cb6288",
+          "value": "UI_no_internet_title"
+        },
+        {
+          "pointer": "04caec20",
+          "value": "UI_continue"
+        },
+        {
+          "pointer": "04cb6478",
+          "value": "UIGameTips"
+        },
+        {
+          "pointer": "04cc5288",
+          "value": "[UI] prefab not found: "
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.FailPanel$$OfferDone",
+      "file": "Evidence/Native/02417a7c.c",
+      "events": [
+        "g_game_revive_use"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cac7d8",
+          "value": "UIRewards2D"
+        },
+        {
+          "pointer": "04cac788",
+          "value": "offer"
+        },
+        {
+          "pointer": "04cac768",
+          "value": "item_id"
+        },
+        {
+          "pointer": "04cac770",
+          "value": "bgm_level"
+        },
+        {
+          "pointer": "04cac778",
+          "value": "g_game_revive_use"
+        },
+        {
+          "pointer": "04cac780",
+          "value": "number"
+        },
+        {
+          "pointer": "04cac790",
+          "value": "ad"
+        },
+        {
+          "pointer": "04cac798",
+          "value": "1001"
+        },
+        {
+          "pointer": "04cb62a8",
+          "value": "UI_purchase_fail_title"
+        },
+        {
+          "pointer": "04cb62b0",
+          "value": "UI_purchase_fail_des"
+        },
+        {
+          "pointer": "04caec20",
+          "value": "UI_continue"
+        },
+        {
+          "pointer": "04cb6280",
+          "value": "UI_no_internet_des"
+        },
+        {
+          "pointer": "04cb6288",
+          "value": "UI_no_internet_title"
+        },
+        {
+          "pointer": "04cb6478",
+          "value": "UIGameTips"
+        },
+        {
+          "pointer": "04cc5288",
+          "value": "[UI] prefab not found: "
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.FailPanel.<>c__DisplayClass0_0$$<OnOpen>b__3",
+      "file": "Evidence/Native/02417fc8.c",
+      "events": [
+        "g_ad_visit"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cac740",
+          "value": "Revive"
+        },
+        {
+          "pointer": "04cacab0",
+          "value": "session_time"
+        },
+        {
+          "pointer": "04cacab8",
+          "value": " open"
+        },
+        {
+          "pointer": "04cad0a8",
+          "value": "rewarded "
+        },
+        {
+          "pointer": "04cacad0",
+          "value": "g_ad_visit"
+        },
+        {
+          "pointer": "04cabba0",
+          "value": "play"
+        },
+        {
+          "pointer": "04cad0b0",
+          "value": "reward"
+        },
+        {
+          "pointer": "04cad0b8",
+          "value": "[Ads] rewarded "
+        },
+        {
+          "pointer": "04cacae8",
+          "value": "ad_visit_action"
+        },
+        {
+          "pointer": "04cacaf0",
+          "value": "ad_is_ready"
+        },
+        {
+          "pointer": "04cacaf8",
+          "value": "ad_visit_scene"
+        },
+        {
+          "pointer": "04cac790",
+          "value": "ad"
+        },
+        {
+          "pointer": "04caa858",
+          "value": "ad_type"
+        },
+        {
+          "pointer": "04cad0c0",
+          "value": " ignored: another rewarded request is still open"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.FailPanel.<>c__DisplayClass10_0$$<OnOffer>b__1",
+      "file": "Evidence/Native/024181e8.c",
+      "events": [
+        "g_game_revive_use"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cac7d8",
+          "value": "UIRewards2D"
+        },
+        {
+          "pointer": "04cac788",
+          "value": "offer"
+        },
+        {
+          "pointer": "04cac768",
+          "value": "item_id"
+        },
+        {
+          "pointer": "04cac770",
+          "value": "bgm_level"
+        },
+        {
+          "pointer": "04cac778",
+          "value": "g_game_revive_use"
+        },
+        {
+          "pointer": "04cac780",
+          "value": "number"
+        },
+        {
+          "pointer": "04cac790",
+          "value": "ad"
+        },
+        {
+          "pointer": "04cac798",
+          "value": "1001"
+        },
+        {
+          "pointer": "04cb62a8",
+          "value": "UI_purchase_fail_title"
+        },
+        {
+          "pointer": "04cb62b0",
+          "value": "UI_purchase_fail_des"
+        },
+        {
+          "pointer": "04caec20",
+          "value": "UI_continue"
+        },
+        {
+          "pointer": "04cb6478",
+          "value": "UIGameTips"
+        },
+        {
+          "pointer": "04cc5288",
+          "value": "[UI] prefab not found: "
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.LevelEnterPanel.<>c__DisplayClass7_0$$<BuildStuckHelp>b__0",
+      "file": "Evidence/Native/0241abf4.c",
+      "events": [
+        "g_ad_visit"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cb1e60",
+          "value": "StuckHelp"
+        },
+        {
+          "pointer": "04cacab0",
+          "value": "session_time"
+        },
+        {
+          "pointer": "04cacab8",
+          "value": " open"
+        },
+        {
+          "pointer": "04cad0a8",
+          "value": "rewarded "
+        },
+        {
+          "pointer": "04cacad0",
+          "value": "g_ad_visit"
+        },
+        {
+          "pointer": "04cabba0",
+          "value": "play"
+        },
+        {
+          "pointer": "04cad0b0",
+          "value": "reward"
+        },
+        {
+          "pointer": "04cad0b8",
+          "value": "[Ads] rewarded "
+        },
+        {
+          "pointer": "04cacae8",
+          "value": "ad_visit_action"
+        },
+        {
+          "pointer": "04cacaf0",
+          "value": "ad_is_ready"
+        },
+        {
+          "pointer": "04cacaf8",
+          "value": "ad_visit_scene"
+        },
+        {
+          "pointer": "04cac790",
+          "value": "ad"
+        },
+        {
+          "pointer": "04caa858",
+          "value": "ad_type"
+        },
+        {
+          "pointer": "04cad0c0",
+          "value": " ignored: another rewarded request is still open"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.QuitPanel$$OnQuitClick",
+      "file": "Evidence/Native/0241be3c.c",
+      "events": [
+        "g_game_end"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cac828",
+          "value": "quit_fail"
+        },
+        {
+          "pointer": "04cac5f8",
+          "value": "items_used"
+        },
+        {
+          "pointer": "04cac600",
+          "value": "pre_items"
+        },
+        {
+          "pointer": "04cac610",
+          "value": "bus_parked"
+        },
+        {
+          "pointer": "04cabb50",
+          "value": "taps"
+        },
+        {
+          "pointer": "04cac690",
+          "value": "result"
+        },
+        {
+          "pointer": "04cac698",
+          "value": "g_game_end"
+        },
+        {
+          "pointer": "04cac618",
+          "value": "fail_type"
+        },
+        {
+          "pointer": "04cac620",
+          "value": "sand_left_pct"
+        },
+        {
+          "pointer": "04cac830",
+          "value": "reset"
+        },
+        {
+          "pointer": "04cac838",
+          "value": "quit"
+        },
+        {
+          "pointer": "04cac6a8",
+          "value": "失败"
+        },
+        {
+          "pointer": "04cabc80",
+          "value": "progress"
+        },
+        {
+          "pointer": "04cac648",
+          "value": "game_time"
+        },
+        {
+          "pointer": "04cac650",
+          "value": "revive"
+        },
+        {
+          "pointer": "04ca9ce8",
+          "value": "status"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.QuitPanel$$DoQuit",
+      "file": "Evidence/Native/0241c034.c",
+      "events": [
+        "g_game_end"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cac828",
+          "value": "quit_fail"
+        },
+        {
+          "pointer": "04cac5f8",
+          "value": "items_used"
+        },
+        {
+          "pointer": "04cac600",
+          "value": "pre_items"
+        },
+        {
+          "pointer": "04cac610",
+          "value": "bus_parked"
+        },
+        {
+          "pointer": "04cabb50",
+          "value": "taps"
+        },
+        {
+          "pointer": "04cac690",
+          "value": "result"
+        },
+        {
+          "pointer": "04cac698",
+          "value": "g_game_end"
+        },
+        {
+          "pointer": "04cac618",
+          "value": "fail_type"
+        },
+        {
+          "pointer": "04cac620",
+          "value": "sand_left_pct"
+        },
+        {
+          "pointer": "04cac830",
+          "value": "reset"
+        },
+        {
+          "pointer": "04cac838",
+          "value": "quit"
+        },
+        {
+          "pointer": "04cac6a8",
+          "value": "失败"
+        },
+        {
+          "pointer": "04cabc80",
+          "value": "progress"
+        },
+        {
+          "pointer": "04cac648",
+          "value": "game_time"
+        },
+        {
+          "pointer": "04cac650",
+          "value": "revive"
+        },
+        {
+          "pointer": "04ca9ce8",
+          "value": "status"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.QuitPanel.<>c$$<DoQuit>b__4_0",
+      "file": "Evidence/Native/0241c338.c",
+      "events": [
+        "g_game_end"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cac828",
+          "value": "quit_fail"
+        },
+        {
+          "pointer": "04cac5f8",
+          "value": "items_used"
+        },
+        {
+          "pointer": "04cac600",
+          "value": "pre_items"
+        },
+        {
+          "pointer": "04cac610",
+          "value": "bus_parked"
+        },
+        {
+          "pointer": "04cabb50",
+          "value": "taps"
+        },
+        {
+          "pointer": "04cac690",
+          "value": "result"
+        },
+        {
+          "pointer": "04cac698",
+          "value": "g_game_end"
+        },
+        {
+          "pointer": "04cac618",
+          "value": "fail_type"
+        },
+        {
+          "pointer": "04cac620",
+          "value": "sand_left_pct"
+        },
+        {
+          "pointer": "04cac830",
+          "value": "reset"
+        },
+        {
+          "pointer": "04cac838",
+          "value": "quit"
+        },
+        {
+          "pointer": "04cac6a8",
+          "value": "失败"
+        },
+        {
+          "pointer": "04cabc80",
+          "value": "progress"
+        },
+        {
+          "pointer": "04cac648",
+          "value": "game_time"
+        },
+        {
+          "pointer": "04cac650",
+          "value": "revive"
+        },
+        {
+          "pointer": "04ca9ce8",
+          "value": "status"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.SettingRows.<>c$$<Build>b__0_1",
+      "file": "Evidence/Native/0241dd3c.c",
+      "events": [
+        "setting_music"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cb46e0",
+          "value": "on"
+        },
+        {
+          "pointer": "04cb8850",
+          "value": "setting_music"
+        },
+        {
+          "pointer": "04cac730",
+          "value": "bgm_main"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.SettingRows.<>c$$<Build>b__0_3",
+      "file": "Evidence/Native/0241e09c.c",
+      "events": [
+        "setting_sound"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cb8858",
+          "value": "setting_sound"
+        },
+        {
+          "pointer": "04cb46e0",
+          "value": "on"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.SettingRows.<>c$$<Build>b__0_5",
+      "file": "Evidence/Native/0241e358.c",
+      "events": [
+        "setting_vibration"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cb8860",
+          "value": "setting_vibration"
+        },
+        {
+          "pointer": "04cb46e0",
+          "value": "on"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.ForceUpdatePanel$$OnUpdate",
+      "file": "Evidence/Native/0241f87c.c",
+      "events": [
+        "update_click"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cb8898",
+          "value": "force"
+        },
+        {
+          "pointer": "04cb8930",
+          "value": "update_click"
+        },
+        {
+          "pointer": "04cb88e0",
+          "value": "soft"
+        },
+        {
+          "pointer": "04cb8920",
+          "value": "type"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.ForceUpdatePanel$$OnLater",
+      "file": "Evidence/Native/0241fa20.c",
+      "events": [
+        "update_later"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cb8938",
+          "value": "update_later"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.RewardPopup$$OnAd",
+      "file": "Evidence/Native/024252dc.c",
+      "events": [
+        "g_ad_visit"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cacab0",
+          "value": "session_time"
+        },
+        {
+          "pointer": "04cacab8",
+          "value": " open"
+        },
+        {
+          "pointer": "04cad0a8",
+          "value": "rewarded "
+        },
+        {
+          "pointer": "04cacad0",
+          "value": "g_ad_visit"
+        },
+        {
+          "pointer": "04cabba0",
+          "value": "play"
+        },
+        {
+          "pointer": "04cad0b0",
+          "value": "reward"
+        },
+        {
+          "pointer": "04cad0b8",
+          "value": "[Ads] rewarded "
+        },
+        {
+          "pointer": "04cacae8",
+          "value": "ad_visit_action"
+        },
+        {
+          "pointer": "04cacaf0",
+          "value": "ad_is_ready"
+        },
+        {
+          "pointer": "04cacaf8",
+          "value": "ad_visit_scene"
+        },
+        {
+          "pointer": "04cac790",
+          "value": "ad"
+        },
+        {
+          "pointer": "04caa858",
+          "value": "ad_type"
+        },
+        {
+          "pointer": "04cad0c0",
+          "value": " ignored: another rewarded request is still open"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.RewardPopup.<>c__DisplayClass12_0$$<BuildButtons>b__1",
+      "file": "Evidence/Native/02425ce0.c",
+      "events": [
+        "g_ad_visit"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cacab0",
+          "value": "session_time"
+        },
+        {
+          "pointer": "04cacab8",
+          "value": " open"
+        },
+        {
+          "pointer": "04cad0a8",
+          "value": "rewarded "
+        },
+        {
+          "pointer": "04cacad0",
+          "value": "g_ad_visit"
+        },
+        {
+          "pointer": "04cabba0",
+          "value": "play"
+        },
+        {
+          "pointer": "04cad0b0",
+          "value": "reward"
+        },
+        {
+          "pointer": "04cad0b8",
+          "value": "[Ads] rewarded "
+        },
+        {
+          "pointer": "04cacae8",
+          "value": "ad_visit_action"
+        },
+        {
+          "pointer": "04cacaf0",
+          "value": "ad_is_ready"
+        },
+        {
+          "pointer": "04cacaf8",
+          "value": "ad_visit_scene"
+        },
+        {
+          "pointer": "04cac790",
+          "value": "ad"
+        },
+        {
+          "pointer": "04caa858",
+          "value": "ad_type"
+        },
+        {
+          "pointer": "04cad0c0",
+          "value": " ignored: another rewarded request is still open"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.ChestPanel$$Grant",
+      "file": "Evidence/Native/02427760.c",
+      "events": [
+        "win_chest_open"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cb21c8",
+          "value": "index"
+        },
+        {
+          "pointer": "04cb21d0",
+          "value": "times"
+        },
+        {
+          "pointer": "04cb21d8",
+          "value": "win_chest_open"
+        },
+        {
+          "pointer": "04cb21e0",
+          "value": "WinChestAd"
+        },
+        {
+          "pointer": "04cb1eb8",
+          "value": "WinChest"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.DailyGiftPanel$$OnOpen",
+      "file": "Evidence/Native/024280c4.c",
+      "events": [
+        "daily_gift_show"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04caf260",
+          "value": "Sky"
+        },
+        {
+          "pointer": "04cb8df8",
+          "value": "logo_daily_rewards"
+        },
+        {
+          "pointer": "04cad9a0",
+          "value": "Btn_freeAd"
+        },
+        {
+          "pointer": "04cb8e00",
+          "value": "Logo"
+        },
+        {
+          "pointer": "04cb8e08",
+          "value": "Tap to Collect!"
+        },
+        {
+          "pointer": "04cb21f8",
+          "value": "day"
+        },
+        {
+          "pointer": "04caf588",
+          "value": "Btn_claim"
+        },
+        {
+          "pointer": "04cafc80",
+          "value": "btn_info"
+        },
+        {
+          "pointer": "04cb8c70",
+          "value": "Claim x{0}"
+        },
+        {
+          "pointer": "04caffa8",
+          "value": "icon_ads"
+        },
+        {
+          "pointer": "04cb8c78",
+          "value": "UI_Claim_X"
+        },
+        {
+          "pointer": "04caef80",
+          "value": "UI_tap_to_claim"
+        },
+        {
+          "pointer": "04cb8e10",
+          "value": "Daily Rewards"
+        },
+        {
+          "pointer": "04cb8e18",
+          "value": "daily_gift_show"
+        },
+        {
+          "pointer": "04cafbc0",
+          "value": "Btn_info"
+        },
+        {
+          "pointer": "04cb8e20",
+          "value": "Txt_Tap"
+        },
+        {
+          "pointer": "04cad948",
+          "value": "sfx_common_button_scale_click"
+        },
+        {
+          "pointer": "04cb8e28",
+          "value": "UI_DailyGift_Title"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.DailyGiftPanel$$Grant",
+      "file": "Evidence/Native/0242c03c.c",
+      "events": [
+        "daily_gift_chest",
+        "daily_gift_claim"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cb21f0",
+          "value": "total"
+        },
+        {
+          "pointer": "04cb21d0",
+          "value": "times"
+        },
+        {
+          "pointer": "04cb21f8",
+          "value": "day"
+        },
+        {
+          "pointer": "04cb2200",
+          "value": "DailyGiftChest"
+        },
+        {
+          "pointer": "04cb2208",
+          "value": "DailyGiftAd"
+        },
+        {
+          "pointer": "04cb1e78",
+          "value": "DailyGift"
+        },
+        {
+          "pointer": "04cb2210",
+          "value": "daily_gift_chest"
+        },
+        {
+          "pointer": "04cb2218",
+          "value": "daily_gift_claim"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.DailyGiftPanel.<>c__DisplayClass30_0$$<OnOpen>b__2",
+      "file": "Evidence/Native/0242cb24.c",
+      "events": [
+        "g_ad_visit"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cacab0",
+          "value": "session_time"
+        },
+        {
+          "pointer": "04cacab8",
+          "value": " open"
+        },
+        {
+          "pointer": "04cad0a8",
+          "value": "rewarded "
+        },
+        {
+          "pointer": "04cacad0",
+          "value": "g_ad_visit"
+        },
+        {
+          "pointer": "04cabba0",
+          "value": "play"
+        },
+        {
+          "pointer": "04cad0b0",
+          "value": "reward"
+        },
+        {
+          "pointer": "04cad0b8",
+          "value": "[Ads] rewarded "
+        },
+        {
+          "pointer": "04cacae8",
+          "value": "ad_visit_action"
+        },
+        {
+          "pointer": "04cacaf0",
+          "value": "ad_is_ready"
+        },
+        {
+          "pointer": "04cacaf8",
+          "value": "ad_visit_scene"
+        },
+        {
+          "pointer": "04cac790",
+          "value": "ad"
+        },
+        {
+          "pointer": "04caa858",
+          "value": "ad_type"
+        },
+        {
+          "pointer": "04cad0c0",
+          "value": " ignored: another rewarded request is still open"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.StarterPanel$$OnClose",
+      "file": "Evidence/Native/0242f908.c",
+      "events": [
+        "iap_close"
+      ],
+      "keys": [
+        "pack_name"
+      ],
+      "literals": [
+        {
+          "pointer": "04cb2678",
+          "value": "show_type"
+        },
+        {
+          "pointer": "04cb2680",
+          "value": "pack_name"
+        },
+        {
+          "pointer": "04cb26a0",
+          "value": "iap_close"
+        },
+        {
+          "pointer": "04cb2690",
+          "value": "trigger_type"
+        },
+        {
+          "pointer": "04cb26a8",
+          "value": "duration_iap"
+        },
+        {
+          "pointer": "04caa870",
+          "value": "placement"
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.StarterPanel$$OnBuy",
+      "file": "Evidence/Native/0242f994.c",
+      "events": [
+        "iap_click",
+        "iap_fail"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cad0e0",
+          "value": "reason"
+        },
+        {
+          "pointer": "04cad268",
+          "value": "product"
+        },
+        {
+          "pointer": "04cad308",
+          "value": "iap_click"
+        },
+        {
+          "pointer": "04cad270",
+          "value": "ItemType"
+        },
+        {
+          "pointer": "04cad310",
+          "value": "iap_fail"
+        },
+        {
+          "pointer": "04cad318",
+          "value": "purchase_limit"
+        },
+        {
+          "pointer": "04cad2a8",
+          "value": "GPStoreId"
+        },
+        {
+          "pointer": "04cad320",
+          "value": "purchase_blocked.limit"
+        },
+        {
+          "pointer": "04cad328",
+          "value": "store_item"
+        },
+        {
+          "pointer": "04ca9c30",
+          "value": ""
+        },
+        {
+          "pointer": "04cad200",
+          "value": "TbStoreItemConfig"
+        },
+        {
+          "pointer": "04cb6280",
+          "value": "UI_no_internet_des"
+        },
+        {
+          "pointer": "04cb6288",
+          "value": "UI_no_internet_title"
+        },
+        {
+          "pointer": "04caec20",
+          "value": "UI_continue"
+        },
+        {
+          "pointer": "04cb6478",
+          "value": "UIGameTips"
+        },
+        {
+          "pointer": "04cc5288",
+          "value": "[UI] prefab not found: "
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.StarterPanel$$BuyDone",
+      "file": "Evidence/Native/0242fb88.c",
+      "events": [
+        "starter_bought"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cac7d8",
+          "value": "UIRewards2D"
+        },
+        {
+          "pointer": "04cb1c18",
+          "value": "source"
+        },
+        {
+          "pointer": "04cb9078",
+          "value": "starter_bought"
+        },
+        {
+          "pointer": "04cb62a8",
+          "value": "UI_purchase_fail_title"
+        },
+        {
+          "pointer": "04cb62b0",
+          "value": "UI_purchase_fail_des"
+        },
+        {
+          "pointer": "04caec20",
+          "value": "UI_continue"
+        },
+        {
+          "pointer": "04cb6280",
+          "value": "UI_no_internet_des"
+        },
+        {
+          "pointer": "04cb6288",
+          "value": "UI_no_internet_title"
+        },
+        {
+          "pointer": "04cb6478",
+          "value": "UIGameTips"
+        },
+        {
+          "pointer": "04cc5288",
+          "value": "[UI] prefab not found: "
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.StarterPanel$$<OnBuy>b__13_1",
+      "file": "Evidence/Native/0242ff28.c",
+      "events": [
+        "starter_bought"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cac7d8",
+          "value": "UIRewards2D"
+        },
+        {
+          "pointer": "04cb1c18",
+          "value": "source"
+        },
+        {
+          "pointer": "04cb9078",
+          "value": "starter_bought"
+        },
+        {
+          "pointer": "04cb62a8",
+          "value": "UI_purchase_fail_title"
+        },
+        {
+          "pointer": "04cb62b0",
+          "value": "UI_purchase_fail_des"
+        },
+        {
+          "pointer": "04caec20",
+          "value": "UI_continue"
+        },
+        {
+          "pointer": "04cb6478",
+          "value": "UIGameTips"
+        },
+        {
+          "pointer": "04cc5288",
+          "value": "[UI] prefab not found: "
+        }
+      ]
+    },
+    {
+      "method": "Dino.BusSand.App.UI.LevelEnterFlow$$UseProp",
+      "file": "Evidence/Native/0243db60.c",
+      "events": [
+        "prelevel_prop_use"
+      ],
+      "keys": [],
+      "literals": [
+        {
+          "pointer": "04cb94f0",
+          "value": "prelevel_prop_use"
+        },
+        {
+          "pointer": "04cac768",
+          "value": "item_id"
+        },
+        {
+          "pointer": "04cace70",
+          "value": "PreProp"
+        },
+        {
+          "pointer": "04caba30",
+          "value": "ok"
+        },
+        {
+          "pointer": "04cb27d0",
+          "value": "free"
+        }
+      ]
+    }
+  ],
+  "uniqueEvents": [
+    "app_start",
+    "boot_stalled",
+    "comment_close",
+    "comment_feedback",
+    "comment_show",
+    "comment_star",
+    "comment_submit",
+    "continue_offer",
+    "daily_challenge_win",
+    "daily_gift_chest",
+    "daily_gift_claim",
+    "daily_gift_show",
+    "end_suction",
+    "g_ad_visit",
+    "g_ballon_stage_advance",
+    "g_btn_click",
+    "g_game_ad_show",
+    "g_game_ad_show_stage",
+    "g_game_died",
+    "g_game_end",
+    "g_game_open",
+    "g_game_revive_use",
+    "g_game_start",
+    "g_gold_gift_reward_get",
+    "g_gold_gift_stage_advance",
+    "g_iap_action",
+    "g_lava_reward",
+    "g_lava_stage_advance",
+    "g_pass_reward_get",
+    "g_pass_stage_advance",
+    "g_pearl_reward_unlock",
+    "g_pearl_stage_advance",
+    "g_race_reward_unlock",
+    "g_race_stage_advance",
+    "guide_finish",
+    "guide_open",
+    "hp_buy_close",
+    "hp_buy_show",
+    "hp_fill_click",
+    "iap_click",
+    "iap_close",
+    "iap_fail",
+    "iap_purchase_failed",
+    "iap_restore",
+    "iap_restore_delivered",
+    "iap_success",
+    "iap_unclaimed_delivered",
+    "item",
+    "item_click",
+    "item_use_ingame",
+    "language_set",
+    "level_end",
+    "level_snapshot",
+    "level_start",
+    "noads_bought",
+    "noads_show",
+    "prelevel_prop_use",
+    "purchase_item_ad",
+    "purchase_item_fail",
+    "purchase_item_show",
+    "qa_unlocked",
+    "rate_review",
+    "resource_earn",
+    "save_recovered",
+    "setting_music",
+    "setting_restore",
+    "setting_sound",
+    "setting_vibration",
+    "shop_buy",
+    "shop_close",
+    "shop_item_click",
+    "shop_open",
+    "starter_bought",
+    "stuck_help_claim",
+    "tutorial_action",
+    "update_check",
+    "update_click",
+    "update_later",
+    "welcome_back_claim",
+    "win_ad_multiplier",
+    "win_chest_open",
+    "win_popup_show",
+    "winstreak_claim",
+    "winstreak_fall",
+    "winstreak_floor",
+    "winstreak_kill",
+    "winstreak_start"
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "2": {
+    "ID": 2,
+    "NeedShowGuide": 1,
+    "GuidType": 1,
+    "ArrowMirror": 0,
+    "condition_level": 35,
+    "NextNeedWinTimes": 4,
+    "condition_day": 0
+  },
+  "3": {
+    "ID": 3,
+    "NeedShowGuide": 1,
+    "GuidType": 2,
+    "ArrowMirror": 0,
+    "condition_level": 20,
+    "NextNeedWinTimes": 4,
+    "condition_day": 0
+  },
+  "4": {
+    "ID": 4,
+    "NeedShowGuide": 1,
+    "GuidType": 1,
+    "ArrowMirror": 0,
+    "condition_level": 30,
+    "NextNeedWinTimes": 4,
+    "condition_day": 0
+  },
+  "5": {
+    "ID": 5,
+    "NeedShowGuide": 1,
+    "GuidType": 1,
+    "ArrowMirror": 0,
+    "condition_level": 35,
+    "NextNeedWinTimes": 4,
+    "condition_day": 0
+  },
+  "6": {
+    "ID": 6,
+    "NeedShowGuide": 1,
+    "GuidType": 1,
+    "ArrowMirror": 1,
+    "condition_level": 48,
+    "NextNeedWinTimes": 0,
+    "condition_day": 0
+  },
+  "7": {
+    "ID": 7,
+    "NeedShowGuide": 1,
+    "GuidType": 2,
+    "ArrowMirror": 0,
+    "condition_level": 0,
+    "NextNeedWinTimes": 0,
+    "condition_day": 0
+  },
+  "9": {
+    "ID": 9,
+    "NeedShowGuide": 1,
+    "GuidType": 2,
+    "ArrowMirror": 0,
+    "condition_level": 0,
+    "NextNeedWinTimes": 0,
+    "condition_day": 0
+  },
+  "10": {
+    "ID": 10,
+    "NeedShowGuide": 0,
+    "GuidType": 0,
+    "ArrowMirror": 0,
+    "condition_level": 8,
+    "NextNeedWinTimes": 0,
+    "condition_day": 1
+  },
+  "11": {
+    "ID": 11,
+    "NeedShowGuide": 1,
+    "GuidType": 2,
+    "ArrowMirror": 0,
+    "condition_level": 30,
+    "NextNeedWinTimes": 0,
+    "condition_day": 0
+  }
+}

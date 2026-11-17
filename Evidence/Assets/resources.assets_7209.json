@@ -1,0 +1,14 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 33554432,
+    "m_PathID": 35450257408
+  },
+  "m_Name": "SdkConfig",
+  "databucketEndpoint": "https://orion.databuckets.com/push",
+  "feedbackWebhookUrl": ""
+}

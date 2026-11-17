@@ -1,0 +1,42 @@
+{
+  "300001": {
+    "ID": 300001,
+    "Type": "Frame",
+    "Path": "Frame_Default",
+    "LockTips": "",
+    "Order": 1,
+    "Source": "",
+    "NoneActive": false,
+    "AutoSet": 0
+  },
+  "300002": {
+    "ID": 300002,
+    "Type": "Frame",
+    "Path": "Frame_Gold",
+    "LockTips": "LockTip_Passport_Frame",
+    "Order": 2,
+    "Source": "Passport",
+    "NoneActive": false,
+    "AutoSet": 0
+  },
+  "400001": {
+    "ID": 400001,
+    "Type": "Name",
+    "Path": "Name_Default",
+    "LockTips": "",
+    "Order": 1,
+    "Source": "",
+    "NoneActive": false,
+    "AutoSet": 0
+  },
+  "400002": {
+    "ID": 400002,
+    "Type": "Name",
+    "Path": "Name_Gold",
+    "LockTips": "LockTip_Passport_NamePlate",
+    "Order": 2,
+    "Source": "Passport",
+    "NoneActive": false,
+    "AutoSet": 0
+  }
+}

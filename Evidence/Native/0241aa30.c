@@ -1,0 +1,15 @@
+/* IL2CPP: Dino.BusSand.App.UI.LevelEnterPanel.<>c$$.ctor
+void Dino_BusSand_App_UI_LevelEnterPanel___c___ctor (Dino_BusSand_App_UI_LevelEnterPanel___c_o* __this, const MethodInfo* method);
+Native pseudo-C; inferred types require review. */
+
+
+/* IL2CPP: Dino.BusSand.App.UI.LevelEnterPanel.<>c$$.ctor
+   void Dino_BusSand_App_UI_LevelEnterPanel___c___ctor (Dino_BusSand_App_UI_LevelEnterPanel___c_o*
+   __this, const MethodInfo* method); */
+
+void Dino_BusSand_App_UI_LevelEnterPanel___c___ctor_231aa30(void)
+
+{
+  return;
+}
+

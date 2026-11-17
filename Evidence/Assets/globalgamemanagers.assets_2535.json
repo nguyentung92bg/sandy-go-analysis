@@ -1,0 +1,90 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 35701915648
+  },
+  "m_Name": "DefaultVolumeProfile",
+  "components": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 2538
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2537
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2529
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2543
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2521
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2541
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2525
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2524
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2527
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2544
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2532
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2540
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2526
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2530
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2522
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2542
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2539
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2531
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2523
+    }
+  ]
+}

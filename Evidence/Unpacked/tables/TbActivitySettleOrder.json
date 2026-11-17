@@ -1,0 +1,145 @@
+{
+  "1": {
+    "Id": 1,
+    "GroupId": 1,
+    "ControlPanelName": "Continue",
+    "ControlParams": {
+      "StreakRate": "1-4"
+    },
+    "Order": [
+      "BattleRoyale",
+      "StreakRate"
+    ],
+    "ContinueOrder": [],
+    "MaxShowCount": 0
+  },
+  "2": {
+    "Id": 2,
+    "GroupId": 1,
+    "ControlPanelName": "TryAgagin",
+    "ControlParams": {
+      "StreakRate": "1-4"
+    },
+    "Order": [
+      "StreakRate"
+    ],
+    "ContinueOrder": [],
+    "MaxShowCount": 0
+  },
+  "3": {
+    "Id": 3,
+    "GroupId": 1,
+    "ControlPanelName": "GameWin",
+    "ControlParams": {},
+    "Order": [
+      "StreakRate"
+    ],
+    "ContinueOrder": [],
+    "MaxShowCount": 0
+  },
+  "4": {
+    "Id": 4,
+    "GroupId": 1,
+    "ControlPanelName": "Quit",
+    "ControlParams": {
+      "StreakRate": "1-4"
+    },
+    "Order": [
+      "BattleRoyale",
+      "StreakRate"
+    ],
+    "ContinueOrder": [],
+    "MaxShowCount": 0
+  },
+  "5": {
+    "Id": 5,
+    "GroupId": 1,
+    "ControlPanelName": "SpecialLose",
+    "ControlParams": {},
+    "Order": [],
+    "ContinueOrder": [
+      "BattleRoyale",
+      "ClimbTower"
+    ],
+    "MaxShowCount": 0
+  },
+  "6": {
+    "Id": 6,
+    "GroupId": 2,
+    "ControlPanelName": "Continue",
+    "ControlParams": {
+      "ClimbTower": "1-59",
+      "StreakRate": "1-4"
+    },
+    "Order": [],
+    "ContinueOrder": [
+      "YachtRacing",
+      "BattleRoyale",
+      "ClimbTower",
+      "StreakRate",
+      "Passport"
+    ],
+    "MaxShowCount": 2
+  },
+  "7": {
+    "Id": 7,
+    "GroupId": 2,
+    "ControlPanelName": "TryAgagin",
+    "ControlParams": {
+      "ClimbTower": "1-59",
+      "StreakRate": "1-4"
+    },
+    "Order": [
+      "YachtRacing",
+      "ClimbTower",
+      "StreakRate"
+    ],
+    "ContinueOrder": [],
+    "MaxShowCount": 0
+  },
+  "8": {
+    "Id": 8,
+    "GroupId": 2,
+    "ControlPanelName": "GameWin",
+    "ControlParams": {
+      "ClimbTower": "0-59"
+    },
+    "Order": [
+      "YachtRacing",
+      "ClimbTower",
+      "StreakRate"
+    ],
+    "ContinueOrder": [],
+    "MaxShowCount": 0
+  },
+  "9": {
+    "Id": 9,
+    "GroupId": 2,
+    "ControlPanelName": "Quit",
+    "ControlParams": {
+      "ClimbTower": "1-59",
+      "StreakRate": "1-4"
+    },
+    "Order": [],
+    "ContinueOrder": [
+      "YachtRacing",
+      "BattleRoyale",
+      "ClimbTower",
+      "StreakRate"
+    ],
+    "MaxShowCount": 2
+  },
+  "10": {
+    "Id": 10,
+    "GroupId": 2,
+    "ControlPanelName": "SpecialLose",
+    "ControlParams": {},
+    "Order": [],
+    "ContinueOrder": [
+      "BattleRoyale",
+      "YachtRacing",
+      "ClimbTower"
+    ],
+    "MaxShowCount": 2
+  }
+}

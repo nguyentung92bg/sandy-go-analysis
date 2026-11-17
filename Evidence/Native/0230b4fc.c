@@ -1,0 +1,15 @@
+/* IL2CPP: Dino.BusSand.App.Meta.EconomySettings.<>c$$.ctor
+void Dino_BusSand_App_Meta_EconomySettings___c___ctor (Dino_BusSand_App_Meta_EconomySettings___c_o* __this, const MethodInfo* method);
+Native pseudo-C; inferred types require review. */
+
+
+/* IL2CPP: Dino.BusSand.App.Meta.EconomySettings.<>c$$.ctor
+   void Dino_BusSand_App_Meta_EconomySettings___c___ctor
+   (Dino_BusSand_App_Meta_EconomySettings___c_o* __this, const MethodInfo* method); */
+
+void Dino_BusSand_App_Meta_EconomySettings___c___ctor_220b4fc(void)
+
+{
+  return;
+}
+

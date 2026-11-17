@@ -1,0 +1,34 @@
+{
+  "1": {
+    "Id": 1,
+    "ActivityId": 5001,
+    "StageList": [
+      {
+        "Stage": 1,
+        "Reward": 1046,
+        "FailedLimitTimes": 20,
+        "FailedCoolTime": 1800,
+        "FailedCoolLevelCount": 5
+      },
+      {
+        "Stage": 2,
+        "Reward": 1047,
+        "FailedLimitTimes": 20,
+        "FailedCoolTime": 1800,
+        "FailedCoolLevelCount": 5
+      },
+      {
+        "Stage": 3,
+        "Reward": 1048,
+        "FailedLimitTimes": 20,
+        "FailedCoolTime": 1800,
+        "FailedCoolLevelCount": 5
+      }
+    ],
+    "FirstParticipationReward": 1001,
+    "RoundCount": 1,
+    "NewRoundNeedLevelTimes": 0,
+    "MatchBotRefreshTime": 10,
+    "MatchBotRefreshLevels": 1
+  }
+}

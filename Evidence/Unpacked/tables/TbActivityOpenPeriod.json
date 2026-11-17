@@ -1,0 +1,116 @@
+{
+  "1": {
+    "Id": 1,
+    "ActivityOpenPeriodGroupId": 1,
+    "ActivityType": "StreakRate",
+    "ActivityIdList": [
+      3000
+    ],
+    "PeriodType": [
+      "EveryWeek"
+    ],
+    "StartTimeList": [
+      "1-000000"
+    ],
+    "EndTimeList": [
+      "4-235959"
+    ],
+    "CycleType": "PeriodLoop",
+    "LastTime": 0
+  },
+  "2": {
+    "Id": 2,
+    "ActivityOpenPeriodGroupId": 1,
+    "ActivityType": "StreakRate",
+    "ActivityIdList": [
+      3001
+    ],
+    "PeriodType": [
+      "EveryWeek"
+    ],
+    "StartTimeList": [
+      "5-000000"
+    ],
+    "EndTimeList": [
+      "7-235959"
+    ],
+    "CycleType": "PeriodLoop",
+    "LastTime": 0
+  },
+  "3": {
+    "Id": 3,
+    "ActivityOpenPeriodGroupId": 1,
+    "ActivityType": "ClimbTower",
+    "ActivityIdList": [
+      2001
+    ],
+    "PeriodType": [
+      "EveryWeek"
+    ],
+    "StartTimeList": [
+      "1-000000"
+    ],
+    "EndTimeList": [
+      "7-235959"
+    ],
+    "CycleType": "PeriodLoop",
+    "LastTime": 0
+  },
+  "4": {
+    "Id": 4,
+    "ActivityOpenPeriodGroupId": 1,
+    "ActivityType": "BattleRoyale",
+    "ActivityIdList": [
+      4001
+    ],
+    "PeriodType": [
+      "EveryDay"
+    ],
+    "StartTimeList": [
+      "000000"
+    ],
+    "EndTimeList": [
+      "235959"
+    ],
+    "CycleType": "PeriodLoop",
+    "LastTime": 0
+  },
+  "5": {
+    "Id": 5,
+    "ActivityOpenPeriodGroupId": 1,
+    "ActivityType": "YachtRacing",
+    "ActivityIdList": [
+      5001
+    ],
+    "PeriodType": [
+      "EveryDay"
+    ],
+    "StartTimeList": [
+      "000000"
+    ],
+    "EndTimeList": [
+      "235959"
+    ],
+    "CycleType": "PeriodLoop",
+    "LastTime": 0
+  },
+  "6": {
+    "Id": 6,
+    "ActivityOpenPeriodGroupId": 2,
+    "ActivityType": "BattleRoyale",
+    "ActivityIdList": [
+      4001
+    ],
+    "PeriodType": [
+      "OpenWeekDays"
+    ],
+    "StartTimeList": [
+      "1357"
+    ],
+    "EndTimeList": [
+      "1357"
+    ],
+    "CycleType": "PeriodLoop",
+    "LastTime": 0
+  }
+}

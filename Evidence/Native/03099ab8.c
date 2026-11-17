@@ -1,0 +1,30 @@
+/* IL2CPP: Dino.Tracking.TrackingEventEventBase<object>$$SetEventScheduleType
+Il2CppObject* Dino_Tracking_TrackingEventEventBase_object___SetEventScheduleType (Dino_Tracking_TrackingEventEventBase_TSelf__o* __this, System_Nullable_ELiveOpsScheduleType__o value, const MethodInfo_2F99AB8* method);
+Native pseudo-C; inferred types require review. */
+
+
+/* IL2CPP: Dino.Tracking.TrackingEventEventBase<object>$$SetEventScheduleType
+   Il2CppObject* Dino_Tracking_TrackingEventEventBase_object___SetEventScheduleType
+   (Dino_Tracking_TrackingEventEventBase_TSelf__o* __this, System_Nullable_ELiveOpsScheduleType__o
+   value, const MethodInfo_2F99AB8* method); */
+
+void Dino_Tracking_TrackingEventEventBase_object___SetEventScheduleType_2f99ab8
+               (long param_1,undefined8 param_2,long param_3)
+
+{
+  long lVar1;
+  long lVar2;
+  
+  *(undefined8 *)(param_1 + 0x20) = param_2;
+  lVar2 = *(long *)(*(long *)(*(long *)(param_3 + 0x20) + 0xc0) + 8);
+  if ((*(ushort *)(lVar2 + 0x135) & 1) == 0) {
+    lVar2 = FUN_0216b470(lVar2);
+  }
+  lVar1 = thunk_FUN_0216e7a0(param_1,lVar2);
+  if (lVar1 != 0) {
+    return;
+  }
+                    /* WARNING: Subroutine does not return */
+  FUN_021335a4(param_1,lVar2);
+}
+

@@ -1,0 +1,24 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 33554432,
+    "m_PathID": 16827547648
+  },
+  "m_Name": "AdConfigMax",
+  "android": {
+    "interstitialId": "f9d65604da8e896d",
+    "rewardedVideoId": "7c56c7d50b902f0b",
+    "bannerId": "",
+    "aoaId": ""
+  },
+  "ios": {
+    "interstitialId": "",
+    "rewardedVideoId": "",
+    "bannerId": "",
+    "aoaId": ""
+  }
+}

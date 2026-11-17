@@ -1,0 +1,15 @@
+/* IL2CPP: Dino.BusSand.App.Meta.RacingRobotSession$$get_RobotGroupId
+int32_t Dino_BusSand_App_Meta_RacingRobotSession__get_RobotGroupId (Dino_BusSand_App_Meta_RacingRobotSession_o* __this, const MethodInfo* method);
+Native pseudo-C; inferred types require review. */
+
+
+/* IL2CPP: Dino.BusSand.App.Meta.RacingRobotSession$$get_RobotGroupId
+   int32_t Dino_BusSand_App_Meta_RacingRobotSession__get_RobotGroupId
+   (Dino_BusSand_App_Meta_RacingRobotSession_o* __this, const MethodInfo* method); */
+
+undefined4 Dino_BusSand_App_Meta_RacingRobotSession__get_RobotGroupId_225fe3c(long param_1)
+
+{
+  return *(undefined4 *)(param_1 + 0x84);
+}
+

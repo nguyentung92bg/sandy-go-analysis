@@ -1,0 +1,82 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 33554432,
+    "m_PathID": 41422946304
+  },
+  "m_Name": "MonetizationConfig",
+  "interstitial": {
+    "enabled": 1,
+    "startLevel": 15,
+    "cooldownSec": 90,
+    "firstWaitsCooldown": 1,
+    "levelGap": 1,
+    "afterRewardedSec": 45,
+    "noInterSessions": 0,
+    "returningSessionOff": 0,
+    "protectDays": 2,
+    "protectSessionSec": [
+      120,
+      60
+    ],
+    "protectPreLevel": 0,
+    "onWin": 1,
+    "onLevelStart": 1,
+    "onRetry": 1
+  },
+  "rewarded": {
+    "reviveAds": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "loadWaitSec": 8,
+    "winAdEnabled": 1,
+    "winAdFromLevel": 10,
+    "winMultipliers": [
+      2,
+      3,
+      5,
+      3,
+      2
+    ],
+    "winNeedleMs": 1200,
+    "winChestAdMultiplier": 2,
+    "dailyGiftAdMultiplier": 2
+  },
+  "removeAds": {
+    "enabled": 1,
+    "storeItem": 9001,
+    "homeButton": 1,
+    "bundleItem": 9003,
+    "fromLevel": 12,
+    "popupEveryInters": 3,
+    "popupMaxPerDay": 1
+  },
+  "starter": {
+    "enabled": 1,
+    "storeItem": 9002,
+    "fromLevel": 12,
+    "hours": 48
+  },
+  "playOn": {
+    "enabled": 1,
+    "storeItem": 4301,
+    "fromLevel": 20,
+    "onlyWhenShort": 1
+  },
+  "offers": {
+    "fromLevel": 12,
+    "perArrival": 1,
+    "perDay": 2
+  },
+  "editorRemoteJson": "",
+  "editorEconomyJson": ""
+}

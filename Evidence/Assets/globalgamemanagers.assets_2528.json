@@ -1,0 +1,23 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 29041360896
+  },
+  "m_Name": "FullScreenPassRendererFeature",
+  "m_Active": 1,
+  "injectionPoint": 600,
+  "fetchColorBuffer": 1,
+  "requirements": 0,
+  "passMaterial": {
+    "m_FileID": 0,
+    "m_PathID": 3
+  },
+  "passIndex": 0,
+  "bindDepthStencilAttachment": 0,
+  "m_Version": 1
+}

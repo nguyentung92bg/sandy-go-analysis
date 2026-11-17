@@ -1,0 +1,2003 @@
+{
+  "version": 2,
+  "voices": 20,
+  "buses": [
+    {
+      "name": "Master",
+      "volumeDb": 0
+    },
+    {
+      "name": "BGM",
+      "volumeDb": 0
+    },
+    {
+      "name": "SFX",
+      "volumeDb": 0
+    },
+    {
+      "name": "UI",
+      "volumeDb": -1
+    },
+    {
+      "name": "AMB",
+      "volumeDb": 0
+    }
+  ],
+  "events": [
+    {
+      "id": "ui_button",
+      "key": "sfx_common_button_scale_click",
+      "bus": "UI",
+      "notes": "Every ScaleButton press (UIPanel default sfx). Designer button_all (press + release click) + a crisp ElevenLabs plastic flick above 2 kHz at -9 dB (2026-11-06: the snap a phone shows).",
+      "noPan": true,
+      "priority": 200,
+      "pitchRandMin": -40,
+      "pitchRandMax": 40,
+      "volumeRandMin": -1,
+      "cooldown": 0.04,
+      "maxInstances": 2,
+      "clips": [
+        {
+          "asset": "sb_ui_button_v2"
+        }
+      ]
+    },
+    {
+      "id": "ui_pop",
+      "bus": "UI",
+      "notes": "Small element pops in: tooltip, stamp, badge step, booster icon lands.",
+      "noPan": true,
+      "volumeDb": -2,
+      "pitchRandMin": -70,
+      "pitchRandMax": 70,
+      "cooldown": 0.08,
+      "clips": [
+        {
+          "asset": "sb_ui_pop"
+        }
+      ]
+    },
+    {
+      "id": "ui_popup_open",
+      "bus": "UI",
+      "notes": "Every KitPopup window opens (KitPop). Designer open_popup.",
+      "noPan": true,
+      "volumeDb": -2,
+      "pitchRandMin": -30,
+      "pitchRandMax": 30,
+      "cooldown": 0.15,
+      "clips": [
+        {
+          "asset": "sb_ui_popup_open"
+        }
+      ]
+    },
+    {
+      "id": "ui_booster_offer",
+      "bus": "UI",
+      "notes": "Buy-booster popup and the stuck-help booster offer. Designer buy_booster_suggest (C major).",
+      "noPan": true,
+      "volumeDb": -2,
+      "cooldown": 1.0,
+      "priority": 200,
+      "clips": [
+        {
+          "asset": "sb_ui_booster_offer"
+        }
+      ]
+    },
+    {
+      "id": "ui_purchase",
+      "bus": "UI",
+      "notes": "A booster bought with coins or an ad: a bubbly pickup bloop (ElevenLabs 2026-11-06; was sfx_Item_appears, no top end) + the sparkle.",
+      "noPan": true,
+      "volumeDb": -1,
+      "cooldown": 0.3,
+      "layers": [
+        "fx_sparkle"
+      ],
+      "clips": [
+        {
+          "asset": "sb_ui_purchase"
+        }
+      ]
+    },
+    {
+      "id": "ui_tick",
+      "bus": "UI",
+      "notes": "Count-ups; code sets the pitch from the count (0.9 -> 1.45).",
+      "noPan": true,
+      "volumeDb": -1,
+      "cooldown": 0.035,
+      "maxInstances": 3,
+      "clips": [
+        {
+          "asset": "sb_ui_tick"
+        }
+      ]
+    },
+    {
+      "id": "ui_coin_land",
+      "bus": "UI",
+      "notes": "Each flying coin lands: Bus In coin, short, 5 st lower; code climbs a pentatonic run (owner 2026-10-26).",
+      "noPan": true,
+      "volumeDb": -3,
+      "pitchRandMin": -15,
+      "pitchRandMax": 15,
+      "cooldown": 0.02,
+      "maxInstances": 4,
+      "clips": [
+        {
+          "asset": "sb_ui_coin_land"
+        }
+      ]
+    },
+    {
+      "id": "ui_nope",
+      "bus": "UI",
+      "notes": "Denied: locked booster, no coins. Two soft wood knocks (Kenney CC0).",
+      "noPan": true,
+      "volumeDb": -2,
+      "cooldown": 0.15,
+      "clips": [
+        {
+          "asset": "sb_ui_nope"
+        }
+      ]
+    },
+    {
+      "id": "ui_coin",
+      "bus": "UI",
+      "noPan": true,
+      "volumeDb": 0,
+      "pitchRandMin": -90,
+      "pitchRandMax": 190,
+      "cooldown": 0.05,
+      "clips": [
+        {
+          "asset": "sb_ui_coin"
+        }
+      ]
+    },
+    {
+      "id": "ui_coins_fly",
+      "key": "sfx_popup_fly_coins",
+      "bus": "UI",
+      "notes": "Coins burst out of a reward (CommerceRewardFly): five Bus In coin clinks on a pentatonic spread + a quiet jingle (2026-11-06; was sfx_popup_fly_coins).",
+      "noPan": true,
+      "volumeDb": -1,
+      "cooldown": 0.3,
+      "clips": [
+        {
+          "asset": "sb_ui_coins_fly"
+        }
+      ]
+    },
+    {
+      "id": "ui_new_level",
+      "bus": "UI",
+      "notes": "A level starts (HudPanel.PlayIntro): a light sparkly pop as the level tab drops in, 0.1 s after the call, right after the screen fade's swoosh (ElevenLabs 2026-11-06; was never played).",
+      "noPan": true,
+      "volumeDb": -5,
+      "cooldown": 0.5,
+      "clips": [
+        {
+          "asset": "sb_level_start",
+          "delayMs": 100
+        }
+      ]
+    },
+    {
+      "id": "fx_sparkle",
+      "bus": "UI",
+      "notes": "Reward / relief sparkle (25 call sites: colour cleared, rewards, chests...): three stereo ElevenLabs takes (2026-11-06; was sfx_balloon_unlock_reward, 0 % above 6 kHz).",
+      "noPan": true,
+      "avoidRepeat": true,
+      "volumeDb": -2,
+      "pitchRandMin": -70,
+      "pitchRandMax": 70,
+      "cooldown": 0.12,
+      "maxInstances": 2,
+      "clips": [
+        {
+          "asset": "sb_fx_sparkle_1"
+        },
+        {
+          "asset": "sb_fx_sparkle_2"
+        },
+        {
+          "asset": "sb_fx_sparkle_3"
+        }
+      ]
+    },
+    {
+      "id": "fx_whoosh",
+      "bus": "SFX",
+      "notes": "Panels and props sweeping (code sets pitch): two airy ElevenLabs swooshes (2026-11-06; was synth).",
+      "avoidRepeat": true,
+      "volumeDb": -4,
+      "cooldown": 0.08,
+      "clips": [
+        {
+          "asset": "sb_fx_whoosh_1"
+        },
+        {
+          "asset": "sb_fx_whoosh_2"
+        }
+      ]
+    },
+    {
+      "id": "fx_blip",
+      "bus": "SFX",
+      "notes": "Shuffle colour cycling: one marimba C5 note per change (VCSL CC0), code climbs the pitch.",
+      "volumeDb": -4,
+      "cooldown": 0.06,
+      "maxInstances": 3,
+      "clips": [
+        {
+          "asset": "sb_fx_shuffle_tick"
+        }
+      ]
+    },
+    {
+      "id": "car_tap",
+      "bus": "SFX",
+      "volumeDb": -1,
+      "pitchRandMin": -70,
+      "pitchRandMax": 70,
+      "clips": [
+        {
+          "asset": "game_click",
+          "trimStartMs": 30
+        }
+      ],
+      "cooldown": 0.03
+    },
+    {
+      "id": "car_depart",
+      "bus": "SFX",
+      "notes": "Tapped car drives off (also the fire truck). Code: pitch by size (bus 0.88, car 1.1). Two ElevenLabs REAL car launches: tyre chirp, engine revs up ~0.4 s, then recedes (owner 2026-11-07: 'real hơn'; were toy-car pull-aways). The tyres are in the recording, so no car_tire layer.",
+      "avoidRepeat": true,
+      "priority": 180,
+      "pitchRandMin": -60,
+      "pitchRandMax": 60,
+      "volumeRandMin": -1.5,
+      "cooldown": 0.03,
+      "maxInstances": 3,
+      "clips": [
+        {
+          "asset": "sb_car_depart_v3_1"
+        },
+        {
+          "asset": "sb_car_depart_v3_2"
+        }
+      ]
+    },
+    {
+      "id": "car_tire",
+      "bus": "SFX",
+      "notes": "The Home bus braking: a short soft rubber roll, two ElevenLabs takes (2026-11-06; was game_tire, a 2.4 s screech). No longer layered under car_depart (2026-11-07: the real car launch has its own tyre chirp).",
+      "avoidRepeat": true,
+      "volumeDb": -6,
+      "pitchRandMin": -80,
+      "pitchRandMax": 120,
+      "maxInstances": 1,
+      "clips": [
+        {
+          "asset": "sb_car_tire_1",
+          "delayMs": 30
+        },
+        {
+          "asset": "sb_car_tire_2",
+          "delayMs": 30
+        }
+      ],
+      "cooldown": 0.03
+    },
+    {
+      "id": "car_blocked",
+      "bus": "SFX",
+      "notes": "Blocked car nudges into the one in front (at the contact). The owner's bump (designer click_bus_inactive, wobble removed) under an ElevenLabs plastic knock (2026-11-06: the bump alone was 88 % below 300 Hz, silent on a phone).",
+      "priority": 170,
+      "pitchRandMin": -50,
+      "pitchRandMax": 50,
+      "cooldown": 0.12,
+      "maxInstances": 1,
+      "clips": [
+        {
+          "asset": "sb_car_blocked_v2"
+        }
+      ]
+    },
+    {
+      "id": "car_wait",
+      "bus": "SFX",
+      "notes": "Car still refuelling / booster refused: Bus In soft negative tap (no wobble).",
+      "pitchRandMin": -40,
+      "pitchRandMax": 40,
+      "cooldown": 0.15,
+      "maxInstances": 1,
+      "clips": [
+        {
+          "asset": "sb_car_wait"
+        }
+      ]
+    },
+    {
+      "id": "car_land",
+      "bus": "SFX",
+      "notes": "Level intro: each parked vehicle drops in: a toy car on a rubber mat, three ElevenLabs takes so a lot lands as a patter (2026-11-06; was sfx_celebration_bounce).",
+      "avoidRepeat": true,
+      "volumeDb": -2,
+      "pitchRandMin": -150,
+      "pitchRandMax": 200,
+      "cooldown": 0.06,
+      "maxInstances": 3,
+      "clips": [
+        {
+          "asset": "sb_car_land_1"
+        },
+        {
+          "asset": "sb_car_land_2"
+        },
+        {
+          "asset": "sb_car_land_3"
+        }
+      ]
+    },
+    {
+      "id": "road_full",
+      "bus": "SFX",
+      "notes": "Tap while the road is full (car cannot go): Bus In's soft car_negative thump (owner 2026-10-26: gentler than the old alarm).",
+      "volumeDb": -1,
+      "cooldown": 0.3,
+      "priority": 200,
+      "clips": [
+        {
+          "asset": "sb_road_full"
+        }
+      ]
+    },
+    {
+      "id": "bus_full",
+      "bus": "SFX",
+      "notes": "Bus cargo full. Designer bus_finish_sound (G major chord, V of the music).",
+      "priority": 200,
+      "pitchRandMin": -20,
+      "pitchRandMax": 20,
+      "maxInstances": 2,
+      "panScale": 0.5,
+      "clips": [
+        {
+          "asset": "sb_bus_full"
+        }
+      ],
+      "cooldown": 0.03
+    },
+    {
+      "id": "bus_combo",
+      "bus": "SFX",
+      "notes": "Marimba C5 (VCSL CC0) under bus_full; code climbs C pentatonic with consecutive completions.",
+      "volumeDb": -5,
+      "cooldown": 0.03,
+      "maxInstances": 2,
+      "clips": [
+        {
+          "asset": "sb_bus_combo"
+        }
+      ]
+    },
+    {
+      "id": "bus_lid",
+      "bus": "SFX",
+      "notes": "Cargo lid slams on the full load (also the Home bus roof, the tower chest): a hollow tailgate thunk with a click, two ElevenLabs takes (2026-11-06; was synth).",
+      "avoidRepeat": true,
+      "volumeDb": -2,
+      "pitchRandMin": -80,
+      "pitchRandMax": 80,
+      "cooldown": 0.04,
+      "maxInstances": 2,
+      "clips": [
+        {
+          "asset": "sb_bus_lid_1"
+        },
+        {
+          "asset": "sb_bus_lid_2"
+        }
+      ]
+    },
+    {
+      "id": "bus_exit",
+      "bus": "SFX",
+      "notes": "A full vehicle zooms off the road (GameView.OnExiting, its launch kick): a REAL car roaring past and away with a doppler drop, two ElevenLabs takes with a phone exciter (owner 2026-11-07: 'real hơn'; 2026-11-06 was a toy race car peel-out).",
+      "avoidRepeat": true,
+      "volumeDb": -4,
+      "pitchRandMin": -60,
+      "pitchRandMax": 120,
+      "cooldown": 0.08,
+      "maxInstances": 2,
+      "clips": [
+        {
+          "asset": "sb_bus_exit_v3_1"
+        },
+        {
+          "asset": "sb_bus_exit_v3_2"
+        }
+      ]
+    },
+    {
+      "id": "sand_pour",
+      "bus": "SFX",
+      "notes": "Recorded sand loop while buses suck (level sqrt(flux) x 0.5, low-pass 3.2 -> 6.5 kHz with the flow). Restored 2026-10-26.",
+      "volumeDb": -6,
+      "priority": 250,
+      "clips": [
+        {
+          "asset": "Sand"
+        }
+      ],
+      "cooldown": 0.03
+    },
+    {
+      "id": "sand_grains",
+      "bus": "SFX",
+      "notes": "Granular synth pour under it (level sqrt(flux) x 0.36, pitch 0.85 -> 1.15). Restored 2026-10-26.",
+      "volumeDb": -8.9,
+      "priority": 250,
+      "clips": [
+        {
+          "asset": "synth:pour"
+        }
+      ],
+      "cooldown": 0.03
+    },
+    {
+      "id": "sand_fill",
+      "bus": "SFX",
+      "notes": "Filling-a-bottle resonance, pitch climbs with the fill.",
+      "volumeDb": -13.2,
+      "priority": 250,
+      "clips": [
+        {
+          "asset": "synth:fill"
+        }
+      ],
+      "cooldown": 0.03
+    },
+    {
+      "id": "sand_settle",
+      "bus": "SFX",
+      "notes": "Picture settling after a bite.",
+      "volumeDb": -15.9,
+      "priority": 250,
+      "clips": [
+        {
+          "asset": "synth:settle"
+        }
+      ],
+      "cooldown": 0.03
+    },
+    {
+      "id": "siren_loop",
+      "bus": "SFX",
+      "notes": "Fire truck waiting (ducks music 70 %). Real two-tone fire engine siren C5/G4, softened (Wikimedia, CC BY 4.0: credit).",
+      "volumeDb": -7,
+      "priority": 250,
+      "clips": [
+        {
+          "asset": "sb_siren_loop"
+        }
+      ],
+      "cooldown": 0.03
+    },
+    {
+      "id": "mech_fuel_tick",
+      "bus": "SFX",
+      "notes": "Fuel counter ticks down: a liquid bloop (Pixel Bus), code raises the pitch towards 0.",
+      "volumeDb": -3,
+      "cooldown": 0.05,
+      "clips": [
+        {
+          "asset": "sb_mech_fuel_tick"
+        }
+      ]
+    },
+    {
+      "id": "mech_fuel_done",
+      "bus": "SFX",
+      "notes": "Fuel station done, hose retracts. Designer sound_break_fuel.",
+      "priority": 190,
+      "layers": [
+        "mech_done_ding"
+      ],
+      "clips": [
+        {
+          "asset": "sb_mech_fuel_done"
+        }
+      ],
+      "cooldown": 0.1
+    },
+    {
+      "id": "mech_done_ding",
+      "bus": "SFX",
+      "notes": "Sweet completion layer: soft vibraphone E5 (VCSL CC0).",
+      "volumeDb": -6,
+      "clips": [
+        {
+          "asset": "sb_mech_done"
+        }
+      ],
+      "cooldown": 0.1
+    },
+    {
+      "id": "mech_key_fly",
+      "bus": "SFX",
+      "notes": "Key flies to its padlock (0.6 s tween); the designer key_lock is cut so its click lands at the arrival.",
+      "priority": 190,
+      "layers": [
+        "mech_key_whoosh"
+      ],
+      "clips": [
+        {
+          "asset": "sb_mech_key_fly"
+        }
+      ],
+      "cooldown": 0.1
+    },
+    {
+      "id": "mech_key_whoosh",
+      "bus": "SFX",
+      "notes": "The key's flight (layer of mech_key_fly): the ElevenLabs swoosh pitched up (2026-11-06; was synth).",
+      "volumeDb": -9,
+      "pitchCents": 500,
+      "clips": [
+        {
+          "asset": "sb_fx_whoosh_2"
+        }
+      ],
+      "cooldown": 0.1
+    },
+    {
+      "id": "mech_unlock",
+      "bus": "SFX",
+      "notes": "Padlock pops off (the click is in mech_key_fly): hand chime E5 (VCSL CC0).",
+      "volumeDb": -4,
+      "clips": [
+        {
+          "asset": "sb_mech_unlock"
+        }
+      ],
+      "cooldown": 0.1
+    },
+    {
+      "id": "mech_locked",
+      "bus": "SFX",
+      "notes": "Tap on a locked car. Designer sound_lock.",
+      "cooldown": 0.2,
+      "maxInstances": 1,
+      "clips": [
+        {
+          "asset": "sb_mech_locked"
+        }
+      ]
+    },
+    {
+      "id": "mech_shift",
+      "bus": "SFX",
+      "notes": "Shift car flips 180 deg (every departure while one is on the lot). Designer sound_shift_bus.",
+      "pitchRandMin": -60,
+      "pitchRandMax": 60,
+      "cooldown": 0.08,
+      "maxInstances": 2,
+      "clips": [
+        {
+          "asset": "sb_mech_shift"
+        }
+      ]
+    },
+    {
+      "id": "mech_lift",
+      "bus": "SFX",
+      "notes": "Next car rises out of the lift. Designer sound_lift (= dune audio, re-pitched -2 st).",
+      "priority": 180,
+      "layers": [
+        "mech_lift_pssh"
+      ],
+      "clips": [
+        {
+          "asset": "sb_mech_lift"
+        }
+      ],
+      "cooldown": 0.1
+    },
+    {
+      "id": "mech_lift_pssh",
+      "bus": "SFX",
+      "notes": "Hydraulic hiss under the lift (ElevenLabs 2026-11-06; was synth).",
+      "volumeDb": -5,
+      "pitchRandMin": -60,
+      "pitchRandMax": 60,
+      "clips": [
+        {
+          "asset": "sb_mech_lift_pssh"
+        }
+      ],
+      "cooldown": 0.1
+    },
+    {
+      "id": "mech_lane",
+      "bus": "SFX",
+      "notes": "Highway lane queue steps forward, barrier lifts. Designer sound_highway_lane (= dune audio, +3 st).",
+      "priority": 180,
+      "layers": [
+        "mech_lane_clack"
+      ],
+      "clips": [
+        {
+          "asset": "sb_mech_lane"
+        }
+      ],
+      "cooldown": 0.1
+    },
+    {
+      "id": "mech_lane_clack",
+      "bus": "SFX",
+      "notes": "The lane barrier's plastic clack (ElevenLabs 2026-11-06; was synth).",
+      "volumeDb": -4,
+      "pitchRandMin": -50,
+      "pitchRandMax": 50,
+      "clips": [
+        {
+          "asset": "sb_mech_lane_clack"
+        }
+      ],
+      "cooldown": 0.1
+    },
+    {
+      "id": "mech_dune",
+      "bus": "SFX",
+      "notes": "Sand dune melts. Designer sound_dune + a granular sand slide.",
+      "priority": 190,
+      "layers": [
+        "mech_dune_sparkle"
+      ],
+      "clips": [
+        {
+          "asset": "sb_mech_dune"
+        }
+      ],
+      "cooldown": 0.1
+    },
+    {
+      "id": "mech_dune_sparkle",
+      "bus": "SFX",
+      "notes": "Falling mark-tree shimmer under the dune (VCSL CC0).",
+      "volumeDb": -5,
+      "clips": [
+        {
+          "asset": "sb_mech_dune_shimmer"
+        }
+      ],
+      "cooldown": 0.1
+    },
+    {
+      "id": "mech_chain_release",
+      "bus": "SFX",
+      "notes": "All towed cars full, tow plates drop. Designer sound_break_link.",
+      "priority": 190,
+      "clips": [
+        {
+          "asset": "sb_mech_chain_release"
+        }
+      ],
+      "cooldown": 0.1
+    },
+    {
+      "id": "mech_chain_taut",
+      "bus": "SFX",
+      "notes": "Tow chain snaps taut (first hit of sound_break_link, -3 st).",
+      "pitchRandMin": -70,
+      "pitchRandMax": 70,
+      "cooldown": 0.06,
+      "maxInstances": 2,
+      "clips": [
+        {
+          "asset": "sb_mech_chain_taut"
+        }
+      ]
+    },
+    {
+      "id": "mech_fire_saved",
+      "bus": "SFX",
+      "notes": "Fire truck saved: a happy beep-beep of a real truck horn (Bus Crowd).",
+      "volumeDb": -2,
+      "priority": 200,
+      "layers": [
+        "fx_sparkle"
+      ],
+      "clips": [
+        {
+          "asset": "sb_mech_fire_saved"
+        }
+      ],
+      "cooldown": 0.1
+    },
+    {
+      "id": "mech_reveal",
+      "bus": "SFX",
+      "notes": "Mystery car shows its colour. Designer sound_hidden.",
+      "cooldown": 0.08,
+      "maxInstances": 2,
+      "clips": [
+        {
+          "asset": "sb_mech_reveal"
+        }
+      ]
+    },
+    {
+      "id": "mech_garage",
+      "bus": "SFX",
+      "notes": "A bus rolls out of the garage. Designer sound_garage.",
+      "pitchRandMin": -50,
+      "pitchRandMax": 50,
+      "cooldown": 0.2,
+      "maxInstances": 2,
+      "clips": [
+        {
+          "asset": "sb_mech_garage"
+        }
+      ]
+    },
+    {
+      "id": "mech_spent",
+      "bus": "SFX",
+      "notes": "Lift / lane / garage used up, sinks away (dune audio -7 st).",
+      "cooldown": 0.1,
+      "clips": [
+        {
+          "asset": "sb_mech_spent"
+        }
+      ]
+    },
+    {
+      "id": "booster_extra_slot",
+      "bus": "SFX",
+      "notes": "+1 road slot (HUD and pre-level): a chunky plastic piece clicking into place under a rising glass shimmer (ElevenLabs; was designer boost_1, a synthetic rising sweep).",
+      "priority": 230,
+      "cooldown": 0.3,
+      "noPan": true,
+      "clips": [
+        {
+          "asset": "sb_booster_extra_slot_v2"
+        }
+      ]
+    },
+    {
+      "id": "booster_shuffle",
+      "bus": "SFX",
+      "notes": "Shuffle: a crisp riffle of a card deck in a soft swirl (ElevenLabs; was designer boost_3, synthetic bouncy chirps). The colour cycling keeps its marimba ticks (fx_blip).",
+      "priority": 230,
+      "cooldown": 0.3,
+      "noPan": true,
+      "clips": [
+        {
+          "asset": "sb_booster_shuffle_v2"
+        }
+      ]
+    },
+    {
+      "id": "booster_pickup",
+      "bus": "SFX",
+      "notes": "Pick Up: the claw motor whirs down, the clamp clicks on the grip (0.30 s) and the motor lifts the car away (ElevenLabs; was designer boost_4, crossing synthetic sweeps).",
+      "priority": 230,
+      "cooldown": 0.3,
+      "clips": [
+        {
+          "asset": "sb_booster_pickup_v2"
+        }
+      ]
+    },
+    {
+      "id": "booster_wand",
+      "bus": "SFX",
+      "notes": "Magic Wand fills the tapped bus: a wand swish into a fairy-dust twinkle (ElevenLabs; was designer boost_2), same family as the other boosters.",
+      "priority": 230,
+      "cooldown": 0.3,
+      "clips": [
+        {
+          "asset": "sb_booster_wand_v2"
+        }
+      ]
+    },
+    {
+      "id": "booster_arm",
+      "bus": "UI",
+      "notes": "Pick Up / Wand armed, waiting for a target: an ElevenLabs rising sparkle on a glockenspiel G6 + marimba G5 ping (2026-11-06; was a synthetic Kenney pluck).",
+      "noPan": true,
+      "volumeDb": -3,
+      "cooldown": 0.2,
+      "clips": [
+        {
+          "asset": "sb_booster_arm_v2"
+        }
+      ]
+    },
+    {
+      "id": "result_win",
+      "bus": "SFX",
+      "notes": "Stage cleared. Designer sound_wingame (C major).",
+      "priority": 255,
+      "noPan": true,
+      "duckLevel": 0.25,
+      "duckSeconds": 3.6,
+      "clips": [
+        {
+          "asset": "sb_win_jingle"
+        }
+      ],
+      "cooldown": 0.5
+    },
+    {
+      "id": "result_fail",
+      "bus": "SFX",
+      "notes": "Stage failed (before the revive offer), not the final jingle: a soft marimba E5-C5-A4 sigh (A minor) with a vibraphone A5 and a puff of air (VCSL CC0 + ElevenLabs, 2026-11-06; was sfx_result_fail_01, three stepped square tones).",
+      "priority": 255,
+      "noPan": true,
+      "volumeDb": 0,
+      "duckLevel": 0.4,
+      "duckSeconds": 1.8,
+      "clips": [
+        {
+          "asset": "sb_result_fail"
+        }
+      ],
+      "cooldown": 0.5
+    },
+    {
+      "id": "result_lose",
+      "bus": "SFX",
+      "notes": "Level Failed screen (player gave up). Designer sound_lose_game (A minor).",
+      "priority": 255,
+      "noPan": true,
+      "duckLevel": 0.2,
+      "duckSeconds": 4.0,
+      "clips": [
+        {
+          "asset": "sb_lose_jingle"
+        }
+      ],
+      "cooldown": 0.5
+    },
+    {
+      "id": "result_revive",
+      "bus": "SFX",
+      "notes": "Revive brought the level back. Designer revive_sound.",
+      "priority": 250,
+      "noPan": true,
+      "duckLevel": 0.5,
+      "duckSeconds": 1.6,
+      "clips": [
+        {
+          "asset": "sb_revive"
+        }
+      ],
+      "cooldown": 0.5
+    },
+    {
+      "id": "finale_picture",
+      "bus": "SFX",
+      "notes": "Finale: the picture pours back into its frame. Designer sound_recreate_picture.",
+      "priority": 240,
+      "noPan": true,
+      "clips": [
+        {
+          "asset": "sb_finale_picture"
+        }
+      ],
+      "cooldown": 0.03
+    },
+    {
+      "id": "finale_shine",
+      "bus": "SFX",
+      "notes": "Light sweep over the rebuilt picture: rising mark trees (VCSL CC0).",
+      "noPan": true,
+      "volumeDb": -4,
+      "priority": 200,
+      "clips": [
+        {
+          "asset": "sb_finale_shine"
+        }
+      ],
+      "cooldown": 0.03
+    },
+    {
+      "id": "fw_whistle",
+      "bus": "SFX",
+      "notes": "Firework rocket climbs (cut from sound_firework_wingame).",
+      "pitchRandMin": -100,
+      "pitchRandMax": 150,
+      "maxInstances": 3,
+      "priority": 150,
+      "clips": [
+        {
+          "asset": "sb_fw_whistle"
+        }
+      ],
+      "cooldown": 0.03
+    },
+    {
+      "id": "fw_burst",
+      "bus": "SFX",
+      "notes": "Shell bursts: an ElevenLabs firework crack + crackle (heard on a phone) over the designer boom's low body (headphones), 3 takes (2026-11-07; the designer booms were 85-90 % under 300 Hz). 0 dB (owner 2026-11-08: +2 dB, it was a bit quiet) with fw_burst_big -1 and fw_crackle 0: the 7-shell show (VFX cd06039, 6 bursts + the grand within 1.3 s) sums to -0.84 dBTP centre-panned, LUFS-S max -10.7 (was -12.4).",
+      "avoidRepeat": true,
+      "pitchRandMin": -150,
+      "pitchRandMax": 100,
+      "volumeDb": 0,
+      "volumeRandMin": -2,
+      "maxInstances": 3,
+      "priority": 210,
+      "clips": [
+        {
+          "asset": "sb_fw_boom_v2_1"
+        },
+        {
+          "asset": "sb_fw_boom_v2_2"
+        },
+        {
+          "asset": "sb_fw_boom_v2_3"
+        }
+      ],
+      "cooldown": 0.03
+    },
+    {
+      "id": "fw_burst_big",
+      "bus": "SFX",
+      "notes": "The grand shell: a big ElevenLabs crack-and-boom with a long glitter (2026-11-07; was the designer's double boom, 85 % under 300 Hz). -1 dB (owner +2 dB on 2026-11-08, but the grand lands on two ringing bursts: at 0 dB the show touches 0 dBFS; -1 keeps 0.8 dB headroom at the same loudness).",
+      "volumeDb": -1,
+      "priority": 230,
+      "clips": [
+        {
+          "asset": "sb_fw_boom_big_v2"
+        }
+      ],
+      "cooldown": 0.03
+    },
+    {
+      "id": "fw_crackle",
+      "bus": "SFX",
+      "notes": "Glitter after each burst (wingame crackle cluster + sound_firework_free fizz).",
+      "avoidRepeat": true,
+      "volumeDb": 0,
+      "pitchRandMin": -80,
+      "pitchRandMax": 80,
+      "maxInstances": 3,
+      "priority": 140,
+      "clips": [
+        {
+          "asset": "sb_fw_crackle_1"
+        },
+        {
+          "asset": "sb_fw_crackle_2"
+        },
+        {
+          "asset": "sb_fw_crackle_3"
+        }
+      ],
+      "cooldown": 0.03
+    },
+    {
+      "id": "paint_brush",
+      "bus": "SFX",
+      "notes": "A cleared colour runs into the painting beneath the sand: a wet bristle swish (ElevenLabs 2026-11-06; was synth).",
+      "volumeDb": -5,
+      "panScale": 0.6,
+      "cooldown": 0.2,
+      "maxInstances": 2,
+      "priority": 170,
+      "clips": [
+        {
+          "asset": "sb_paint_brush"
+        }
+      ]
+    },
+    {
+      "id": "paint_note",
+      "bus": "SFX",
+      "notes": "The picture's chord: one soft vibraphone note per colour (VCSL CC0, tuned to C6 and played an octave down so the run C5..A6 stays under pitch 3), an arpeggio by GameAudio.PaintBloom (2026-11-06; was a synth chime).",
+      "volumeDb": -6,
+      "pitchCents": -1200,
+      "panScale": 0.5,
+      "cooldown": 0.02,
+      "maxInstances": 8,
+      "priority": 190,
+      "clips": [
+        {
+          "asset": "sb_paint_note"
+        }
+      ]
+    },
+    {
+      "id": "jam_beat",
+      "bus": "SFX",
+      "notes": "Road jammed, the fail clock running: a soft lub-dub that quickens (ElevenLabs + phone exciter 2026-11-06; was synth).",
+      "noPan": true,
+      "volumeDb": -5,
+      "cooldown": 0.2,
+      "maxInstances": 2,
+      "priority": 150,
+      "clips": [
+        {
+          "asset": "sb_jam_beat"
+        }
+      ]
+    },
+    {
+      "id": "jam_relief",
+      "bus": "SFX",
+      "notes": "The jam broke before it failed the level: a relieved exhale, two ElevenLabs takes (2026-11-06; was synth); a sparkle too after a close call.",
+      "noPan": true,
+      "avoidRepeat": true,
+      "volumeDb": -5,
+      "cooldown": 0.5,
+      "priority": 160,
+      "clips": [
+        {
+          "asset": "sb_jam_relief_1"
+        },
+        {
+          "asset": "sb_jam_relief_2"
+        }
+      ]
+    },
+    {
+      "id": "home_pencil",
+      "bus": "SFX",
+      "notes": "The pencil sketching the next picture on the home's drying line, looped while it draws: graphite on rough paper (ElevenLabs loop take 2026-11-06; was synth).",
+      "noPan": true,
+      "volumeDb": -8,
+      "priority": 150,
+      "clips": [
+        {
+          "asset": "sb_home_pencil_loop"
+        }
+      ],
+      "cooldown": 0.03
+    },
+    {
+      "id": "home_peg",
+      "bus": "SFX",
+      "notes": "A wooden clothespin snaps onto the home's drying line: two ElevenLabs takes (2026-11-06; was synth).",
+      "avoidRepeat": true,
+      "volumeDb": -4,
+      "pitchRandMin": -40,
+      "pitchRandMax": 40,
+      "panScale": 0.5,
+      "cooldown": 0.05,
+      "maxInstances": 3,
+      "priority": 160,
+      "clips": [
+        {
+          "asset": "sb_home_peg_1"
+        },
+        {
+          "asset": "sb_home_peg_2"
+        }
+      ]
+    },
+    {
+      "id": "home_paper",
+      "bus": "SFX",
+      "notes": "A sheet on the home's drying line flaps: a tap, a gust, the line sliding; three ElevenLabs takes (2026-11-06; was synth).",
+      "avoidRepeat": true,
+      "volumeDb": -5,
+      "panScale": 0.5,
+      "cooldown": 0.08,
+      "maxInstances": 3,
+      "priority": 140,
+      "clips": [
+        {
+          "asset": "sb_home_paper_1"
+        },
+        {
+          "asset": "sb_home_paper_2"
+        },
+        {
+          "asset": "sb_home_paper_3"
+        }
+      ]
+    },
+    {
+      "id": "home_honk",
+      "bus": "SFX",
+      "notes": "The home's bus honks, beep-beep: a tap on it, the next sketch drawn; two ElevenLabs takes (2026-11-06; was synth).",
+      "avoidRepeat": true,
+      "volumeDb": -4,
+      "panScale": 0.4,
+      "cooldown": 0.2,
+      "maxInstances": 2,
+      "priority": 170,
+      "clips": [
+        {
+          "asset": "sb_home_honk_1"
+        },
+        {
+          "asset": "sb_home_honk_2"
+        }
+      ]
+    },
+    {
+      "id": "home_vroom",
+      "bus": "SFX",
+      "notes": "The home's bus revs: it drives in on the beach, it pulls away into the level (ElevenLabs + phone exciter 2026-11-06; was synth).",
+      "volumeDb": -4,
+      "panScale": 0.4,
+      "cooldown": 0.3,
+      "maxInstances": 1,
+      "priority": 160,
+      "clips": [
+        {
+          "asset": "sb_home_vroom"
+        }
+      ]
+    },
+    {
+      "id": "ui_popup_close",
+      "bus": "UI",
+      "notes": "A KitPopup leaves (KitPop.PlayOut): a soft bubbly pop as it vanishes, 0.15 s after the tap (GameAudio.PopupClose); skipped when a window opens, the screen changes or a purchase sting starts meanwhile, or under a screen fade (ElevenLabs, retuned onto F/A).",
+      "noPan": true,
+      "volumeDb": -3,
+      "pitchRandMin": -40,
+      "pitchRandMax": 40,
+      "cooldown": 0.15,
+      "clips": [
+        {
+          "asset": "sb_ui_popup_close"
+        }
+      ]
+    },
+    {
+      "id": "ui_needle_tick",
+      "bus": "UI",
+      "notes": "Win popup multiplier needle crossing a segment (its own event, not the count-up's ui_tick): from when it shows, first two sweeps only; code lifts the pitch with the multiplier.",
+      "noPan": true,
+      "volumeDb": -7,
+      "cooldown": 0.05,
+      "maxInstances": 2,
+      "clips": [
+        {
+          "asset": "sb_ui_tick"
+        }
+      ]
+    },
+    {
+      "id": "ui_popup_negative",
+      "bus": "UI",
+      "notes": "A popup with bad news opens instead of the bubble (KitPop.Negative: quit / reset, purchase failed, no internet, don't give up): marimba G5 -> E5 (VCSL CC0).",
+      "noPan": true,
+      "volumeDb": -2,
+      "cooldown": 0.3,
+      "clips": [
+        {
+          "asset": "sb_ui_popup_negative"
+        }
+      ]
+    },
+    {
+      "id": "ui_toast",
+      "bus": "UI",
+      "notes": "A toast pops in (TipsToast; not again for one replacing a message shown < 0.8 s ago): a tiny glassy blip (ElevenLabs).",
+      "noPan": true,
+      "volumeDb": -4,
+      "pitchRandMin": -30,
+      "pitchRandMax": 30,
+      "cooldown": 0.5,
+      "clips": [
+        {
+          "asset": "sb_ui_toast"
+        }
+      ]
+    },
+    {
+      "id": "ui_toggle_on",
+      "bus": "UI",
+      "notes": "A settings switch flips on (KitToggle): a crisp plastic flick (ElevenLabs).",
+      "noPan": true,
+      "volumeDb": -2,
+      "cooldown": 0.05,
+      "clips": [
+        {
+          "asset": "sb_ui_toggle_on"
+        }
+      ]
+    },
+    {
+      "id": "ui_toggle_off",
+      "bus": "UI",
+      "notes": "A settings switch flips off: another flick, a semitone lower (ElevenLabs).",
+      "noPan": true,
+      "volumeDb": -3,
+      "cooldown": 0.05,
+      "clips": [
+        {
+          "asset": "sb_ui_toggle_off"
+        }
+      ]
+    },
+    {
+      "id": "ui_transition",
+      "bus": "UI",
+      "notes": "The screen fade covers a change of screen (ScreenFade: Home <-> level, next level, restart): a wide soft swoosh, two ElevenLabs takes.",
+      "noPan": true,
+      "avoidRepeat": true,
+      "volumeDb": -6,
+      "cooldown": 0.4,
+      "clips": [
+        {
+          "asset": "sb_ui_transition_1"
+        },
+        {
+          "asset": "sb_ui_transition_2"
+        }
+      ]
+    },
+    {
+      "id": "ui_fill",
+      "bus": "UI",
+      "notes": "A chest / daily bar fills: a rising shimmer (ElevenLabs); code lifts the pitch with the fill.",
+      "noPan": true,
+      "volumeDb": -4,
+      "cooldown": 0.2,
+      "clips": [
+        {
+          "asset": "sb_ui_fill"
+        }
+      ]
+    },
+    {
+      "id": "ui_clock_tick",
+      "bus": "UI",
+      "notes": "The rescue clock's last 15 s: a wooden tock per second, louder and higher towards 0 (ElevenLabs).",
+      "noPan": true,
+      "volumeDb": -6,
+      "cooldown": 0.3,
+      "clips": [
+        {
+          "asset": "sb_ui_clock_tick"
+        }
+      ]
+    },
+    {
+      "id": "ui_success_soft",
+      "bus": "UI",
+      "notes": "A small positive step: a tutorial step done, a heart from an ad. Two soft bell notes on C6 (ElevenLabs).",
+      "noPan": true,
+      "volumeDb": -4,
+      "cooldown": 0.3,
+      "clips": [
+        {
+          "asset": "sb_ui_success_soft"
+        }
+      ]
+    },
+    {
+      "id": "ui_pop_step",
+      "bus": "UI",
+      "notes": "A row of things popping in (daily cards, Rewards! prizes, rating stars, hearts / boosters landing): the ui_pop clip, code climbs a pentatonic run.",
+      "noPan": true,
+      "volumeDb": -4,
+      "cooldown": 0.02,
+      "maxInstances": 4,
+      "clips": [
+        {
+          "asset": "sb_ui_pop"
+        }
+      ]
+    },
+    {
+      "id": "ui_thud",
+      "bus": "UI",
+      "notes": "Something heavy lands on the UI (the win chest dropping in, the tower lift touching down): the cargo-lid thunk 3 st lower.",
+      "noPan": true,
+      "volumeDb": -4,
+      "pitchCents": -300,
+      "cooldown": 0.1,
+      "clips": [
+        {
+          "asset": "sb_bus_lid_2"
+        }
+      ]
+    },
+    {
+      "id": "ui_heart_break",
+      "bus": "UI",
+      "notes": "Quit / reset: the broken heart cracks as it shakes (ElevenLabs glass crack).",
+      "noPan": true,
+      "volumeDb": -3,
+      "cooldown": 0.5,
+      "clips": [
+        {
+          "asset": "sb_ui_heart_break"
+        }
+      ]
+    },
+    {
+      "id": "iap_success",
+      "bus": "UI",
+      "notes": "A real-money purchase went through (shop, starter, special gift, no ads): glockenspiel C-E-G-C (VCSL CC0) + Bus In coins + ElevenLabs shimmer; the music ducks to 55 % for 1.2 s.",
+      "noPan": true,
+      "volumeDb": 0,
+      "cooldown": 1.0,
+      "priority": 230,
+      "clips": [
+        {
+          "asset": "sb_iap_success"
+        }
+      ]
+    },
+    {
+      "id": "chest_rattle",
+      "bus": "UI",
+      "notes": "A reward chest shakes (win chest, tower chest charge): wooden knocks with coins inside (two ElevenLabs takes layered); was a tick / a whoosh.",
+      "noPan": true,
+      "volumeDb": -2,
+      "pitchRandMin": -60,
+      "pitchRandMax": 60,
+      "cooldown": 0.15,
+      "clips": [
+        {
+          "asset": "sb_chest_rattle"
+        }
+      ]
+    },
+    {
+      "id": "chest_open",
+      "bus": "UI",
+      "notes": "A reward chest bursts open (win chest, tower chest): the lid + a magical burst (two ElevenLabs takes layered); was the battle-pass unlock clip / the bus lid + a sparkle.",
+      "noPan": true,
+      "volumeDb": -1,
+      "cooldown": 0.5,
+      "priority": 210,
+      "clips": [
+        {
+          "asset": "sb_chest_open"
+        }
+      ]
+    },
+    {
+      "id": "booster_disarm",
+      "bus": "UI",
+      "notes": "The armed Pick Up / Wand tapped again (cancelled): the arm sparkle a fourth lower and softer.",
+      "noPan": true,
+      "volumeDb": -5,
+      "pitchCents": -500,
+      "cooldown": 0.1,
+      "clips": [
+        {
+          "asset": "sb_booster_arm_v2"
+        }
+      ]
+    },
+    {
+      "id": "paint_patter",
+      "bus": "SFX",
+      "notes": "The homecoming's paint grains land on the sheet (HomeAtelier): a soft wet patter (ElevenLabs).",
+      "volumeDb": -4,
+      "panScale": 0.5,
+      "cooldown": 0.3,
+      "priority": 150,
+      "clips": [
+        {
+          "asset": "sb_paint_patter"
+        }
+      ]
+    },
+    {
+      "id": "home_bus_creak",
+      "bus": "SFX",
+      "notes": "The home's bus settles on its springs as it stops, nose dipping (HomeBus): a soft creak (ElevenLabs).",
+      "volumeDb": -6,
+      "pitchRandMin": -80,
+      "pitchRandMax": 80,
+      "cooldown": 0.4,
+      "priority": 140,
+      "clips": [
+        {
+          "asset": "sb_home_bus_creak"
+        }
+      ]
+    },
+    {
+      "id": "home_sea",
+      "bus": "AMB",
+      "notes": "The Home beach's sea (HomeStage, loop): a 12 s stereo ElevenLabs loop take under the Home music, in with the Home, out under a loading screen.",
+      "noPan": true,
+      "volumeDb": -6,
+      "priority": 100,
+      "clips": [
+        {
+          "asset": "sb_home_sea_amb_loop"
+        }
+      ],
+      "cooldown": 0.03
+    },
+    {
+      "id": "bgm_main",
+      "bus": "BGM",
+      "notes": "Home: ukulele / marimba beach pop (C major, 99 BPM, 110 s) and kalimba / glockenspiel / e-piano (C major, 92 BPM, 110 s), ElevenLabs Music; -15 LUFS -> about -24 in the mix.",
+      "playMode": "sequence",
+      "volumeDb": -9,
+      "crossfade": 2.0,
+      "clips": [
+        {
+          "asset": "bgm_home_03",
+          "gainDb": -1.5,
+          "pitchCents": 12
+        },
+        {
+          "asset": "bgm_home_04",
+          "gainDb": -1.3,
+          "pitchCents": 16
+        }
+      ]
+    },
+    {
+      "id": "bgm_level",
+      "bus": "BGM",
+      "notes": "In game: marimba / pizzicato / pads (C major, 120 s) and lo-fi e-piano / vibraphone (A minor, 85 BPM, 120 s), ElevenLabs Music; about -27 LUFS in the mix under the sand bed and the cars; ducks a further 35 % under heavy pouring.",
+      "playMode": "sequence",
+      "volumeDb": -12,
+      "crossfade": 2.0,
+      "clips": [
+        {
+          "asset": "bgm_game_03",
+          "gainDb": 0.8,
+          "pitchCents": 8
+        },
+        {
+          "asset": "bgm_game_04",
+          "gainDb": 1.1,
+          "pitchCents": 17
+        }
+      ]
+    },
+    {
+      "id": "sfx_anim_celebration",
+      "bus": "UI",
+      "notes": "Battle Royale result: a party popper + confetti on a glockenspiel C6-E6-G6-C7 run (2026-11-06; was sfx_anim_celebration, 8-bit)",
+      "noPan": true,
+      "volumeDb": 0,
+      "clips": [
+        {
+          "asset": "sb_kit_celebrate"
+        }
+      ],
+      "cooldown": 0.03
+    },
+    {
+      "id": "sfx_ui_haidao_celebration_finale",
+      "bus": "UI",
+      "notes": "Yacht Racing reward finale: a slow marimba + glockenspiel C major roll, wind chimes, confetti (2026-11-06; was sfx_ui_haidao_celebration_finale, 8-bit)",
+      "noPan": true,
+      "volumeDb": 0,
+      "clips": [
+        {
+          "asset": "sb_kit_finale"
+        }
+      ],
+      "cooldown": 0.03
+    },
+    {
+      "id": "sfx_balloon_unlock_reward",
+      "bus": "UI",
+      "notes": "Climb Tower reward unlocked: a rolled marimba C5-E5-G5-C6, glockenspiel C7, wind chimes (2026-11-06; was sfx_balloon_unlock_reward, 8-bit)",
+      "noPan": true,
+      "volumeDb": 0,
+      "clips": [
+        {
+          "asset": "sb_kit_unlock"
+        }
+      ],
+      "cooldown": 0.03
+    },
+    {
+      "id": "sfx_battlepass_reward_unlock",
+      "bus": "UI",
+      "notes": "Pass reward unlocked: the rolled marimba unlock (2026-11-06; was sfx_battlepass_reward_unlock, 8-bit)",
+      "noPan": true,
+      "volumeDb": 0,
+      "clips": [
+        {
+          "asset": "sb_kit_unlock"
+        }
+      ],
+      "cooldown": 0.03
+    },
+    {
+      "id": "sfx_battlepass_claim_reward",
+      "bus": "UI",
+      "notes": "Reward claimed: glockenspiel G6 -> C7 on marimba C5, a sparkle tail (2026-11-06; was sfx_battlepass_claim_reward, 8-bit)",
+      "noPan": true,
+      "volumeDb": 0,
+      "clips": [
+        {
+          "asset": "sb_kit_claim"
+        }
+      ],
+      "cooldown": 0.03
+    },
+    {
+      "id": "sfx_progress_bar_The_reward_pops_up",
+      "bus": "UI",
+      "notes": "Streak reward pops up: the claim chime (2026-11-06; was sfx_progress_bar_The_reward_pops_up, 8-bit)",
+      "noPan": true,
+      "volumeDb": -1,
+      "clips": [
+        {
+          "asset": "sb_kit_claim"
+        }
+      ],
+      "cooldown": 0.03
+    },
+    {
+      "id": "sfx_Items_doubled",
+      "bus": "UI",
+      "notes": "Streak rewards doubled: a marimba octave 'ba-ding' with a coin and a glockenspiel C7 (2026-11-06; was sfx_Items_doubled, 8-bit)",
+      "noPan": true,
+      "volumeDb": 0,
+      "clips": [
+        {
+          "asset": "sb_kit_doubled"
+        }
+      ],
+      "cooldown": 0.03
+    },
+    {
+      "id": "sfx_ui_leaderboard_top",
+      "bus": "UI",
+      "notes": "First place: a glockenspiel C6..C7 run onto marimba C5 + G5 (2026-11-06; was sfx_ui_leaderboard_top, 8-bit)",
+      "noPan": true,
+      "volumeDb": 0,
+      "clips": [
+        {
+          "asset": "sb_kit_top"
+        }
+      ],
+      "cooldown": 0.03
+    },
+    {
+      "id": "sfx_bp_gold_max_reach",
+      "bus": "UI",
+      "notes": "Gold pass maxed: a strummed glockenspiel C major chord, a C7 bloom, wind chimes (2026-11-06; was sfx_bp_gold_max_reach, 8-bit)",
+      "noPan": true,
+      "volumeDb": 0,
+      "clips": [
+        {
+          "asset": "sb_kit_gold"
+        }
+      ],
+      "cooldown": 0.03
+    },
+    {
+      "id": "sfx_popup_fly_items",
+      "bus": "UI",
+      "notes": "Reward items (not coins) burst out: soft bubbly pops and a sparkly swish (ElevenLabs) (2026-11-06; was sfx_popup_fly_items, 8-bit)",
+      "noPan": true,
+      "volumeDb": 0,
+      "clips": [
+        {
+          "asset": "sb_kit_items_out"
+        }
+      ],
+      "cooldown": 0.03
+    },
+    {
+      "id": "sfx_rewards_fly_bag",
+      "bus": "UI",
+      "notes": "Reward items land in their bag: a soft pouch thump + a tiny glockenspiel C7 (ElevenLabs + VCSL) (2026-11-06; was sfx_rewards_fly_bag, 8-bit)",
+      "noPan": true,
+      "volumeDb": -1,
+      "clips": [
+        {
+          "asset": "sb_kit_bag_catch"
+        }
+      ],
+      "cooldown": 0.03
+    },
+    {
+      "id": "sfx_balloon_in_sidebar",
+      "bus": "UI",
+      "notes": "An event icon reaches the side bar: the pouch catch (2026-11-06; was sfx_balloon_in_sidebar, 8-bit)",
+      "noPan": true,
+      "volumeDb": -2,
+      "clips": [
+        {
+          "asset": "sb_kit_bag_catch"
+        }
+      ],
+      "cooldown": 0.03
+    },
+    {
+      "id": "sfx_ani_racing_up",
+      "bus": "UI",
+      "notes": "A boat moves up the race: a magical rising swoosh (ElevenLabs, two takes) (2026-11-06; was sfx_ani_racing_up, 8-bit)",
+      "noPan": true,
+      "volumeDb": 0,
+      "avoidRepeat": true,
+      "clips": [
+        {
+          "asset": "sb_kit_rise_1"
+        },
+        {
+          "asset": "sb_kit_rise_2"
+        }
+      ],
+      "cooldown": 0.03
+    },
+    {
+      "id": "sfx_balloon_ascend_01",
+      "bus": "UI",
+      "notes": "Climb Tower balloon rises: the rising swoosh (2026-11-06; was sfx_balloon_ascend_01, 8-bit)",
+      "noPan": true,
+      "volumeDb": 0,
+      "avoidRepeat": true,
+      "clips": [
+        {
+          "asset": "sb_kit_rise_1"
+        },
+        {
+          "asset": "sb_kit_rise_2"
+        }
+      ],
+      "cooldown": 0.03
+    },
+    {
+      "id": "sfx_ui_avatar_appear",
+      "bus": "UI",
+      "notes": "Battle Royale avatars appear: the rising swoosh (2026-11-06; was sfx_ui_avatar_appear, 8-bit)",
+      "noPan": true,
+      "volumeDb": -1,
+      "avoidRepeat": true,
+      "clips": [
+        {
+          "asset": "sb_kit_rise_1"
+        },
+        {
+          "asset": "sb_kit_rise_2"
+        }
+      ],
+      "cooldown": 0.03
+    },
+    {
+      "id": "sfx_ui_haidao_celebration_appear",
+      "bus": "UI",
+      "notes": "Yacht Racing reward appears: the rising swoosh (2026-11-06; was sfx_ui_haidao_celebration_appear, 8-bit)",
+      "noPan": true,
+      "volumeDb": 0,
+      "avoidRepeat": true,
+      "clips": [
+        {
+          "asset": "sb_kit_rise_1"
+        },
+        {
+          "asset": "sb_kit_rise_2"
+        }
+      ],
+      "cooldown": 0.03
+    },
+    {
+      "id": "sfx_Item_appears",
+      "bus": "UI",
+      "notes": "Streak item appears: the rising swoosh (2026-11-06; was sfx_Item_appears, 8-bit)",
+      "noPan": true,
+      "volumeDb": 0,
+      "avoidRepeat": true,
+      "clips": [
+        {
+          "asset": "sb_kit_rise_1"
+        },
+        {
+          "asset": "sb_kit_rise_2"
+        }
+      ],
+      "cooldown": 0.03
+    },
+    {
+      "id": "sfx_balloon_descend_01",
+      "bus": "UI",
+      "notes": "Climb Tower balloon drops back: a soft falling whoosh (ElevenLabs fall + a reversed shimmer) (2026-11-06; was sfx_balloon_descend_01, 8-bit)",
+      "noPan": true,
+      "volumeDb": 0,
+      "avoidRepeat": true,
+      "clips": [
+        {
+          "asset": "sb_kit_fall_1"
+        },
+        {
+          "asset": "sb_kit_fall_2"
+        }
+      ],
+      "cooldown": 0.03
+    },
+    {
+      "id": "sfx_anim_fail_drop_down",
+      "bus": "UI",
+      "notes": "Battle Royale player drops out: the falling whoosh (2026-11-06; was sfx_anim_fail_drop_down, 8-bit)",
+      "noPan": true,
+      "volumeDb": 0,
+      "avoidRepeat": true,
+      "clips": [
+        {
+          "asset": "sb_kit_fall_1"
+        },
+        {
+          "asset": "sb_kit_fall_2"
+        }
+      ],
+      "cooldown": 0.03
+    },
+    {
+      "id": "sfx_ui_rongyan_descend",
+      "bus": "UI",
+      "notes": "Battle Royale lava slides down: a warm lava rumble (phone exciter) with a shimmer sweeping down (2026-11-06; was sfx_ui_rongyan_descend, 8-bit)",
+      "noPan": true,
+      "volumeDb": 0,
+      "clips": [
+        {
+          "asset": "sb_kit_rumble"
+        }
+      ],
+      "cooldown": 0.03
+    },
+    {
+      "id": "sfx_celebration_bounce",
+      "bus": "UI",
+      "notes": "Yacht Racing trophy bounce (every 1.33 s): a soft thump with a metallic ting (ElevenLabs) (2026-11-06; was sfx_celebration_bounce, 8-bit)",
+      "noPan": true,
+      "volumeDb": -3,
+      "clips": [
+        {
+          "asset": "sb_kit_bounce"
+        }
+      ],
+      "cooldown": 0.03
+    },
+    {
+      "id": "sfx_balloon_progress_fill",
+      "bus": "UI",
+      "notes": "Climb Tower bar fills: the game's rising fill shimmer (2026-11-06; was sfx_balloon_progress_fill, 8-bit)",
+      "noPan": true,
+      "volumeDb": -2,
+      "clips": [
+        {
+          "asset": "sb_ui_fill"
+        }
+      ],
+      "cooldown": 0.03
+    },
+    {
+      "id": "sfx_progress_bar_fill_up_1",
+      "bus": "UI",
+      "notes": "Streak bar segment fills: the fill shimmer (2026-11-06; was sfx_progress_bar_fill_up_1, 8-bit)",
+      "noPan": true,
+      "volumeDb": -4,
+      "cooldown": 0.15,
+      "clips": [
+        {
+          "asset": "sb_ui_fill"
+        }
+      ]
+    },
+    {
+      "id": "sfx_ui_score_complete",
+      "bus": "UI",
+      "notes": "Battle Royale round complete: two soft bells on C6 (2026-11-06; was sfx_ui_score_complete, 8-bit)",
+      "noPan": true,
+      "volumeDb": -2,
+      "clips": [
+        {
+          "asset": "sb_ui_success_soft"
+        }
+      ],
+      "cooldown": 0.03
+    },
+    {
+      "id": "sfx_ui_score_tick",
+      "bus": "UI",
+      "notes": "Battle Royale count-up: the woodblock tick (2026-11-06; was sfx_ui_score_tick, 8-bit)",
+      "noPan": true,
+      "volumeDb": -1,
+      "pitchRandMin": -40,
+      "pitchRandMax": 40,
+      "clips": [
+        {
+          "asset": "sb_ui_tick"
+        }
+      ],
+      "cooldown": 0.03
+    },
+    {
+      "id": "sfx_ui_rongyan_text",
+      "bus": "UI",
+      "notes": "Battle Royale text line: a quiet woodblock tick (2026-11-06; was sfx_ui_rongyan_text, 8-bit)",
+      "noPan": true,
+      "volumeDb": -6,
+      "pitchRandMin": -100,
+      "pitchRandMax": 100,
+      "clips": [
+        {
+          "asset": "sb_ui_tick"
+        }
+      ],
+      "cooldown": 0.03
+    },
+    {
+      "id": "sfx_noadds",
+      "bus": "UI",
+      "notes": "No-ads offer shows: the designer's C major offer sting (was 4 s of square chords) (2026-11-06; was sfx_noadds, 8-bit)",
+      "noPan": true,
+      "volumeDb": -2,
+      "clips": [
+        {
+          "asset": "sb_ui_booster_offer"
+        }
+      ],
+      "cooldown": 0.03
+    },
+    {
+      "id": "sfx_amb_racing_loop",
+      "bus": "UI",
+      "notes": "Yacht Racing race view (loop, YachtRacingUi.PlayLoop): sea and distant boat engines (ElevenLabs loop) (2026-11-06; was sfx_amb_racing_loop, 8-bit)",
+      "noPan": true,
+      "volumeDb": -8,
+      "clips": [
+        {
+          "asset": "sb_kit_race_amb_loop"
+        }
+      ],
+      "cooldown": 0.03
+    },
+    {
+      "id": "sfx_ui_haidao_loading_loop",
+      "bus": "UI",
+      "notes": "Yacht Racing start view (loop): the sea and boats loop (2026-11-06; was sfx_ui_haidao_loading_loop, 8-bit)",
+      "noPan": true,
+      "volumeDb": -7,
+      "clips": [
+        {
+          "asset": "sb_kit_race_amb_loop"
+        }
+      ],
+      "cooldown": 0.03
+    },
+    {
+      "id": "sfx_propeller_spin",
+      "bus": "UI",
+      "notes": "Battle Royale avatars fly off with their propellers: a light toy propeller whirr (ElevenLabs) (2026-11-07; was sfx_propeller_spin, white noise)",
+      "noPan": true,
+      "volumeDb": 0,
+      "clips": [
+        {
+          "asset": "sb_kit_propeller"
+        }
+      ],
+      "cooldown": 0.03
+    },
+    {
+      "id": "sfx_Items_fly_back_to_the_progress_bar",
+      "bus": "UI",
+      "notes": "Streak reward items fly back to the bar: airy whooshes, the old clip's 0.415 s lead kept for the panel's timing (ElevenLabs) (2026-11-07; was sfx_Items_fly_back_to_the_progress_bar, white noise)",
+      "noPan": true,
+      "volumeDb": 0,
+      "clips": [
+        {
+          "asset": "sb_kit_items_fly"
+        }
+      ],
+      "cooldown": 0.03
+    },
+    {
+      "id": "sfx_battlepass_reward_lock_rattle",
+      "bus": "UI",
+      "notes": "Legacy id without its own clip: reuses sb_mech_locked.",
+      "noPan": true,
+      "volumeDb": -4,
+      "clips": [
+        {
+          "asset": "sb_mech_locked"
+        }
+      ],
+      "cooldown": 0.03
+    },
+    {
+      "id": "sfx_battlepass_progress_lock_rattle",
+      "bus": "UI",
+      "notes": "Legacy id without its own clip: reuses sb_mech_locked.",
+      "noPan": true,
+      "volumeDb": -4,
+      "clips": [
+        {
+          "asset": "sb_mech_locked"
+        }
+      ],
+      "cooldown": 0.03
+    },
+    {
+      "id": "sfx_battlepass_progress_unlock",
+      "bus": "UI",
+      "notes": "Legacy id without its own clip: reuses sb_kit_unlock.",
+      "noPan": true,
+      "volumeDb": -2,
+      "clips": [
+        {
+          "asset": "sb_kit_unlock"
+        }
+      ],
+      "cooldown": 0.03
+    },
+    {
+      "id": "sfx_battlepass_chest_open",
+      "bus": "UI",
+      "notes": "Legacy id without its own clip: reuses sb_chest_open.",
+      "noPan": true,
+      "volumeDb": -1,
+      "clips": [
+        {
+          "asset": "sb_chest_open"
+        }
+      ],
+      "cooldown": 0.03
+    },
+    {
+      "id": "sfx_battlepass_chest_fly_out",
+      "bus": "UI",
+      "notes": "Legacy id without its own clip: reuses sb_kit_items_out.",
+      "noPan": true,
+      "volumeDb": 0,
+      "clips": [
+        {
+          "asset": "sb_kit_items_out"
+        }
+      ],
+      "cooldown": 0.03
+    },
+    {
+      "id": "sfx_battlepass_special_reward",
+      "bus": "UI",
+      "notes": "Legacy id without its own clip: reuses sb_kit_gold.",
+      "noPan": true,
+      "volumeDb": 0,
+      "clips": [
+        {
+          "asset": "sb_kit_gold"
+        }
+      ],
+      "cooldown": 0.03
+    },
+    {
+      "id": "sfx_coin_fly_bag",
+      "bus": "UI",
+      "notes": "Legacy id without its own clip: reuses sb_ui_coin.",
+      "noPan": true,
+      "volumeDb": -1,
+      "clips": [
+        {
+          "asset": "sb_ui_coin"
+        }
+      ],
+      "cooldown": 0.03
+    },
+    {
+      "id": "sfx_the_progress_bar_fills_up_1",
+      "bus": "UI",
+      "notes": "Legacy id without its own clip: reuses sb_ui_fill.",
+      "noPan": true,
+      "volumeDb": -4,
+      "clips": [
+        {
+          "asset": "sb_ui_fill"
+        }
+      ],
+      "cooldown": 0.03
+    }
+  ]
+}

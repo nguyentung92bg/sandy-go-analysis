@@ -1,0 +1,68 @@
+{
+  "1": {
+    "ID": 1,
+    "GiftPackId": 1007,
+    "StageList": [
+      {
+        "Stage": 1,
+        "WinNum": 1,
+        "CoinNum": 20
+      },
+      {
+        "Stage": 2,
+        "WinNum": 3,
+        "CoinNum": 40
+      },
+      {
+        "Stage": 3,
+        "WinNum": 5,
+        "CoinNum": 60
+      },
+      {
+        "Stage": 4,
+        "WinNum": 10,
+        "CoinNum": 80
+      },
+      {
+        "Stage": 5,
+        "WinNum": 15,
+        "CoinNum": 100
+      },
+      {
+        "Stage": 6,
+        "WinNum": 20,
+        "CoinNum": 125
+      },
+      {
+        "Stage": 7,
+        "WinNum": 30,
+        "CoinNum": 150
+      },
+      {
+        "Stage": 8,
+        "WinNum": 40,
+        "CoinNum": 175
+      },
+      {
+        "Stage": 9,
+        "WinNum": 50,
+        "CoinNum": 200
+      },
+      {
+        "Stage": 10,
+        "WinNum": 60,
+        "CoinNum": 300
+      },
+      {
+        "Stage": 11,
+        "WinNum": 80,
+        "CoinNum": 500
+      },
+      {
+        "Stage": 12,
+        "WinNum": 120,
+        "CoinNum": 1250
+      }
+    ]
+  }
+}

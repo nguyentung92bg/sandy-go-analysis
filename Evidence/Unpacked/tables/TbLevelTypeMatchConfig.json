@@ -1,0 +1,23 @@
+{
+  "1": {
+    "ID": 1,
+    "Group": 1,
+    "LType": "nl",
+    "StartLevel": 0,
+    "PerLevel": 0
+  },
+  "2": {
+    "ID": 2,
+    "Group": 1,
+    "LType": "h",
+    "StartLevel": 14,
+    "PerLevel": 10
+  },
+  "3": {
+    "ID": 3,
+    "Group": 1,
+    "LType": "sh",
+    "StartLevel": 19,
+    "PerLevel": 10
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "pages": 13,
+  "checks": [
+    "Desktop/mobile layout and no raw code in reader pages",
+    "250 level index, looping boundaries and direct selection",
+    "Hidden-color analysis toggle and mechanic filtering",
+    "17 IAP rows and product filtering",
+    "Daily UTC date/progression selection and month calendar",
+    "155 analytics method rows and filter",
+    "No browser script errors"
+  ]
+}

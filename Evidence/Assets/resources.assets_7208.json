@@ -1,0 +1,22 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 33554432,
+    "m_PathID": 26138902528
+  },
+  "m_Name": "RoadLoop",
+  "sideLaneX": 9.600000381469727,
+  "entryRadius": 2.0,
+  "sideTurnZ": 14.800000190734863,
+  "sideTurnRadius": 2.0999999046325684,
+  "vehicleAxleHalf": 1.399999976158142,
+  "showPath": 0,
+  "showPreviewVehicles": 0,
+  "previewKind": 2,
+  "previewPosition": 0.6000000238418579,
+  "previewDrive": 0
+}

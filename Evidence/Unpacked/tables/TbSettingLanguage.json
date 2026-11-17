@@ -1,0 +1,366 @@
+{
+  "English": {
+    "Key": "English",
+    "TitleId": "Common_Settings_Language_EN_US",
+    "AllLanguageCode": [
+      "EN_US",
+      "EN_GB"
+    ],
+    "SortId": 1,
+    "IsShow": 1
+  },
+  "简体中文": {
+    "Key": "简体中文",
+    "TitleId": "Common_Settings_Language_ZH_CN",
+    "AllLanguageCode": [
+      "ZH_CN"
+    ],
+    "SortId": 2,
+    "IsShow": 1
+  },
+  "繁體中文": {
+    "Key": "繁體中文",
+    "TitleId": "Common_Settings_Language_ZH_HK",
+    "AllLanguageCode": [
+      "ZH_HK",
+      "ZH_TW"
+    ],
+    "SortId": 3,
+    "IsShow": 1
+  },
+  "العربية": {
+    "Key": "العربية",
+    "TitleId": "Common_Settings_Language_AR",
+    "AllLanguageCode": [
+      "AR"
+    ],
+    "SortId": 28,
+    "IsShow": 1
+  },
+  "Português": {
+    "Key": "Português",
+    "TitleId": "Common_Settings_Language_PT_PT",
+    "AllLanguageCode": [
+      "PT_PT",
+      "PT_BR"
+    ],
+    "SortId": 10,
+    "IsShow": 1
+  },
+  "Hrvatski": {
+    "Key": "Hrvatski",
+    "TitleId": "Common_Settings_Language_HR",
+    "AllLanguageCode": [
+      "HR"
+    ],
+    "SortId": 24,
+    "IsShow": 1
+  },
+  "Český": {
+    "Key": "Český",
+    "TitleId": "Common_Settings_Language_CS",
+    "AllLanguageCode": [
+      "CS"
+    ],
+    "SortId": 25,
+    "IsShow": 1
+  },
+  "Dansk": {
+    "Key": "Dansk",
+    "TitleId": "Common_Settings_Language_DA",
+    "AllLanguageCode": [
+      "DA"
+    ],
+    "SortId": 22,
+    "IsShow": 1
+  },
+  "Nederlands": {
+    "Key": "Nederlands",
+    "TitleId": "Common_Settings_Language_NL",
+    "AllLanguageCode": [
+      "NL"
+    ],
+    "SortId": 11,
+    "IsShow": 1
+  },
+  "Español": {
+    "Key": "Español",
+    "TitleId": "Common_Settings_Language_ES",
+    "AllLanguageCode": [
+      "ES",
+      "ES_419"
+    ],
+    "SortId": 5,
+    "IsShow": 1
+  },
+  "Suomi": {
+    "Key": "Suomi",
+    "TitleId": "Common_Settings_Language_FI",
+    "AllLanguageCode": [
+      "FI"
+    ],
+    "SortId": 26,
+    "IsShow": 1
+  },
+  "Français": {
+    "Key": "Français",
+    "TitleId": "Common_Settings_Language_FR",
+    "AllLanguageCode": [
+      "FR"
+    ],
+    "SortId": 6,
+    "IsShow": 1
+  },
+  "Deutsch": {
+    "Key": "Deutsch",
+    "TitleId": "Common_Settings_Language_DE",
+    "AllLanguageCode": [
+      "DE"
+    ],
+    "SortId": 9,
+    "IsShow": 1
+  },
+  "Ελληνικά": {
+    "Key": "Ελληνικά",
+    "TitleId": "Common_Settings_Language_EL",
+    "AllLanguageCode": [
+      "EL"
+    ],
+    "SortId": 27,
+    "IsShow": 1
+  },
+  "Italiano": {
+    "Key": "Italiano",
+    "TitleId": "Common_Settings_Language_IT",
+    "AllLanguageCode": [
+      "IT"
+    ],
+    "SortId": 12,
+    "IsShow": 1
+  },
+  "日本語": {
+    "Key": "日本語",
+    "TitleId": "Common_Settings_Language_JA",
+    "AllLanguageCode": [
+      "JA"
+    ],
+    "SortId": 7,
+    "IsShow": 1
+  },
+  "한국어": {
+    "Key": "한국어",
+    "TitleId": "Common_Settings_Language_KO",
+    "AllLanguageCode": [
+      "KO"
+    ],
+    "SortId": 8,
+    "IsShow": 1
+  },
+  "Norsk": {
+    "Key": "Norsk",
+    "TitleId": "Common_Settings_Language_NO",
+    "AllLanguageCode": [
+      "NO"
+    ],
+    "SortId": 18,
+    "IsShow": 1
+  },
+  "Polski": {
+    "Key": "Polski",
+    "TitleId": "Common_Settings_Language_PL",
+    "AllLanguageCode": [
+      "PL"
+    ],
+    "SortId": 17,
+    "IsShow": 1
+  },
+  "Română": {
+    "Key": "Română",
+    "TitleId": "Common_Settings_Language_RO",
+    "AllLanguageCode": [
+      "RO"
+    ],
+    "SortId": 23,
+    "IsShow": 1
+  },
+  "Русский": {
+    "Key": "Русский",
+    "TitleId": "Common_Settings_Language_RU",
+    "AllLanguageCode": [
+      "RU"
+    ],
+    "SortId": 4,
+    "IsShow": 1
+  },
+  "Svenska": {
+    "Key": "Svenska",
+    "TitleId": "Common_Settings_Language_SV",
+    "AllLanguageCode": [
+      "SV"
+    ],
+    "SortId": 16,
+    "IsShow": 1
+  },
+  "ไทย": {
+    "Key": "ไทย",
+    "TitleId": "Common_Settings_Language_TH",
+    "AllLanguageCode": [
+      "TH"
+    ],
+    "SortId": 13,
+    "IsShow": 1
+  },
+  "Türkçe": {
+    "Key": "Türkçe",
+    "TitleId": "Common_Settings_Language_TR",
+    "AllLanguageCode": [
+      "TR"
+    ],
+    "SortId": 14,
+    "IsShow": 1
+  },
+  "Українська": {
+    "Key": "Українська",
+    "TitleId": "Common_Settings_Language_UK",
+    "AllLanguageCode": [
+      "UK"
+    ],
+    "SortId": 21,
+    "IsShow": 1
+  },
+  "Tiếng Việt": {
+    "Key": "Tiếng Việt",
+    "TitleId": "Common_Settings_Language_VI",
+    "AllLanguageCode": [
+      "VI"
+    ],
+    "SortId": 19,
+    "IsShow": 1
+  },
+  "हिंदी": {
+    "Key": "हिंदी",
+    "TitleId": "Common_Settings_Language_HI",
+    "AllLanguageCode": [
+      "HI"
+    ],
+    "SortId": 20,
+    "IsShow": 1
+  },
+  "Indonesia": {
+    "Key": "Indonesia",
+    "TitleId": "Common_Settings_Language_ID",
+    "AllLanguageCode": [
+      "ID"
+    ],
+    "SortId": 15,
+    "IsShow": 1
+  },
+  "Bahasa Melayu": {
+    "Key": "Bahasa Melayu",
+    "TitleId": "Common_Settings_Language_MS",
+    "AllLanguageCode": [
+      "MS"
+    ],
+    "SortId": 29,
+    "IsShow": 1
+  },
+  "עברית": {
+    "Key": "עברית",
+    "TitleId": "Common_Settings_Language_HE",
+    "AllLanguageCode": [
+      "HE"
+    ],
+    "SortId": 30,
+    "IsShow": 1
+  },
+  "Slovačina": {
+    "Key": "Slovačina",
+    "TitleId": "Common_Settings_Language_SK",
+    "AllLanguageCode": [
+      "SK"
+    ],
+    "SortId": 31,
+    "IsShow": 1
+  },
+  "Български": {
+    "Key": "Български",
+    "TitleId": "Common_Settings_Language_BG",
+    "AllLanguageCode": [
+      "BG"
+    ],
+    "SortId": 32,
+    "IsShow": 1
+  },
+  "ភាសាខ្មែរ": {
+    "Key": "ភាសាខ្មែរ",
+    "TitleId": "Common_Settings_Language_KM",
+    "AllLanguageCode": [
+      "KM"
+    ],
+    "SortId": 33,
+    "IsShow": 1
+  },
+  "Lietuvių": {
+    "Key": "Lietuvių",
+    "TitleId": "Common_Settings_Language_LT",
+    "AllLanguageCode": [
+      "LT"
+    ],
+    "SortId": 34,
+    "IsShow": 1
+  },
+  "Latviešu": {
+    "Key": "Latviešu",
+    "TitleId": "Common_Settings_Language_LV",
+    "AllLanguageCode": [
+      "LV"
+    ],
+    "SortId": 35,
+    "IsShow": 1
+  },
+  "Հայերեն": {
+    "Key": "Հայերեն",
+    "TitleId": "Common_Settings_Language_HY",
+    "AllLanguageCode": [
+      "HY"
+    ],
+    "SortId": 36,
+    "IsShow": 1
+  },
+  "Azərbaycanlı": {
+    "Key": "Azərbaycanlı",
+    "TitleId": "Common_Settings_Language_AZ",
+    "AllLanguageCode": [
+      "AZ"
+    ],
+    "SortId": 37,
+    "IsShow": 1
+  },
+  "Македонски": {
+    "Key": "Македонски",
+    "TitleId": "Common_Settings_Language_MK",
+    "AllLanguageCode": [
+      "MK"
+    ],
+    "SortId": 38,
+    "IsShow": 1
+  },
+  "Srpski": {
+    "Key": "Srpski",
+    "TitleId": "Common_Settings_Language_SR",
+    "AllLanguageCode": [
+      "SR"
+    ],
+    "SortId": 39,
+    "IsShow": 1
+  },
+  "Magyar": {
+    "Key": "Magyar",
+    "TitleId": "Common_Settings_Language_HU",
+    "AllLanguageCode": [
+      "HU"
+    ],
+    "SortId": 40,
+    "IsShow": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "1": {
+    "ID": 1,
+    "ReturningUserThresholdDays": 3,
+    "PurchaseCoolHours": 0.0,
+    "UnpurchaseCoolHours": 0.167,
+    "ReturningUserCoolHours": 0.0,
+    "SessionLimitCount": 0,
+    "RoundLimitCount": 0,
+    "MaxConcurrentActivePacks": 1
+  }
+}

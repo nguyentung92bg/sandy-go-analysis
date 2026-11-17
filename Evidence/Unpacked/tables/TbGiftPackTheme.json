@@ -1,0 +1,83 @@
+{
+  "1": {
+    "ID": 1,
+    "Order": 1,
+    "IsEnabled": 1,
+    "UIPath": "UIGiftPackPanelPurple",
+    "IconPath": "Btn_purpleBreakIceGift",
+    "TitleKey": "UI_IAP_beginner",
+    "DescKey": "gift_break_ice_desc"
+  },
+  "2": {
+    "ID": 2,
+    "Order": 2,
+    "IsEnabled": 1,
+    "UIPath": "UIGiftPackPanelGreen",
+    "IconPath": "Btn_redBreakIceGift",
+    "TitleKey": "UI_IAP_limit",
+    "DescKey": "gift_time_limited_desc"
+  },
+  "3": {
+    "ID": 3,
+    "Order": 3,
+    "IsEnabled": 1,
+    "UIPath": "UIGiftPackPanelRed",
+    "IconPath": "Btn_blueBreakIceGift",
+    "TitleKey": "UI_IAP_stuck",
+    "DescKey": "gift_stuck_desc"
+  },
+  "4": {
+    "ID": 4,
+    "Order": 1,
+    "IsEnabled": 0,
+    "UIPath": "",
+    "IconPath": "",
+    "TitleKey": "",
+    "DescKey": ""
+  },
+  "5": {
+    "ID": 5,
+    "Order": 1,
+    "IsEnabled": 0,
+    "UIPath": "UIEndlessGiftPackPanel",
+    "IconPath": "Btn_EndlessGiftPack",
+    "TitleKey": "",
+    "DescKey": ""
+  },
+  "6": {
+    "ID": 6,
+    "Order": 1,
+    "IsEnabled": 1,
+    "UIPath": "UIGoldenCoinGiftPackPanel",
+    "IconPath": "Btn_GoldenCoinGiftPack",
+    "TitleKey": "",
+    "DescKey": ""
+  },
+  "7": {
+    "ID": 7,
+    "Order": 1,
+    "IsEnabled": 1,
+    "UIPath": "UIGiftPackPanelPurpleGp4",
+    "IconPath": "Btn_purpleBreakIceGift",
+    "TitleKey": "UI_IAP_beginner",
+    "DescKey": "gift_break_ice_desc"
+  },
+  "8": {
+    "ID": 8,
+    "Order": 2,
+    "IsEnabled": 1,
+    "UIPath": "UIGiftPackPanelGreenGp4",
+    "IconPath": "Btn_redBreakIceGift",
+    "TitleKey": "UI_IAP_limit",
+    "DescKey": "gift_time_limited_desc"
+  },
+  "9": {
+    "ID": 9,
+    "Order": 3,
+    "IsEnabled": 1,
+    "UIPath": "UIGiftPackPanelRedGp4",
+    "IconPath": "Btn_blueBreakIceGift",
+    "TitleKey": "UI_IAP_stuck",
+    "DescKey": "gift_stuck_desc"
+  }
+}

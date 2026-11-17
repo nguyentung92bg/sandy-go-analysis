@@ -1,0 +1,38 @@
+{
+  "1": {
+    "ID": 1,
+    "Group": 1,
+    "settler": [
+      [
+        1001,
+        20
+      ]
+    ],
+    "settlerByNut": [],
+    "StreakRate": 1
+  },
+  "2": {
+    "ID": 2,
+    "Group": 1,
+    "settler": [
+      [
+        1001,
+        60
+      ]
+    ],
+    "settlerByNut": [],
+    "StreakRate": 3
+  },
+  "3": {
+    "ID": 3,
+    "Group": 1,
+    "settler": [
+      [
+        1001,
+        100
+      ]
+    ],
+    "settlerByNut": [],
+    "StreakRate": 5
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "Booster_ExtraSlot": {
+    "ID": "Booster_ExtraSlot",
+    "item": 10005,
+    "shop": 2008,
+    "unlockLevel": 2,
+    "coinPrice": 900,
+    "buyCount": 1,
+    "adCount": 1
+  },
+  "Booster_Shuffle": {
+    "ID": "Booster_Shuffle",
+    "item": 10002,
+    "shop": 2004,
+    "unlockLevel": 10,
+    "coinPrice": 900,
+    "buyCount": 1,
+    "adCount": 1
+  },
+  "Booster_PickUp": {
+    "ID": "Booster_PickUp",
+    "item": 10003,
+    "shop": 2006,
+    "unlockLevel": 6,
+    "coinPrice": 300,
+    "buyCount": 1,
+    "adCount": 1
+  },
+  "Booster_Wand": {
+    "ID": "Booster_Wand",
+    "item": 10004,
+    "shop": 2007,
+    "unlockLevel": 4,
+    "coinPrice": 300,
+    "buyCount": 1,
+    "adCount": 1
+  },
+  "Booster_HeadStart": {
+    "ID": "Booster_HeadStart",
+    "item": 1003,
+    "shop": 2001,
+    "coinPrice": 300,
+    "buyCount": 1,
+    "adCount": 1
+  },
+  "Booster_PlusSlot": {
+    "ID": "Booster_PlusSlot",
+    "item": 10001,
+    "shop": 2005,
+    "coinPrice": 300,
+    "buyCount": 1,
+    "adCount": 1
+  },
+  "Revive": {
+    "ID": "Revive",
+    "coinPrice": 900,
+    "prices": [
+      900,
+      1900,
+      2900
+    ]
+  },
+  "RescueRevive": {
+    "ID": "RescueRevive",
+    "seconds": 30
+  },
+  "WinReward": {
+    "ID": "WinReward",
+    "normal": 20,
+    "hard": 60,
+    "superHard": 100
+  },
+  "WinChest": {
+    "ID": "WinChest",
+    "enabled": 1,
+    "fromLevel": 6,
+    "steps": [
+      5,
+      6,
+      8
+    ],
+    "every": 10,
+    "get": [
+      [
+        1001,
+        40
+      ],
+      [
+        10005,
+        1
+      ]
+    ]
+  },
+  "DailyGift": {
+    "ID": "DailyGift",
+    "enabled": 1,
+    "fromLevel": 8,
+    "chestDays": 30,
+    "chest": [
+      [
+        1001,
+        500
+      ],
+      [
+        10005,
+        1
+      ],
+      [
+        10003,
+        1
+      ],
+      [
+        10002,
+        1
+      ],
+      [
+        10004,
+        1
+      ]
+    ],
+    "days": [
+      [
+        [
+          10005,
+          1
+        ]
+      ],
+      [
+        [
+          1001,
+          50
+        ]
+      ],
+      [
+        [
+          10003,
+          1
+        ]
+      ],
+      [
+        [
+          1001,
+          100
+        ]
+      ],
+      [
+        [
+          10002,
+          1
+        ]
+      ],
+      [
+        [
+          1001,
+          50
+        ],
+        [
+          10004,
+          1
+        ]
+      ],
+      [
+        [
+          1001,
+          150
+        ],
+        [
+          10005,
+          1
+        ]
+      ]
+    ]
+  },
+  "WelcomeBack": {
+    "ID": "WelcomeBack",
+    "enabled": 1,
+    "awayDays": 3,
+    "cooldownDays": 7,
+    "get": [
+      [
+        10005,
+        1
+      ],
+      [
+        1001,
+        100
+      ]
+    ]
+  },
+  "StuckHelp": {
+    "ID": "StuckHelp",
+    "enabled": 1,
+    "losses": 3,
+    "get": [
+      [
+        10005,
+        1
+      ]
+    ]
+  }
+}

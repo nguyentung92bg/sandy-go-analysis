@@ -1,0 +1,402 @@
+[
+  {
+    "name": "lang_DA",
+    "file": "Evidence/TextAssets/resources.assets_513.json",
+    "kind": "json",
+    "length": 22454,
+    "serialized": "resources.assets",
+    "path_id": "513"
+  },
+  {
+    "name": "lang_HE",
+    "file": "Evidence/TextAssets/resources.assets_514.json",
+    "kind": "json",
+    "length": 20422,
+    "serialized": "resources.assets",
+    "path_id": "514"
+  },
+  {
+    "name": "lang_ZH_HK",
+    "file": "Evidence/TextAssets/resources.assets_516.json",
+    "kind": "json",
+    "length": 15480,
+    "serialized": "resources.assets",
+    "path_id": "516"
+  },
+  {
+    "name": "lang_AR",
+    "file": "Evidence/TextAssets/resources.assets_517.json",
+    "kind": "json",
+    "length": 21245,
+    "serialized": "resources.assets",
+    "path_id": "517"
+  },
+  {
+    "name": "lang_CS",
+    "file": "Evidence/TextAssets/resources.assets_518.json",
+    "kind": "json",
+    "length": 22457,
+    "serialized": "resources.assets",
+    "path_id": "518"
+  },
+  {
+    "name": "lang_IT",
+    "file": "Evidence/TextAssets/resources.assets_519.json",
+    "kind": "json",
+    "length": 23478,
+    "serialized": "resources.assets",
+    "path_id": "519"
+  },
+  {
+    "name": "lang_HI",
+    "file": "Evidence/TextAssets/resources.assets_520.json",
+    "kind": "json",
+    "length": 22436,
+    "serialized": "resources.assets",
+    "path_id": "520"
+  },
+  {
+    "name": "lang_TH",
+    "file": "Evidence/TextAssets/resources.assets_521.json",
+    "kind": "json",
+    "length": 21042,
+    "serialized": "resources.assets",
+    "path_id": "521"
+  },
+  {
+    "name": "lang_UK",
+    "file": "Evidence/TextAssets/resources.assets_522.json",
+    "kind": "json",
+    "length": 23324,
+    "serialized": "resources.assets",
+    "path_id": "522"
+  },
+  {
+    "name": "audio_events",
+    "file": "Evidence/TextAssets/resources.assets_523.json",
+    "kind": "json",
+    "length": 45543,
+    "serialized": "resources.assets",
+    "path_id": "523"
+  },
+  {
+    "name": "lang_ZH_CN",
+    "file": "Evidence/TextAssets/resources.assets_524.json",
+    "kind": "json",
+    "length": 15492,
+    "serialized": "resources.assets",
+    "path_id": "524"
+  },
+  {
+    "name": "lang_PT_PT",
+    "file": "Evidence/TextAssets/resources.assets_525.json",
+    "kind": "json",
+    "length": 23427,
+    "serialized": "resources.assets",
+    "path_id": "525"
+  },
+  {
+    "name": "levels",
+    "file": "Evidence/TextAssets/resources.assets_526.bin",
+    "kind": "sealed container",
+    "length": 884248,
+    "serialized": "resources.assets",
+    "path_id": "526"
+  },
+  {
+    "name": "lang_NO",
+    "file": "Evidence/TextAssets/resources.assets_527.json",
+    "kind": "json",
+    "length": 22332,
+    "serialized": "resources.assets",
+    "path_id": "527"
+  },
+  {
+    "name": "lang_LV",
+    "file": "Evidence/TextAssets/resources.assets_528.json",
+    "kind": "json",
+    "length": 23250,
+    "serialized": "resources.assets",
+    "path_id": "528"
+  },
+  {
+    "name": "lang_KM",
+    "file": "Evidence/TextAssets/resources.assets_529.json",
+    "kind": "json",
+    "length": 22284,
+    "serialized": "resources.assets",
+    "path_id": "529"
+  },
+  {
+    "name": "BillingMode",
+    "file": "Evidence/TextAssets/resources.assets_530.json",
+    "kind": "json",
+    "length": 29,
+    "serialized": "resources.assets",
+    "path_id": "530"
+  },
+  {
+    "name": "tables",
+    "file": "Evidence/TextAssets/resources.assets_531.bin",
+    "kind": "sealed container",
+    "length": 15688,
+    "serialized": "resources.assets",
+    "path_id": "531"
+  },
+  {
+    "name": "lang_KO",
+    "file": "Evidence/TextAssets/resources.assets_532.json",
+    "kind": "json",
+    "length": 17360,
+    "serialized": "resources.assets",
+    "path_id": "532"
+  },
+  {
+    "name": "lang_EN_US",
+    "file": "Evidence/TextAssets/resources.assets_533.json",
+    "kind": "json",
+    "length": 21571,
+    "serialized": "resources.assets",
+    "path_id": "533"
+  },
+  {
+    "name": "lang_LT",
+    "file": "Evidence/TextAssets/resources.assets_534.json",
+    "kind": "json",
+    "length": 23727,
+    "serialized": "resources.assets",
+    "path_id": "534"
+  },
+  {
+    "name": "lang_PL",
+    "file": "Evidence/TextAssets/resources.assets_535.json",
+    "kind": "json",
+    "length": 23351,
+    "serialized": "resources.assets",
+    "path_id": "535"
+  },
+  {
+    "name": "lang_BG",
+    "file": "Evidence/TextAssets/resources.assets_536.json",
+    "kind": "json",
+    "length": 23331,
+    "serialized": "resources.assets",
+    "path_id": "536"
+  },
+  {
+    "name": "lang_HU",
+    "file": "Evidence/TextAssets/resources.assets_537.json",
+    "kind": "json",
+    "length": 21948,
+    "serialized": "resources.assets",
+    "path_id": "537"
+  },
+  {
+    "name": "PerformanceTestRunSettings",
+    "file": "Evidence/TextAssets/resources.assets_538.json",
+    "kind": "json",
+    "length": 23,
+    "serialized": "resources.assets",
+    "path_id": "538"
+  },
+  {
+    "name": "lang_JA",
+    "file": "Evidence/TextAssets/resources.assets_539.json",
+    "kind": "json",
+    "length": 17125,
+    "serialized": "resources.assets",
+    "path_id": "539"
+  },
+  {
+    "name": "lang_HY",
+    "file": "Evidence/TextAssets/resources.assets_541.json",
+    "kind": "json",
+    "length": 23839,
+    "serialized": "resources.assets",
+    "path_id": "541"
+  },
+  {
+    "name": "lang_RU",
+    "file": "Evidence/TextAssets/resources.assets_543.json",
+    "kind": "json",
+    "length": 23509,
+    "serialized": "resources.assets",
+    "path_id": "543"
+  },
+  {
+    "name": "lang_NL",
+    "file": "Evidence/TextAssets/resources.assets_544.json",
+    "kind": "json",
+    "length": 23263,
+    "serialized": "resources.assets",
+    "path_id": "544"
+  },
+  {
+    "name": "lang_ES_419",
+    "file": "Evidence/TextAssets/resources.assets_545.json",
+    "kind": "json",
+    "length": 23640,
+    "serialized": "resources.assets",
+    "path_id": "545"
+  },
+  {
+    "name": "lang_ID",
+    "file": "Evidence/TextAssets/resources.assets_546.json",
+    "kind": "json",
+    "length": 22976,
+    "serialized": "resources.assets",
+    "path_id": "546"
+  },
+  {
+    "name": "lang_TR",
+    "file": "Evidence/TextAssets/resources.assets_547.json",
+    "kind": "json",
+    "length": 22434,
+    "serialized": "resources.assets",
+    "path_id": "547"
+  },
+  {
+    "name": "lang_DE",
+    "file": "Evidence/TextAssets/resources.assets_548.json",
+    "kind": "json",
+    "length": 24343,
+    "serialized": "resources.assets",
+    "path_id": "548"
+  },
+  {
+    "name": "lang_EN_GB",
+    "file": "Evidence/TextAssets/resources.assets_549.json",
+    "kind": "json",
+    "length": 21570,
+    "serialized": "resources.assets",
+    "path_id": "549"
+  },
+  {
+    "name": "lang_SV",
+    "file": "Evidence/TextAssets/resources.assets_551.json",
+    "kind": "json",
+    "length": 22396,
+    "serialized": "resources.assets",
+    "path_id": "551"
+  },
+  {
+    "name": "lang_MK",
+    "file": "Evidence/TextAssets/resources.assets_552.json",
+    "kind": "json",
+    "length": 23338,
+    "serialized": "resources.assets",
+    "path_id": "552"
+  },
+  {
+    "name": "lang_FR",
+    "file": "Evidence/TextAssets/resources.assets_553.json",
+    "kind": "json",
+    "length": 24449,
+    "serialized": "resources.assets",
+    "path_id": "553"
+  },
+  {
+    "name": "lang_PT_BR",
+    "file": "Evidence/TextAssets/resources.assets_554.json",
+    "kind": "json",
+    "length": 23246,
+    "serialized": "resources.assets",
+    "path_id": "554"
+  },
+  {
+    "name": "lang_ES",
+    "file": "Evidence/TextAssets/resources.assets_555.json",
+    "kind": "json",
+    "length": 23741,
+    "serialized": "resources.assets",
+    "path_id": "555"
+  },
+  {
+    "name": "lang_HR",
+    "file": "Evidence/TextAssets/resources.assets_556.json",
+    "kind": "json",
+    "length": 22923,
+    "serialized": "resources.assets",
+    "path_id": "556"
+  },
+  {
+    "name": "lang_VI",
+    "file": "Evidence/TextAssets/resources.assets_557.json",
+    "kind": "json",
+    "length": 22000,
+    "serialized": "resources.assets",
+    "path_id": "557"
+  },
+  {
+    "name": "lang_EL",
+    "file": "Evidence/TextAssets/resources.assets_558.json",
+    "kind": "json",
+    "length": 24472,
+    "serialized": "resources.assets",
+    "path_id": "558"
+  },
+  {
+    "name": "lang_FI",
+    "file": "Evidence/TextAssets/resources.assets_560.json",
+    "kind": "json",
+    "length": 22873,
+    "serialized": "resources.assets",
+    "path_id": "560"
+  },
+  {
+    "name": "lang_MS",
+    "file": "Evidence/TextAssets/resources.assets_561.json",
+    "kind": "json",
+    "length": 23422,
+    "serialized": "resources.assets",
+    "path_id": "561"
+  },
+  {
+    "name": "PerformanceTestRunInfo",
+    "file": "Evidence/TextAssets/resources.assets_562.json",
+    "kind": "json",
+    "length": 4170,
+    "serialized": "resources.assets",
+    "path_id": "562"
+  },
+  {
+    "name": "lang_ZH_TW",
+    "file": "Evidence/TextAssets/resources.assets_563.json",
+    "kind": "json",
+    "length": 15482,
+    "serialized": "resources.assets",
+    "path_id": "563"
+  },
+  {
+    "name": "lang_AZ",
+    "file": "Evidence/TextAssets/resources.assets_564.json",
+    "kind": "json",
+    "length": 22906,
+    "serialized": "resources.assets",
+    "path_id": "564"
+  },
+  {
+    "name": "lang_SK",
+    "file": "Evidence/TextAssets/resources.assets_565.json",
+    "kind": "json",
+    "length": 22706,
+    "serialized": "resources.assets",
+    "path_id": "565"
+  },
+  {
+    "name": "lang_RO",
+    "file": "Evidence/TextAssets/resources.assets_566.json",
+    "kind": "json",
+    "length": 23713,
+    "serialized": "resources.assets",
+    "path_id": "566"
+  },
+  {
+    "name": "lang_SR",
+    "file": "Evidence/TextAssets/resources.assets_567.json",
+    "kind": "json",
+    "length": 21364,
+    "serialized": "resources.assets",
+    "path_id": "567"
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "source": "D:\\APK Decompiler\\IL2CPP Workbench\\Results\\Sandy+Go",
+  "classes": 1320,
+  "nativeTotal": 200153,
+  "nativeExported": 200149,
+  "nativeFailed": 4,
+  "focusMethods": 9541,
+  "missingFocus": [
+    {
+      "address": "02376858",
+      "method": "Dino.BusSand.App.Meta.TrackingPlan$$.cctor",
+      "status": "FAILED: Exception while decompiling 02376858: Response buffer size exceeded for: libil2cpp.so ",
+      "file": ""
+    }
+  ]
+}

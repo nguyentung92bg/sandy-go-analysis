@@ -1,0 +1,28 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 33554432,
+    "m_PathID": 28135391232
+  },
+  "m_Name": "HomeToonBusArt",
+  "model": {
+    "m_FileID": 0,
+    "m_PathID": 1075
+  },
+  "eyesShader": {
+    "m_FileID": 0,
+    "m_PathID": 488
+  },
+  "heapShader": {
+    "m_FileID": 0,
+    "m_PathID": 495
+  },
+  "eyeSkin": {
+    "m_FileID": 0,
+    "m_PathID": 436
+  }
+}

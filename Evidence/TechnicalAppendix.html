@@ -1,0 +1,8291 @@
+<!doctype html><html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><base href="../"><title>Sandy Go! — Phụ lục cấu hình</title><link rel="stylesheet" href="report.css"><link rel="stylesheet" href="sandy.css"><script defer src="report-tables.js"></script></head><body><a class="skip" href="#main">Đến nội dung</a><aside><a class="brand" href="LevelDesign.html"><img src="Images/app-icon.png" width="44" height="44" alt=""><span>Sandy Go!<small>GAME DESIGN WIKI</small></span></a><div class="nav-caption">BỘ BÁO CÁO</div><nav aria-label="Các phần báo cáo"><a href="LevelDesign.html">Game Design</a><a href="Levels/Levels.html">Chi tiết level</a><a href="Items/Items.html">Vật thể &amp; cơ chế</a><a href="Boosters/Boosters.html">Booster</a><a href="Economy/Economy.html">Kinh tế &amp; quảng cáo</a><a href="IAP/IAP.html">IAP &amp; cửa hàng</a><a href="Events/Events.html">Events &amp; tiến trình</a><a href="Leaderboard/Leaderboard.html">Leaderboard</a><a href="Daily/Daily.html">Hằng ngày</a><a href="Daily/DailyChallenge.html">Daily Challenge</a><a href="Daily/DailyGift.html">Quà mỗi ngày</a><a href="Analytics/Analytics.html">Analytics</a><a href="Evidence/Evidence.html">Nguồn &amp; độ tin cậy</a></nav><div class="aside-footer">Bản 0.12.0 · ARM64<br>Phân tích ngày 16.11.2026<br>Đọc hoàn toàn ngoại tuyến</div></aside><main id="main"><div class="eyebrow">SANDY GO! / TÀI LIỆU PHÂN TÍCH GAME</div><h1>Phụ lục cấu hình</h1><p class="lead">Bảng số liệu gốc, trường dữ liệu và liên kết dùng để kiểm chứng báo cáo.</p><div class="infobox"><b>Phạm vi:</b> bản cài đặt 0.12.0. Dữ liệu đóng gói và luật client được tách khỏi nhận định thiết kế; trạng thái tài khoản, cấu hình từ xa và lịch vận hành thực tế chưa được quan sát.</div><section><h2>Bảng cấu hình đóng gói</h2><p>37 bảng được mở từ gói dữ liệu của game. Dùng các mục dưới đây khi cần đối chiếu chính xác trường và giá trị; phần giải thích gameplay nằm ở các tab chính.</p></section><section id="TbActivityOpenPeriod"><h2>TbActivityOpenPeriod</h2><p><a href="Evidence/Unpacked/tables/TbActivityOpenPeriod.json">Mở JSON nguyên bản đã giải nén</a></p><details><summary>Xem đầy đủ 6 mục</summary><pre>{
+  &quot;1&quot;: {
+    &quot;Id&quot;: 1,
+    &quot;ActivityOpenPeriodGroupId&quot;: 1,
+    &quot;ActivityType&quot;: &quot;StreakRate&quot;,
+    &quot;ActivityIdList&quot;: [
+      3000
+    ],
+    &quot;PeriodType&quot;: [
+      &quot;EveryWeek&quot;
+    ],
+    &quot;StartTimeList&quot;: [
+      &quot;1-000000&quot;
+    ],
+    &quot;EndTimeList&quot;: [
+      &quot;4-235959&quot;
+    ],
+    &quot;CycleType&quot;: &quot;PeriodLoop&quot;,
+    &quot;LastTime&quot;: 0
+  },
+  &quot;2&quot;: {
+    &quot;Id&quot;: 2,
+    &quot;ActivityOpenPeriodGroupId&quot;: 1,
+    &quot;ActivityType&quot;: &quot;StreakRate&quot;,
+    &quot;ActivityIdList&quot;: [
+      3001
+    ],
+    &quot;PeriodType&quot;: [
+      &quot;EveryWeek&quot;
+    ],
+    &quot;StartTimeList&quot;: [
+      &quot;5-000000&quot;
+    ],
+    &quot;EndTimeList&quot;: [
+      &quot;7-235959&quot;
+    ],
+    &quot;CycleType&quot;: &quot;PeriodLoop&quot;,
+    &quot;LastTime&quot;: 0
+  },
+  &quot;3&quot;: {
+    &quot;Id&quot;: 3,
+    &quot;ActivityOpenPeriodGroupId&quot;: 1,
+    &quot;ActivityType&quot;: &quot;ClimbTower&quot;,
+    &quot;ActivityIdList&quot;: [
+      2001
+    ],
+    &quot;PeriodType&quot;: [
+      &quot;EveryWeek&quot;
+    ],
+    &quot;StartTimeList&quot;: [
+      &quot;1-000000&quot;
+    ],
+    &quot;EndTimeList&quot;: [
+      &quot;7-235959&quot;
+    ],
+    &quot;CycleType&quot;: &quot;PeriodLoop&quot;,
+    &quot;LastTime&quot;: 0
+  },
+  &quot;4&quot;: {
+    &quot;Id&quot;: 4,
+    &quot;ActivityOpenPeriodGroupId&quot;: 1,
+    &quot;ActivityType&quot;: &quot;BattleRoyale&quot;,
+    &quot;ActivityIdList&quot;: [
+      4001
+    ],
+    &quot;PeriodType&quot;: [
+      &quot;EveryDay&quot;
+    ],
+    &quot;StartTimeList&quot;: [
+      &quot;000000&quot;
+    ],
+    &quot;EndTimeList&quot;: [
+      &quot;235959&quot;
+    ],
+    &quot;CycleType&quot;: &quot;PeriodLoop&quot;,
+    &quot;LastTime&quot;: 0
+  },
+  &quot;5&quot;: {
+    &quot;Id&quot;: 5,
+    &quot;ActivityOpenPeriodGroupId&quot;: 1,
+    &quot;ActivityType&quot;: &quot;YachtRacing&quot;,
+    &quot;ActivityIdList&quot;: [
+      5001
+    ],
+    &quot;PeriodType&quot;: [
+      &quot;EveryDay&quot;
+    ],
+    &quot;StartTimeList&quot;: [
+      &quot;000000&quot;
+    ],
+    &quot;EndTimeList&quot;: [
+      &quot;235959&quot;
+    ],
+    &quot;CycleType&quot;: &quot;PeriodLoop&quot;,
+    &quot;LastTime&quot;: 0
+  },
+  &quot;6&quot;: {
+    &quot;Id&quot;: 6,
+    &quot;ActivityOpenPeriodGroupId&quot;: 2,
+    &quot;ActivityType&quot;: &quot;BattleRoyale&quot;,
+    &quot;ActivityIdList&quot;: [
+      4001
+    ],
+    &quot;PeriodType&quot;: [
+      &quot;OpenWeekDays&quot;
+    ],
+    &quot;StartTimeList&quot;: [
+      &quot;1357&quot;
+    ],
+    &quot;EndTimeList&quot;: [
+      &quot;1357&quot;
+    ],
+    &quot;CycleType&quot;: &quot;PeriodLoop&quot;,
+    &quot;LastTime&quot;: 0
+  }
+}</pre></details></section><section id="TbActivitySettleOrder"><h2>TbActivitySettleOrder</h2><p><a href="Evidence/Unpacked/tables/TbActivitySettleOrder.json">Mở JSON nguyên bản đã giải nén</a></p><details><summary>Xem đầy đủ 10 mục</summary><pre>{
+  &quot;1&quot;: {
+    &quot;Id&quot;: 1,
+    &quot;GroupId&quot;: 1,
+    &quot;ControlPanelName&quot;: &quot;Continue&quot;,
+    &quot;ControlParams&quot;: {
+      &quot;StreakRate&quot;: &quot;1-4&quot;
+    },
+    &quot;Order&quot;: [
+      &quot;BattleRoyale&quot;,
+      &quot;StreakRate&quot;
+    ],
+    &quot;ContinueOrder&quot;: [],
+    &quot;MaxShowCount&quot;: 0
+  },
+  &quot;2&quot;: {
+    &quot;Id&quot;: 2,
+    &quot;GroupId&quot;: 1,
+    &quot;ControlPanelName&quot;: &quot;TryAgagin&quot;,
+    &quot;ControlParams&quot;: {
+      &quot;StreakRate&quot;: &quot;1-4&quot;
+    },
+    &quot;Order&quot;: [
+      &quot;StreakRate&quot;
+    ],
+    &quot;ContinueOrder&quot;: [],
+    &quot;MaxShowCount&quot;: 0
+  },
+  &quot;3&quot;: {
+    &quot;Id&quot;: 3,
+    &quot;GroupId&quot;: 1,
+    &quot;ControlPanelName&quot;: &quot;GameWin&quot;,
+    &quot;ControlParams&quot;: {},
+    &quot;Order&quot;: [
+      &quot;StreakRate&quot;
+    ],
+    &quot;ContinueOrder&quot;: [],
+    &quot;MaxShowCount&quot;: 0
+  },
+  &quot;4&quot;: {
+    &quot;Id&quot;: 4,
+    &quot;GroupId&quot;: 1,
+    &quot;ControlPanelName&quot;: &quot;Quit&quot;,
+    &quot;ControlParams&quot;: {
+      &quot;StreakRate&quot;: &quot;1-4&quot;
+    },
+    &quot;Order&quot;: [
+      &quot;BattleRoyale&quot;,
+      &quot;StreakRate&quot;
+    ],
+    &quot;ContinueOrder&quot;: [],
+    &quot;MaxShowCount&quot;: 0
+  },
+  &quot;5&quot;: {
+    &quot;Id&quot;: 5,
+    &quot;GroupId&quot;: 1,
+    &quot;ControlPanelName&quot;: &quot;SpecialLose&quot;,
+    &quot;ControlParams&quot;: {},
+    &quot;Order&quot;: [],
+    &quot;ContinueOrder&quot;: [
+      &quot;BattleRoyale&quot;,
+      &quot;ClimbTower&quot;
+    ],
+    &quot;MaxShowCount&quot;: 0
+  },
+  &quot;6&quot;: {
+    &quot;Id&quot;: 6,
+    &quot;GroupId&quot;: 2,
+    &quot;ControlPanelName&quot;: &quot;Continue&quot;,
+    &quot;ControlParams&quot;: {
+      &quot;ClimbTower&quot;: &quot;1-59&quot;,
+      &quot;StreakRate&quot;: &quot;1-4&quot;
+    },
+    &quot;Order&quot;: [],
+    &quot;ContinueOrder&quot;: [
+      &quot;YachtRacing&quot;,
+      &quot;BattleRoyale&quot;,
+      &quot;ClimbTower&quot;,
+      &quot;StreakRate&quot;,
+      &quot;Passport&quot;
+    ],
+    &quot;MaxShowCount&quot;: 2
+  },
+  &quot;7&quot;: {
+    &quot;Id&quot;: 7,
+    &quot;GroupId&quot;: 2,
+    &quot;ControlPanelName&quot;: &quot;TryAgagin&quot;,
+    &quot;ControlParams&quot;: {
+      &quot;ClimbTower&quot;: &quot;1-59&quot;,
+      &quot;StreakRate&quot;: &quot;1-4&quot;
+    },
+    &quot;Order&quot;: [
+      &quot;YachtRacing&quot;,
+      &quot;ClimbTower&quot;,
+      &quot;StreakRate&quot;
+    ],
+    &quot;ContinueOrder&quot;: [],
+    &quot;MaxShowCount&quot;: 0
+  },
+  &quot;8&quot;: {
+    &quot;Id&quot;: 8,
+    &quot;GroupId&quot;: 2,
+    &quot;ControlPanelName&quot;: &quot;GameWin&quot;,
+    &quot;ControlParams&quot;: {
+      &quot;ClimbTower&quot;: &quot;0-59&quot;
+    },
+    &quot;Order&quot;: [
+      &quot;YachtRacing&quot;,
+      &quot;ClimbTower&quot;,
+      &quot;StreakRate&quot;
+    ],
+    &quot;ContinueOrder&quot;: [],
+    &quot;MaxShowCount&quot;: 0
+  },
+  &quot;9&quot;: {
+    &quot;Id&quot;: 9,
+    &quot;GroupId&quot;: 2,
+    &quot;ControlPanelName&quot;: &quot;Quit&quot;,
+    &quot;ControlParams&quot;: {
+      &quot;ClimbTower&quot;: &quot;1-59&quot;,
+      &quot;StreakRate&quot;: &quot;1-4&quot;
+    },
+    &quot;Order&quot;: [],
+    &quot;ContinueOrder&quot;: [
+      &quot;YachtRacing&quot;,
+      &quot;BattleRoyale&quot;,
+      &quot;ClimbTower&quot;,
+      &quot;StreakRate&quot;
+    ],
+    &quot;MaxShowCount&quot;: 2
+  },
+  &quot;10&quot;: {
+    &quot;Id&quot;: 10,
+    &quot;GroupId&quot;: 2,
+    &quot;ControlPanelName&quot;: &quot;SpecialLose&quot;,
+    &quot;ControlParams&quot;: {},
+    &quot;Order&quot;: [],
+    &quot;ContinueOrder&quot;: [
+      &quot;BattleRoyale&quot;,
+      &quot;YachtRacing&quot;,
+      &quot;ClimbTower&quot;
+    ],
+    &quot;MaxShowCount&quot;: 2
+  }
+}</pre></details></section><section id="TbBattleRoyale"><h2>TbBattleRoyale</h2><p><a href="Evidence/Unpacked/tables/TbBattleRoyale.json">Mở JSON nguyên bản đã giải nén</a></p><details><summary>Xem đầy đủ 1 mục</summary><pre>{
+  &quot;4001&quot;: {
+    &quot;ID&quot;: 4001,
+    &quot;MaxRewardTimes&quot;: 1,
+    &quot;Reward&quot;: [
+      [
+        1001,
+        10000
+      ]
+    ],
+    &quot;PersonNum&quot;: 100,
+    &quot;TotalStageNum&quot;: 7,
+    &quot;LoseStreak&quot;: 2,
+    &quot;ColdTime&quot;: 1800,
+    &quot;PersonaGroup&quot;: 1,
+    &quot;HideCD&quot;: 4,
+    &quot;WinHideCD&quot;: 0,
+    &quot;WinColdTime&quot;: 1800
+  }
+}</pre></details></section><section id="TbClimbTower"><h2>TbClimbTower</h2><p><a href="Evidence/Unpacked/tables/TbClimbTower.json">Mở JSON nguyên bản đã giải nén</a></p><details><summary>Xem đầy đủ 1 mục</summary><pre>{
+  &quot;1&quot;: {
+    &quot;Id&quot;: 1,
+    &quot;ActivityId&quot;: 2001,
+    &quot;ArchivePointList&quot;: [
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1
+    ],
+    &quot;WinPointList&quot;: [
+      0,
+      2,
+      5,
+      8,
+      11,
+      17,
+      22,
+      28,
+      33,
+      42,
+      60
+    ],
+    &quot;RewardList&quot;: [
+      -1,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    &quot;TreasureBoxList&quot;: [
+      -1,
+      1,
+      1,
+      2,
+      2,
+      3,
+      3,
+      4,
+      4,
+      5,
+      5
+    ],
+    &quot;PlatformList&quot;: [
+      -1,
+      1,
+      1,
+      2,
+      2,
+      3,
+      3,
+      3,
+      3,
+      4,
+      4
+    ]
+  }
+}</pre></details></section><section id="TbCommentPopGlobalConfig"><h2>TbCommentPopGlobalConfig</h2><p><a href="Evidence/Unpacked/tables/TbCommentPopGlobalConfig.json">Mở JSON nguyên bản đã giải nén</a></p><details><summary>Xem đầy đủ 1 mục</summary><pre>{
+  &quot;1&quot;: {
+    &quot;ID&quot;: 1,
+    &quot;Enabled&quot;: 1,
+    &quot;FirstShowLevel&quot;: 14,
+    &quot;MaxShowCount&quot;: 4,
+    &quot;FeedbackIntervalActiveDays&quot;: 4,
+    &quot;CloseBaseIntervalActiveDays&quot;: 2
+  }
+}</pre></details></section><section id="TbFinalStagePerson"><h2>TbFinalStagePerson</h2><p><a href="Evidence/Unpacked/tables/TbFinalStagePerson.json">Mở JSON nguyên bản đã giải nén</a></p><details><summary>Xem đầy đủ 5 mục</summary><pre>{
+  &quot;1&quot;: {
+    &quot;ID&quot;: 1,
+    &quot;CostMin&quot;: 0,
+    &quot;CostMax&quot;: 1,
+    &quot;PersonMin&quot;: 20,
+    &quot;PersonMax&quot;: 31
+  },
+  &quot;2&quot;: {
+    &quot;ID&quot;: 2,
+    &quot;CostMin&quot;: 1,
+    &quot;CostMax&quot;: 900,
+    &quot;PersonMin&quot;: 16,
+    &quot;PersonMax&quot;: 21
+  },
+  &quot;3&quot;: {
+    &quot;ID&quot;: 3,
+    &quot;CostMin&quot;: 900,
+    &quot;CostMax&quot;: 1800,
+    &quot;PersonMin&quot;: 12,
+    &quot;PersonMax&quot;: 17
+  },
+  &quot;4&quot;: {
+    &quot;ID&quot;: 4,
+    &quot;CostMin&quot;: 1800,
+    &quot;CostMax&quot;: 3600,
+    &quot;PersonMin&quot;: 10,
+    &quot;PersonMax&quot;: 13
+  },
+  &quot;5&quot;: {
+    &quot;ID&quot;: 5,
+    &quot;CostMin&quot;: 3600,
+    &quot;CostMax&quot;: 0,
+    &quot;PersonMin&quot;: 6,
+    &quot;PersonMax&quot;: 11
+  }
+}</pre></details></section><section id="TbGameplay"><h2>TbGameplay</h2><p><a href="Evidence/Unpacked/tables/TbGameplay.json">Mở JSON nguyên bản đã giải nén</a></p><details><summary>Xem đầy đủ 1 mục</summary><pre>{
+  &quot;Config&quot;: {
+    &quot;ID&quot;: &quot;Config&quot;,
+    &quot;vehicleSpeed&quot;: 1.3
+  }
+}</pre></details></section><section id="TbGiftPackConfig"><h2>TbGiftPackConfig</h2><p><a href="Evidence/Unpacked/tables/TbGiftPackConfig.json">Mở JSON nguyên bản đã giải nén</a></p><details><summary>Xem đầy đủ 4 mục</summary><pre>{
+  &quot;1004&quot;: {
+    &quot;ID&quot;: 1004,
+    &quot;PackId&quot;: &quot;personal_cycle&quot;,
+    &quot;PackType&quot;: &quot;Normal&quot;,
+    &quot;IconDiscount&quot;: 1,
+    &quot;PackName&quot;: &quot;普通礼包&quot;,
+    &quot;PopupMode&quot;: &quot;PopPanel&quot;,
+    &quot;ShopItemId&quot;: 2001,
+    &quot;KeepActiveAfterPurchase&quot;: 0,
+    &quot;TriggerCondition&quot;: &quot;{\n  \&quot;1\&quot;: {\n    \&quot;CoinLeft\&quot;: \&quot;900\&quot;\n  }\n}&quot;,
+    &quot;MaxPurchaseCount&quot;: 0,
+    &quot;ActiveDelayTime&quot;: 0,
+    &quot;EndCoolDownMinute&quot;: 0,
+    &quot;EndCoolDownDay&quot;: 0,
+    &quot;CooldownMinute&quot;: 0,
+    &quot;CooldownDay&quot;: 0,
+    &quot;ContinuePriority&quot;: 5,
+    &quot;Priority&quot;: 2,
+    &quot;UIPath&quot;: &quot;&quot;,
+    &quot;IconPath&quot;: &quot;&quot;,
+    &quot;TitleKey&quot;: &quot;&quot;,
+    &quot;DescKey&quot;: &quot;&quot;,
+    &quot;IsEnabled&quot;: 1,
+    &quot;FirstTriggerCondition&quot;: &quot;{\n  \&quot;1\&quot;: {\n    \&quot;LevelProgress\&quot;: \&quot;32\&quot;\n  }\n}&quot;,
+    &quot;CycleType&quot;: 0,
+    &quot;CycleStartTime&quot;: &quot;7,060000&quot;,
+    &quot;CycleEndTime&quot;: &quot;3,055959&quot;,
+    &quot;IsFirstCycleTimeEnabled&quot;: 0,
+    &quot;IsCycleTimeEnabled&quot;: 1,
+    &quot;PackThemeIds&quot;: &quot;1,2,3&quot;,
+    &quot;ThemeCycleMode&quot;: 2
+  },
+  &quot;1005&quot;: {
+    &quot;ID&quot;: 1005,
+    &quot;PackId&quot;: &quot;fixed_cycle_1&quot;,
+    &quot;PackType&quot;: &quot;Passport&quot;,
+    &quot;IconDiscount&quot;: 0,
+    &quot;PackName&quot;: &quot;通行证（月）&quot;,
+    &quot;PopupMode&quot;: &quot;PopPanel&quot;,
+    &quot;ShopItemId&quot;: 4004,
+    &quot;KeepActiveAfterPurchase&quot;: 1,
+    &quot;TriggerCondition&quot;: &quot;&quot;,
+    &quot;MaxPurchaseCount&quot;: 0,
+    &quot;ActiveDelayTime&quot;: 0,
+    &quot;EndCoolDownMinute&quot;: 0,
+    &quot;EndCoolDownDay&quot;: 0,
+    &quot;CooldownMinute&quot;: 0,
+    &quot;CooldownDay&quot;: 0,
+    &quot;ContinuePriority&quot;: 3,
+    &quot;Priority&quot;: 1,
+    &quot;UIPath&quot;: &quot;&quot;,
+    &quot;IconPath&quot;: &quot;&quot;,
+    &quot;TitleKey&quot;: &quot;&quot;,
+    &quot;DescKey&quot;: &quot;&quot;,
+    &quot;IsEnabled&quot;: 1,
+    &quot;FirstTriggerCondition&quot;: &quot;{\n  \&quot;1\&quot;: {\n    \&quot;LevelProgress\&quot;: \&quot;48\&quot;\n  }\n}&quot;,
+    &quot;CycleType&quot;: 3,
+    &quot;CycleStartTime&quot;: &quot;1,080000&quot;,
+    &quot;CycleEndTime&quot;: &quot;1,075959&quot;,
+    &quot;IsFirstCycleTimeEnabled&quot;: 1,
+    &quot;IsCycleTimeEnabled&quot;: 1,
+    &quot;PackThemeIds&quot;: &quot;4&quot;,
+    &quot;ThemeCycleMode&quot;: 0
+  },
+  &quot;1007&quot;: {
+    &quot;ID&quot;: 1007,
+    &quot;PackId&quot;: &quot;fixed_cycle_3&quot;,
+    &quot;PackType&quot;: &quot;Golden&quot;,
+    &quot;IconDiscount&quot;: 0,
+    &quot;PackName&quot;: &quot;金币礼包&quot;,
+    &quot;PopupMode&quot;: &quot;PopPanel&quot;,
+    &quot;ShopItemId&quot;: 4002,
+    &quot;KeepActiveAfterPurchase&quot;: 1,
+    &quot;TriggerCondition&quot;: &quot;{\n  \&quot;1\&quot;: {\n    \&quot;DailyLevel\&quot;: \&quot;15\&quot;\n  },\n  \&quot;2\&quot;: {\n    \&quot;CoinLeft\&quot;: \&quot;900\&quot;\n  }\n}&quot;,
+    &quot;MaxPurchaseCount&quot;: 0,
+    &quot;ActiveDelayTime&quot;: 0,
+    &quot;EndCoolDownMinute&quot;: 0,
+    &quot;EndCoolDownDay&quot;: 0,
+    &quot;CooldownMinute&quot;: 0,
+    &quot;CooldownDay&quot;: 0,
+    &quot;ContinuePriority&quot;: 2,
+    &quot;Priority&quot;: 3,
+    &quot;UIPath&quot;: &quot;&quot;,
+    &quot;IconPath&quot;: &quot;&quot;,
+    &quot;TitleKey&quot;: &quot;&quot;,
+    &quot;DescKey&quot;: &quot;&quot;,
+    &quot;IsEnabled&quot;: 1,
+    &quot;FirstTriggerCondition&quot;: &quot;{\n  \&quot;1\&quot;: {\n    \&quot;LevelProgress\&quot;: \&quot;58\&quot;,\n    \&quot;TotalPayAmount\&quot;: \&quot;0\&quot;\n  }\n}&quot;,
+    &quot;CycleType&quot;: 0,
+    &quot;CycleStartTime&quot;: &quot;6,080000&quot;,
+    &quot;CycleEndTime&quot;: &quot;1,075959&quot;,
+    &quot;IsFirstCycleTimeEnabled&quot;: 1,
+    &quot;IsCycleTimeEnabled&quot;: 1,
+    &quot;PackThemeIds&quot;: &quot;6&quot;,
+    &quot;ThemeCycleMode&quot;: 0
+  },
+  &quot;1009&quot;: {
+    &quot;ID&quot;: 1009,
+    &quot;PackId&quot;: &quot;fixed_cycle_5&quot;,
+    &quot;PackType&quot;: &quot;Combo&quot;,
+    &quot;IconDiscount&quot;: 0,
+    &quot;PackName&quot;: &quot;组合礼包&quot;,
+    &quot;PopupMode&quot;: &quot;PopPanel&quot;,
+    &quot;ShopItemId&quot;: 4204,
+    &quot;KeepActiveAfterPurchase&quot;: 1,
+    &quot;TriggerCondition&quot;: &quot;{\n  \&quot;1\&quot;: {\n    \&quot;WeekSpentUSD\&quot;: \&quot;0\&quot;\n  },\n  \&quot;2\&quot;: {\n    \&quot;PassportActivating\&quot;: \&quot;1\&quot;\n  }\n}&quot;,
+    &quot;MaxPurchaseCount&quot;: 0,
+    &quot;ActiveDelayTime&quot;: 480,
+    &quot;EndCoolDownMinute&quot;: 0,
+    &quot;EndCoolDownDay&quot;: 0,
+    &quot;CooldownMinute&quot;: 0,
+    &quot;CooldownDay&quot;: 0,
+    &quot;ContinuePriority&quot;: 0,
+    &quot;Priority&quot;: 1,
+    &quot;UIPath&quot;: &quot;&quot;,
+    &quot;IconPath&quot;: &quot;&quot;,
+    &quot;TitleKey&quot;: &quot;&quot;,
+    &quot;DescKey&quot;: &quot;&quot;,
+    &quot;IsEnabled&quot;: 1,
+    &quot;FirstTriggerCondition&quot;: &quot;{\n  \&quot;1\&quot;: {\n    \&quot;LevelProgress\&quot;: \&quot;32\&quot;,\n    \&quot;WeekSpentUSD\&quot;: \&quot;0\&quot;\n  },\n  \&quot;2\&quot;: {\n    \&quot;LevelProgress\&quot;: \&quot;32\&quot;,\n    \&quot;PassportActivating\&quot;: \&quot;1\&quot;\n  }\n}&quot;,
+    &quot;CycleType&quot;: 0,
+    &quot;CycleStartTime&quot;: &quot;1,080000&quot;,
+    &quot;CycleEndTime&quot;: &quot;1,075959&quot;,
+    &quot;IsFirstCycleTimeEnabled&quot;: 1,
+    &quot;IsCycleTimeEnabled&quot;: 1,
+    &quot;PackThemeIds&quot;: &quot;&quot;,
+    &quot;ThemeCycleMode&quot;: 0
+  }
+}</pre></details></section><section id="TbGiftPackGlobalConfig"><h2>TbGiftPackGlobalConfig</h2><p><a href="Evidence/Unpacked/tables/TbGiftPackGlobalConfig.json">Mở JSON nguyên bản đã giải nén</a></p><details><summary>Xem đầy đủ 1 mục</summary><pre>{
+  &quot;1&quot;: {
+    &quot;ID&quot;: 1,
+    &quot;ReturningUserThresholdDays&quot;: 3,
+    &quot;PurchaseCoolHours&quot;: 0,
+    &quot;UnpurchaseCoolHours&quot;: 0.167,
+    &quot;ReturningUserCoolHours&quot;: 0,
+    &quot;SessionLimitCount&quot;: 0,
+    &quot;RoundLimitCount&quot;: 0,
+    &quot;MaxConcurrentActivePacks&quot;: 1
+  }
+}</pre></details></section><section id="TbGiftPackTheme"><h2>TbGiftPackTheme</h2><p><a href="Evidence/Unpacked/tables/TbGiftPackTheme.json">Mở JSON nguyên bản đã giải nén</a></p><details><summary>Xem đầy đủ 9 mục</summary><pre>{
+  &quot;1&quot;: {
+    &quot;ID&quot;: 1,
+    &quot;Order&quot;: 1,
+    &quot;IsEnabled&quot;: 1,
+    &quot;UIPath&quot;: &quot;UIGiftPackPanelPurple&quot;,
+    &quot;IconPath&quot;: &quot;Btn_purpleBreakIceGift&quot;,
+    &quot;TitleKey&quot;: &quot;UI_IAP_beginner&quot;,
+    &quot;DescKey&quot;: &quot;gift_break_ice_desc&quot;
+  },
+  &quot;2&quot;: {
+    &quot;ID&quot;: 2,
+    &quot;Order&quot;: 2,
+    &quot;IsEnabled&quot;: 1,
+    &quot;UIPath&quot;: &quot;UIGiftPackPanelGreen&quot;,
+    &quot;IconPath&quot;: &quot;Btn_redBreakIceGift&quot;,
+    &quot;TitleKey&quot;: &quot;UI_IAP_limit&quot;,
+    &quot;DescKey&quot;: &quot;gift_time_limited_desc&quot;
+  },
+  &quot;3&quot;: {
+    &quot;ID&quot;: 3,
+    &quot;Order&quot;: 3,
+    &quot;IsEnabled&quot;: 1,
+    &quot;UIPath&quot;: &quot;UIGiftPackPanelRed&quot;,
+    &quot;IconPath&quot;: &quot;Btn_blueBreakIceGift&quot;,
+    &quot;TitleKey&quot;: &quot;UI_IAP_stuck&quot;,
+    &quot;DescKey&quot;: &quot;gift_stuck_desc&quot;
+  },
+  &quot;4&quot;: {
+    &quot;ID&quot;: 4,
+    &quot;Order&quot;: 1,
+    &quot;IsEnabled&quot;: 0,
+    &quot;UIPath&quot;: &quot;&quot;,
+    &quot;IconPath&quot;: &quot;&quot;,
+    &quot;TitleKey&quot;: &quot;&quot;,
+    &quot;DescKey&quot;: &quot;&quot;
+  },
+  &quot;5&quot;: {
+    &quot;ID&quot;: 5,
+    &quot;Order&quot;: 1,
+    &quot;IsEnabled&quot;: 0,
+    &quot;UIPath&quot;: &quot;UIEndlessGiftPackPanel&quot;,
+    &quot;IconPath&quot;: &quot;Btn_EndlessGiftPack&quot;,
+    &quot;TitleKey&quot;: &quot;&quot;,
+    &quot;DescKey&quot;: &quot;&quot;
+  },
+  &quot;6&quot;: {
+    &quot;ID&quot;: 6,
+    &quot;Order&quot;: 1,
+    &quot;IsEnabled&quot;: 1,
+    &quot;UIPath&quot;: &quot;UIGoldenCoinGiftPackPanel&quot;,
+    &quot;IconPath&quot;: &quot;Btn_GoldenCoinGiftPack&quot;,
+    &quot;TitleKey&quot;: &quot;&quot;,
+    &quot;DescKey&quot;: &quot;&quot;
+  },
+  &quot;7&quot;: {
+    &quot;ID&quot;: 7,
+    &quot;Order&quot;: 1,
+    &quot;IsEnabled&quot;: 1,
+    &quot;UIPath&quot;: &quot;UIGiftPackPanelPurpleGp4&quot;,
+    &quot;IconPath&quot;: &quot;Btn_purpleBreakIceGift&quot;,
+    &quot;TitleKey&quot;: &quot;UI_IAP_beginner&quot;,
+    &quot;DescKey&quot;: &quot;gift_break_ice_desc&quot;
+  },
+  &quot;8&quot;: {
+    &quot;ID&quot;: 8,
+    &quot;Order&quot;: 2,
+    &quot;IsEnabled&quot;: 1,
+    &quot;UIPath&quot;: &quot;UIGiftPackPanelGreenGp4&quot;,
+    &quot;IconPath&quot;: &quot;Btn_redBreakIceGift&quot;,
+    &quot;TitleKey&quot;: &quot;UI_IAP_limit&quot;,
+    &quot;DescKey&quot;: &quot;gift_time_limited_desc&quot;
+  },
+  &quot;9&quot;: {
+    &quot;ID&quot;: 9,
+    &quot;Order&quot;: 3,
+    &quot;IsEnabled&quot;: 1,
+    &quot;UIPath&quot;: &quot;UIGiftPackPanelRedGp4&quot;,
+    &quot;IconPath&quot;: &quot;Btn_blueBreakIceGift&quot;,
+    &quot;TitleKey&quot;: &quot;UI_IAP_stuck&quot;,
+    &quot;DescKey&quot;: &quot;gift_stuck_desc&quot;
+  }
+}</pre></details></section><section id="TbGoldenCoinGiftPack"><h2>TbGoldenCoinGiftPack</h2><p><a href="Evidence/Unpacked/tables/TbGoldenCoinGiftPack.json">Mở JSON nguyên bản đã giải nén</a></p><details><summary>Xem đầy đủ 1 mục</summary><pre>{
+  &quot;1&quot;: {
+    &quot;ID&quot;: 1,
+    &quot;GiftPackId&quot;: 1007,
+    &quot;StageList&quot;: [
+      {
+        &quot;Stage&quot;: 1,
+        &quot;WinNum&quot;: 1,
+        &quot;CoinNum&quot;: 20
+      },
+      {
+        &quot;Stage&quot;: 2,
+        &quot;WinNum&quot;: 3,
+        &quot;CoinNum&quot;: 40
+      },
+      {
+        &quot;Stage&quot;: 3,
+        &quot;WinNum&quot;: 5,
+        &quot;CoinNum&quot;: 60
+      },
+      {
+        &quot;Stage&quot;: 4,
+        &quot;WinNum&quot;: 10,
+        &quot;CoinNum&quot;: 80
+      },
+      {
+        &quot;Stage&quot;: 5,
+        &quot;WinNum&quot;: 15,
+        &quot;CoinNum&quot;: 100
+      },
+      {
+        &quot;Stage&quot;: 6,
+        &quot;WinNum&quot;: 20,
+        &quot;CoinNum&quot;: 125
+      },
+      {
+        &quot;Stage&quot;: 7,
+        &quot;WinNum&quot;: 30,
+        &quot;CoinNum&quot;: 150
+      },
+      {
+        &quot;Stage&quot;: 8,
+        &quot;WinNum&quot;: 40,
+        &quot;CoinNum&quot;: 175
+      },
+      {
+        &quot;Stage&quot;: 9,
+        &quot;WinNum&quot;: 50,
+        &quot;CoinNum&quot;: 200
+      },
+      {
+        &quot;Stage&quot;: 10,
+        &quot;WinNum&quot;: 60,
+        &quot;CoinNum&quot;: 300
+      },
+      {
+        &quot;Stage&quot;: 11,
+        &quot;WinNum&quot;: 80,
+        &quot;CoinNum&quot;: 500
+      },
+      {
+        &quot;Stage&quot;: 12,
+        &quot;WinNum&quot;: 120,
+        &quot;CoinNum&quot;: 1250
+      }
+    ]
+  }
+}</pre></details></section><section id="TbGuideConfig"><h2>TbGuideConfig</h2><p><a href="Evidence/Unpacked/tables/TbGuideConfig.json">Mở JSON nguyên bản đã giải nén</a></p><details><summary>Xem đầy đủ 6 mục</summary><pre>{
+  &quot;1&quot;: {
+    &quot;ID&quot;: 1,
+    &quot;TriggerType&quot;: 1,
+    &quot;TriggerParam&quot;: &quot;UIGame&quot;,
+    &quot;LevelMin&quot;: 1,
+    &quot;LevelMax&quot;: 1,
+    &quot;CanRepeat&quot;: true,
+    &quot;Desc&quot;: &quot;guide_1_1&quot;,
+    &quot;ShowHand&quot;: true,
+    &quot;GuideType&quot;: 1,
+    &quot;UiName&quot;: &quot;UIGame&quot;,
+    &quot;GuideIndexId&quot;: 1,
+    &quot;GuideTargetType&quot;: 0,
+    &quot;GuideTargetId&quot;: 0,
+    &quot;GuideLevelSource&quot;: 0,
+    &quot;ContentOffsetX&quot;: 0,
+    &quot;ContentOffsetY&quot;: -350,
+    &quot;ContentOffsetZ&quot;: 0,
+    &quot;HandOffsetX&quot;: -20,
+    &quot;HandOffsetY&quot;: -20,
+    &quot;HandOffsetZ&quot;: 0,
+    &quot;ContentSize&quot;: 600,
+    &quot;OpenDelay&quot;: 300,
+    &quot;CanMaskClick&quot;: false,
+    &quot;BlockClickPropagation&quot;: false,
+    &quot;HoleScale&quot;: 10,
+    &quot;PlayHoleScaleAnim&quot;: 500
+  },
+  &quot;2&quot;: {
+    &quot;ID&quot;: 2,
+    &quot;TriggerType&quot;: 2,
+    &quot;TriggerParam&quot;: &quot;1&quot;,
+    &quot;LevelMin&quot;: 1,
+    &quot;LevelMax&quot;: 1,
+    &quot;CanRepeat&quot;: true,
+    &quot;Desc&quot;: &quot;guide_1_2&quot;,
+    &quot;ShowHand&quot;: false,
+    &quot;GuideType&quot;: 1,
+    &quot;UiName&quot;: &quot;UIGame&quot;,
+    &quot;GuideIndexId&quot;: 2,
+    &quot;GuideTargetType&quot;: 0,
+    &quot;GuideTargetId&quot;: 0,
+    &quot;GuideLevelSource&quot;: 0,
+    &quot;ContentOffsetX&quot;: 0,
+    &quot;ContentOffsetY&quot;: -340,
+    &quot;ContentOffsetZ&quot;: 0,
+    &quot;HandOffsetX&quot;: 0,
+    &quot;HandOffsetY&quot;: 0,
+    &quot;HandOffsetZ&quot;: 0,
+    &quot;ContentSize&quot;: 0,
+    &quot;OpenDelay&quot;: 500,
+    &quot;CanMaskClick&quot;: true,
+    &quot;BlockClickPropagation&quot;: true,
+    &quot;HoleScale&quot;: 7,
+    &quot;PlayHoleScaleAnim&quot;: 500
+  },
+  &quot;3&quot;: {
+    &quot;ID&quot;: 3,
+    &quot;TriggerType&quot;: 1,
+    &quot;TriggerParam&quot;: &quot;UIGame&quot;,
+    &quot;LevelMin&quot;: 7,
+    &quot;LevelMax&quot;: 7,
+    &quot;CanRepeat&quot;: false,
+    &quot;Desc&quot;: &quot;&quot;,
+    &quot;ShowHand&quot;: true,
+    &quot;GuideType&quot;: 1,
+    &quot;UiName&quot;: &quot;UIGame&quot;,
+    &quot;GuideIndexId&quot;: 3,
+    &quot;GuideTargetType&quot;: 1,
+    &quot;GuideTargetId&quot;: 10002,
+    &quot;GuideLevelSource&quot;: 1,
+    &quot;ContentOffsetX&quot;: 0,
+    &quot;ContentOffsetY&quot;: 260,
+    &quot;ContentOffsetZ&quot;: 0,
+    &quot;HandOffsetX&quot;: -20,
+    &quot;HandOffsetY&quot;: -20,
+    &quot;HandOffsetZ&quot;: 0,
+    &quot;ContentSize&quot;: 600,
+    &quot;OpenDelay&quot;: 300,
+    &quot;CanMaskClick&quot;: false,
+    &quot;BlockClickPropagation&quot;: false,
+    &quot;HoleScale&quot;: 5,
+    &quot;PlayHoleScaleAnim&quot;: 500
+  },
+  &quot;4&quot;: {
+    &quot;ID&quot;: 4,
+    &quot;TriggerType&quot;: 1,
+    &quot;TriggerParam&quot;: &quot;UIGame&quot;,
+    &quot;LevelMin&quot;: 14,
+    &quot;LevelMax&quot;: 14,
+    &quot;CanRepeat&quot;: false,
+    &quot;Desc&quot;: &quot;&quot;,
+    &quot;ShowHand&quot;: true,
+    &quot;GuideType&quot;: 1,
+    &quot;UiName&quot;: &quot;UIGame&quot;,
+    &quot;GuideIndexId&quot;: 4,
+    &quot;GuideTargetType&quot;: 1,
+    &quot;GuideTargetId&quot;: 10003,
+    &quot;GuideLevelSource&quot;: 1,
+    &quot;ContentOffsetX&quot;: 0,
+    &quot;ContentOffsetY&quot;: 260,
+    &quot;ContentOffsetZ&quot;: 0,
+    &quot;HandOffsetX&quot;: -20,
+    &quot;HandOffsetY&quot;: -20,
+    &quot;HandOffsetZ&quot;: 0,
+    &quot;ContentSize&quot;: 600,
+    &quot;OpenDelay&quot;: 300,
+    &quot;CanMaskClick&quot;: false,
+    &quot;BlockClickPropagation&quot;: false,
+    &quot;HoleScale&quot;: 5,
+    &quot;PlayHoleScaleAnim&quot;: 500
+  },
+  &quot;5&quot;: {
+    &quot;ID&quot;: 5,
+    &quot;TriggerType&quot;: 1,
+    &quot;TriggerParam&quot;: &quot;UIGame&quot;,
+    &quot;LevelMin&quot;: 18,
+    &quot;LevelMax&quot;: 18,
+    &quot;CanRepeat&quot;: false,
+    &quot;Desc&quot;: &quot;&quot;,
+    &quot;ShowHand&quot;: true,
+    &quot;GuideType&quot;: 1,
+    &quot;UiName&quot;: &quot;UIGame&quot;,
+    &quot;GuideIndexId&quot;: 5,
+    &quot;GuideTargetType&quot;: 1,
+    &quot;GuideTargetId&quot;: 10004,
+    &quot;GuideLevelSource&quot;: 1,
+    &quot;ContentOffsetX&quot;: 0,
+    &quot;ContentOffsetY&quot;: 260,
+    &quot;ContentOffsetZ&quot;: 0,
+    &quot;HandOffsetX&quot;: -20,
+    &quot;HandOffsetY&quot;: -20,
+    &quot;HandOffsetZ&quot;: 0,
+    &quot;ContentSize&quot;: 600,
+    &quot;OpenDelay&quot;: 300,
+    &quot;CanMaskClick&quot;: false,
+    &quot;BlockClickPropagation&quot;: false,
+    &quot;HoleScale&quot;: 5,
+    &quot;PlayHoleScaleAnim&quot;: 500
+  },
+  &quot;6&quot;: {
+    &quot;ID&quot;: 6,
+    &quot;TriggerType&quot;: 1,
+    &quot;TriggerParam&quot;: &quot;UIGame&quot;,
+    &quot;LevelMin&quot;: 20,
+    &quot;LevelMax&quot;: 20,
+    &quot;CanRepeat&quot;: false,
+    &quot;Desc&quot;: &quot;&quot;,
+    &quot;ShowHand&quot;: true,
+    &quot;GuideType&quot;: 1,
+    &quot;UiName&quot;: &quot;UIGame&quot;,
+    &quot;GuideIndexId&quot;: 6,
+    &quot;GuideTargetType&quot;: 1,
+    &quot;GuideTargetId&quot;: 10005,
+    &quot;GuideLevelSource&quot;: 1,
+    &quot;ContentOffsetX&quot;: 0,
+    &quot;ContentOffsetY&quot;: 260,
+    &quot;ContentOffsetZ&quot;: 0,
+    &quot;HandOffsetX&quot;: -20,
+    &quot;HandOffsetY&quot;: -20,
+    &quot;HandOffsetZ&quot;: 0,
+    &quot;ContentSize&quot;: 600,
+    &quot;OpenDelay&quot;: 300,
+    &quot;CanMaskClick&quot;: false,
+    &quot;BlockClickPropagation&quot;: false,
+    &quot;HoleScale&quot;: 5,
+    &quot;PlayHoleScaleAnim&quot;: 500
+  }
+}</pre></details></section><section id="TbHeadConfig"><h2>TbHeadConfig</h2><p><a href="Evidence/Unpacked/tables/TbHeadConfig.json">Mở JSON nguyên bản đã giải nén</a></p><details><summary>Xem đầy đủ 9 mục</summary><pre>{
+  &quot;200001&quot;: {
+    &quot;ID&quot;: 200001,
+    &quot;Icon&quot;: &quot;eyu&quot;
+  },
+  &quot;200002&quot;: {
+    &quot;ID&quot;: 200002,
+    &quot;Icon&quot;: &quot;gou&quot;
+  },
+  &quot;200003&quot;: {
+    &quot;ID&quot;: 200003,
+    &quot;Icon&quot;: &quot;keji&quot;
+  },
+  &quot;200004&quot;: {
+    &quot;ID&quot;: 200004,
+    &quot;Icon&quot;: &quot;mao&quot;
+  },
+  &quot;200005&quot;: {
+    &quot;ID&quot;: 200005,
+    &quot;Icon&quot;: &quot;niu&quot;
+  },
+  &quot;200006&quot;: {
+    &quot;ID&quot;: 200006,
+    &quot;Icon&quot;: &quot;shu&quot;
+  },
+  &quot;200007&quot;: {
+    &quot;ID&quot;: 200007,
+    &quot;Icon&quot;: &quot;tuzi&quot;
+  },
+  &quot;200008&quot;: {
+    &quot;ID&quot;: 200008,
+    &quot;Icon&quot;: &quot;xiong&quot;
+  },
+  &quot;200009&quot;: {
+    &quot;ID&quot;: 200009,
+    &quot;Icon&quot;: &quot;yingwu&quot;
+  }
+}</pre></details></section><section id="TbItemConfig"><h2>TbItemConfig</h2><p><a href="Evidence/Unpacked/tables/TbItemConfig.json">Mở JSON nguyên bản đã giải nén</a></p><details><summary>Xem đầy đủ 8 mục</summary><pre>{
+  &quot;1001&quot;: {
+    &quot;ID&quot;: 1001,
+    &quot;itemType&quot;: &quot;Currency&quot;,
+    &quot;ItemEnum&quot;: 0,
+    &quot;name&quot;: &quot;&quot;,
+    &quot;desc&quot;: &quot;&quot;,
+    &quot;Icon&quot;: &quot;img_shop_cion&quot;,
+    &quot;Icon1&quot;: &quot;&quot;,
+    &quot;Icon3&quot;: &quot;icon_coin_small&quot;,
+    &quot;Icon4&quot;: &quot;&quot;,
+    &quot;maxCount&quot;: 0,
+    &quot;Conversion&quot;: 10000
+  },
+  &quot;1002&quot;: {
+    &quot;ID&quot;: 1002,
+    &quot;itemType&quot;: &quot;Power&quot;,
+    &quot;ItemEnum&quot;: 0,
+    &quot;name&quot;: &quot;&quot;,
+    &quot;desc&quot;: &quot;&quot;,
+    &quot;Icon&quot;: &quot;icon_heart_big&quot;,
+    &quot;Icon1&quot;: &quot;icon_heart_wuxian&quot;,
+    &quot;Icon3&quot;: &quot;icon_heart_small&quot;,
+    &quot;Icon4&quot;: &quot;icon_heart_wuxian_small&quot;,
+    &quot;maxCount&quot;: 5,
+    &quot;Conversion&quot;: 5000
+  },
+  &quot;1003&quot;: {
+    &quot;ID&quot;: 1003,
+    &quot;itemType&quot;: &quot;Prop&quot;,
+    &quot;ItemEnum&quot;: 0,
+    &quot;name&quot;: &quot;Game_Booster_HeadStart&quot;,
+    &quot;desc&quot;: &quot;Booster_HeadStart_Des&quot;,
+    &quot;Icon&quot;: &quot;icon_huojian_big&quot;,
+    &quot;Icon1&quot;: &quot;&quot;,
+    &quot;Icon3&quot;: &quot;icon_huojian_small&quot;,
+    &quot;Icon4&quot;: &quot;&quot;,
+    &quot;maxCount&quot;: 0,
+    &quot;Conversion&quot;: 5000
+  },
+  &quot;10001&quot;: {
+    &quot;ID&quot;: 10001,
+    &quot;itemType&quot;: &quot;Prop&quot;,
+    &quot;ItemEnum&quot;: 0,
+    &quot;name&quot;: &quot;Booster_PlusSlot&quot;,
+    &quot;desc&quot;: &quot;Booster_PlusSlot_Des&quot;,
+    &quot;Icon&quot;: &quot;icon_ewaiqiu_big&quot;,
+    &quot;Icon1&quot;: &quot;&quot;,
+    &quot;Icon3&quot;: &quot;icon_ewaiqiu_s&quot;,
+    &quot;Icon4&quot;: &quot;&quot;,
+    &quot;maxCount&quot;: 0,
+    &quot;Conversion&quot;: 5000
+  },
+  &quot;10002&quot;: {
+    &quot;ID&quot;: 10002,
+    &quot;itemType&quot;: &quot;Prop&quot;,
+    &quot;ItemEnum&quot;: 0,
+    &quot;name&quot;: &quot;Booster_Shuffle&quot;,
+    &quot;desc&quot;: &quot;Booster_Shuffle_Desc&quot;,
+    &quot;Icon&quot;: &quot;icon_chaodapao_big&quot;,
+    &quot;Icon1&quot;: &quot;&quot;,
+    &quot;Icon3&quot;: &quot;icon_chaodapao_s&quot;,
+    &quot;Icon4&quot;: &quot;&quot;,
+    &quot;maxCount&quot;: 0,
+    &quot;Conversion&quot;: 5000
+  },
+  &quot;10003&quot;: {
+    &quot;ID&quot;: 10003,
+    &quot;itemType&quot;: &quot;Prop&quot;,
+    &quot;ItemEnum&quot;: 0,
+    &quot;name&quot;: &quot;Booster_PickUp&quot;,
+    &quot;desc&quot;: &quot;Booster_PickUp_Desc&quot;,
+    &quot;Icon&quot;: &quot;icon_jiguang_big&quot;,
+    &quot;Icon1&quot;: &quot;&quot;,
+    &quot;Icon3&quot;: &quot;icon_jiguang_s&quot;,
+    &quot;Icon4&quot;: &quot;&quot;,
+    &quot;maxCount&quot;: 0,
+    &quot;Conversion&quot;: 5000
+  },
+  &quot;10004&quot;: {
+    &quot;ID&quot;: 10004,
+    &quot;itemType&quot;: &quot;Prop&quot;,
+    &quot;ItemEnum&quot;: 0,
+    &quot;name&quot;: &quot;UI_Wand_Title&quot;,
+    &quot;desc&quot;: &quot;UI_Wand_Des_1&quot;,
+    &quot;Icon&quot;: &quot;icon_wuxian_big&quot;,
+    &quot;Icon1&quot;: &quot;&quot;,
+    &quot;Icon3&quot;: &quot;icon_wuxian_s&quot;,
+    &quot;Icon4&quot;: &quot;&quot;,
+    &quot;maxCount&quot;: 0,
+    &quot;Conversion&quot;: 5000
+  },
+  &quot;10005&quot;: {
+    &quot;ID&quot;: 10005,
+    &quot;itemType&quot;: &quot;Prop&quot;,
+    &quot;ItemEnum&quot;: 0,
+    &quot;name&quot;: &quot;UI_ExtraSlot_Title&quot;,
+    &quot;desc&quot;: &quot;UI_ExtraSlot_Des_1&quot;,
+    &quot;Icon&quot;: &quot;icon_lianji_big&quot;,
+    &quot;Icon1&quot;: &quot;&quot;,
+    &quot;Icon3&quot;: &quot;icon_lianji_s&quot;,
+    &quot;Icon4&quot;: &quot;&quot;,
+    &quot;maxCount&quot;: 0,
+    &quot;Conversion&quot;: 5000
+  }
+}</pre></details></section><section id="TbLevelRewards"><h2>TbLevelRewards</h2><p><a href="Evidence/Unpacked/tables/TbLevelRewards.json">Mở JSON nguyên bản đã giải nén</a></p><details><summary>Xem đầy đủ 3 mục</summary><pre>{
+  &quot;1&quot;: {
+    &quot;ID&quot;: 1,
+    &quot;Group&quot;: 1,
+    &quot;settler&quot;: [
+      [
+        1001,
+        20
+      ]
+    ],
+    &quot;settlerByNut&quot;: [],
+    &quot;StreakRate&quot;: 1
+  },
+  &quot;2&quot;: {
+    &quot;ID&quot;: 2,
+    &quot;Group&quot;: 1,
+    &quot;settler&quot;: [
+      [
+        1001,
+        60
+      ]
+    ],
+    &quot;settlerByNut&quot;: [],
+    &quot;StreakRate&quot;: 3
+  },
+  &quot;3&quot;: {
+    &quot;ID&quot;: 3,
+    &quot;Group&quot;: 1,
+    &quot;settler&quot;: [
+      [
+        1001,
+        100
+      ]
+    ],
+    &quot;settlerByNut&quot;: [],
+    &quot;StreakRate&quot;: 5
+  }
+}</pre></details></section><section id="TbLevelTypeMatchConfig"><h2>TbLevelTypeMatchConfig</h2><p><a href="Evidence/Unpacked/tables/TbLevelTypeMatchConfig.json">Mở JSON nguyên bản đã giải nén</a></p><details><summary>Xem đầy đủ 3 mục</summary><pre>{
+  &quot;1&quot;: {
+    &quot;ID&quot;: 1,
+    &quot;Group&quot;: 1,
+    &quot;LType&quot;: &quot;nl&quot;,
+    &quot;StartLevel&quot;: 0,
+    &quot;PerLevel&quot;: 0
+  },
+  &quot;2&quot;: {
+    &quot;ID&quot;: 2,
+    &quot;Group&quot;: 1,
+    &quot;LType&quot;: &quot;h&quot;,
+    &quot;StartLevel&quot;: 14,
+    &quot;PerLevel&quot;: 10
+  },
+  &quot;3&quot;: {
+    &quot;ID&quot;: 3,
+    &quot;Group&quot;: 1,
+    &quot;LType&quot;: &quot;sh&quot;,
+    &quot;StartLevel&quot;: 19,
+    &quot;PerLevel&quot;: 10
+  }
+}</pre></details></section><section id="TbMonetization"><h2>TbMonetization</h2><p><a href="Evidence/Unpacked/tables/TbMonetization.json">Mở JSON nguyên bản đã giải nén</a></p><details><summary>Xem đầy đủ 13 mục</summary><pre>{
+  &quot;Booster_ExtraSlot&quot;: {
+    &quot;ID&quot;: &quot;Booster_ExtraSlot&quot;,
+    &quot;item&quot;: 10005,
+    &quot;shop&quot;: 2008,
+    &quot;unlockLevel&quot;: 2,
+    &quot;coinPrice&quot;: 900,
+    &quot;buyCount&quot;: 1,
+    &quot;adCount&quot;: 1
+  },
+  &quot;Booster_Shuffle&quot;: {
+    &quot;ID&quot;: &quot;Booster_Shuffle&quot;,
+    &quot;item&quot;: 10002,
+    &quot;shop&quot;: 2004,
+    &quot;unlockLevel&quot;: 10,
+    &quot;coinPrice&quot;: 900,
+    &quot;buyCount&quot;: 1,
+    &quot;adCount&quot;: 1
+  },
+  &quot;Booster_PickUp&quot;: {
+    &quot;ID&quot;: &quot;Booster_PickUp&quot;,
+    &quot;item&quot;: 10003,
+    &quot;shop&quot;: 2006,
+    &quot;unlockLevel&quot;: 6,
+    &quot;coinPrice&quot;: 300,
+    &quot;buyCount&quot;: 1,
+    &quot;adCount&quot;: 1
+  },
+  &quot;Booster_Wand&quot;: {
+    &quot;ID&quot;: &quot;Booster_Wand&quot;,
+    &quot;item&quot;: 10004,
+    &quot;shop&quot;: 2007,
+    &quot;unlockLevel&quot;: 4,
+    &quot;coinPrice&quot;: 300,
+    &quot;buyCount&quot;: 1,
+    &quot;adCount&quot;: 1
+  },
+  &quot;Booster_HeadStart&quot;: {
+    &quot;ID&quot;: &quot;Booster_HeadStart&quot;,
+    &quot;item&quot;: 1003,
+    &quot;shop&quot;: 2001,
+    &quot;coinPrice&quot;: 300,
+    &quot;buyCount&quot;: 1,
+    &quot;adCount&quot;: 1
+  },
+  &quot;Booster_PlusSlot&quot;: {
+    &quot;ID&quot;: &quot;Booster_PlusSlot&quot;,
+    &quot;item&quot;: 10001,
+    &quot;shop&quot;: 2005,
+    &quot;coinPrice&quot;: 300,
+    &quot;buyCount&quot;: 1,
+    &quot;adCount&quot;: 1
+  },
+  &quot;Revive&quot;: {
+    &quot;ID&quot;: &quot;Revive&quot;,
+    &quot;coinPrice&quot;: 900,
+    &quot;prices&quot;: [
+      900,
+      1900,
+      2900
+    ]
+  },
+  &quot;RescueRevive&quot;: {
+    &quot;ID&quot;: &quot;RescueRevive&quot;,
+    &quot;seconds&quot;: 30
+  },
+  &quot;WinReward&quot;: {
+    &quot;ID&quot;: &quot;WinReward&quot;,
+    &quot;normal&quot;: 20,
+    &quot;hard&quot;: 60,
+    &quot;superHard&quot;: 100
+  },
+  &quot;WinChest&quot;: {
+    &quot;ID&quot;: &quot;WinChest&quot;,
+    &quot;enabled&quot;: 1,
+    &quot;fromLevel&quot;: 6,
+    &quot;steps&quot;: [
+      5,
+      6,
+      8
+    ],
+    &quot;every&quot;: 10,
+    &quot;get&quot;: [
+      [
+        1001,
+        40
+      ],
+      [
+        10005,
+        1
+      ]
+    ]
+  },
+  &quot;DailyGift&quot;: {
+    &quot;ID&quot;: &quot;DailyGift&quot;,
+    &quot;enabled&quot;: 1,
+    &quot;fromLevel&quot;: 8,
+    &quot;chestDays&quot;: 30,
+    &quot;chest&quot;: [
+      [
+        1001,
+        500
+      ],
+      [
+        10005,
+        1
+      ],
+      [
+        10003,
+        1
+      ],
+      [
+        10002,
+        1
+      ],
+      [
+        10004,
+        1
+      ]
+    ],
+    &quot;days&quot;: [
+      [
+        [
+          10005,
+          1
+        ]
+      ],
+      [
+        [
+          1001,
+          50
+        ]
+      ],
+      [
+        [
+          10003,
+          1
+        ]
+      ],
+      [
+        [
+          1001,
+          100
+        ]
+      ],
+      [
+        [
+          10002,
+          1
+        ]
+      ],
+      [
+        [
+          1001,
+          50
+        ],
+        [
+          10004,
+          1
+        ]
+      ],
+      [
+        [
+          1001,
+          150
+        ],
+        [
+          10005,
+          1
+        ]
+      ]
+    ]
+  },
+  &quot;WelcomeBack&quot;: {
+    &quot;ID&quot;: &quot;WelcomeBack&quot;,
+    &quot;enabled&quot;: 1,
+    &quot;awayDays&quot;: 3,
+    &quot;cooldownDays&quot;: 7,
+    &quot;get&quot;: [
+      [
+        10005,
+        1
+      ],
+      [
+        1001,
+        100
+      ]
+    ]
+  },
+  &quot;StuckHelp&quot;: {
+    &quot;ID&quot;: &quot;StuckHelp&quot;,
+    &quot;enabled&quot;: 1,
+    &quot;losses&quot;: 3,
+    &quot;get&quot;: [
+      [
+        10005,
+        1
+      ]
+    ]
+  }
+}</pre></details></section><section id="TbPassports"><h2>TbPassports</h2><p><a href="Evidence/Unpacked/tables/TbPassports.json">Mở JSON nguyên bản đã giải nén</a></p><details><summary>Xem đầy đủ 1 mục</summary><pre>{
+  &quot;10005&quot;: {
+    &quot;ID&quot;: 10005,
+    &quot;GiftPackId&quot;: 1005,
+    &quot;StageNeedKeyList&quot;: [
+      0,
+      2,
+      3,
+      5,
+      5,
+      10,
+      10,
+      15,
+      15,
+      20,
+      30,
+      25,
+      30,
+      35,
+      40,
+      50,
+      40,
+      50,
+      60,
+      70,
+      80
+    ],
+    &quot;StageFreeItemList&quot;: [
+      [
+        [
+          1001,
+          20
+        ]
+      ],
+      [
+        [
+          1001,
+          10
+        ]
+      ],
+      [
+        [
+          1001,
+          20
+        ]
+      ],
+      [
+        [
+          1001,
+          30
+        ]
+      ],
+      [
+        [
+          1001,
+          40
+        ]
+      ],
+      [
+        [
+          1001,
+          30
+        ]
+      ],
+      [
+        [
+          1001,
+          50
+        ]
+      ],
+      [
+        [
+          1001,
+          60
+        ]
+      ],
+      [
+        [
+          1001,
+          80
+        ]
+      ],
+      [
+        [
+          1001,
+          100
+        ]
+      ],
+      [
+        [
+          10002,
+          1
+        ]
+      ],
+      [
+        [
+          1001,
+          120
+        ]
+      ],
+      [
+        [
+          1001,
+          150
+        ]
+      ],
+      [
+        [
+          10002,
+          1
+        ]
+      ],
+      [
+        [
+          1001,
+          200
+        ]
+      ],
+      [
+        [
+          1001,
+          50
+        ]
+      ],
+      [
+        [
+          1001,
+          250
+        ]
+      ],
+      [
+        [
+          10005,
+          1
+        ]
+      ],
+      [
+        [
+          1001,
+          300
+        ]
+      ],
+      [
+        [
+          1001,
+          500
+        ]
+      ],
+      [
+        [
+          10003,
+          1
+        ]
+      ]
+    ],
+    &quot;StageFreeRewardBoxList&quot;: [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    &quot;StagePassItemList&quot;: [
+      [
+        [
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          1001,
+          50
+        ]
+      ],
+      [
+        [
+          1001,
+          100
+        ]
+      ],
+      [
+        [
+          10002,
+          1
+        ]
+      ],
+      [
+        [
+          1001,
+          150
+        ]
+      ],
+      [
+        [
+          1001,
+          50
+        ]
+      ],
+      [
+        [
+          1001,
+          200
+        ]
+      ],
+      [
+        [
+          1001,
+          250
+        ]
+      ],
+      [
+        [
+          10005,
+          1
+        ]
+      ],
+      [
+        [
+          1001,
+          300
+        ]
+      ],
+      [
+        [
+          1001,
+          80
+        ]
+      ],
+      [
+        [
+          1001,
+          350
+        ]
+      ],
+      [
+        [
+          1001,
+          400
+        ]
+      ],
+      [
+        [
+          10002,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          1001,
+          150
+        ]
+      ],
+      [
+        [
+          1001,
+          650
+        ]
+      ],
+      [
+        [
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          10003,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          0
+        ]
+      ]
+    ],
+    &quot;StagePassRewardBoxList&quot;: [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2108,
+      0,
+      0,
+      2109,
+      0,
+      2110,
+      2111
+    ],
+    &quot;ProduceNL&quot;: 1,
+    &quot;ProduceHard&quot;: 1,
+    &quot;ProduceSuperHard&quot;: 1,
+    &quot;BonusBankNeed&quot;: 15,
+    &quot;BonusBankSingleReward&quot;: [
+      [
+        1001,
+        100
+      ]
+    ],
+    &quot;BonusBankMaxChangeTimes&quot;: 50,
+    &quot;PrivilegeId&quot;: 1
+  }
+}</pre></details></section><section id="TbPersonaConfig"><h2>TbPersonaConfig</h2><p><a href="Evidence/Unpacked/tables/TbPersonaConfig.json">Mở JSON nguyên bản đã giải nén</a></p><details><summary>Xem đầy đủ 3 mục</summary><pre>{
+  &quot;1&quot;: {
+    &quot;ID&quot;: 1,
+    &quot;GroupId&quot;: 1,
+    &quot;Strategy&quot;: [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    &quot;Weight&quot;: 10,
+    &quot;avgHistoryCostPerRound&quot;: 55
+  },
+  &quot;2&quot;: {
+    &quot;ID&quot;: 2,
+    &quot;GroupId&quot;: 1,
+    &quot;Strategy&quot;: [
+      1,
+      6,
+      6,
+      6,
+      2,
+      6,
+      1
+    ],
+    &quot;Weight&quot;: 10,
+    &quot;avgHistoryCostPerRound&quot;: 55
+  },
+  &quot;3&quot;: {
+    &quot;ID&quot;: 3,
+    &quot;GroupId&quot;: 1,
+    &quot;Strategy&quot;: [
+      1,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6
+    ],
+    &quot;Weight&quot;: 10,
+    &quot;avgHistoryCostPerRound&quot;: 55
+  }
+}</pre></details></section><section id="TbPlayerDecorateConfig"><h2>TbPlayerDecorateConfig</h2><p><a href="Evidence/Unpacked/tables/TbPlayerDecorateConfig.json">Mở JSON nguyên bản đã giải nén</a></p><details><summary>Xem đầy đủ 4 mục</summary><pre>{
+  &quot;300001&quot;: {
+    &quot;ID&quot;: 300001,
+    &quot;Type&quot;: &quot;Frame&quot;,
+    &quot;Path&quot;: &quot;Frame_Default&quot;,
+    &quot;LockTips&quot;: &quot;&quot;,
+    &quot;Order&quot;: 1,
+    &quot;Source&quot;: &quot;&quot;,
+    &quot;NoneActive&quot;: false,
+    &quot;AutoSet&quot;: 0
+  },
+  &quot;300002&quot;: {
+    &quot;ID&quot;: 300002,
+    &quot;Type&quot;: &quot;Frame&quot;,
+    &quot;Path&quot;: &quot;Frame_Gold&quot;,
+    &quot;LockTips&quot;: &quot;LockTip_Passport_Frame&quot;,
+    &quot;Order&quot;: 2,
+    &quot;Source&quot;: &quot;Passport&quot;,
+    &quot;NoneActive&quot;: false,
+    &quot;AutoSet&quot;: 0
+  },
+  &quot;400001&quot;: {
+    &quot;ID&quot;: 400001,
+    &quot;Type&quot;: &quot;Name&quot;,
+    &quot;Path&quot;: &quot;Name_Default&quot;,
+    &quot;LockTips&quot;: &quot;&quot;,
+    &quot;Order&quot;: 1,
+    &quot;Source&quot;: &quot;&quot;,
+    &quot;NoneActive&quot;: false,
+    &quot;AutoSet&quot;: 0
+  },
+  &quot;400002&quot;: {
+    &quot;ID&quot;: 400002,
+    &quot;Type&quot;: &quot;Name&quot;,
+    &quot;Path&quot;: &quot;Name_Gold&quot;,
+    &quot;LockTips&quot;: &quot;LockTip_Passport_NamePlate&quot;,
+    &quot;Order&quot;: 2,
+    &quot;Source&quot;: &quot;Passport&quot;,
+    &quot;NoneActive&quot;: false,
+    &quot;AutoSet&quot;: 0
+  }
+}</pre></details></section><section id="TbPlayerRoleName"><h2>TbPlayerRoleName</h2><p><a href="Evidence/Unpacked/tables/TbPlayerRoleName.json">Mở JSON nguyên bản đã giải nén</a></p><details><summary>Xem đầy đủ 501 mục</summary><pre>[
+  {
+    &quot;Country&quot;: [
+      &quot;EN_US&quot;,
+      &quot;EN_GB&quot;
+    ],
+    &quot;Rolename&quot;: &quot;James&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;EN_US&quot;,
+      &quot;EN_GB&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Mary&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;EN_US&quot;,
+      &quot;EN_GB&quot;
+    ],
+    &quot;Rolename&quot;: &quot;John&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;EN_US&quot;,
+      &quot;EN_GB&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Jennifer&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;EN_US&quot;,
+      &quot;EN_GB&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Michael&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;EN_US&quot;,
+      &quot;EN_GB&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Emily&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;EN_US&quot;,
+      &quot;EN_GB&quot;
+    ],
+    &quot;Rolename&quot;: &quot;William&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;EN_US&quot;,
+      &quot;EN_GB&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Sarah&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;EN_US&quot;,
+      &quot;EN_GB&quot;
+    ],
+    &quot;Rolename&quot;: &quot;David&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;EN_US&quot;,
+      &quot;EN_GB&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Jessica&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;EN_US&quot;,
+      &quot;EN_GB&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Robert&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;EN_US&quot;,
+      &quot;EN_GB&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Linda&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;EN_US&quot;,
+      &quot;EN_GB&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Joseph&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;EN_US&quot;,
+      &quot;EN_GB&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Karen&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;EN_US&quot;,
+      &quot;EN_GB&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Charles&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;EN_US&quot;,
+      &quot;EN_GB&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Susan&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;EN_US&quot;,
+      &quot;EN_GB&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Daniel&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;EN_US&quot;,
+      &quot;EN_GB&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Patricia&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;EN_US&quot;,
+      &quot;EN_GB&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Thomas&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;EN_US&quot;,
+      &quot;EN_GB&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Helen&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;EN_US&quot;,
+      &quot;EN_GB&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Richard&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;EN_US&quot;,
+      &quot;EN_GB&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Nancy&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;EN_US&quot;,
+      &quot;EN_GB&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Christopher&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;EN_US&quot;,
+      &quot;EN_GB&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Betty&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;EN_US&quot;,
+      &quot;EN_GB&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Matthew&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;EN_US&quot;,
+      &quot;EN_GB&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Dorothy&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;EN_US&quot;,
+      &quot;EN_GB&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Anthony&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;EN_US&quot;,
+      &quot;EN_GB&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Margaret&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;EN_US&quot;,
+      &quot;EN_GB&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Mark&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;EN_US&quot;,
+      &quot;EN_GB&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Sandra&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;EN_US&quot;,
+      &quot;EN_GB&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Steven&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;EN_US&quot;,
+      &quot;EN_GB&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Deborah&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;EN_US&quot;,
+      &quot;EN_GB&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Andrew&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;EN_US&quot;,
+      &quot;EN_GB&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Laura&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;EN_US&quot;,
+      &quot;EN_GB&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Paul&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;EN_US&quot;,
+      &quot;EN_GB&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Kimberly&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;EN_US&quot;,
+      &quot;EN_GB&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Kenneth&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;EN_US&quot;,
+      &quot;EN_GB&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Rachel&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;EN_US&quot;,
+      &quot;EN_GB&quot;
+    ],
+    &quot;Rolename&quot;: &quot;George&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;EN_US&quot;,
+      &quot;EN_GB&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Shirley&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;EN_US&quot;,
+      &quot;EN_GB&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Kevin&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;EN_US&quot;,
+      &quot;EN_GB&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Ruth&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;EN_US&quot;,
+      &quot;EN_GB&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Brian&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;EN_US&quot;,
+      &quot;EN_GB&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Emily&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;EN_US&quot;,
+      &quot;EN_GB&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Jacob&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;EN_US&quot;,
+      &quot;EN_GB&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Christine&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;EN_US&quot;,
+      &quot;EN_GB&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Edward&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;EN_US&quot;,
+      &quot;EN_GB&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Carol&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;EN_US&quot;,
+      &quot;EN_GB&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Jonathan&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;EN_US&quot;,
+      &quot;EN_GB&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Lisa&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ES&quot;,
+      &quot;ES_419&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Alejandro&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ES&quot;,
+      &quot;ES_419&quot;
+    ],
+    &quot;Rolename&quot;: &quot;María&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ES&quot;,
+      &quot;ES_419&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Carlos&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ES&quot;,
+      &quot;ES_419&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Lucía&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ES&quot;,
+      &quot;ES_419&quot;
+    ],
+    &quot;Rolename&quot;: &quot;José&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ES&quot;,
+      &quot;ES_419&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Sofía&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ES&quot;,
+      &quot;ES_419&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Antonio&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ES&quot;,
+      &quot;ES_419&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Isabella&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ES&quot;,
+      &quot;ES_419&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Juan&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ES&quot;,
+      &quot;ES_419&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Valentina&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ES&quot;,
+      &quot;ES_419&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Luis&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ES&quot;,
+      &quot;ES_419&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Camila&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ES&quot;,
+      &quot;ES_419&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Pedro&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ES&quot;,
+      &quot;ES_419&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Gabriela&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ES&quot;,
+      &quot;ES_419&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Fernando&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ES&quot;,
+      &quot;ES_419&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Daniela&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ES&quot;,
+      &quot;ES_419&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Jorge&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ES&quot;,
+      &quot;ES_419&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Elena&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ES&quot;,
+      &quot;ES_419&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Andrés&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ES&quot;,
+      &quot;ES_419&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Paula&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ES&quot;,
+      &quot;ES_419&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Manuel&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ES&quot;,
+      &quot;ES_419&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Sara&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ES&quot;,
+      &quot;ES_419&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Francisco&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ES&quot;,
+      &quot;ES_419&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Carla&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ES&quot;,
+      &quot;ES_419&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Diego&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ES&quot;,
+      &quot;ES_419&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Martina&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ES&quot;,
+      &quot;ES_419&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Rafael&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ES&quot;,
+      &quot;ES_419&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Laura&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ES&quot;,
+      &quot;ES_419&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Óscar&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ES&quot;,
+      &quot;ES_419&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Julia&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ES&quot;,
+      &quot;ES_419&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Ricardo&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ES&quot;,
+      &quot;ES_419&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Claudia&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ES&quot;,
+      &quot;ES_419&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Eduardo&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ES&quot;,
+      &quot;ES_419&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Patricia&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ES&quot;,
+      &quot;ES_419&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Ramón&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ES&quot;,
+      &quot;ES_419&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Rocío&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ES&quot;,
+      &quot;ES_419&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Mario&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ES&quot;,
+      &quot;ES_419&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Natalia&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ES&quot;,
+      &quot;ES_419&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Hugo&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ES&quot;,
+      &quot;ES_419&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Verónica&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ES&quot;,
+      &quot;ES_419&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Pablo&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ES&quot;,
+      &quot;ES_419&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Lola&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ES&quot;,
+      &quot;ES_419&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Iván&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ES&quot;,
+      &quot;ES_419&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Alejandra&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ES&quot;,
+      &quot;ES_419&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Raúl&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ES&quot;,
+      &quot;ES_419&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Irene&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ES&quot;,
+      &quot;ES_419&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Tomás&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ES&quot;,
+      &quot;ES_419&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Noelia&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ES&quot;,
+      &quot;ES_419&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Santiago&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ES&quot;,
+      &quot;ES_419&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Bianca&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ES&quot;,
+      &quot;ES_419&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Emilio&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;PT_PT&quot;,
+      &quot;PT_BR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;João&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;PT_PT&quot;,
+      &quot;PT_BR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Maria&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;PT_PT&quot;,
+      &quot;PT_BR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Pedro&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;PT_PT&quot;,
+      &quot;PT_BR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Ana&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;PT_PT&quot;,
+      &quot;PT_BR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Lucas&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;PT_PT&quot;,
+      &quot;PT_BR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Beatriz&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;PT_PT&quot;,
+      &quot;PT_BR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Gabriel&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;PT_PT&quot;,
+      &quot;PT_BR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Luísa&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;PT_PT&quot;,
+      &quot;PT_BR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Rafael&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;PT_PT&quot;,
+      &quot;PT_BR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Clara&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;PT_PT&quot;,
+      &quot;PT_BR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Mateus&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;PT_PT&quot;,
+      &quot;PT_BR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Camila&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;PT_PT&quot;,
+      &quot;PT_BR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Bruno&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;PT_PT&quot;,
+      &quot;PT_BR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Lara&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;PT_PT&quot;,
+      &quot;PT_BR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Tiago&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;PT_PT&quot;,
+      &quot;PT_BR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Helena&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;PT_PT&quot;,
+      &quot;PT_BR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;André&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;PT_PT&quot;,
+      &quot;PT_BR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Mariana&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;PT_PT&quot;,
+      &quot;PT_BR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Ricardo&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;PT_PT&quot;,
+      &quot;PT_BR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Isabela&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;PT_PT&quot;,
+      &quot;PT_BR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Gustavo&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;PT_PT&quot;,
+      &quot;PT_BR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Rita&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;PT_PT&quot;,
+      &quot;PT_BR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Leandro&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;PT_PT&quot;,
+      &quot;PT_BR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Sofia&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;PT_PT&quot;,
+      &quot;PT_BR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Felipe&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;PT_PT&quot;,
+      &quot;PT_BR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Carolina&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;PT_PT&quot;,
+      &quot;PT_BR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Daniel&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;PT_PT&quot;,
+      &quot;PT_BR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Inês&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;PT_PT&quot;,
+      &quot;PT_BR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Rodrigo&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;PT_PT&quot;,
+      &quot;PT_BR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Letícia&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;PT_PT&quot;,
+      &quot;PT_BR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Caio&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;PT_PT&quot;,
+      &quot;PT_BR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Vitória&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;PT_PT&quot;,
+      &quot;PT_BR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Henrique&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;PT_PT&quot;,
+      &quot;PT_BR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Bianca&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;PT_PT&quot;,
+      &quot;PT_BR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Fernando&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;PT_PT&quot;,
+      &quot;PT_BR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Daniela&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;PT_PT&quot;,
+      &quot;PT_BR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Eduardo&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;PT_PT&quot;,
+      &quot;PT_BR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Gabriela&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;PT_PT&quot;,
+      &quot;PT_BR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Diogo&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;PT_PT&quot;,
+      &quot;PT_BR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Juliana&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;PT_PT&quot;,
+      &quot;PT_BR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Paulo&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;PT_PT&quot;,
+      &quot;PT_BR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Manuela&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;PT_PT&quot;,
+      &quot;PT_BR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Alexandre&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;PT_PT&quot;,
+      &quot;PT_BR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Patrícia&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;PT_PT&quot;,
+      &quot;PT_BR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Vinícius&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;PT_PT&quot;,
+      &quot;PT_BR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Renata&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;PT_PT&quot;,
+      &quot;PT_BR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Antônio&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;PT_PT&quot;,
+      &quot;PT_BR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Catarina&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;PT_PT&quot;,
+      &quot;PT_BR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Murilo&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;PT_PT&quot;,
+      &quot;PT_BR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Jéssica&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;RU&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Александр&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;RU&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Мария&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;RU&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Дмитрий&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;RU&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Анна&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;RU&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Сергей&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;RU&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Екатерина&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;RU&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Андрей&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;RU&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Ольга&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;RU&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Алексей&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;RU&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Наталья&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;RU&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Иван&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;RU&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Татьяна&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;RU&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Николай&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;RU&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Ирина&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;RU&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Владимир&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;RU&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Елена&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;RU&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Михаил&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;RU&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Юлия&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;RU&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Павел&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;RU&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Светлана&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;RU&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Евгений&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;RU&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Марина&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;RU&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Максим&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;RU&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Анастасия&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;RU&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Виктор&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;RU&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Любовь&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;RU&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Артём&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;RU&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Галина&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;RU&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Игорь&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;RU&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Валентина&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;RU&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Роман&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;RU&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Людмила&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;RU&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Олег&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;RU&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Алёна&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;RU&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Ярослав&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;RU&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Ксения&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;RU&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Борис&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;RU&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Нина&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;RU&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Григорий&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;RU&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Зоя&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;RU&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Тимур&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;RU&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Вера&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;RU&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Василий&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;RU&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Полина&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;RU&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Леонид&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;RU&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Дарья&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;RU&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Константин&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;RU&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Жанна&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;RU&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Никита&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;RU&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Алиса&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;TR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Ahmet&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;TR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Ayşe&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;TR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Mehmet&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;TR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Fatma&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;TR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Mustafa&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;TR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Emine&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;TR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Ali&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;TR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Zeynep&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;TR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Hasan&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;TR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Elif&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;TR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Hüseyin&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;TR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Hatice&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;TR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;İbrahim&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;TR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Meryem&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;TR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Yusuf&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;TR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Aylin&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;TR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Osman&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;TR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Selin&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;TR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Ramazan&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;TR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Gamze&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;TR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Murat&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;TR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Seda&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;TR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Halil&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;TR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Buse&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;TR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Kemal&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;TR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Derya&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;TR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Bekir&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;TR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Gül&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;TR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Veli&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;TR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Tuğba&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;TR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Recep&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;TR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Cansu&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;TR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Tuncay&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;TR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Yasemin&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;TR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Metin&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;TR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;İrem&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;TR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Sinan&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;TR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Melis&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;TR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Cem&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;TR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Nazan&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;TR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Serkan&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;TR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Pelin&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;TR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Orhan&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;TR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Şeyma&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;TR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Can&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;TR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Nurgül&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;TR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Volkan&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;TR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Ezgi&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;TR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Barış&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;TR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Aslı&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;FR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Jean&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;FR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Marie&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;FR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Pierre&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;FR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Claire&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;FR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Michel&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;FR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Sophie&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;FR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Jacques&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;FR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Camille&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;FR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Alain&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;FR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Julie&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;FR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;André&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;FR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Chloé&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;FR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Louis&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;FR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Émilie&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;FR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Paul&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;FR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Manon&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;FR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Henri&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;FR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Lucie&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;FR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Marc&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;FR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Sarah&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;FR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Georges&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;FR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Charlotte&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;FR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;René&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;FR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Léa&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;FR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Raymond&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;FR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Emma&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;FR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Bernard&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;FR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Anaïs&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;FR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Gérard&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;FR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Zoé&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;FR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Claude&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;FR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Laura&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;FR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Daniel&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;FR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Nina&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;FR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;François&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;FR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Océane&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;FR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Christian&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;FR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Élodie&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;FR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Thierry&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;FR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Lola&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;FR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Jean-Luc&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;FR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Justine&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;FR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Laurent&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;FR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Inès&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;FR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Pascal&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;FR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Clémence&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;FR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Roger&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;FR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Mathilde&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;FR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Nicolas&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;FR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Alice&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;AR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;أحمد&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;AR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;نور&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;AR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;سمير&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;AR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;ليلى&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;AR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;رامي&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;AR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;هناء&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;AR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;طارق&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;AR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;أميرة&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;AR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;زيد&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;AR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;داليا&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;AR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;فادي&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;AR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;مايا&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;AR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;نبيل&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;AR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;ياسمين&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;AR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;رانيا&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;AR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;عمر&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;AR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;سلمى&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;AR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;خالد&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;AR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;رشا&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;AR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;علي&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;AR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;ليلى&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;AR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;فارس&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;AR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;ليلى&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;AR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;كريم&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;AR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;زينب&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;AR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;بلال&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;AR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;ملاك&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;AR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;سميرة&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;AR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;طارق&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;AR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;ميساء&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;AR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;زين&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;AR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;نجوى&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;AR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;عادل&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;AR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;فرح&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;AR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;عماد&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;AR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;نادين&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;AR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;رامي&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;AR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;سارة&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;AR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;يوسف&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;AR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;نوران&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;AR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;سامي&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;AR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;ربا&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;AR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;نادر&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;AR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;حنان&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;AR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;وليد&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;AR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;سهى&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;AR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;حسن&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;AR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;سناء&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;AR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;مروان&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;AR&quot;
+    ],
+    &quot;Rolename&quot;: &quot;نسرين&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ID&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Adi&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ID&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Ayu&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ID&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Budi&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ID&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Citra&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ID&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Dwi&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ID&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Eka&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ID&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Fajar&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ID&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Fitri&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ID&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Gita&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ID&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Hana&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ID&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Ika&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ID&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Indra&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ID&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Joko&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ID&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Kartika&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ID&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Lestari&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ID&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Mahira&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ID&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Nanda&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ID&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Novi&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ID&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Putra&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ID&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Rani&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ID&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Rudi&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ID&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Sari&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ID&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Santoso&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ID&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Siti&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ID&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Surya&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ID&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Tika&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ID&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Wawan&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ID&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Wati&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ID&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Yani&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ID&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Yudha&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ID&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Anggi&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ID&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Dinda&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ID&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Hadi&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ID&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Ilham&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ID&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Jihan&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ID&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Kiki&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ID&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Lila&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ID&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Melati&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ID&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Nia&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ID&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Prita&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ID&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Rizki&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ID&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Siska&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ID&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Tanti&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ID&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Vina&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ID&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Wanda&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ID&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Zainab&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ID&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Fina&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ID&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Reza&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ID&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Dedi&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;ID&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Taufik&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;KO&quot;
+    ],
+    &quot;Rolename&quot;: &quot;지민&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;KO&quot;
+    ],
+    &quot;Rolename&quot;: &quot;예린&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;KO&quot;
+    ],
+    &quot;Rolename&quot;: &quot;현우&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;KO&quot;
+    ],
+    &quot;Rolename&quot;: &quot;수빈&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;KO&quot;
+    ],
+    &quot;Rolename&quot;: &quot;태현&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;KO&quot;
+    ],
+    &quot;Rolename&quot;: &quot;민지&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;KO&quot;
+    ],
+    &quot;Rolename&quot;: &quot;하늘&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;KO&quot;
+    ],
+    &quot;Rolename&quot;: &quot;승민&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;KO&quot;
+    ],
+    &quot;Rolename&quot;: &quot;다현&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;KO&quot;
+    ],
+    &quot;Rolename&quot;: &quot;은지&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;KO&quot;
+    ],
+    &quot;Rolename&quot;: &quot;서준&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;KO&quot;
+    ],
+    &quot;Rolename&quot;: &quot;예준&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;KO&quot;
+    ],
+    &quot;Rolename&quot;: &quot;유진&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;KO&quot;
+    ],
+    &quot;Rolename&quot;: &quot;준호&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;KO&quot;
+    ],
+    &quot;Rolename&quot;: &quot;수현&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;KO&quot;
+    ],
+    &quot;Rolename&quot;: &quot;지아&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;KO&quot;
+    ],
+    &quot;Rolename&quot;: &quot;민석&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;KO&quot;
+    ],
+    &quot;Rolename&quot;: &quot;소윤&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;KO&quot;
+    ],
+    &quot;Rolename&quot;: &quot;준영&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;KO&quot;
+    ],
+    &quot;Rolename&quot;: &quot;효진&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;KO&quot;
+    ],
+    &quot;Rolename&quot;: &quot;민호&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;KO&quot;
+    ],
+    &quot;Rolename&quot;: &quot;지은&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;KO&quot;
+    ],
+    &quot;Rolename&quot;: &quot;태민&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;KO&quot;
+    ],
+    &quot;Rolename&quot;: &quot;선우&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;KO&quot;
+    ],
+    &quot;Rolename&quot;: &quot;다연&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;KO&quot;
+    ],
+    &quot;Rolename&quot;: &quot;세진&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;KO&quot;
+    ],
+    &quot;Rolename&quot;: &quot;현정&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;KO&quot;
+    ],
+    &quot;Rolename&quot;: &quot;지후&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;KO&quot;
+    ],
+    &quot;Rolename&quot;: &quot;연우&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;KO&quot;
+    ],
+    &quot;Rolename&quot;: &quot;지혜&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;KO&quot;
+    ],
+    &quot;Rolename&quot;: &quot;강민&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;KO&quot;
+    ],
+    &quot;Rolename&quot;: &quot;윤호&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;KO&quot;
+    ],
+    &quot;Rolename&quot;: &quot;나영&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;KO&quot;
+    ],
+    &quot;Rolename&quot;: &quot;은혜&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;KO&quot;
+    ],
+    &quot;Rolename&quot;: &quot;서현&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;KO&quot;
+    ],
+    &quot;Rolename&quot;: &quot;현아&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;KO&quot;
+    ],
+    &quot;Rolename&quot;: &quot;선미&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;KO&quot;
+    ],
+    &quot;Rolename&quot;: &quot;정수&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;KO&quot;
+    ],
+    &quot;Rolename&quot;: &quot;한별&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;KO&quot;
+    ],
+    &quot;Rolename&quot;: &quot;은서&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;KO&quot;
+    ],
+    &quot;Rolename&quot;: &quot;유나&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;KO&quot;
+    ],
+    &quot;Rolename&quot;: &quot;기현&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;KO&quot;
+    ],
+    &quot;Rolename&quot;: &quot;서영&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;KO&quot;
+    ],
+    &quot;Rolename&quot;: &quot;나래&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;KO&quot;
+    ],
+    &quot;Rolename&quot;: &quot;수빈&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;KO&quot;
+    ],
+    &quot;Rolename&quot;: &quot;우진&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;KO&quot;
+    ],
+    &quot;Rolename&quot;: &quot;영은&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;KO&quot;
+    ],
+    &quot;Rolename&quot;: &quot;지윤&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;KO&quot;
+    ],
+    &quot;Rolename&quot;: &quot;정민&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;KO&quot;
+    ],
+    &quot;Rolename&quot;: &quot;세영&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;DE&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Lukas&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;DE&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Emma&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;DE&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Paul&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;DE&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Mia&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;DE&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Leon&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;DE&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Anna&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;DE&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Elias&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;DE&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Sophie&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;DE&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Max&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;DE&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Maria&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;DE&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Jonas&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;DE&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Laura&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;DE&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Noah&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;DE&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Lena&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;DE&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Felix&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;DE&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Hannah&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;DE&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Ben&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;DE&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Sarah&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;DE&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Alexander&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;DE&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Julia&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;DE&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Luis&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;DE&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Marie&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;DE&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Tim&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;DE&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Clara&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;DE&quot;
+    ],
+    &quot;Rolename&quot;: &quot;David&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;DE&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Lilly&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;DE&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Samuel&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;DE&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Zoe&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;DE&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Gabriel&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;DE&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Eva&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;DE&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Adrian&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;DE&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Lea&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;DE&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Christian&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;DE&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Charlotte&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;DE&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Oskar&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;DE&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Johanna&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;DE&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Vincent&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;DE&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Emily&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;DE&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Moritz&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;DE&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Stella&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;DE&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Friedrich&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;DE&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Carla&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;DE&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Jonathan&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;DE&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Greta&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;DE&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Emil&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;DE&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Luisa&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;DE&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Richard&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;DE&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Nora&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;DE&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Simon&quot;
+  },
+  {
+    &quot;Country&quot;: [
+      &quot;DE&quot;
+    ],
+    &quot;Rolename&quot;: &quot;Ida&quot;
+  }
+]</pre></details></section><section id="TbPrivilege"><h2>TbPrivilege</h2><p><a href="Evidence/Unpacked/tables/TbPrivilege.json">Mở JSON nguyên bản đã giải nén</a></p><details><summary>Xem đầy đủ 1 mục</summary><pre>{
+  &quot;1&quot;: {
+    &quot;ID&quot;: 1,
+    &quot;PowerLimitAdd&quot;: 3,
+    &quot;FrameId&quot;: 300002,
+    &quot;NamePlateId&quot;: 400002
+  }
+}</pre></details></section><section id="TbRacingRobotConfig"><h2>TbRacingRobotConfig</h2><p><a href="Evidence/Unpacked/tables/TbRacingRobotConfig.json">Mở JSON nguyên bản đã giải nén</a></p><details><summary>Xem đầy đủ 25 mục</summary><pre>{
+  &quot;1001&quot;: {
+    &quot;ID&quot;: 1001,
+    &quot;RobotType&quot;: 1,
+    &quot;Speed&quot;: &quot;1:60&quot;,
+    &quot;FailedProbability&quot;: &quot;1:0&quot;,
+    &quot;Hangup&quot;: &quot;1:0&quot;,
+    &quot;formula&quot;: &quot;1&quot;
+  },
+  &quot;1002&quot;: {
+    &quot;ID&quot;: 1002,
+    &quot;RobotType&quot;: 1,
+    &quot;Speed&quot;: &quot;2:[60,80]&quot;,
+    &quot;FailedProbability&quot;: &quot;1:0&quot;,
+    &quot;Hangup&quot;: &quot;1:0&quot;,
+    &quot;formula&quot;: &quot;1&quot;
+  },
+  &quot;1003&quot;: {
+    &quot;ID&quot;: 1003,
+    &quot;RobotType&quot;: 1,
+    &quot;Speed&quot;: &quot;3:2500/max(userscore_stage1,20)&quot;,
+    &quot;FailedProbability&quot;: &quot;1:0&quot;,
+    &quot;Hangup&quot;: &quot;1:0&quot;,
+    &quot;formula&quot;: &quot;1&quot;
+  },
+  &quot;1004&quot;: {
+    &quot;ID&quot;: 1004,
+    &quot;RobotType&quot;: 1,
+    &quot;Speed&quot;: &quot;1:60&quot;,
+    &quot;FailedProbability&quot;: &quot;1:0&quot;,
+    &quot;Hangup&quot;: &quot;1:1&quot;,
+    &quot;formula&quot;: &quot;1&quot;
+  },
+  &quot;1005&quot;: {
+    &quot;ID&quot;: 1005,
+    &quot;RobotType&quot;: 1,
+    &quot;Speed&quot;: &quot;2:[60,100]&quot;,
+    &quot;FailedProbability&quot;: &quot;4:0.75&quot;,
+    &quot;Hangup&quot;: &quot;1:0&quot;,
+    &quot;formula&quot;: &quot;1&quot;
+  },
+  &quot;1006&quot;: {
+    &quot;ID&quot;: 1006,
+    &quot;RobotType&quot;: 1,
+    &quot;Speed&quot;: &quot;2:60*(1+random(0,0.5))&quot;,
+    &quot;FailedProbability&quot;: &quot;1:0&quot;,
+    &quot;Hangup&quot;: &quot;1:0&quot;,
+    &quot;formula&quot;: &quot;1&quot;
+  },
+  &quot;1007&quot;: {
+    &quot;ID&quot;: 1007,
+    &quot;RobotType&quot;: 1,
+    &quot;Speed&quot;: &quot;1:60&quot;,
+    &quot;FailedProbability&quot;: &quot;1:0.1,2:0.2,3:0.3&quot;,
+    &quot;Hangup&quot;: &quot;1:0&quot;,
+    &quot;formula&quot;: &quot;1&quot;
+  },
+  &quot;1008&quot;: {
+    &quot;ID&quot;: 1008,
+    &quot;RobotType&quot;: 1,
+    &quot;Speed&quot;: &quot;1:80&quot;,
+    &quot;FailedProbability&quot;: &quot;1:0&quot;,
+    &quot;Hangup&quot;: &quot;1:0&quot;,
+    &quot;formula&quot;: &quot;1&quot;
+  },
+  &quot;1009&quot;: {
+    &quot;ID&quot;: 1009,
+    &quot;RobotType&quot;: 1,
+    &quot;Speed&quot;: &quot;1:100&quot;,
+    &quot;FailedProbability&quot;: &quot;1:0&quot;,
+    &quot;Hangup&quot;: &quot;1:0&quot;,
+    &quot;formula&quot;: &quot;1&quot;
+  },
+  &quot;1010&quot;: {
+    &quot;ID&quot;: 1010,
+    &quot;RobotType&quot;: 1,
+    &quot;Speed&quot;: &quot;1:60&quot;,
+    &quot;FailedProbability&quot;: &quot;1:0&quot;,
+    &quot;Hangup&quot;: &quot;1:2&quot;,
+    &quot;formula&quot;: &quot;1&quot;
+  },
+  &quot;1011&quot;: {
+    &quot;ID&quot;: 1011,
+    &quot;RobotType&quot;: 1,
+    &quot;Speed&quot;: &quot;1:60&quot;,
+    &quot;FailedProbability&quot;: &quot;5:0.2&quot;,
+    &quot;Hangup&quot;: &quot;1:0&quot;,
+    &quot;formula&quot;: &quot;1&quot;
+  },
+  &quot;1012&quot;: {
+    &quot;ID&quot;: 1012,
+    &quot;RobotType&quot;: 1,
+    &quot;Speed&quot;: &quot;1:100&quot;,
+    &quot;FailedProbability&quot;: &quot;1:0.1,2:0.2,3:0.3&quot;,
+    &quot;Hangup&quot;: &quot;1:0&quot;,
+    &quot;formula&quot;: &quot;1&quot;
+  },
+  &quot;1015&quot;: {
+    &quot;ID&quot;: 1015,
+    &quot;RobotType&quot;: 1,
+    &quot;Speed&quot;: &quot;1:100&quot;,
+    &quot;FailedProbability&quot;: &quot;4:0.75&quot;,
+    &quot;Hangup&quot;: &quot;1:0&quot;,
+    &quot;formula&quot;: &quot;1&quot;
+  },
+  &quot;1016&quot;: {
+    &quot;ID&quot;: 1016,
+    &quot;RobotType&quot;: 1,
+    &quot;Speed&quot;: &quot;1:80&quot;,
+    &quot;FailedProbability&quot;: &quot;4:0.75&quot;,
+    &quot;Hangup&quot;: &quot;1:0&quot;,
+    &quot;formula&quot;: &quot;1&quot;
+  },
+  &quot;1017&quot;: {
+    &quot;ID&quot;: 1017,
+    &quot;RobotType&quot;: 1,
+    &quot;Speed&quot;: &quot;1:60&quot;,
+    &quot;FailedProbability&quot;: &quot;4:0.75&quot;,
+    &quot;Hangup&quot;: &quot;1:0&quot;,
+    &quot;formula&quot;: &quot;1&quot;
+  },
+  &quot;1018&quot;: {
+    &quot;ID&quot;: 1018,
+    &quot;RobotType&quot;: 1,
+    &quot;Speed&quot;: &quot;2:[60,90]&quot;,
+    &quot;FailedProbability&quot;: &quot;1:0.1,2:0.2,3:0.3&quot;,
+    &quot;Hangup&quot;: &quot;1:1&quot;,
+    &quot;formula&quot;: &quot;1&quot;
+  },
+  &quot;1019&quot;: {
+    &quot;ID&quot;: 1019,
+    &quot;RobotType&quot;: 1,
+    &quot;Speed&quot;: &quot;2:[90,120]&quot;,
+    &quot;FailedProbability&quot;: &quot;1:0.2,2:0.4,3:0.6&quot;,
+    &quot;Hangup&quot;: &quot;1:0&quot;,
+    &quot;formula&quot;: &quot;1&quot;
+  },
+  &quot;1020&quot;: {
+    &quot;ID&quot;: 1020,
+    &quot;RobotType&quot;: 1,
+    &quot;Speed&quot;: &quot;1:80&quot;,
+    &quot;FailedProbability&quot;: &quot;1:0&quot;,
+    &quot;Hangup&quot;: &quot;1:1&quot;,
+    &quot;formula&quot;: &quot;1&quot;
+  },
+  &quot;1021&quot;: {
+    &quot;ID&quot;: 1021,
+    &quot;RobotType&quot;: 1,
+    &quot;Speed&quot;: &quot;2:[60,90]&quot;,
+    &quot;FailedProbability&quot;: &quot;1:0.1,2:0.2,3:0.3&quot;,
+    &quot;Hangup&quot;: &quot;1:0&quot;,
+    &quot;formula&quot;: &quot;1&quot;
+  },
+  &quot;1022&quot;: {
+    &quot;ID&quot;: 1022,
+    &quot;RobotType&quot;: 1,
+    &quot;Speed&quot;: &quot;2:[80,110]&quot;,
+    &quot;FailedProbability&quot;: &quot;1:0.1,2:0.2,3:0.3&quot;,
+    &quot;Hangup&quot;: &quot;1:0&quot;,
+    &quot;formula&quot;: &quot;1&quot;
+  },
+  &quot;1023&quot;: {
+    &quot;ID&quot;: 1023,
+    &quot;RobotType&quot;: 1,
+    &quot;Speed&quot;: &quot;2:[60,80]&quot;,
+    &quot;FailedProbability&quot;: &quot;1:0.2,2:0.4,3:0.6&quot;,
+    &quot;Hangup&quot;: &quot;1:0&quot;,
+    &quot;formula&quot;: &quot;1&quot;
+  },
+  &quot;2001&quot;: {
+    &quot;ID&quot;: 2001,
+    &quot;RobotType&quot;: 2,
+    &quot;Speed&quot;: &quot;1:60,70,80,90,100&quot;,
+    &quot;FailedProbability&quot;: &quot;1:0&quot;,
+    &quot;Hangup&quot;: &quot;1:0&quot;,
+    &quot;formula&quot;: &quot;1&quot;
+  },
+  &quot;2002&quot;: {
+    &quot;ID&quot;: 2002,
+    &quot;RobotType&quot;: 2,
+    &quot;Speed&quot;: &quot;2:60*(1+0.5*floor(robotstage/4))&quot;,
+    &quot;FailedProbability&quot;: &quot;1:0&quot;,
+    &quot;Hangup&quot;: &quot;1:0&quot;,
+    &quot;formula&quot;: &quot;1&quot;
+  },
+  &quot;2003&quot;: {
+    &quot;ID&quot;: 2003,
+    &quot;RobotType&quot;: 2,
+    &quot;Speed&quot;: &quot;2:80/(1+floor(robotstage/4))&quot;,
+    &quot;FailedProbability&quot;: &quot;1:0&quot;,
+    &quot;Hangup&quot;: &quot;1:0&quot;,
+    &quot;formula&quot;: &quot;1&quot;
+  },
+  &quot;3001&quot;: {
+    &quot;ID&quot;: 3001,
+    &quot;RobotType&quot;: 3,
+    &quot;Speed&quot;: &quot;1:[-2,-1]&quot;,
+    &quot;FailedProbability&quot;: &quot;1&quot;,
+    &quot;Hangup&quot;: &quot;1:0&quot;,
+    &quot;formula&quot;: &quot;1&quot;
+  }
+}</pre></details></section><section id="TbRacingRobotGlobalConfig"><h2>TbRacingRobotGlobalConfig</h2><p><a href="Evidence/Unpacked/tables/TbRacingRobotGlobalConfig.json">Mở JSON nguyên bản đã giải nén</a></p><details><summary>Xem đầy đủ 1 mục</summary><pre>{
+  &quot;1&quot;: {
+    &quot;ID&quot;: 1,
+    &quot;Stage1W1&quot;: 80,
+    &quot;Stage1W2&quot;: 5,
+    &quot;Stage1W3&quot;: 15,
+    &quot;Stage1W4&quot;: 0,
+    &quot;Stage2k&quot;: 1,
+    &quot;StageThresholdBase&quot;: 500,
+    &quot;StageThresholdBase2&quot;: 0.05,
+    &quot;StageThresholdStageMultiplier&quot;: 1,
+    &quot;CompetingRobotMinCount&quot;: 1,
+    &quot;CompetingRobotMaxCount&quot;: 2,
+    &quot;CompetingRobotDistanceMin&quot;: -3,
+    &quot;CompetingRobotDistanceMax&quot;: -1
+  }
+}</pre></details></section><section id="TbRacingRobotGroupConfig"><h2>TbRacingRobotGroupConfig</h2><p><a href="Evidence/Unpacked/tables/TbRacingRobotGroupConfig.json">Mở JSON nguyên bản đã giải nén</a></p><details><summary>Xem đầy đủ 24 mục</summary><pre>{
+  &quot;1&quot;: {
+    &quot;ID&quot;: 1,
+    &quot;Stage&quot;: &quot;1,2,3&quot;,
+    &quot;ScoreMin&quot;: 0,
+    &quot;ScoreMax&quot;: 50,
+    &quot;FixedRobotIds&quot;: &quot;1009,1010,1007,1008&quot;,
+    &quot;NonThreatRobotIds&quot;: &quot;&quot;,
+    &quot;ThreatRobotIds&quot;: &quot;&quot;,
+    &quot;FixedRobotCount&quot;: 4,
+    &quot;NonThreatCount&quot;: 0,
+    &quot;ThreatCount&quot;: 0,
+    &quot;PickMode&quot;: 1,
+    &quot;CountThreatScore&quot;: 0,
+    &quot;Weight&quot;: 0
+  },
+  &quot;2&quot;: {
+    &quot;ID&quot;: 2,
+    &quot;Stage&quot;: &quot;1,2,3&quot;,
+    &quot;ScoreMin&quot;: 0,
+    &quot;ScoreMax&quot;: 100,
+    &quot;FixedRobotIds&quot;: &quot;1006,1009,1004,2002&quot;,
+    &quot;NonThreatRobotIds&quot;: &quot;&quot;,
+    &quot;ThreatRobotIds&quot;: &quot;&quot;,
+    &quot;FixedRobotCount&quot;: 4,
+    &quot;NonThreatCount&quot;: 0,
+    &quot;ThreatCount&quot;: 0,
+    &quot;PickMode&quot;: 1,
+    &quot;CountThreatScore&quot;: 0,
+    &quot;Weight&quot;: 0
+  },
+  &quot;3&quot;: {
+    &quot;ID&quot;: 3,
+    &quot;Stage&quot;: &quot;1,2,3&quot;,
+    &quot;ScoreMin&quot;: 50,
+    &quot;ScoreMax&quot;: 100,
+    &quot;FixedRobotIds&quot;: &quot;1001,2003,1005,1004&quot;,
+    &quot;NonThreatRobotIds&quot;: &quot;&quot;,
+    &quot;ThreatRobotIds&quot;: &quot;&quot;,
+    &quot;FixedRobotCount&quot;: 4,
+    &quot;NonThreatCount&quot;: 0,
+    &quot;ThreatCount&quot;: 0,
+    &quot;PickMode&quot;: 1,
+    &quot;CountThreatScore&quot;: 0,
+    &quot;Weight&quot;: 0
+  },
+  &quot;4&quot;: {
+    &quot;ID&quot;: 4,
+    &quot;Stage&quot;: &quot;1,2,3&quot;,
+    &quot;ScoreMin&quot;: 0,
+    &quot;ScoreMax&quot;: 100,
+    &quot;FixedRobotIds&quot;: &quot;1007,1009,1010&quot;,
+    &quot;NonThreatRobotIds&quot;: &quot;&quot;,
+    &quot;ThreatRobotIds&quot;: &quot;1003&quot;,
+    &quot;FixedRobotCount&quot;: 3,
+    &quot;NonThreatCount&quot;: 0,
+    &quot;ThreatCount&quot;: 1,
+    &quot;PickMode&quot;: 1,
+    &quot;CountThreatScore&quot;: 0,
+    &quot;Weight&quot;: 0
+  },
+  &quot;5&quot;: {
+    &quot;ID&quot;: 5,
+    &quot;Stage&quot;: &quot;1,2,3&quot;,
+    &quot;ScoreMin&quot;: 75,
+    &quot;ScoreMax&quot;: 100,
+    &quot;FixedRobotIds&quot;: &quot;1002,1004,1006,1009&quot;,
+    &quot;NonThreatRobotIds&quot;: &quot;&quot;,
+    &quot;ThreatRobotIds&quot;: &quot;&quot;,
+    &quot;FixedRobotCount&quot;: 4,
+    &quot;NonThreatCount&quot;: 0,
+    &quot;ThreatCount&quot;: 0,
+    &quot;PickMode&quot;: 1,
+    &quot;CountThreatScore&quot;: 0,
+    &quot;Weight&quot;: 0
+  },
+  &quot;6&quot;: {
+    &quot;ID&quot;: 6,
+    &quot;Stage&quot;: &quot;1,2,3&quot;,
+    &quot;ScoreMin&quot;: 0,
+    &quot;ScoreMax&quot;: 25,
+    &quot;FixedRobotIds&quot;: &quot;1007,1004,1010,3001&quot;,
+    &quot;NonThreatRobotIds&quot;: &quot;&quot;,
+    &quot;ThreatRobotIds&quot;: &quot;&quot;,
+    &quot;FixedRobotCount&quot;: 4,
+    &quot;NonThreatCount&quot;: 0,
+    &quot;ThreatCount&quot;: 0,
+    &quot;PickMode&quot;: 1,
+    &quot;CountThreatScore&quot;: 0,
+    &quot;Weight&quot;: 0
+  },
+  &quot;7&quot;: {
+    &quot;ID&quot;: 7,
+    &quot;Stage&quot;: &quot;1&quot;,
+    &quot;ScoreMin&quot;: 0,
+    &quot;ScoreMax&quot;: 50,
+    &quot;FixedRobotIds&quot;: &quot;3001,1012,1004,1015&quot;,
+    &quot;NonThreatRobotIds&quot;: &quot;&quot;,
+    &quot;ThreatRobotIds&quot;: &quot;&quot;,
+    &quot;FixedRobotCount&quot;: 4,
+    &quot;NonThreatCount&quot;: 0,
+    &quot;ThreatCount&quot;: 0,
+    &quot;PickMode&quot;: 1,
+    &quot;CountThreatScore&quot;: 0,
+    &quot;Weight&quot;: 0
+  },
+  &quot;8&quot;: {
+    &quot;ID&quot;: 8,
+    &quot;Stage&quot;: &quot;1&quot;,
+    &quot;ScoreMin&quot;: 50,
+    &quot;ScoreMax&quot;: 100,
+    &quot;FixedRobotIds&quot;: &quot;1016,3001,1007,1009&quot;,
+    &quot;NonThreatRobotIds&quot;: &quot;&quot;,
+    &quot;ThreatRobotIds&quot;: &quot;&quot;,
+    &quot;FixedRobotCount&quot;: 4,
+    &quot;NonThreatCount&quot;: 0,
+    &quot;ThreatCount&quot;: 0,
+    &quot;PickMode&quot;: 1,
+    &quot;CountThreatScore&quot;: 0,
+    &quot;Weight&quot;: 0
+  },
+  &quot;9&quot;: {
+    &quot;ID&quot;: 9,
+    &quot;Stage&quot;: &quot;1&quot;,
+    &quot;ScoreMin&quot;: 0,
+    &quot;ScoreMax&quot;: 100,
+    &quot;FixedRobotIds&quot;: &quot;3001,1004,1009,1011&quot;,
+    &quot;NonThreatRobotIds&quot;: &quot;&quot;,
+    &quot;ThreatRobotIds&quot;: &quot;&quot;,
+    &quot;FixedRobotCount&quot;: 4,
+    &quot;NonThreatCount&quot;: 0,
+    &quot;ThreatCount&quot;: 0,
+    &quot;PickMode&quot;: 1,
+    &quot;CountThreatScore&quot;: 0,
+    &quot;Weight&quot;: 0
+  },
+  &quot;10&quot;: {
+    &quot;ID&quot;: 10,
+    &quot;Stage&quot;: &quot;2&quot;,
+    &quot;ScoreMin&quot;: 0,
+    &quot;ScoreMax&quot;: 50,
+    &quot;FixedRobotIds&quot;: &quot;1015,1012,1009&quot;,
+    &quot;NonThreatRobotIds&quot;: &quot;&quot;,
+    &quot;ThreatRobotIds&quot;: &quot;&quot;,
+    &quot;FixedRobotCount&quot;: 4,
+    &quot;NonThreatCount&quot;: 0,
+    &quot;ThreatCount&quot;: 0,
+    &quot;PickMode&quot;: 1,
+    &quot;CountThreatScore&quot;: 0,
+    &quot;Weight&quot;: 0
+  },
+  &quot;11&quot;: {
+    &quot;ID&quot;: 11,
+    &quot;Stage&quot;: &quot;2&quot;,
+    &quot;ScoreMin&quot;: 50,
+    &quot;ScoreMax&quot;: 100,
+    &quot;FixedRobotIds&quot;: &quot;1016,1007,1008&quot;,
+    &quot;NonThreatRobotIds&quot;: &quot;&quot;,
+    &quot;ThreatRobotIds&quot;: &quot;&quot;,
+    &quot;FixedRobotCount&quot;: 4,
+    &quot;NonThreatCount&quot;: 0,
+    &quot;ThreatCount&quot;: 0,
+    &quot;PickMode&quot;: 1,
+    &quot;CountThreatScore&quot;: 0,
+    &quot;Weight&quot;: 0
+  },
+  &quot;12&quot;: {
+    &quot;ID&quot;: 12,
+    &quot;Stage&quot;: &quot;2&quot;,
+    &quot;ScoreMin&quot;: 0,
+    &quot;ScoreMax&quot;: 100,
+    &quot;FixedRobotIds&quot;: &quot;1017,1009,1011&quot;,
+    &quot;NonThreatRobotIds&quot;: &quot;&quot;,
+    &quot;ThreatRobotIds&quot;: &quot;&quot;,
+    &quot;FixedRobotCount&quot;: 4,
+    &quot;NonThreatCount&quot;: 0,
+    &quot;ThreatCount&quot;: 0,
+    &quot;PickMode&quot;: 1,
+    &quot;CountThreatScore&quot;: 0,
+    &quot;Weight&quot;: 0
+  },
+  &quot;13&quot;: {
+    &quot;ID&quot;: 13,
+    &quot;Stage&quot;: &quot;3&quot;,
+    &quot;ScoreMin&quot;: 0,
+    &quot;ScoreMax&quot;: 50,
+    &quot;FixedRobotIds&quot;: &quot;1012,1009&quot;,
+    &quot;NonThreatRobotIds&quot;: &quot;&quot;,
+    &quot;ThreatRobotIds&quot;: &quot;&quot;,
+    &quot;FixedRobotCount&quot;: 4,
+    &quot;NonThreatCount&quot;: 0,
+    &quot;ThreatCount&quot;: 0,
+    &quot;PickMode&quot;: 1,
+    &quot;CountThreatScore&quot;: 0,
+    &quot;Weight&quot;: 0
+  },
+  &quot;14&quot;: {
+    &quot;ID&quot;: 14,
+    &quot;Stage&quot;: &quot;3&quot;,
+    &quot;ScoreMin&quot;: 50,
+    &quot;ScoreMax&quot;: 100,
+    &quot;FixedRobotIds&quot;: &quot;1007,1002&quot;,
+    &quot;NonThreatRobotIds&quot;: &quot;&quot;,
+    &quot;ThreatRobotIds&quot;: &quot;&quot;,
+    &quot;FixedRobotCount&quot;: 4,
+    &quot;NonThreatCount&quot;: 0,
+    &quot;ThreatCount&quot;: 0,
+    &quot;PickMode&quot;: 1,
+    &quot;CountThreatScore&quot;: 0,
+    &quot;Weight&quot;: 0
+  },
+  &quot;15&quot;: {
+    &quot;ID&quot;: 15,
+    &quot;Stage&quot;: &quot;3&quot;,
+    &quot;ScoreMin&quot;: 0,
+    &quot;ScoreMax&quot;: 100,
+    &quot;FixedRobotIds&quot;: &quot;1008,1012&quot;,
+    &quot;NonThreatRobotIds&quot;: &quot;&quot;,
+    &quot;ThreatRobotIds&quot;: &quot;&quot;,
+    &quot;FixedRobotCount&quot;: 4,
+    &quot;NonThreatCount&quot;: 0,
+    &quot;ThreatCount&quot;: 0,
+    &quot;PickMode&quot;: 1,
+    &quot;CountThreatScore&quot;: 0,
+    &quot;Weight&quot;: 0
+  },
+  &quot;16&quot;: {
+    &quot;ID&quot;: 16,
+    &quot;Stage&quot;: &quot;1&quot;,
+    &quot;ScoreMin&quot;: 0,
+    &quot;ScoreMax&quot;: 50,
+    &quot;FixedRobotIds&quot;: &quot;3001,1018,1019,1015&quot;,
+    &quot;NonThreatRobotIds&quot;: &quot;&quot;,
+    &quot;ThreatRobotIds&quot;: &quot;&quot;,
+    &quot;FixedRobotCount&quot;: 4,
+    &quot;NonThreatCount&quot;: 0,
+    &quot;ThreatCount&quot;: 0,
+    &quot;PickMode&quot;: 1,
+    &quot;CountThreatScore&quot;: 0,
+    &quot;Weight&quot;: 60
+  },
+  &quot;17&quot;: {
+    &quot;ID&quot;: 17,
+    &quot;Stage&quot;: &quot;1&quot;,
+    &quot;ScoreMin&quot;: 50,
+    &quot;ScoreMax&quot;: 100,
+    &quot;FixedRobotIds&quot;: &quot;3001,1020,1018,1005&quot;,
+    &quot;NonThreatRobotIds&quot;: &quot;&quot;,
+    &quot;ThreatRobotIds&quot;: &quot;&quot;,
+    &quot;FixedRobotCount&quot;: 4,
+    &quot;NonThreatCount&quot;: 0,
+    &quot;ThreatCount&quot;: 0,
+    &quot;PickMode&quot;: 1,
+    &quot;CountThreatScore&quot;: 0,
+    &quot;Weight&quot;: 15
+  },
+  &quot;18&quot;: {
+    &quot;ID&quot;: 18,
+    &quot;Stage&quot;: &quot;1&quot;,
+    &quot;ScoreMin&quot;: 0,
+    &quot;ScoreMax&quot;: 100,
+    &quot;FixedRobotIds&quot;: &quot;3001,1018,1019,1016&quot;,
+    &quot;NonThreatRobotIds&quot;: &quot;&quot;,
+    &quot;ThreatRobotIds&quot;: &quot;&quot;,
+    &quot;FixedRobotCount&quot;: 4,
+    &quot;NonThreatCount&quot;: 0,
+    &quot;ThreatCount&quot;: 0,
+    &quot;PickMode&quot;: 1,
+    &quot;CountThreatScore&quot;: 0,
+    &quot;Weight&quot;: 25
+  },
+  &quot;19&quot;: {
+    &quot;ID&quot;: 19,
+    &quot;Stage&quot;: &quot;2&quot;,
+    &quot;ScoreMin&quot;: 0,
+    &quot;ScoreMax&quot;: 50,
+    &quot;FixedRobotIds&quot;: &quot;1016,1022,1023&quot;,
+    &quot;NonThreatRobotIds&quot;: &quot;&quot;,
+    &quot;ThreatRobotIds&quot;: &quot;&quot;,
+    &quot;FixedRobotCount&quot;: 4,
+    &quot;NonThreatCount&quot;: 0,
+    &quot;ThreatCount&quot;: 0,
+    &quot;PickMode&quot;: 1,
+    &quot;CountThreatScore&quot;: 0,
+    &quot;Weight&quot;: 60
+  },
+  &quot;20&quot;: {
+    &quot;ID&quot;: 20,
+    &quot;Stage&quot;: &quot;2&quot;,
+    &quot;ScoreMin&quot;: 50,
+    &quot;ScoreMax&quot;: 100,
+    &quot;FixedRobotIds&quot;: &quot;1019,1015,1018&quot;,
+    &quot;NonThreatRobotIds&quot;: &quot;&quot;,
+    &quot;ThreatRobotIds&quot;: &quot;&quot;,
+    &quot;FixedRobotCount&quot;: 4,
+    &quot;NonThreatCount&quot;: 0,
+    &quot;ThreatCount&quot;: 0,
+    &quot;PickMode&quot;: 1,
+    &quot;CountThreatScore&quot;: 0,
+    &quot;Weight&quot;: 15
+  },
+  &quot;21&quot;: {
+    &quot;ID&quot;: 21,
+    &quot;Stage&quot;: &quot;2&quot;,
+    &quot;ScoreMin&quot;: 0,
+    &quot;ScoreMax&quot;: 100,
+    &quot;FixedRobotIds&quot;: &quot;1016,1019,1018&quot;,
+    &quot;NonThreatRobotIds&quot;: &quot;&quot;,
+    &quot;ThreatRobotIds&quot;: &quot;&quot;,
+    &quot;FixedRobotCount&quot;: 4,
+    &quot;NonThreatCount&quot;: 0,
+    &quot;ThreatCount&quot;: 0,
+    &quot;PickMode&quot;: 1,
+    &quot;CountThreatScore&quot;: 0,
+    &quot;Weight&quot;: 25
+  },
+  &quot;22&quot;: {
+    &quot;ID&quot;: 22,
+    &quot;Stage&quot;: &quot;3&quot;,
+    &quot;ScoreMin&quot;: 0,
+    &quot;ScoreMax&quot;: 50,
+    &quot;FixedRobotIds&quot;: &quot;1015,1022&quot;,
+    &quot;NonThreatRobotIds&quot;: &quot;&quot;,
+    &quot;ThreatRobotIds&quot;: &quot;&quot;,
+    &quot;FixedRobotCount&quot;: 4,
+    &quot;NonThreatCount&quot;: 0,
+    &quot;ThreatCount&quot;: 0,
+    &quot;PickMode&quot;: 1,
+    &quot;CountThreatScore&quot;: 0,
+    &quot;Weight&quot;: 60
+  },
+  &quot;23&quot;: {
+    &quot;ID&quot;: 23,
+    &quot;Stage&quot;: &quot;3&quot;,
+    &quot;ScoreMin&quot;: 50,
+    &quot;ScoreMax&quot;: 100,
+    &quot;FixedRobotIds&quot;: &quot;1016,1021&quot;,
+    &quot;NonThreatRobotIds&quot;: &quot;&quot;,
+    &quot;ThreatRobotIds&quot;: &quot;&quot;,
+    &quot;FixedRobotCount&quot;: 4,
+    &quot;NonThreatCount&quot;: 0,
+    &quot;ThreatCount&quot;: 0,
+    &quot;PickMode&quot;: 1,
+    &quot;CountThreatScore&quot;: 0,
+    &quot;Weight&quot;: 15
+  },
+  &quot;24&quot;: {
+    &quot;ID&quot;: 24,
+    &quot;Stage&quot;: &quot;3&quot;,
+    &quot;ScoreMin&quot;: 0,
+    &quot;ScoreMax&quot;: 100,
+    &quot;FixedRobotIds&quot;: &quot;1015,1023&quot;,
+    &quot;NonThreatRobotIds&quot;: &quot;&quot;,
+    &quot;ThreatRobotIds&quot;: &quot;&quot;,
+    &quot;FixedRobotCount&quot;: 4,
+    &quot;NonThreatCount&quot;: 0,
+    &quot;ThreatCount&quot;: 0,
+    &quot;PickMode&quot;: 1,
+    &quot;CountThreatScore&quot;: 0,
+    &quot;Weight&quot;: 25
+  }
+}</pre></details></section><section id="TbRacingStageConfig"><h2>TbRacingStageConfig</h2><p><a href="Evidence/Unpacked/tables/TbRacingStageConfig.json">Mở JSON nguyên bản đã giải nén</a></p><details><summary>Xem đầy đủ 3 mục</summary><pre>{
+  &quot;1&quot;: {
+    &quot;ID&quot;: 1,
+    &quot;MaxTime&quot;: 1200,
+    &quot;TotalLevelCount&quot;: 3,
+    &quot;RobotPickCount&quot;: 4,
+    &quot;MaxSameProgressRobotCount&quot;: 3,
+    &quot;MaxSameProgressAsPlayerCount&quot;: 1
+  },
+  &quot;2&quot;: {
+    &quot;ID&quot;: 2,
+    &quot;MaxTime&quot;: 1500,
+    &quot;TotalLevelCount&quot;: 5,
+    &quot;RobotPickCount&quot;: 3,
+    &quot;MaxSameProgressRobotCount&quot;: 3,
+    &quot;MaxSameProgressAsPlayerCount&quot;: 1
+  },
+  &quot;3&quot;: {
+    &quot;ID&quot;: 3,
+    &quot;MaxTime&quot;: 1800,
+    &quot;TotalLevelCount&quot;: 7,
+    &quot;RobotPickCount&quot;: 2,
+    &quot;MaxSameProgressRobotCount&quot;: 3,
+    &quot;MaxSameProgressAsPlayerCount&quot;: 1
+  }
+}</pre></details></section><section id="TbRateConfig"><h2>TbRateConfig</h2><p><a href="Evidence/Unpacked/tables/TbRateConfig.json">Mở JSON nguyên bản đã giải nén</a></p><details><summary>Xem đầy đủ 5 mục</summary><pre>{
+  &quot;1&quot;: {
+    &quot;ID&quot;: 1,
+    &quot;GroupId&quot;: 1,
+    &quot;Wintimes&quot;: 0,
+    &quot;Rate&quot;: 1,
+    &quot;index&quot;: 0
+  },
+  &quot;2&quot;: {
+    &quot;ID&quot;: 2,
+    &quot;GroupId&quot;: 1,
+    &quot;Wintimes&quot;: 1,
+    &quot;Rate&quot;: 5,
+    &quot;index&quot;: 1
+  },
+  &quot;3&quot;: {
+    &quot;ID&quot;: 3,
+    &quot;GroupId&quot;: 1,
+    &quot;Wintimes&quot;: 2,
+    &quot;Rate&quot;: 10,
+    &quot;index&quot;: 2
+  },
+  &quot;4&quot;: {
+    &quot;ID&quot;: 4,
+    &quot;GroupId&quot;: 1,
+    &quot;Wintimes&quot;: 3,
+    &quot;Rate&quot;: 25,
+    &quot;index&quot;: 3
+  },
+  &quot;5&quot;: {
+    &quot;ID&quot;: 5,
+    &quot;GroupId&quot;: 1,
+    &quot;Wintimes&quot;: 4,
+    &quot;Rate&quot;: 100,
+    &quot;index&quot;: 4
+  }
+}</pre></details></section><section id="TbRewardConfig"><h2>TbRewardConfig</h2><p><a href="Evidence/Unpacked/tables/TbRewardConfig.json">Mở JSON nguyên bản đã giải nén</a></p><details><summary>Xem đầy đủ 124 mục</summary><pre>{
+  &quot;10&quot;: {
+    &quot;ID&quot;: 10,
+    &quot;get&quot;: [
+      [
+        1001,
+        40
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;11&quot;: {
+    &quot;ID&quot;: 11,
+    &quot;get&quot;: [
+      [
+        10005,
+        1
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;12&quot;: {
+    &quot;ID&quot;: 12,
+    &quot;get&quot;: [
+      [
+        1001,
+        70
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;13&quot;: {
+    &quot;ID&quot;: 13,
+    &quot;get&quot;: [
+      [
+        10002,
+        1
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;14&quot;: {
+    &quot;ID&quot;: 14,
+    &quot;get&quot;: [
+      [
+        1001,
+        140
+      ],
+      [
+        10003,
+        1
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;15&quot;: {
+    &quot;ID&quot;: 15,
+    &quot;get&quot;: [
+      [
+        10005,
+        1
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;16&quot;: {
+    &quot;ID&quot;: 16,
+    &quot;get&quot;: [
+      [
+        1001,
+        210
+      ],
+      [
+        10004,
+        1
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;17&quot;: {
+    &quot;ID&quot;: 17,
+    &quot;get&quot;: [
+      [
+        10003,
+        1
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;18&quot;: {
+    &quot;ID&quot;: 18,
+    &quot;get&quot;: [
+      [
+        1001,
+        280
+      ],
+      [
+        10005,
+        1
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;19&quot;: {
+    &quot;ID&quot;: 19,
+    &quot;get&quot;: [
+      [
+        1001,
+        700
+      ],
+      [
+        10005,
+        2
+      ],
+      [
+        10003,
+        1
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;1001&quot;: {
+    &quot;ID&quot;: 1001,
+    &quot;get&quot;: [
+      [
+        1001,
+        50
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;1002&quot;: {
+    &quot;ID&quot;: 1002,
+    &quot;get&quot;: [
+      [
+        1001,
+        50
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;1003&quot;: {
+    &quot;ID&quot;: 1003,
+    &quot;get&quot;: [
+      [
+        10002,
+        1
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;1004&quot;: {
+    &quot;ID&quot;: 1004,
+    &quot;get&quot;: [
+      [
+        1001,
+        100
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;1005&quot;: {
+    &quot;ID&quot;: 1005,
+    &quot;get&quot;: [
+      [
+        1001,
+        80
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;1006&quot;: {
+    &quot;ID&quot;: 1006,
+    &quot;get&quot;: [
+      [
+        1001,
+        150
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;1007&quot;: {
+    &quot;ID&quot;: 1007,
+    &quot;get&quot;: [
+      [
+        1001,
+        200
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;1008&quot;: {
+    &quot;ID&quot;: 1008,
+    &quot;get&quot;: [
+      [
+        10005,
+        1
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;1009&quot;: {
+    &quot;ID&quot;: 1009,
+    &quot;get&quot;: [
+      [
+        1001,
+        300
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;1010&quot;: {
+    &quot;ID&quot;: 1010,
+    &quot;get&quot;: [
+      [
+        1001,
+        100
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;1011&quot;: {
+    &quot;ID&quot;: 1011,
+    &quot;get&quot;: [
+      [
+        1001,
+        400
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;1012&quot;: {
+    &quot;ID&quot;: 1012,
+    &quot;get&quot;: [
+      [
+        1001,
+        500
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;1013&quot;: {
+    &quot;ID&quot;: 1013,
+    &quot;get&quot;: [
+      [
+        10002,
+        1
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;1014&quot;: {
+    &quot;ID&quot;: 1014,
+    &quot;get&quot;: [
+      [
+        1001,
+        600
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;1015&quot;: {
+    &quot;ID&quot;: 1015,
+    &quot;get&quot;: [
+      [
+        1001,
+        150
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;1016&quot;: {
+    &quot;ID&quot;: 1016,
+    &quot;get&quot;: [
+      [
+        1001,
+        700
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;1017&quot;: {
+    &quot;ID&quot;: 1017,
+    &quot;get&quot;: [
+      [
+        1001,
+        800
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;1018&quot;: {
+    &quot;ID&quot;: 1018,
+    &quot;get&quot;: [
+      [
+        10003,
+        1
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;1019&quot;: {
+    &quot;ID&quot;: 1019,
+    &quot;get&quot;: [
+      [
+        1001,
+        1000
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;1020&quot;: {
+    &quot;ID&quot;: 1020,
+    &quot;get&quot;: [
+      [
+        1001,
+        5000
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;1021&quot;: {
+    &quot;ID&quot;: 1021,
+    &quot;get&quot;: [
+      [
+        10005,
+        1
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;1022&quot;: {
+    &quot;ID&quot;: 1022,
+    &quot;get&quot;: [
+      [
+        1001,
+        40
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;1023&quot;: {
+    &quot;ID&quot;: 1023,
+    &quot;get&quot;: [
+      [
+        10002,
+        1
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;1024&quot;: {
+    &quot;ID&quot;: 1024,
+    &quot;get&quot;: [
+      [
+        1001,
+        70
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;1025&quot;: {
+    &quot;ID&quot;: 1025,
+    &quot;get&quot;: [
+      [
+        10003,
+        1
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;1026&quot;: {
+    &quot;ID&quot;: 1026,
+    &quot;get&quot;: [
+      [
+        1001,
+        100
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;1027&quot;: {
+    &quot;ID&quot;: 1027,
+    &quot;get&quot;: [
+      [
+        10005,
+        1
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;1028&quot;: {
+    &quot;ID&quot;: 1028,
+    &quot;get&quot;: [
+      [
+        1001,
+        140
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;1029&quot;: {
+    &quot;ID&quot;: 1029,
+    &quot;get&quot;: [
+      [
+        1001,
+        180
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;1030&quot;: {
+    &quot;ID&quot;: 1030,
+    &quot;get&quot;: [
+      [
+        10004,
+        1
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;1031&quot;: {
+    &quot;ID&quot;: 1031,
+    &quot;get&quot;: [
+      [
+        1001,
+        210
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;1032&quot;: {
+    &quot;ID&quot;: 1032,
+    &quot;get&quot;: [
+      [
+        10005,
+        1
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;1033&quot;: {
+    &quot;ID&quot;: 1033,
+    &quot;get&quot;: [
+      [
+        1001,
+        280
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;1034&quot;: {
+    &quot;ID&quot;: 1034,
+    &quot;get&quot;: [
+      [
+        10002,
+        1
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;1035&quot;: {
+    &quot;ID&quot;: 1035,
+    &quot;get&quot;: [
+      [
+        10003,
+        1
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;1036&quot;: {
+    &quot;ID&quot;: 1036,
+    &quot;get&quot;: [
+      [
+        1001,
+        280
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;1037&quot;: {
+    &quot;ID&quot;: 1037,
+    &quot;get&quot;: [
+      [
+        10005,
+        2
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;1038&quot;: {
+    &quot;ID&quot;: 1038,
+    &quot;get&quot;: [
+      [
+        1001,
+        350
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;1039&quot;: {
+    &quot;ID&quot;: 1039,
+    &quot;get&quot;: [
+      [
+        10003,
+        2
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;1040&quot;: {
+    &quot;ID&quot;: 1040,
+    &quot;get&quot;: [
+      [
+        1001,
+        700
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;1041&quot;: {
+    &quot;ID&quot;: 1041,
+    &quot;get&quot;: [
+      [
+        1001,
+        1000
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;1042&quot;: {
+    &quot;ID&quot;: 1042,
+    &quot;get&quot;: [
+      [
+        1001,
+        1000
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;1043&quot;: {
+    &quot;ID&quot;: 1043,
+    &quot;get&quot;: [
+      [
+        1001,
+        1000
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;1044&quot;: {
+    &quot;ID&quot;: 1044,
+    &quot;get&quot;: [
+      [
+        1001,
+        1000
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;1045&quot;: {
+    &quot;ID&quot;: 1045,
+    &quot;get&quot;: [
+      [
+        1001,
+        1000
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;1046&quot;: {
+    &quot;ID&quot;: 1046,
+    &quot;get&quot;: [
+      [
+        1001,
+        50
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;1047&quot;: {
+    &quot;ID&quot;: 1047,
+    &quot;get&quot;: [
+      [
+        1001,
+        350
+      ],
+      [
+        10002,
+        1
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;1048&quot;: {
+    &quot;ID&quot;: 1048,
+    &quot;get&quot;: [
+      [
+        1001,
+        1100
+      ],
+      [
+        10005,
+        1
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;1049&quot;: {
+    &quot;ID&quot;: 1049,
+    &quot;get&quot;: [
+      [
+        10002,
+        2
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;GiftPack_box_icon_1&quot;
+  },
+  &quot;1050&quot;: {
+    &quot;ID&quot;: 1050,
+    &quot;get&quot;: [
+      [
+        10002,
+        4
+      ],
+      [
+        1001,
+        300
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;GiftPack_box_icon_2&quot;
+  },
+  &quot;1051&quot;: {
+    &quot;ID&quot;: 1051,
+    &quot;get&quot;: [
+      [
+        10002,
+        8
+      ],
+      [
+        1001,
+        500
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;GiftPack_box_icon_3&quot;
+  },
+  &quot;1052&quot;: {
+    &quot;ID&quot;: 1052,
+    &quot;get&quot;: [
+      [
+        10002,
+        20
+      ],
+      [
+        1001,
+        500
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;GiftPack_box_icon_4&quot;
+  },
+  &quot;1053&quot;: {
+    &quot;ID&quot;: 1053,
+    &quot;get&quot;: [
+      [
+        10002,
+        32
+      ],
+      [
+        1001,
+        500
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;GiftPack_box_icon_5&quot;
+  },
+  &quot;1054&quot;: {
+    &quot;ID&quot;: 1054,
+    &quot;get&quot;: [
+      [
+        10002,
+        60
+      ],
+      [
+        1001,
+        500
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;GiftPack_box_icon_6&quot;
+  },
+  &quot;2000&quot;: {
+    &quot;ID&quot;: 2000,
+    &quot;get&quot;: [
+      [
+        10002,
+        2
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;img_box_1&quot;
+  },
+  &quot;2001&quot;: {
+    &quot;ID&quot;: 2001,
+    &quot;get&quot;: [
+      [
+        10002,
+        4
+      ],
+      [
+        1001,
+        300
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;img_box_2&quot;
+  },
+  &quot;2002&quot;: {
+    &quot;ID&quot;: 2002,
+    &quot;get&quot;: [
+      [
+        10002,
+        8
+      ],
+      [
+        1001,
+        500
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;img_box_3&quot;
+  },
+  &quot;2003&quot;: {
+    &quot;ID&quot;: 2003,
+    &quot;get&quot;: [
+      [
+        10002,
+        20
+      ],
+      [
+        1001,
+        500
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;img_box_4&quot;
+  },
+  &quot;2004&quot;: {
+    &quot;ID&quot;: 2004,
+    &quot;get&quot;: [
+      [
+        10002,
+        32
+      ],
+      [
+        1001,
+        500
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;img_box_5&quot;
+  },
+  &quot;2005&quot;: {
+    &quot;ID&quot;: 2005,
+    &quot;get&quot;: [
+      [
+        10002,
+        60
+      ],
+      [
+        1001,
+        500
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;img_box_6&quot;
+  },
+  &quot;2006&quot;: {
+    &quot;ID&quot;: 2006,
+    &quot;get&quot;: [
+      [
+        10002,
+        60
+      ],
+      [
+        1001,
+        500
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;img_box_7&quot;
+  },
+  &quot;2100&quot;: {
+    &quot;ID&quot;: 2100,
+    &quot;get&quot;: [
+      [
+        1001,
+        100
+      ],
+      [
+        10002,
+        1
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;img_box_1&quot;
+  },
+  &quot;2101&quot;: {
+    &quot;ID&quot;: 2101,
+    &quot;get&quot;: [
+      [
+        1001,
+        200
+      ],
+      [
+        10002,
+        2
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;img_box_2&quot;
+  },
+  &quot;2102&quot;: {
+    &quot;ID&quot;: 2102,
+    &quot;get&quot;: [
+      [
+        10002,
+        1
+      ],
+      [
+        1001,
+        150
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;img_box_1&quot;
+  },
+  &quot;2103&quot;: {
+    &quot;ID&quot;: 2103,
+    &quot;get&quot;: [
+      [
+        10002,
+        2
+      ],
+      [
+        1001,
+        300
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;img_box_3&quot;
+  },
+  &quot;2104&quot;: {
+    &quot;ID&quot;: 2104,
+    &quot;get&quot;: [
+      [
+        1001,
+        500
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;img_box_1&quot;
+  },
+  &quot;2105&quot;: {
+    &quot;ID&quot;: 2105,
+    &quot;get&quot;: [
+      [
+        10002,
+        1
+      ],
+      [
+        1001,
+        500
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;img_box_4&quot;
+  },
+  &quot;2106&quot;: {
+    &quot;ID&quot;: 2106,
+    &quot;get&quot;: [
+      [
+        10002,
+        3
+      ],
+      [
+        1001,
+        300
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;img_box_1&quot;
+  },
+  &quot;2107&quot;: {
+    &quot;ID&quot;: 2107,
+    &quot;get&quot;: [
+      [
+        10002,
+        4
+      ],
+      [
+        1001,
+        300
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;img_box_3&quot;
+  },
+  &quot;2108&quot;: {
+    &quot;ID&quot;: 2108,
+    &quot;get&quot;: [
+      [
+        1001,
+        700
+      ],
+      [
+        10002,
+        1
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;img_box_4&quot;
+  },
+  &quot;2109&quot;: {
+    &quot;ID&quot;: 2109,
+    &quot;get&quot;: [
+      [
+        1001,
+        1000
+      ],
+      [
+        10005,
+        1
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;img_box_5&quot;
+  },
+  &quot;2110&quot;: {
+    &quot;ID&quot;: 2110,
+    &quot;get&quot;: [
+      [
+        1001,
+        3500
+      ],
+      [
+        10004,
+        1
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;img_box_6&quot;
+  },
+  &quot;2111&quot;: {
+    &quot;ID&quot;: 2111,
+    &quot;get&quot;: [
+      [
+        10005,
+        1
+      ],
+      [
+        10004,
+        1
+      ],
+      [
+        10003,
+        1
+      ],
+      [
+        10002,
+        1
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;img_box_7&quot;
+  },
+  &quot;2112&quot;: {
+    &quot;ID&quot;: 2112,
+    &quot;get&quot;: [
+      [
+        1001,
+        80
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;2113&quot;: {
+    &quot;ID&quot;: 2113,
+    &quot;get&quot;: [
+      [
+        10002,
+        1
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;2114&quot;: {
+    &quot;ID&quot;: 2114,
+    &quot;get&quot;: [
+      [
+        1001,
+        150
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;2115&quot;: {
+    &quot;ID&quot;: 2115,
+    &quot;get&quot;: [
+      [
+        1001,
+        100
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;2116&quot;: {
+    &quot;ID&quot;: 2116,
+    &quot;get&quot;: [
+      [
+        1001,
+        50
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;2117&quot;: {
+    &quot;ID&quot;: 2117,
+    &quot;get&quot;: [
+      [
+        1001,
+        300
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;2118&quot;: {
+    &quot;ID&quot;: 2118,
+    &quot;get&quot;: [
+      [
+        10002,
+        2
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;2119&quot;: {
+    &quot;ID&quot;: 2119,
+    &quot;get&quot;: [
+      [
+        1001,
+        300
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;2120&quot;: {
+    &quot;ID&quot;: 2120,
+    &quot;get&quot;: [
+      [
+        1001,
+        150
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;2121&quot;: {
+    &quot;ID&quot;: 2121,
+    &quot;get&quot;: [
+      [
+        1001,
+        400
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;2122&quot;: {
+    &quot;ID&quot;: 2122,
+    &quot;get&quot;: [
+      [
+        1001,
+        500
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;2123&quot;: {
+    &quot;ID&quot;: 2123,
+    &quot;get&quot;: [
+      [
+        1001,
+        200
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;2124&quot;: {
+    &quot;ID&quot;: 2124,
+    &quot;get&quot;: [
+      [
+        1001,
+        500
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;2125&quot;: {
+    &quot;ID&quot;: 2125,
+    &quot;get&quot;: [
+      [
+        10002,
+        3
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;2126&quot;: {
+    &quot;ID&quot;: 2126,
+    &quot;get&quot;: [
+      [
+        1001,
+        800
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;2127&quot;: {
+    &quot;ID&quot;: 2127,
+    &quot;get&quot;: [
+      [
+        1001,
+        600
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;2128&quot;: {
+    &quot;ID&quot;: 2128,
+    &quot;get&quot;: [
+      [
+        1001,
+        1000
+      ]
+    ],
+    &quot;effect&quot;: &quot;&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;10001&quot;: {
+    &quot;ID&quot;: 10001,
+    &quot;get&quot;: [
+      [
+        1001,
+        130
+      ]
+    ],
+    &quot;effect&quot;: &quot;haidao&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;10002&quot;: {
+    &quot;ID&quot;: 10002,
+    &quot;get&quot;: [
+      [
+        10002,
+        2
+      ],
+      [
+        1001,
+        150
+      ]
+    ],
+    &quot;effect&quot;: &quot;luyingdi&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;10003&quot;: {
+    &quot;ID&quot;: 10003,
+    &quot;get&quot;: [
+      [
+        1001,
+        250
+      ],
+      [
+        10002,
+        1
+      ]
+    ],
+    &quot;effect&quot;: &quot;maxi&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;10004&quot;: {
+    &quot;ID&quot;: 10004,
+    &quot;get&quot;: [
+      [
+        1001,
+        300
+      ],
+      [
+        10002,
+        1
+      ]
+    ],
+    &quot;effect&quot;: &quot;bingxue&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;10005&quot;: {
+    &quot;ID&quot;: 10005,
+    &quot;get&quot;: [
+      [
+        1001,
+        500
+      ],
+      [
+        10002,
+        1
+      ]
+    ],
+    &quot;effect&quot;: &quot;nongchang&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;10006&quot;: {
+    &quot;ID&quot;: 10006,
+    &quot;get&quot;: [
+      [
+        1001,
+        700
+      ],
+      [
+        10002,
+        1
+      ]
+    ],
+    &quot;effect&quot;: &quot;aiji&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;10007&quot;: {
+    &quot;ID&quot;: 10007,
+    &quot;get&quot;: [
+      [
+        1001,
+        200
+      ],
+      [
+        10002,
+        2
+      ]
+    ],
+    &quot;effect&quot;: &quot;haidao&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;10008&quot;: {
+    &quot;ID&quot;: 10008,
+    &quot;get&quot;: [
+      [
+        1001,
+        400
+      ],
+      [
+        10002,
+        3
+      ]
+    ],
+    &quot;effect&quot;: &quot;luyingdi&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;10009&quot;: {
+    &quot;ID&quot;: 10009,
+    &quot;get&quot;: [
+      [
+        1001,
+        500
+      ],
+      [
+        10002,
+        5
+      ]
+    ],
+    &quot;effect&quot;: &quot;maxi&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;10010&quot;: {
+    &quot;ID&quot;: 10010,
+    &quot;get&quot;: [
+      [
+        1001,
+        550
+      ],
+      [
+        10002,
+        5
+      ]
+    ],
+    &quot;effect&quot;: &quot;bingxue&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;10011&quot;: {
+    &quot;ID&quot;: 10011,
+    &quot;get&quot;: [
+      [
+        1001,
+        600
+      ],
+      [
+        10002,
+        5
+      ]
+    ],
+    &quot;effect&quot;: &quot;nongchang&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;10012&quot;: {
+    &quot;ID&quot;: 10012,
+    &quot;get&quot;: [
+      [
+        1001,
+        650
+      ],
+      [
+        10002,
+        5
+      ]
+    ],
+    &quot;effect&quot;: &quot;aiji&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;10013&quot;: {
+    &quot;ID&quot;: 10013,
+    &quot;get&quot;: [
+      [
+        1001,
+        330
+      ],
+      [
+        10002,
+        1
+      ]
+    ],
+    &quot;effect&quot;: &quot;haidao&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;10014&quot;: {
+    &quot;ID&quot;: 10014,
+    &quot;get&quot;: [
+      [
+        1001,
+        400
+      ],
+      [
+        10002,
+        2
+      ]
+    ],
+    &quot;effect&quot;: &quot;luyingdi&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;10015&quot;: {
+    &quot;ID&quot;: 10015,
+    &quot;get&quot;: [
+      [
+        1001,
+        550
+      ],
+      [
+        10002,
+        3
+      ]
+    ],
+    &quot;effect&quot;: &quot;maxi&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;10016&quot;: {
+    &quot;ID&quot;: 10016,
+    &quot;get&quot;: [
+      [
+        1001,
+        700
+      ],
+      [
+        10002,
+        3
+      ]
+    ],
+    &quot;effect&quot;: &quot;bingxue&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;10017&quot;: {
+    &quot;ID&quot;: 10017,
+    &quot;get&quot;: [
+      [
+        1001,
+        750
+      ],
+      [
+        10002,
+        3
+      ]
+    ],
+    &quot;effect&quot;: &quot;nongchang&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;10018&quot;: {
+    &quot;ID&quot;: 10018,
+    &quot;get&quot;: [
+      [
+        1001,
+        800
+      ],
+      [
+        10002,
+        3
+      ]
+    ],
+    &quot;effect&quot;: &quot;aiji&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;20001&quot;: {
+    &quot;ID&quot;: 20001,
+    &quot;get&quot;: [
+      [
+        1001,
+        500
+      ]
+    ],
+    &quot;effect&quot;: &quot;haidao&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;20002&quot;: {
+    &quot;ID&quot;: 20002,
+    &quot;get&quot;: [
+      [
+        1001,
+        380
+      ],
+      [
+        10002,
+        1
+      ]
+    ],
+    &quot;effect&quot;: &quot;haidao&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;20003&quot;: {
+    &quot;ID&quot;: 20003,
+    &quot;get&quot;: [
+      [
+        1001,
+        300
+      ],
+      [
+        10003,
+        1
+      ],
+      [
+        10005,
+        1
+      ]
+    ],
+    &quot;effect&quot;: &quot;maxi&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;30001&quot;: {
+    &quot;ID&quot;: 30001,
+    &quot;get&quot;: [
+      [
+        1001,
+        50
+      ]
+    ],
+    &quot;effect&quot;: &quot;dailyboxreward_1&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;30002&quot;: {
+    &quot;ID&quot;: 30002,
+    &quot;get&quot;: [
+      [
+        1001,
+        200
+      ]
+    ],
+    &quot;effect&quot;: &quot;dailyboxreward_2&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  },
+  &quot;30003&quot;: {
+    &quot;ID&quot;: 30003,
+    &quot;get&quot;: [
+      [
+        1001,
+        500
+      ],
+      [
+        10005,
+        1
+      ]
+    ],
+    &quot;effect&quot;: &quot;dailyboxreward_3&quot;,
+    &quot;icon&quot;: &quot;&quot;
+  }
+}</pre></details></section><section id="TbSettingLanguage"><h2>TbSettingLanguage</h2><p><a href="Evidence/Unpacked/tables/TbSettingLanguage.json">Mở JSON nguyên bản đã giải nén</a></p><details><summary>Xem đầy đủ 40 mục</summary><pre>{
+  &quot;English&quot;: {
+    &quot;Key&quot;: &quot;English&quot;,
+    &quot;TitleId&quot;: &quot;Common_Settings_Language_EN_US&quot;,
+    &quot;AllLanguageCode&quot;: [
+      &quot;EN_US&quot;,
+      &quot;EN_GB&quot;
+    ],
+    &quot;SortId&quot;: 1,
+    &quot;IsShow&quot;: 1
+  },
+  &quot;简体中文&quot;: {
+    &quot;Key&quot;: &quot;简体中文&quot;,
+    &quot;TitleId&quot;: &quot;Common_Settings_Language_ZH_CN&quot;,
+    &quot;AllLanguageCode&quot;: [
+      &quot;ZH_CN&quot;
+    ],
+    &quot;SortId&quot;: 2,
+    &quot;IsShow&quot;: 1
+  },
+  &quot;繁體中文&quot;: {
+    &quot;Key&quot;: &quot;繁體中文&quot;,
+    &quot;TitleId&quot;: &quot;Common_Settings_Language_ZH_HK&quot;,
+    &quot;AllLanguageCode&quot;: [
+      &quot;ZH_HK&quot;,
+      &quot;ZH_TW&quot;
+    ],
+    &quot;SortId&quot;: 3,
+    &quot;IsShow&quot;: 1
+  },
+  &quot;العربية&quot;: {
+    &quot;Key&quot;: &quot;العربية&quot;,
+    &quot;TitleId&quot;: &quot;Common_Settings_Language_AR&quot;,
+    &quot;AllLanguageCode&quot;: [
+      &quot;AR&quot;
+    ],
+    &quot;SortId&quot;: 28,
+    &quot;IsShow&quot;: 1
+  },
+  &quot;Português&quot;: {
+    &quot;Key&quot;: &quot;Português&quot;,
+    &quot;TitleId&quot;: &quot;Common_Settings_Language_PT_PT&quot;,
+    &quot;AllLanguageCode&quot;: [
+      &quot;PT_PT&quot;,
+      &quot;PT_BR&quot;
+    ],
+    &quot;SortId&quot;: 10,
+    &quot;IsShow&quot;: 1
+  },
+  &quot;Hrvatski&quot;: {
+    &quot;Key&quot;: &quot;Hrvatski&quot;,
+    &quot;TitleId&quot;: &quot;Common_Settings_Language_HR&quot;,
+    &quot;AllLanguageCode&quot;: [
+      &quot;HR&quot;
+    ],
+    &quot;SortId&quot;: 24,
+    &quot;IsShow&quot;: 1
+  },
+  &quot;Český&quot;: {
+    &quot;Key&quot;: &quot;Český&quot;,
+    &quot;TitleId&quot;: &quot;Common_Settings_Language_CS&quot;,
+    &quot;AllLanguageCode&quot;: [
+      &quot;CS&quot;
+    ],
+    &quot;SortId&quot;: 25,
+    &quot;IsShow&quot;: 1
+  },
+  &quot;Dansk&quot;: {
+    &quot;Key&quot;: &quot;Dansk&quot;,
+    &quot;TitleId&quot;: &quot;Common_Settings_Language_DA&quot;,
+    &quot;AllLanguageCode&quot;: [
+      &quot;DA&quot;
+    ],
+    &quot;SortId&quot;: 22,
+    &quot;IsShow&quot;: 1
+  },
+  &quot;Nederlands&quot;: {
+    &quot;Key&quot;: &quot;Nederlands&quot;,
+    &quot;TitleId&quot;: &quot;Common_Settings_Language_NL&quot;,
+    &quot;AllLanguageCode&quot;: [
+      &quot;NL&quot;
+    ],
+    &quot;SortId&quot;: 11,
+    &quot;IsShow&quot;: 1
+  },
+  &quot;Español&quot;: {
+    &quot;Key&quot;: &quot;Español&quot;,
+    &quot;TitleId&quot;: &quot;Common_Settings_Language_ES&quot;,
+    &quot;AllLanguageCode&quot;: [
+      &quot;ES&quot;,
+      &quot;ES_419&quot;
+    ],
+    &quot;SortId&quot;: 5,
+    &quot;IsShow&quot;: 1
+  },
+  &quot;Suomi&quot;: {
+    &quot;Key&quot;: &quot;Suomi&quot;,
+    &quot;TitleId&quot;: &quot;Common_Settings_Language_FI&quot;,
+    &quot;AllLanguageCode&quot;: [
+      &quot;FI&quot;
+    ],
+    &quot;SortId&quot;: 26,
+    &quot;IsShow&quot;: 1
+  },
+  &quot;Français&quot;: {
+    &quot;Key&quot;: &quot;Français&quot;,
+    &quot;TitleId&quot;: &quot;Common_Settings_Language_FR&quot;,
+    &quot;AllLanguageCode&quot;: [
+      &quot;FR&quot;
+    ],
+    &quot;SortId&quot;: 6,
+    &quot;IsShow&quot;: 1
+  },
+  &quot;Deutsch&quot;: {
+    &quot;Key&quot;: &quot;Deutsch&quot;,
+    &quot;TitleId&quot;: &quot;Common_Settings_Language_DE&quot;,
+    &quot;AllLanguageCode&quot;: [
+      &quot;DE&quot;
+    ],
+    &quot;SortId&quot;: 9,
+    &quot;IsShow&quot;: 1
+  },
+  &quot;Ελληνικά&quot;: {
+    &quot;Key&quot;: &quot;Ελληνικά&quot;,
+    &quot;TitleId&quot;: &quot;Common_Settings_Language_EL&quot;,
+    &quot;AllLanguageCode&quot;: [
+      &quot;EL&quot;
+    ],
+    &quot;SortId&quot;: 27,
+    &quot;IsShow&quot;: 1
+  },
+  &quot;Italiano&quot;: {
+    &quot;Key&quot;: &quot;Italiano&quot;,
+    &quot;TitleId&quot;: &quot;Common_Settings_Language_IT&quot;,
+    &quot;AllLanguageCode&quot;: [
+      &quot;IT&quot;
+    ],
+    &quot;SortId&quot;: 12,
+    &quot;IsShow&quot;: 1
+  },
+  &quot;日本語&quot;: {
+    &quot;Key&quot;: &quot;日本語&quot;,
+    &quot;TitleId&quot;: &quot;Common_Settings_Language_JA&quot;,
+    &quot;AllLanguageCode&quot;: [
+      &quot;JA&quot;
+    ],
+    &quot;SortId&quot;: 7,
+    &quot;IsShow&quot;: 1
+  },
+  &quot;한국어&quot;: {
+    &quot;Key&quot;: &quot;한국어&quot;,
+    &quot;TitleId&quot;: &quot;Common_Settings_Language_KO&quot;,
+    &quot;AllLanguageCode&quot;: [
+      &quot;KO&quot;
+    ],
+    &quot;SortId&quot;: 8,
+    &quot;IsShow&quot;: 1
+  },
+  &quot;Norsk&quot;: {
+    &quot;Key&quot;: &quot;Norsk&quot;,
+    &quot;TitleId&quot;: &quot;Common_Settings_Language_NO&quot;,
+    &quot;AllLanguageCode&quot;: [
+      &quot;NO&quot;
+    ],
+    &quot;SortId&quot;: 18,
+    &quot;IsShow&quot;: 1
+  },
+  &quot;Polski&quot;: {
+    &quot;Key&quot;: &quot;Polski&quot;,
+    &quot;TitleId&quot;: &quot;Common_Settings_Language_PL&quot;,
+    &quot;AllLanguageCode&quot;: [
+      &quot;PL&quot;
+    ],
+    &quot;SortId&quot;: 17,
+    &quot;IsShow&quot;: 1
+  },
+  &quot;Română&quot;: {
+    &quot;Key&quot;: &quot;Română&quot;,
+    &quot;TitleId&quot;: &quot;Common_Settings_Language_RO&quot;,
+    &quot;AllLanguageCode&quot;: [
+      &quot;RO&quot;
+    ],
+    &quot;SortId&quot;: 23,
+    &quot;IsShow&quot;: 1
+  },
+  &quot;Русский&quot;: {
+    &quot;Key&quot;: &quot;Русский&quot;,
+    &quot;TitleId&quot;: &quot;Common_Settings_Language_RU&quot;,
+    &quot;AllLanguageCode&quot;: [
+      &quot;RU&quot;
+    ],
+    &quot;SortId&quot;: 4,
+    &quot;IsShow&quot;: 1
+  },
+  &quot;Svenska&quot;: {
+    &quot;Key&quot;: &quot;Svenska&quot;,
+    &quot;TitleId&quot;: &quot;Common_Settings_Language_SV&quot;,
+    &quot;AllLanguageCode&quot;: [
+      &quot;SV&quot;
+    ],
+    &quot;SortId&quot;: 16,
+    &quot;IsShow&quot;: 1
+  },
+  &quot;ไทย&quot;: {
+    &quot;Key&quot;: &quot;ไทย&quot;,
+    &quot;TitleId&quot;: &quot;Common_Settings_Language_TH&quot;,
+    &quot;AllLanguageCode&quot;: [
+      &quot;TH&quot;
+    ],
+    &quot;SortId&quot;: 13,
+    &quot;IsShow&quot;: 1
+  },
+  &quot;Türkçe&quot;: {
+    &quot;Key&quot;: &quot;Türkçe&quot;,
+    &quot;TitleId&quot;: &quot;Common_Settings_Language_TR&quot;,
+    &quot;AllLanguageCode&quot;: [
+      &quot;TR&quot;
+    ],
+    &quot;SortId&quot;: 14,
+    &quot;IsShow&quot;: 1
+  },
+  &quot;Українська&quot;: {
+    &quot;Key&quot;: &quot;Українська&quot;,
+    &quot;TitleId&quot;: &quot;Common_Settings_Language_UK&quot;,
+    &quot;AllLanguageCode&quot;: [
+      &quot;UK&quot;
+    ],
+    &quot;SortId&quot;: 21,
+    &quot;IsShow&quot;: 1
+  },
+  &quot;Tiếng Việt&quot;: {
+    &quot;Key&quot;: &quot;Tiếng Việt&quot;,
+    &quot;TitleId&quot;: &quot;Common_Settings_Language_VI&quot;,
+    &quot;AllLanguageCode&quot;: [
+      &quot;VI&quot;
+    ],
+    &quot;SortId&quot;: 19,
+    &quot;IsShow&quot;: 1
+  },
+  &quot;हिंदी&quot;: {
+    &quot;Key&quot;: &quot;हिंदी&quot;,
+    &quot;TitleId&quot;: &quot;Common_Settings_Language_HI&quot;,
+    &quot;AllLanguageCode&quot;: [
+      &quot;HI&quot;
+    ],
+    &quot;SortId&quot;: 20,
+    &quot;IsShow&quot;: 1
+  },
+  &quot;Indonesia&quot;: {
+    &quot;Key&quot;: &quot;Indonesia&quot;,
+    &quot;TitleId&quot;: &quot;Common_Settings_Language_ID&quot;,
+    &quot;AllLanguageCode&quot;: [
+      &quot;ID&quot;
+    ],
+    &quot;SortId&quot;: 15,
+    &quot;IsShow&quot;: 1
+  },
+  &quot;Bahasa Melayu&quot;: {
+    &quot;Key&quot;: &quot;Bahasa Melayu&quot;,
+    &quot;TitleId&quot;: &quot;Common_Settings_Language_MS&quot;,
+    &quot;AllLanguageCode&quot;: [
+      &quot;MS&quot;
+    ],
+    &quot;SortId&quot;: 29,
+    &quot;IsShow&quot;: 1
+  },
+  &quot;עברית&quot;: {
+    &quot;Key&quot;: &quot;עברית&quot;,
+    &quot;TitleId&quot;: &quot;Common_Settings_Language_HE&quot;,
+    &quot;AllLanguageCode&quot;: [
+      &quot;HE&quot;
+    ],
+    &quot;SortId&quot;: 30,
+    &quot;IsShow&quot;: 1
+  },
+  &quot;Slovačina&quot;: {
+    &quot;Key&quot;: &quot;Slovačina&quot;,
+    &quot;TitleId&quot;: &quot;Common_Settings_Language_SK&quot;,
+    &quot;AllLanguageCode&quot;: [
+      &quot;SK&quot;
+    ],
+    &quot;SortId&quot;: 31,
+    &quot;IsShow&quot;: 1
+  },
+  &quot;Български&quot;: {
+    &quot;Key&quot;: &quot;Български&quot;,
+    &quot;TitleId&quot;: &quot;Common_Settings_Language_BG&quot;,
+    &quot;AllLanguageCode&quot;: [
+      &quot;BG&quot;
+    ],
+    &quot;SortId&quot;: 32,
+    &quot;IsShow&quot;: 1
+  },
+  &quot;ភាសាខ្មែរ&quot;: {
+    &quot;Key&quot;: &quot;ភាសាខ្មែរ&quot;,
+    &quot;TitleId&quot;: &quot;Common_Settings_Language_KM&quot;,
+    &quot;AllLanguageCode&quot;: [
+      &quot;KM&quot;
+    ],
+    &quot;SortId&quot;: 33,
+    &quot;IsShow&quot;: 1
+  },
+  &quot;Lietuvių&quot;: {
+    &quot;Key&quot;: &quot;Lietuvių&quot;,
+    &quot;TitleId&quot;: &quot;Common_Settings_Language_LT&quot;,
+    &quot;AllLanguageCode&quot;: [
+      &quot;LT&quot;
+    ],
+    &quot;SortId&quot;: 34,
+    &quot;IsShow&quot;: 1
+  },
+  &quot;Latviešu&quot;: {
+    &quot;Key&quot;: &quot;Latviešu&quot;,
+    &quot;TitleId&quot;: &quot;Common_Settings_Language_LV&quot;,
+    &quot;AllLanguageCode&quot;: [
+      &quot;LV&quot;
+    ],
+    &quot;SortId&quot;: 35,
+    &quot;IsShow&quot;: 1
+  },
+  &quot;Հայերեն&quot;: {
+    &quot;Key&quot;: &quot;Հայերեն&quot;,
+    &quot;TitleId&quot;: &quot;Common_Settings_Language_HY&quot;,
+    &quot;AllLanguageCode&quot;: [
+      &quot;HY&quot;
+    ],
+    &quot;SortId&quot;: 36,
+    &quot;IsShow&quot;: 1
+  },
+  &quot;Azərbaycanlı&quot;: {
+    &quot;Key&quot;: &quot;Azərbaycanlı&quot;,
+    &quot;TitleId&quot;: &quot;Common_Settings_Language_AZ&quot;,
+    &quot;AllLanguageCode&quot;: [
+      &quot;AZ&quot;
+    ],
+    &quot;SortId&quot;: 37,
+    &quot;IsShow&quot;: 1
+  },
+  &quot;Македонски&quot;: {
+    &quot;Key&quot;: &quot;Македонски&quot;,
+    &quot;TitleId&quot;: &quot;Common_Settings_Language_MK&quot;,
+    &quot;AllLanguageCode&quot;: [
+      &quot;MK&quot;
+    ],
+    &quot;SortId&quot;: 38,
+    &quot;IsShow&quot;: 1
+  },
+  &quot;Srpski&quot;: {
+    &quot;Key&quot;: &quot;Srpski&quot;,
+    &quot;TitleId&quot;: &quot;Common_Settings_Language_SR&quot;,
+    &quot;AllLanguageCode&quot;: [
+      &quot;SR&quot;
+    ],
+    &quot;SortId&quot;: 39,
+    &quot;IsShow&quot;: 1
+  },
+  &quot;Magyar&quot;: {
+    &quot;Key&quot;: &quot;Magyar&quot;,
+    &quot;TitleId&quot;: &quot;Common_Settings_Language_HU&quot;,
+    &quot;AllLanguageCode&quot;: [
+      &quot;HU&quot;
+    ],
+    &quot;SortId&quot;: 40,
+    &quot;IsShow&quot;: 1
+  }
+}</pre></details></section><section id="TbShopConfig"><h2>TbShopConfig</h2><p><a href="Evidence/Unpacked/tables/TbShopConfig.json">Mở JSON nguyên bản đã giải nén</a></p><details><summary>Xem đầy đủ 8 mục</summary><pre>{
+  &quot;2001&quot;: {
+    &quot;ID&quot;: 2001,
+    &quot;get&quot;: {
+      &quot;1003&quot;: 1
+    },
+    &quot;cost&quot;: {
+      &quot;1001&quot;: 300
+    }
+  },
+  &quot;2002&quot;: {
+    &quot;ID&quot;: 2002,
+    &quot;get&quot;: {
+      &quot;1002&quot;: 9999
+    },
+    &quot;cost&quot;: {
+      &quot;1001&quot;: 900
+    }
+  },
+  &quot;2003&quot;: {
+    &quot;ID&quot;: 2003,
+    &quot;get&quot;: {},
+    &quot;cost&quot;: {
+      &quot;1001&quot;: 900
+    }
+  },
+  &quot;2004&quot;: {
+    &quot;ID&quot;: 2004,
+    &quot;get&quot;: {
+      &quot;10002&quot;: 1
+    },
+    &quot;cost&quot;: {
+      &quot;1001&quot;: 600
+    }
+  },
+  &quot;2005&quot;: {
+    &quot;ID&quot;: 2005,
+    &quot;get&quot;: {
+      &quot;10001&quot;: 1
+    },
+    &quot;cost&quot;: {
+      &quot;1001&quot;: 300
+    }
+  },
+  &quot;2006&quot;: {
+    &quot;ID&quot;: 2006,
+    &quot;get&quot;: {
+      &quot;10003&quot;: 1
+    },
+    &quot;cost&quot;: {
+      &quot;1001&quot;: 900
+    }
+  },
+  &quot;2007&quot;: {
+    &quot;ID&quot;: 2007,
+    &quot;get&quot;: {
+      &quot;10004&quot;: 1
+    },
+    &quot;cost&quot;: {
+      &quot;1001&quot;: 900
+    }
+  },
+  &quot;2008&quot;: {
+    &quot;ID&quot;: 2008,
+    &quot;get&quot;: {
+      &quot;10005&quot;: 1
+    },
+    &quot;cost&quot;: {
+      &quot;1001&quot;: 300
+    }
+  }
+}</pre></details></section><section id="TbStoreConfig"><h2>TbStoreConfig</h2><p><a href="Evidence/Unpacked/tables/TbStoreConfig.json">Mở JSON nguyên bản đã giải nén</a></p><details><summary>Xem đầy đủ 1 mục</summary><pre>{
+  &quot;7000&quot;: {
+    &quot;ID&quot;: 7000,
+    &quot;TabList&quot;: [
+      6002,
+      6000
+    ]
+  }
+}</pre></details></section><section id="TbStoreItemConfig"><h2>TbStoreItemConfig</h2><p><a href="Evidence/Unpacked/tables/TbStoreItemConfig.json">Mở JSON nguyên bản đã giải nén</a></p><details><summary>Xem đầy đủ 17 mục</summary><pre>{
+  &quot;2001&quot;: {
+    &quot;ID&quot;: 2001,
+    &quot;GPStoreId&quot;: &quot;com.dino.sand.bus.gift_pack&quot;,
+    &quot;IOSStoreId&quot;: &quot;com.dino.sand.bus.gift_pack&quot;,
+    &quot;ItemType&quot;: 5,
+    &quot;get&quot;: [
+      [
+        1001,
+        1500
+      ],
+      [
+        10002,
+        2
+      ],
+      [
+        10003,
+        2
+      ]
+    ],
+    &quot;popular&quot;: 0,
+    &quot;price&quot;: &quot;$2.99&quot;,
+    &quot;coinIcon&quot;: 0,
+    &quot;title&quot;: &quot;&quot;,
+    &quot;LimitedCount&quot;: 0,
+    &quot;discount&quot;: &quot;67&quot;,
+    &quot;duration&quot;: 0
+  },
+  &quot;4002&quot;: {
+    &quot;ID&quot;: 4002,
+    &quot;GPStoreId&quot;: &quot;com.dino.sand.bus.golden_coin&quot;,
+    &quot;IOSStoreId&quot;: &quot;com.dino.sand.bus.golden_coin&quot;,
+    &quot;ItemType&quot;: 7,
+    &quot;get&quot;: [],
+    &quot;popular&quot;: 0,
+    &quot;price&quot;: &quot;$0.99&quot;,
+    &quot;coinIcon&quot;: 0,
+    &quot;title&quot;: &quot;&quot;,
+    &quot;LimitedCount&quot;: 0,
+    &quot;discount&quot;: &quot;84&quot;,
+    &quot;duration&quot;: 0
+  },
+  &quot;4004&quot;: {
+    &quot;ID&quot;: 4004,
+    &quot;GPStoreId&quot;: &quot;com.dino.sand.bus.passport&quot;,
+    &quot;IOSStoreId&quot;: &quot;com.dino.sand.bus.passport&quot;,
+    &quot;ItemType&quot;: 4,
+    &quot;get&quot;: [],
+    &quot;popular&quot;: 0,
+    &quot;price&quot;: &quot;$9.99&quot;,
+    &quot;coinIcon&quot;: 0,
+    &quot;title&quot;: &quot;UI_VaultPass_Title&quot;,
+    &quot;LimitedCount&quot;: 0,
+    &quot;discount&quot;: &quot;&quot;,
+    &quot;duration&quot;: 0
+  },
+  &quot;4201&quot;: {
+    &quot;ID&quot;: 4201,
+    &quot;GPStoreId&quot;: &quot;com.dino.sand.bus.combo_small&quot;,
+    &quot;IOSStoreId&quot;: &quot;com.dino.sand.bus.combo_small&quot;,
+    &quot;ItemType&quot;: 10,
+    &quot;get&quot;: [
+      [
+        1001,
+        1500
+      ],
+      [
+        10003,
+        1
+      ]
+    ],
+    &quot;popular&quot;: 0,
+    &quot;price&quot;: &quot;$2.99&quot;,
+    &quot;coinIcon&quot;: 0,
+    &quot;title&quot;: &quot;&quot;,
+    &quot;LimitedCount&quot;: 0,
+    &quot;discount&quot;: &quot;&quot;,
+    &quot;duration&quot;: 0
+  },
+  &quot;4202&quot;: {
+    &quot;ID&quot;: 4202,
+    &quot;GPStoreId&quot;: &quot;com.dino.sand.bus.combo_medium&quot;,
+    &quot;IOSStoreId&quot;: &quot;com.dino.sand.bus.combo_medium&quot;,
+    &quot;ItemType&quot;: 10,
+    &quot;get&quot;: [
+      [
+        1001,
+        2500
+      ],
+      [
+        10002,
+        1
+      ],
+      [
+        10004,
+        1
+      ]
+    ],
+    &quot;popular&quot;: 0,
+    &quot;price&quot;: &quot;$4.99&quot;,
+    &quot;coinIcon&quot;: 0,
+    &quot;title&quot;: &quot;&quot;,
+    &quot;LimitedCount&quot;: 0,
+    &quot;discount&quot;: &quot;&quot;,
+    &quot;duration&quot;: 0
+  },
+  &quot;4203&quot;: {
+    &quot;ID&quot;: 4203,
+    &quot;GPStoreId&quot;: &quot;com.dino.sand.bus.combo_large&quot;,
+    &quot;IOSStoreId&quot;: &quot;com.dino.sand.bus.combo_large&quot;,
+    &quot;ItemType&quot;: 10,
+    &quot;get&quot;: [
+      [
+        1001,
+        4000
+      ],
+      [
+        10002,
+        2
+      ],
+      [
+        10003,
+        2
+      ],
+      [
+        10004,
+        2
+      ]
+    ],
+    &quot;popular&quot;: 0,
+    &quot;price&quot;: &quot;$9.99&quot;,
+    &quot;coinIcon&quot;: 0,
+    &quot;title&quot;: &quot;&quot;,
+    &quot;LimitedCount&quot;: 0,
+    &quot;discount&quot;: &quot;&quot;,
+    &quot;duration&quot;: 0
+  },
+  &quot;4204&quot;: {
+    &quot;ID&quot;: 4204,
+    &quot;GPStoreId&quot;: &quot;com.dino.sand.bus.combo_all&quot;,
+    &quot;IOSStoreId&quot;: &quot;com.dino.sand.bus.combo_all&quot;,
+    &quot;ItemType&quot;: 10,
+    &quot;get&quot;: [
+      [
+        1001,
+        8000
+      ],
+      [
+        10002,
+        3
+      ],
+      [
+        10003,
+        3
+      ],
+      [
+        10004,
+        3
+      ]
+    ],
+    &quot;popular&quot;: 0,
+    &quot;price&quot;: &quot;$13.99&quot;,
+    &quot;coinIcon&quot;: 0,
+    &quot;title&quot;: &quot;&quot;,
+    &quot;LimitedCount&quot;: 0,
+    &quot;discount&quot;: &quot;22&quot;,
+    &quot;duration&quot;: 0
+  },
+  &quot;4301&quot;: {
+    &quot;ID&quot;: 4301,
+    &quot;GPStoreId&quot;: &quot;com.dino.sand.bus.play_on&quot;,
+    &quot;IOSStoreId&quot;: &quot;com.dino.sand.bus.play_on&quot;,
+    &quot;ItemType&quot;: 10,
+    &quot;get&quot;: [
+      [
+        1001,
+        2700
+      ],
+      [
+        10005,
+        1
+      ],
+      [
+        10004,
+        1
+      ],
+      [
+        10003,
+        1
+      ],
+      [
+        10002,
+        1
+      ]
+    ],
+    &quot;popular&quot;: 0,
+    &quot;price&quot;: &quot;$5.99&quot;,
+    &quot;coinIcon&quot;: 0,
+    &quot;title&quot;: &quot;UI_PlayOn_Offer&quot;,
+    &quot;LimitedCount&quot;: 0,
+    &quot;discount&quot;: &quot;&quot;,
+    &quot;duration&quot;: 0
+  },
+  &quot;5001&quot;: {
+    &quot;ID&quot;: 5001,
+    &quot;GPStoreId&quot;: &quot;com.dino.sand.bus.coins_1000&quot;,
+    &quot;IOSStoreId&quot;: &quot;com.dino.sand.bus.coins_1000&quot;,
+    &quot;ItemType&quot;: 3,
+    &quot;get&quot;: [
+      [
+        1001,
+        1000
+      ]
+    ],
+    &quot;popular&quot;: 0,
+    &quot;price&quot;: &quot;$1.99&quot;,
+    &quot;coinIcon&quot;: 0,
+    &quot;title&quot;: &quot;&quot;,
+    &quot;LimitedCount&quot;: 0,
+    &quot;discount&quot;: &quot;&quot;,
+    &quot;duration&quot;: 0
+  },
+  &quot;5002&quot;: {
+    &quot;ID&quot;: 5002,
+    &quot;GPStoreId&quot;: &quot;com.dino.sand.bus.coins_5000&quot;,
+    &quot;IOSStoreId&quot;: &quot;com.dino.sand.bus.coins_5000&quot;,
+    &quot;ItemType&quot;: 3,
+    &quot;get&quot;: [
+      [
+        1001,
+        5000
+      ]
+    ],
+    &quot;popular&quot;: 0,
+    &quot;price&quot;: &quot;$7.99&quot;,
+    &quot;coinIcon&quot;: 0,
+    &quot;title&quot;: &quot;&quot;,
+    &quot;LimitedCount&quot;: 0,
+    &quot;discount&quot;: &quot;&quot;,
+    &quot;duration&quot;: 0
+  },
+  &quot;5003&quot;: {
+    &quot;ID&quot;: 5003,
+    &quot;GPStoreId&quot;: &quot;com.dino.sand.bus.coins_10000&quot;,
+    &quot;IOSStoreId&quot;: &quot;com.dino.sand.bus.coins_10000&quot;,
+    &quot;ItemType&quot;: 3,
+    &quot;get&quot;: [
+      [
+        1001,
+        10000
+      ]
+    ],
+    &quot;popular&quot;: 0,
+    &quot;price&quot;: &quot;$14.99&quot;,
+    &quot;coinIcon&quot;: 0,
+    &quot;title&quot;: &quot;&quot;,
+    &quot;LimitedCount&quot;: 0,
+    &quot;discount&quot;: &quot;&quot;,
+    &quot;duration&quot;: 0
+  },
+  &quot;5004&quot;: {
+    &quot;ID&quot;: 5004,
+    &quot;GPStoreId&quot;: &quot;com.dino.sand.bus.coins_25000&quot;,
+    &quot;IOSStoreId&quot;: &quot;com.dino.sand.bus.coins_25000&quot;,
+    &quot;ItemType&quot;: 3,
+    &quot;get&quot;: [
+      [
+        1001,
+        25000
+      ]
+    ],
+    &quot;popular&quot;: 0,
+    &quot;price&quot;: &quot;$29.99&quot;,
+    &quot;coinIcon&quot;: 0,
+    &quot;title&quot;: &quot;&quot;,
+    &quot;LimitedCount&quot;: 0,
+    &quot;discount&quot;: &quot;&quot;,
+    &quot;duration&quot;: 0
+  },
+  &quot;5005&quot;: {
+    &quot;ID&quot;: 5005,
+    &quot;GPStoreId&quot;: &quot;com.dino.sand.bus.coins_50000&quot;,
+    &quot;IOSStoreId&quot;: &quot;com.dino.sand.bus.coins_50000&quot;,
+    &quot;ItemType&quot;: 3,
+    &quot;get&quot;: [
+      [
+        1001,
+        50000
+      ]
+    ],
+    &quot;popular&quot;: 0,
+    &quot;price&quot;: &quot;$54.99&quot;,
+    &quot;coinIcon&quot;: 0,
+    &quot;title&quot;: &quot;&quot;,
+    &quot;LimitedCount&quot;: 0,
+    &quot;discount&quot;: &quot;&quot;,
+    &quot;duration&quot;: 0
+  },
+  &quot;5006&quot;: {
+    &quot;ID&quot;: 5006,
+    &quot;GPStoreId&quot;: &quot;com.dino.sand.bus.coins_100000&quot;,
+    &quot;IOSStoreId&quot;: &quot;com.dino.sand.bus.coins_100000&quot;,
+    &quot;ItemType&quot;: 3,
+    &quot;get&quot;: [
+      [
+        1001,
+        100000
+      ]
+    ],
+    &quot;popular&quot;: 0,
+    &quot;price&quot;: &quot;$99.99&quot;,
+    &quot;coinIcon&quot;: 0,
+    &quot;title&quot;: &quot;&quot;,
+    &quot;LimitedCount&quot;: 0,
+    &quot;discount&quot;: &quot;&quot;,
+    &quot;duration&quot;: 0
+  },
+  &quot;9001&quot;: {
+    &quot;ID&quot;: 9001,
+    &quot;GPStoreId&quot;: &quot;com.dino.sand.bus.no_ads&quot;,
+    &quot;IOSStoreId&quot;: &quot;com.dino.sand.bus.no_ads&quot;,
+    &quot;ItemType&quot;: 9,
+    &quot;get&quot;: [],
+    &quot;popular&quot;: 0,
+    &quot;price&quot;: &quot;$7.99&quot;,
+    &quot;coinIcon&quot;: 0,
+    &quot;title&quot;: &quot;&quot;,
+    &quot;LimitedCount&quot;: 1,
+    &quot;discount&quot;: &quot;&quot;,
+    &quot;duration&quot;: 0
+  },
+  &quot;9002&quot;: {
+    &quot;ID&quot;: 9002,
+    &quot;GPStoreId&quot;: &quot;com.dino.sand.bus.starter_pack&quot;,
+    &quot;IOSStoreId&quot;: &quot;com.dino.sand.bus.starter_pack&quot;,
+    &quot;ItemType&quot;: 5,
+    &quot;get&quot;: [
+      [
+        1001,
+        1000
+      ],
+      [
+        10005,
+        1
+      ],
+      [
+        10002,
+        1
+      ],
+      [
+        10003,
+        1
+      ],
+      [
+        10004,
+        1
+      ]
+    ],
+    &quot;popular&quot;: 0,
+    &quot;price&quot;: &quot;$1.99&quot;,
+    &quot;coinIcon&quot;: 0,
+    &quot;title&quot;: &quot;UI_Starter_Title&quot;,
+    &quot;LimitedCount&quot;: 1,
+    &quot;discount&quot;: &quot;70&quot;,
+    &quot;duration&quot;: 0
+  },
+  &quot;9003&quot;: {
+    &quot;ID&quot;: 9003,
+    &quot;GPStoreId&quot;: &quot;com.dino.sand.bus.no_ads_bundle&quot;,
+    &quot;IOSStoreId&quot;: &quot;com.dino.sand.bus.no_ads_bundle&quot;,
+    &quot;ItemType&quot;: 9,
+    &quot;get&quot;: [
+      [
+        1001,
+        2000
+      ],
+      [
+        10005,
+        1
+      ],
+      [
+        10002,
+        1
+      ],
+      [
+        10003,
+        1
+      ],
+      [
+        10004,
+        1
+      ]
+    ],
+    &quot;popular&quot;: 0,
+    &quot;price&quot;: &quot;$11.99&quot;,
+    &quot;coinIcon&quot;: 0,
+    &quot;title&quot;: &quot;UI_NoAdsBundle_Title&quot;,
+    &quot;LimitedCount&quot;: 1,
+    &quot;discount&quot;: &quot;&quot;,
+    &quot;duration&quot;: 0
+  }
+}</pre></details></section><section id="TbStoreTabConfig"><h2>TbStoreTabConfig</h2><p><a href="Evidence/Unpacked/tables/TbStoreTabConfig.json">Mở JSON nguyên bản đã giải nén</a></p><details><summary>Xem đầy đủ 2 mục</summary><pre>{
+  &quot;6000&quot;: {
+    &quot;ID&quot;: 6000,
+    &quot;TabType&quot;: 3,
+    &quot;ItemList&quot;: [
+      5001,
+      5002,
+      5003,
+      5004,
+      5005,
+      5006
+    ],
+    &quot;Title&quot;: &quot;UI_shop_coins&quot;
+  },
+  &quot;6002&quot;: {
+    &quot;ID&quot;: 6002,
+    &quot;TabType&quot;: 1,
+    &quot;ItemList&quot;: [
+      4004,
+      4002
+    ],
+    &quot;Title&quot;: &quot;UI_shop_pass&quot;
+  }
+}</pre></details></section><section id="TbStreakRate"><h2>TbStreakRate</h2><p><a href="Evidence/Unpacked/tables/TbStreakRate.json">Mở JSON nguyên bản đã giải nén</a></p><details><summary>Xem đầy đủ 2 mục</summary><pre>{
+  &quot;3000&quot;: {
+    &quot;ID&quot;: 3000,
+    &quot;NeedScoreList&quot;: [
+      20,
+      20,
+      25,
+      30,
+      40,
+      20,
+      25,
+      30,
+      40,
+      50,
+      30,
+      40,
+      50,
+      60,
+      80,
+      50,
+      60,
+      70,
+      80,
+      100
+    ],
+    &quot;RewardList&quot;: [
+      1021,
+      1022,
+      1023,
+      1024,
+      1025,
+      1026,
+      1027,
+      1028,
+      1029,
+      1030,
+      1031,
+      1032,
+      1033,
+      1034,
+      1035,
+      1036,
+      1037,
+      1038,
+      1039,
+      1040
+    ],
+    &quot;RateGroup&quot;: 1
+  },
+  &quot;3001&quot;: {
+    &quot;ID&quot;: 3001,
+    &quot;NeedScoreList&quot;: [
+      20,
+      20,
+      25,
+      30,
+      40,
+      20,
+      25,
+      30,
+      40,
+      50,
+      30,
+      40,
+      50,
+      60,
+      80,
+      50,
+      60,
+      70,
+      80,
+      100
+    ],
+    &quot;RewardList&quot;: [
+      1021,
+      1022,
+      1023,
+      1024,
+      1025,
+      1026,
+      1027,
+      1028,
+      1029,
+      1030,
+      1031,
+      1032,
+      1033,
+      1034,
+      1035,
+      1036,
+      1037,
+      1038,
+      1039,
+      1040
+    ],
+    &quot;RateGroup&quot;: 1
+  }
+}</pre></details></section><section id="TbSystemOpenConfig"><h2>TbSystemOpenConfig</h2><p><a href="Evidence/Unpacked/tables/TbSystemOpenConfig.json">Mở JSON nguyên bản đã giải nén</a></p><details><summary>Xem đầy đủ 9 mục</summary><pre>{
+  &quot;2&quot;: {
+    &quot;ID&quot;: 2,
+    &quot;NeedShowGuide&quot;: 1,
+    &quot;GuidType&quot;: 1,
+    &quot;ArrowMirror&quot;: 0,
+    &quot;condition_level&quot;: 35,
+    &quot;NextNeedWinTimes&quot;: 4,
+    &quot;condition_day&quot;: 0
+  },
+  &quot;3&quot;: {
+    &quot;ID&quot;: 3,
+    &quot;NeedShowGuide&quot;: 1,
+    &quot;GuidType&quot;: 2,
+    &quot;ArrowMirror&quot;: 0,
+    &quot;condition_level&quot;: 20,
+    &quot;NextNeedWinTimes&quot;: 4,
+    &quot;condition_day&quot;: 0
+  },
+  &quot;4&quot;: {
+    &quot;ID&quot;: 4,
+    &quot;NeedShowGuide&quot;: 1,
+    &quot;GuidType&quot;: 1,
+    &quot;ArrowMirror&quot;: 0,
+    &quot;condition_level&quot;: 30,
+    &quot;NextNeedWinTimes&quot;: 4,
+    &quot;condition_day&quot;: 0
+  },
+  &quot;5&quot;: {
+    &quot;ID&quot;: 5,
+    &quot;NeedShowGuide&quot;: 1,
+    &quot;GuidType&quot;: 1,
+    &quot;ArrowMirror&quot;: 0,
+    &quot;condition_level&quot;: 35,
+    &quot;NextNeedWinTimes&quot;: 4,
+    &quot;condition_day&quot;: 0
+  },
+  &quot;6&quot;: {
+    &quot;ID&quot;: 6,
+    &quot;NeedShowGuide&quot;: 1,
+    &quot;GuidType&quot;: 1,
+    &quot;ArrowMirror&quot;: 1,
+    &quot;condition_level&quot;: 48,
+    &quot;NextNeedWinTimes&quot;: 0,
+    &quot;condition_day&quot;: 0
+  },
+  &quot;7&quot;: {
+    &quot;ID&quot;: 7,
+    &quot;NeedShowGuide&quot;: 1,
+    &quot;GuidType&quot;: 2,
+    &quot;ArrowMirror&quot;: 0,
+    &quot;condition_level&quot;: 0,
+    &quot;NextNeedWinTimes&quot;: 0,
+    &quot;condition_day&quot;: 0
+  },
+  &quot;9&quot;: {
+    &quot;ID&quot;: 9,
+    &quot;NeedShowGuide&quot;: 1,
+    &quot;GuidType&quot;: 2,
+    &quot;ArrowMirror&quot;: 0,
+    &quot;condition_level&quot;: 0,
+    &quot;NextNeedWinTimes&quot;: 0,
+    &quot;condition_day&quot;: 0
+  },
+  &quot;10&quot;: {
+    &quot;ID&quot;: 10,
+    &quot;NeedShowGuide&quot;: 0,
+    &quot;GuidType&quot;: 0,
+    &quot;ArrowMirror&quot;: 0,
+    &quot;condition_level&quot;: 8,
+    &quot;NextNeedWinTimes&quot;: 0,
+    &quot;condition_day&quot;: 1
+  },
+  &quot;11&quot;: {
+    &quot;ID&quot;: 11,
+    &quot;NeedShowGuide&quot;: 1,
+    &quot;GuidType&quot;: 2,
+    &quot;ArrowMirror&quot;: 0,
+    &quot;condition_level&quot;: 30,
+    &quot;NextNeedWinTimes&quot;: 0,
+    &quot;condition_day&quot;: 0
+  }
+}</pre></details></section><section id="TbWinStreak"><h2>TbWinStreak</h2><p><a href="Evidence/Unpacked/tables/TbWinStreak.json">Mở JSON nguyên bản đã giải nén</a></p><details><summary>Xem đầy đủ 11 mục</summary><pre>{
+  &quot;Config&quot;: {
+    &quot;ID&quot;: &quot;Config&quot;,
+    &quot;enabled&quot;: 1,
+    &quot;unlockLevel&quot;: 15,
+    &quot;cycleDays&quot;: 7,
+    &quot;anchor&quot;: 1791763200,
+    &quot;killIsLoss&quot;: 1
+  },
+  &quot;CP1&quot;: {
+    &quot;ID&quot;: &quot;CP1&quot;,
+    &quot;floor&quot;: 2,
+    &quot;chest&quot;: 1,
+    &quot;get&quot;: [
+      [
+        1001,
+        50
+      ]
+    ]
+  },
+  &quot;CP2&quot;: {
+    &quot;ID&quot;: &quot;CP2&quot;,
+    &quot;floor&quot;: 4,
+    &quot;chest&quot;: 1,
+    &quot;get&quot;: [
+      [
+        10005,
+        1
+      ]
+    ]
+  },
+  &quot;CP3&quot;: {
+    &quot;ID&quot;: &quot;CP3&quot;,
+    &quot;floor&quot;: 8,
+    &quot;chest&quot;: 2,
+    &quot;get&quot;: [
+      [
+        10003,
+        1
+      ]
+    ]
+  },
+  &quot;CP4&quot;: {
+    &quot;ID&quot;: &quot;CP4&quot;,
+    &quot;floor&quot;: 12,
+    &quot;chest&quot;: 3,
+    &quot;get&quot;: [
+      [
+        1001,
+        100
+      ]
+    ]
+  },
+  &quot;CP5&quot;: {
+    &quot;ID&quot;: &quot;CP5&quot;,
+    &quot;floor&quot;: 18,
+    &quot;chest&quot;: 4,
+    &quot;get&quot;: [
+      [
+        10002,
+        1
+      ]
+    ]
+  },
+  &quot;CP6&quot;: {
+    &quot;ID&quot;: &quot;CP6&quot;,
+    &quot;floor&quot;: 24,
+    &quot;chest&quot;: 5,
+    &quot;get&quot;: [
+      [
+        10004,
+        1
+      ],
+      [
+        1001,
+        100
+      ]
+    ]
+  },
+  &quot;CP7&quot;: {
+    &quot;ID&quot;: &quot;CP7&quot;,
+    &quot;floor&quot;: 30,
+    &quot;chest&quot;: 5,
+    &quot;get&quot;: [
+      [
+        10002,
+        1
+      ],
+      [
+        10005,
+        1
+      ]
+    ]
+  },
+  &quot;CP8&quot;: {
+    &quot;ID&quot;: &quot;CP8&quot;,
+    &quot;floor&quot;: 38,
+    &quot;chest&quot;: 6,
+    &quot;get&quot;: [
+      [
+        1001,
+        300
+      ]
+    ]
+  },
+  &quot;CP9&quot;: {
+    &quot;ID&quot;: &quot;CP9&quot;,
+    &quot;floor&quot;: 48,
+    &quot;chest&quot;: 6,
+    &quot;get&quot;: [
+      [
+        10003,
+        1
+      ],
+      [
+        10004,
+        1
+      ]
+    ]
+  },
+  &quot;CP10&quot;: {
+    &quot;ID&quot;: &quot;CP10&quot;,
+    &quot;floor&quot;: 60,
+    &quot;chest&quot;: 7,
+    &quot;get&quot;: [
+      [
+        1001,
+        1000
+      ],
+      [
+        10005,
+        1
+      ],
+      [
+        10002,
+        1
+      ],
+      [
+        10003,
+        1
+      ],
+      [
+        10004,
+        1
+      ]
+    ]
+  }
+}</pre></details></section><section id="TbYachtRacing"><h2>TbYachtRacing</h2><p><a href="Evidence/Unpacked/tables/TbYachtRacing.json">Mở JSON nguyên bản đã giải nén</a></p><details><summary>Xem đầy đủ 1 mục</summary><pre>{
+  &quot;1&quot;: {
+    &quot;Id&quot;: 1,
+    &quot;ActivityId&quot;: 5001,
+    &quot;StageList&quot;: [
+      {
+        &quot;Stage&quot;: 1,
+        &quot;Reward&quot;: 1046,
+        &quot;FailedLimitTimes&quot;: 20,
+        &quot;FailedCoolTime&quot;: 1800,
+        &quot;FailedCoolLevelCount&quot;: 5
+      },
+      {
+        &quot;Stage&quot;: 2,
+        &quot;Reward&quot;: 1047,
+        &quot;FailedLimitTimes&quot;: 20,
+        &quot;FailedCoolTime&quot;: 1800,
+        &quot;FailedCoolLevelCount&quot;: 5
+      },
+      {
+        &quot;Stage&quot;: 3,
+        &quot;Reward&quot;: 1048,
+        &quot;FailedLimitTimes&quot;: 20,
+        &quot;FailedCoolTime&quot;: 1800,
+        &quot;FailedCoolLevelCount&quot;: 5
+      }
+    ],
+    &quot;FirstParticipationReward&quot;: 1001,
+    &quot;RoundCount&quot;: 1,
+    &quot;NewRoundNeedLevelTimes&quot;: 0,
+    &quot;MatchBotRefreshTime&quot;: 10,
+    &quot;MatchBotRefreshLevels&quot;: 1
+  }
+}</pre></details></section><footer>Sandy Go! · 16/11/2026 · Phần chính giải thích gameplay; nguồn kỹ thuật nằm trong các mục đối chiếu.</footer></main></body></html>

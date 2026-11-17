@@ -1,0 +1,142 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 33554432,
+    "m_PathID": 39275462656
+  },
+  "m_Name": "KitPrefabIndex",
+  "Entries": [
+    {
+      "Key": "HudWorldTags",
+      "Path": "UIKit/Game/HudWorldTags"
+    },
+    {
+      "Key": "UICommentPop",
+      "Path": "UIKit/Commerce/UICommentPop"
+    },
+    {
+      "Key": "UIDailyGift2D",
+      "Path": "UIKit/Meta/UIDailyGift2D"
+    },
+    {
+      "Key": "UIEvIntro2D",
+      "Path": "UIKit/Events/UIEvIntro2D"
+    },
+    {
+      "Key": "UIFirstEnterLoading",
+      "Path": "UIKit/Boot/UIFirstEnterLoading"
+    },
+    {
+      "Key": "UIForceUpdate2D",
+      "Path": "UIKit/Boot/UIForceUpdate2D"
+    },
+    {
+      "Key": "UIGame",
+      "Path": "UIKit/Game/UIGame"
+    },
+    {
+      "Key": "UIGameFailed",
+      "Path": "UIKit/Game/UIGameFailed"
+    },
+    {
+      "Key": "UIGameLevelEnter",
+      "Path": "UIKit/Game/UIGameLevelEnter"
+    },
+    {
+      "Key": "UIGameLevelQuit",
+      "Path": "UIKit/Game/UIGameLevelQuit"
+    },
+    {
+      "Key": "UIGameTips",
+      "Path": "UIKit/Commerce/UIGameTips"
+    },
+    {
+      "Key": "UIGameWinPanel_GP3",
+      "Path": "UIKit/Game/UIGameWinPanel_GP3"
+    },
+    {
+      "Key": "UIGiftPack2D",
+      "Path": "UIKit/Meta/UIGiftPack2D"
+    },
+    {
+      "Key": "UIHome2D",
+      "Path": "UIKit/Home/UIHome2D"
+    },
+    {
+      "Key": "UILanguage",
+      "Path": "UIKit/Home/UILanguage"
+    },
+    {
+      "Key": "UINewBooster2D",
+      "Path": "UIKit/Game/UINewBooster2D"
+    },
+    {
+      "Key": "UIPause2D",
+      "Path": "UIKit/Game/UIPause2D"
+    },
+    {
+      "Key": "UIPowerBuyPanel",
+      "Path": "UIKit/Commerce/UIPowerBuyPanel"
+    },
+    {
+      "Key": "UIPrivacyPolicyPop",
+      "Path": "UIKit/Boot/UIPrivacyPolicyPop"
+    },
+    {
+      "Key": "UIPurchaseItemPanel",
+      "Path": "UIKit/Commerce/UIPurchaseItemPanel"
+    },
+    {
+      "Key": "UIRemoveAds2D",
+      "Path": "UIKit/Commerce/UIRemoveAds2D"
+    },
+    {
+      "Key": "UIRewards2D",
+      "Path": "UIKit/Meta/UIRewards2D"
+    },
+    {
+      "Key": "UISetting",
+      "Path": "UIKit/Home/UISetting"
+    },
+    {
+      "Key": "UIStarter2D",
+      "Path": "UIKit/Meta/UIStarter2D"
+    },
+    {
+      "Key": "UIStorePanel",
+      "Path": "UIKit/Commerce/UIStorePanel"
+    },
+    {
+      "Key": "UIThankYou2D",
+      "Path": "UIKit/Commerce/UIThankYou2D"
+    },
+    {
+      "Key": "UIWaiting",
+      "Path": "UIKit/Commerce/UIWaiting"
+    },
+    {
+      "Key": "UIWelcomeBack2D",
+      "Path": "UIKit/Meta/UIWelcomeBack2D"
+    },
+    {
+      "Key": "UIWinChest2D",
+      "Path": "UIKit/Meta/UIWinChest2D"
+    },
+    {
+      "Key": "UIWinStreak2D",
+      "Path": "UIKit/Events/UIWinStreak2D"
+    },
+    {
+      "Key": "UIWinStreakInfo2D",
+      "Path": "UIKit/Events/UIWinStreakInfo2D"
+    },
+    {
+      "Key": "UIWinStreakIntro2D",
+      "Path": "UIKit/Events/UIWinStreakIntro2D"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "dump.cs": {
+    "size": 31379783,
+    "sha256": "4e0046bcc11b4a937630d84568d09e13f33e822b96a68beea74b22dd71ee1b2f"
+  },
+  "Inputs/libil2cpp.so": {
+    "size": 82378480,
+    "sha256": "8130be4610c87e08b2d363c05a09549880fd861fabfbd19b5c5d8f02b5d9c897"
+  },
+  "Inputs/global-metadata.dat": {
+    "size": 11432192,
+    "sha256": "dd70facb3584edc8582a11da5347cd600e5938f59ff92d68114f0b10216bd5a9"
+  }
+}

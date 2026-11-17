@@ -1,0 +1,4962 @@
+[
+  {
+    "name": "UIMask",
+    "path_id": "-426171492875694260",
+    "serialized": "CAB-48dbc85a536009ceeda145416187f3fe"
+  },
+  {
+    "name": "Background",
+    "path_id": "1660267235368898380",
+    "serialized": "CAB-48dbc85a536009ceeda145416187f3fe"
+  },
+  {
+    "name": "DinoGamesLogo",
+    "path_id": "2520",
+    "serialized": "globalgamemanagers.assets"
+  },
+  {
+    "name": "Mark_Garage",
+    "path_id": "587",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "SS2_10",
+    "path_id": "588",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "SS2_9",
+    "path_id": "589",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "SS2_14",
+    "path_id": "590",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "SS2_5",
+    "path_id": "591",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "SS2_4",
+    "path_id": "592",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "SS2_11",
+    "path_id": "593",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "SS2_3",
+    "path_id": "594",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "SS2_1",
+    "path_id": "595",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "Blob1",
+    "path_id": "596",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "SS2_12",
+    "path_id": "597",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "UISprite",
+    "path_id": "598",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "UIMask",
+    "path_id": "599",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "txt_starter_pack",
+    "path_id": "600",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "bar_multiplier_x3",
+    "path_id": "601",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "fx_day_glow",
+    "path_id": "602",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_perk_no_banner",
+    "path_id": "603",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_booster_pickup",
+    "path_id": "604",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "frame_booster__b66_73_66_66",
+    "path_id": "605",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_chest_purple",
+    "path_id": "606",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "btn_square_blue",
+    "path_id": "607",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_perk_gift_ads",
+    "path_id": "608",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_event_coin",
+    "path_id": "609",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "frame_popup_starter_pack",
+    "path_id": "610",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_chest_lv6",
+    "path_id": "611",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "illus_tut_daily_reward",
+    "path_id": "612",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "btn_close_normal",
+    "path_id": "613",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "bar_level_line",
+    "path_id": "614",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "frame_node_locked",
+    "path_id": "615",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_hand_pointer",
+    "path_id": "616",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "deco_awning",
+    "path_id": "617",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "logo_tower_bus",
+    "path_id": "618",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "deco_tower_platform",
+    "path_id": "619",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "White1px",
+    "path_id": "620",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "bar_event_band",
+    "path_id": "621",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "txt_special_gift",
+    "path_id": "622",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "Gradient",
+    "path_id": "623",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "btn_yellow",
+    "path_id": "624",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "frame_title_no_ads",
+    "path_id": "625",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "BS_Icon_Pickup",
+    "path_id": "626",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "txt_rescue_offer",
+    "path_id": "627",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "btn_buy",
+    "path_id": "628",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "btn_holder_light",
+    "path_id": "629",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_chest_lv4",
+    "path_id": "630",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "btn_green",
+    "path_id": "631",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_heart_plus",
+    "path_id": "632",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "frame_floor_target",
+    "path_id": "633",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "char_bus_broken",
+    "path_id": "634",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_bus",
+    "path_id": "635",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_coin_pack_5",
+    "path_id": "636",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_event_daily",
+    "path_id": "637",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "bar_fill_green",
+    "path_id": "638",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "txt_welcome_back",
+    "path_id": "639",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "circle_soft03",
+    "path_id": "640",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "header_event_top",
+    "path_id": "641",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "frame_item_special_gift",
+    "path_id": "642",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "frame_hud_tray_hard",
+    "path_id": "643",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "btn_toggle_on",
+    "path_id": "644",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "btn_play_superhard",
+    "path_id": "645",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "txt_no_ads",
+    "path_id": "646",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "btn_close_x",
+    "path_id": "647",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "btn_toggle_track",
+    "path_id": "648",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "btn_play_hard",
+    "path_id": "649",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_chest_lv2",
+    "path_id": "650",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_chest_lv3",
+    "path_id": "651",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_lock",
+    "path_id": "652",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_chest_lv4_open",
+    "path_id": "653",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "bar_track_gold",
+    "path_id": "654",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "frame_tile_coin",
+    "path_id": "655",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "tag_string",
+    "path_id": "656",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_arrow_up",
+    "path_id": "657",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "frame_level_tab_holder",
+    "path_id": "658",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "frame_tab_special_gift",
+    "path_id": "659",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "frame_title_starter_pack",
+    "path_id": "660",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "frame_tile_no_ads",
+    "path_id": "661",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "frame_info_panel",
+    "path_id": "662",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_coin_pile",
+    "path_id": "663",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_skulls_hard_wings",
+    "path_id": "664",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_music",
+    "path_id": "665",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "bar_multiplier_x2",
+    "path_id": "666",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "frame_level_tab_hard",
+    "path_id": "667",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_star_gold",
+    "path_id": "668",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_heart",
+    "path_id": "669",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_chest_coins_open",
+    "path_id": "670",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "frame_multiplier",
+    "path_id": "671",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "txt_bus_streak",
+    "path_id": "672",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "BS_Icon_Bus",
+    "path_id": "673",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "deco_city",
+    "path_id": "674",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_chest",
+    "path_id": "675",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "btn_settings",
+    "path_id": "676",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_star_target",
+    "path_id": "677",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_coin_pack_1",
+    "path_id": "678",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "bar_segment",
+    "path_id": "679",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "frame_popup_superhard",
+    "path_id": "680",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_chest_lv7",
+    "path_id": "681",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "bg_sky",
+    "path_id": "682",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_coin_pack_6",
+    "path_id": "683",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "frame_popup_no_ads",
+    "path_id": "684",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "bg_home",
+    "path_id": "685",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_event_race",
+    "path_id": "686",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "frame_tut_booster",
+    "path_id": "687",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "shape_pill__b42_0_42_0",
+    "path_id": "688",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "frame_panel_light",
+    "path_id": "689",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_chest_lv1",
+    "path_id": "690",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "frame_tut_bubble",
+    "path_id": "691",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "btn_purple__b69_61_0_80",
+    "path_id": "692",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "frame_day",
+    "path_id": "693",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_sound",
+    "path_id": "694",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_bus_pilot",
+    "path_id": "695",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "logo_tower_bus_small",
+    "path_id": "696",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "btn_close_hard",
+    "path_id": "697",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "bar_pipe_green",
+    "path_id": "698",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "bar_nav_base",
+    "path_id": "699",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_heart_infinite",
+    "path_id": "700",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "deco_lift_platform",
+    "path_id": "701",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_hand",
+    "path_id": "702",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "frame_level_tab_normal",
+    "path_id": "703",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "fx_rays",
+    "path_id": "704",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "btn_play_normal",
+    "path_id": "705",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "btn_info",
+    "path_id": "706",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "header_popup_normal",
+    "path_id": "707",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_event_cup",
+    "path_id": "708",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_chest_gold_pile",
+    "path_id": "709",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_coin_pack_3",
+    "path_id": "710",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "bg_pattern",
+    "path_id": "711",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "btn_close_red",
+    "path_id": "712",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "btn_play_frame",
+    "path_id": "713",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_no_ads_tile",
+    "path_id": "714",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_sale",
+    "path_id": "715",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_event_royale",
+    "path_id": "716",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "deco_lift_rail",
+    "path_id": "717",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "fx_glow",
+    "path_id": "718",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "BS_Icon_Slot",
+    "path_id": "719",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "UIFoldoutClosed",
+    "path_id": "720",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_perk_no_video",
+    "path_id": "721",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "frame_counter_plate",
+    "path_id": "722",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "Circle_InnerOuterGlow_01",
+    "path_id": "723",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "BS_Icon_Wand",
+    "path_id": "724",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_booster_wand",
+    "path_id": "725",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "BS_Icon_PlusSlot",
+    "path_id": "726",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "bar_loading_fill__b80_55_0_57",
+    "path_id": "727",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "btn_nav_selected",
+    "path_id": "728",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "deco_tower_base",
+    "path_id": "729",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "tag_body",
+    "path_id": "730",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_tick",
+    "path_id": "731",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "frame_hud_tray_normal",
+    "path_id": "732",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "frame_popup_bus_streak",
+    "path_id": "733",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "btn_toggle_off",
+    "path_id": "734",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "circle_boke01",
+    "path_id": "735",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_bus_glyph",
+    "path_id": "736",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "frame_popup_tower_bus",
+    "path_id": "737",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "bar_multiplier_x4",
+    "path_id": "738",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_chest_coins",
+    "path_id": "739",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "bar_segment_on",
+    "path_id": "740",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "btn_side_special_gift",
+    "path_id": "741",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "char_bus_happy",
+    "path_id": "742",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "illus_tut_multipliers",
+    "path_id": "743",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "fx_day7_glow",
+    "path_id": "744",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_chest_lv6_open",
+    "path_id": "745",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_check",
+    "path_id": "746",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "frame_item_starter_pack",
+    "path_id": "747",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_event_streak",
+    "path_id": "748",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_badge_red",
+    "path_id": "749",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_select_marker",
+    "path_id": "750",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_calendar_checked",
+    "path_id": "751",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_skulls_superhard",
+    "path_id": "752",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_pip_on",
+    "path_id": "753",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "frame_title_special_gift",
+    "path_id": "754",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_star",
+    "path_id": "755",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "frame_day7",
+    "path_id": "756",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_chest_lv1_open",
+    "path_id": "757",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "header_popup_superhard",
+    "path_id": "758",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "frame_timer_gold",
+    "path_id": "759",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "UIFoldoutOpened",
+    "path_id": "760",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_ads",
+    "path_id": "761",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_booster_shuffle",
+    "path_id": "762",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "logo_tower_bus_popup",
+    "path_id": "763",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "frame_popup_normal",
+    "path_id": "764",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_chest_lv3_open",
+    "path_id": "765",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_coin_pack_4",
+    "path_id": "766",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "header_popup_hard",
+    "path_id": "767",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_haptic",
+    "path_id": "768",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_booster_extra_slot",
+    "path_id": "769",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "btn_side_starter_pack",
+    "path_id": "770",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "frame_side_label_no_ads",
+    "path_id": "771",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "shape_round__b44_44_44_44",
+    "path_id": "772",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "BS_Icon_Shuffle",
+    "path_id": "773",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "btn_side_tower_bus",
+    "path_id": "774",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_skulls_superhard_wings",
+    "path_id": "775",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "deco_lift_shaft",
+    "path_id": "776",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "UICheckMark",
+    "path_id": "777",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_timer",
+    "path_id": "778",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "Circle_Glow_03",
+    "path_id": "779",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_pip_off",
+    "path_id": "780",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_gift_box",
+    "path_id": "781",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_chest_lv5_open",
+    "path_id": "782",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "frame_streak_progress",
+    "path_id": "783",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "deco_floor_collar",
+    "path_id": "784",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_star_reached",
+    "path_id": "785",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_shop",
+    "path_id": "786",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_star_empty",
+    "path_id": "787",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "frame_timer",
+    "path_id": "788",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "frame_day_claim",
+    "path_id": "789",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "frame_side_label_tower_bus",
+    "path_id": "790",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "illus_bus_streak_wide",
+    "path_id": "791",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_skulls_hard",
+    "path_id": "792",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "RingGlow",
+    "path_id": "793",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "btn_close_superhard",
+    "path_id": "794",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_coin",
+    "path_id": "795",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "frame_hud_tray_superhard",
+    "path_id": "796",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "frame_node_unlocked",
+    "path_id": "797",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_event_tower",
+    "path_id": "798",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "frame_option",
+    "path_id": "799",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "logo_daily_rewards",
+    "path_id": "800",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "bar_path_line",
+    "path_id": "801",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "txt_completed",
+    "path_id": "802",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "frame_reward_bubble",
+    "path_id": "803",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "BS_Icon_HeadStart",
+    "path_id": "804",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "UIElement8px",
+    "path_id": "805",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_chest_lv7_open",
+    "path_id": "806",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_no_ads_small",
+    "path_id": "807",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "frame_side_label_starter_pack",
+    "path_id": "808",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "btn_plus",
+    "path_id": "809",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_coin_pack_2",
+    "path_id": "810",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_heart_broken",
+    "path_id": "811",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "btn_toggle_knob",
+    "path_id": "812",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "frame_currency",
+    "path_id": "813",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_no_ads",
+    "path_id": "814",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "tag_ring",
+    "path_id": "815",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_chest_lv2_open",
+    "path_id": "816",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_event_pass",
+    "path_id": "817",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "frame_loading_bar",
+    "path_id": "818",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "frame_popup_hard",
+    "path_id": "819",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "frame_panel_tower_bus",
+    "path_id": "820",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "shape_round_small__b22_22_22_22",
+    "path_id": "821",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_chest_open",
+    "path_id": "822",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "shape_ring",
+    "path_id": "823",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "frame_day7_claim",
+    "path_id": "824",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "btn_side_no_ads",
+    "path_id": "825",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "logo_bus_streak",
+    "path_id": "826",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "btn_booster_green",
+    "path_id": "827",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_chest_lv5",
+    "path_id": "828",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "circle_soft02",
+    "path_id": "829",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "deco_cloud",
+    "path_id": "830",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "leaf01 1",
+    "path_id": "831",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_avatar_guide",
+    "path_id": "832",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "frame_popup_special_gift",
+    "path_id": "833",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "frame_panel_bus_streak",
+    "path_id": "834",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "frame_side_label_special_gift",
+    "path_id": "835",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "frame_rescue_offer",
+    "path_id": "836",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "btn_blue__b69_61_0_80",
+    "path_id": "837",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "frame_level_tab_superhard",
+    "path_id": "838",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_arrow_curve_left",
+    "path_id": "839",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "frame_level_plate",
+    "path_id": "840",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "btn_red",
+    "path_id": "841",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "icon_calendar_blank",
+    "path_id": "842",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "SS2_6",
+    "path_id": "843",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "SS2_15",
+    "path_id": "844",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "SS2_2",
+    "path_id": "845",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "Mark_Arrow",
+    "path_id": "846",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "Blob2",
+    "path_id": "847",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "SS2_13",
+    "path_id": "848",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "SS2_7",
+    "path_id": "849",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "SS2_8",
+    "path_id": "850",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "SS2_0",
+    "path_id": "851",
+    "serialized": "resources.assets"
+  },
+  {
+    "name": "jindutiaodi_shu",
+    "path_id": "-9218267691884170012",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "icon_rukou_huang",
+    "path_id": "-9208722948009143764",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "jsphb_ksjm_36",
+    "path_id": "-9199712240323381640",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_icon_Trophy1_2",
+    "path_id": "-9160159204865913863",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "Common_img_badge",
+    "path_id": "-9151699620552793412",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "caiqiyy",
+    "path_id": "-9138957974629479108",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "caidaihong",
+    "path_id": "-9132920980455648605",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "jsphb_zhezhao",
+    "path_id": "-9116431602617096914",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "cha3d",
+    "path_id": "-9068426134723772535",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "game_item_gate_shadow2",
+    "path_id": "-9064519356912195680",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "pass_img_jinbi__14",
+    "path_id": "-9062322688721325500",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_box_3",
+    "path_id": "-9034175483226915004",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "pass_img_jinbi__5",
+    "path_id": "-9027331182011787128",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_box_6",
+    "path_id": "-9012695446378510795",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_cb",
+    "path_id": "-8959781976663910711",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "qiqiu1",
+    "path_id": "-8959054692416482605",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "surfing_icon_2",
+    "path_id": "-8866090730472237612",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "Common_btn_ship",
+    "path_id": "-8797851437644527128",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "pearl_img_title",
+    "path_id": "-8746172758979438007",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "popup_yellow_zhong",
+    "path_id": "-8716355512628263512",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_jiaobiao_1_2",
+    "path_id": "-8681484749741333329",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_cloud_5@3x",
+    "path_id": "-8658148957434143689",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_cloud_1",
+    "path_id": "-8645468977400574996",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "icon_zidi_hong",
+    "path_id": "-8599628677421948875",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "xiong_10",
+    "path_id": "-8579988861576343742",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_icon_Trophy2",
+    "path_id": "-8509030791915141947",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "pingfen_star_off@3x",
+    "path_id": "-8502326275379334196",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "profile_divider_img",
+    "path_id": "-8495742042602457729",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "jindutiaodi",
+    "path_id": "-8483485432269744307",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "beishutiaodi_tanchuang",
+    "path_id": "-8457369602251455290",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "juhua",
+    "path_id": "-8427746053492566812",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "pingfen_star_on@3x",
+    "path_id": "-8412072188817694574",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "game_item_conveyor_gate_in",
+    "path_id": "-8374391968327145100",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_cb_frame_down1",
+    "path_id": "-8363908549839818776",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "Fail_icon_Ranking1",
+    "path_id": "-8348298035183675728",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "icon_Cannonball_b",
+    "path_id": "-8336151386716587897",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "xiong",
+    "path_id": "-8307124674770176111",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "jinbi1",
+    "path_id": "-8305508217590695694",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_lankuang_shen_qian2",
+    "path_id": "-8261227123403572237",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "shumao",
+    "path_id": "-8217452012074087693",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "zidi_tubiao@3x",
+    "path_id": "-8178494845705696018",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_baoxianguidi",
+    "path_id": "-8130623519247637275",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "icon_coin_small",
+    "path_id": "-8119704702161699373",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_icon_Trophy_coin_2_2",
+    "path_id": "-8115229492249418834",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "Common_img_bg",
+    "path_id": "-8060113166149575982",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_baoxianguidi_xuanfukuang",
+    "path_id": "-8033969523476219336",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "tip_img_huowu2",
+    "path_id": "-8016706942762952104",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_img_ticket_1",
+    "path_id": "-8016638463513670695",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "n2",
+    "path_id": "-8013073906285021000",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "shu",
+    "path_id": "-7993164923058946352",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "zhenzhu2",
+    "path_id": "-7983374455067994762",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_img_title_bg_3",
+    "path_id": "-7968104222556236977",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "Common_img_lock",
+    "path_id": "-7966785973128307983",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_popup_Continue",
+    "path_id": "-7929314615368713292",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "zhizhen_xiao",
+    "path_id": "-7927292263175082152",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "Common_frame_img_gold",
+    "path_id": "-7926668006264041138",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_jindutiao",
+    "path_id": "-7917235487525678130",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "popup_tip_zi@3x",
+    "path_id": "-7880135399577831788",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "tubiao_di",
+    "path_id": "-7878123476154226900",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "beishutiao_3",
+    "path_id": "-7871286911839626475",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "tuanchuang",
+    "path_id": "-7842484705751464007",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "pass_img_jinbi__6",
+    "path_id": "-7779649675176804606",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_img_title_3",
+    "path_id": "-7769590267418141662",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "paizi_lianzi",
+    "path_id": "-7720613329313200352",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "Common_btn_Avatar_2",
+    "path_id": "-7709928963556732684",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_baoxiangui_men",
+    "path_id": "-7698372578955220365",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_balloon_purple",
+    "path_id": "-7696452044634154450",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "tanchuang_jian_di",
+    "path_id": "-7681899846526077182",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "daoju_infinite",
+    "path_id": "-7657209493404038662",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "tip_jiantou_zi_up@3x",
+    "path_id": "-7638044719743496361",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "qiqiu_bg_zi",
+    "path_id": "-7615436309722708746",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "yindao_zhezhao_claim",
+    "path_id": "-7544930823292113024",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "shu_wufeng",
+    "path_id": "-7544097332799523316",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "tubiao_wo4",
+    "path_id": "-7493024887254057715",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "beishutiao_2",
+    "path_id": "-7390852179881465860",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_baoxiangui_guan",
+    "path_id": "-7362199407414367057",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "popup_yellow_shang",
+    "path_id": "-7331134263542951973",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "beijing",
+    "path_id": "-7324598345052506715",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "common_point_red",
+    "path_id": "-7223551786335348900",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "shop_img_jinbi",
+    "path_id": "-7214599288531947525",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "touxiangkuang_huang",
+    "path_id": "-7163980116939197798",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_jinbijiesuo_kai",
+    "path_id": "-7161198401567437058",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_lankuang_qian",
+    "path_id": "-7130988028241278053",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_shop_cion",
+    "path_id": "-7042592270950948072",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_jiaobiao_red",
+    "path_id": "-7042291120315905490",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "buttn_play_hard",
+    "path_id": "-7007647222844608285",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "gold_img_piao@3x",
+    "path_id": "-6985625163271709694",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_qiehuandian1",
+    "path_id": "-6971166245368927344",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "tip_bg_red",
+    "path_id": "-6946489366523321115",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_bg",
+    "path_id": "-6943279567123111267",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "avatar_laoshu",
+    "path_id": "-6941714779650989419",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "beishutiao3_hong",
+    "path_id": "-6927116576373613414",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "beishutiaodi_zhuui",
+    "path_id": "-6921929830479563002",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "huangtiaobiaoti",
+    "path_id": "-6910307768153077548",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "icon_chaodaqiu",
+    "path_id": "-6904233055925742329",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_bg_3",
+    "path_id": "-6876503880173565322",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "icon_ad_2",
+    "path_id": "-6873539030735824570",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "baishanbei2",
+    "path_id": "-6873046010583109191",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "tip_bg_blue",
+    "path_id": "-6826368410423503966",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "pass_img_jinbi__2",
+    "path_id": "-6821037961174230022",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "game_item_gate",
+    "path_id": "-6808337514189416661",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "jinbi2",
+    "path_id": "-6807102464580503805",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "gold_img_jinbidui@3x",
+    "path_id": "-6700656133473066325",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "qiqiu_bg_lan",
+    "path_id": "-6685308944619358663",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "icon_rukou_hongdeng",
+    "path_id": "-6652351268493232017",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_suo_1",
+    "path_id": "-6632500905810844318",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "pass_img_jinbi__10",
+    "path_id": "-6615875568667221536",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "Tex_mask_img_cb_1",
+    "path_id": "-6590464536487332489",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "dashanbeiyy2",
+    "path_id": "-6510401611185788773",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "coin_logo_di@3x",
+    "path_id": "-6284382437344277457",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "Tex_mask_img_cb_2",
+    "path_id": "-6272851115009269926",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "beishutiao_hong",
+    "path_id": "-6265569993598022128",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_yingdao_pao",
+    "path_id": "-6235688931343699023",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "lingxingdi_lan_da",
+    "path_id": "-6211224512226447002",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_cloud_3",
+    "path_id": "-6166640950193608112",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "jiaobiao",
+    "path_id": "-6117528915061013713",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "pass_img_jinbi__8",
+    "path_id": "-6065242713702889969",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "xian@3x",
+    "path_id": "-6062829758272928446",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "gc_logo",
+    "path_id": "-6058447693915443349",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "flying_bg_1",
+    "path_id": "-6042132270395174273",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "!",
+    "path_id": "-6038139472935337790",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "flying_img_frame",
+    "path_id": "-6004122198233916635",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "popup_yellow_xia",
+    "path_id": "-5981885702327580391",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "s",
+    "path_id": "-5947633362732892287",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "tip_wide_red",
+    "path_id": "-5923059595134089095",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "tip_huang_jiantouup",
+    "path_id": "-5890878798106010642",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_houzi_red",
+    "path_id": "-5886849492156465961",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "store_coin_1",
+    "path_id": "-5875570400762881434",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "avatar_niao",
+    "path_id": "-5874963628994387511",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "pass_img_jinbi__16",
+    "path_id": "-5873397871420558210",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_cb_door_shadow",
+    "path_id": "-5867322812596768433",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_icon_Trophy1_4",
+    "path_id": "-5863153674432137694",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "pass_img_Gold_1",
+    "path_id": "-5837359357345610511",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "xiong_9",
+    "path_id": "-5829444645042617816",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "icon_rukou_men",
+    "path_id": "-5810444262387288494",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "r",
+    "path_id": "-5794037625304975182",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_suo_1",
+    "path_id": "-5793918977123019195",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_box_1",
+    "path_id": "-5745171608756394683",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_img_title_2",
+    "path_id": "-5712019019118566932",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "pass_img_Gold_111",
+    "path_id": "-5708728047957050749",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "a 2",
+    "path_id": "-5708280264594007301",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_cloud_4@3x",
+    "path_id": "-5704095914066024084",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_img_ship_FX1",
+    "path_id": "-5696274301237886796",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_cb_door_in",
+    "path_id": "-5632722151100613199",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "caidailan_hou",
+    "path_id": "-5584466372939761898",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "tip_img_xiao",
+    "path_id": "-5561402484565894494",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "tuzi_tiankongbeijing",
+    "path_id": "-5558288197330911959",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_icon_Trophy1",
+    "path_id": "-5504543368195271304",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "Common_btn_Avatar_1",
+    "path_id": "-5498611400951691281",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "jsphb_ksjm_29",
+    "path_id": "-5496034871835010219",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "buttn_close",
+    "path_id": "-5480030474317439571",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_box_4",
+    "path_id": "-5453338680772047837",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "icon_wuxianqiu@3x",
+    "path_id": "-5433773703862682579",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "coin_img_baitiao@3x",
+    "path_id": "-5426087272299880798",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_bg_2",
+    "path_id": "-5424145676382109036",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "jsphb_ksjm_33",
+    "path_id": "-5421613822675274364",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_qiehuandian2",
+    "path_id": "-5420563577782579851",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "icon_heart_wuxian",
+    "path_id": "-5371240101768070885",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "common_img_Level",
+    "path_id": "-5346354592840465903",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "game_item_light_2",
+    "path_id": "-5320194803633529332",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_yingdao_beishudi",
+    "path_id": "-5305008681953148625",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_superpass",
+    "path_id": "-5292347164839264861",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "caidaihong_hou",
+    "path_id": "-5279773936190408288",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_cb_shadow",
+    "path_id": "-5247298679900337751",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "btn_lingqu",
+    "path_id": "-5219388921896471406",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "duihuakuang",
+    "path_id": "-5209669462357456967",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "item_jinbi_dui",
+    "path_id": "-5204939030921170433",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "coin_img_piao@3x-2",
+    "path_id": "-5200702028538710074",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_icon_Trophy3_4",
+    "path_id": "-5173271168641897357",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "bg",
+    "path_id": "-5158458888803341418",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "Fail_icon_Ranking3",
+    "path_id": "-5106912493948212191",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "coin_shop_upto",
+    "path_id": "-5097701752667881747",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "buttn_orange_s",
+    "path_id": "-5082999568043111511",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "qiri_rukou_liang",
+    "path_id": "-5016883468168094075",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "WildRide_icon_3",
+    "path_id": "-4987224132528763832",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "daoju_liekai3d",
+    "path_id": "-4920359632699251002",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "shijiandi@3x",
+    "path_id": "-4902259721481924000",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "btn_green_xiao",
+    "path_id": "-4836681274701011091",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "pack_ad_item@3x",
+    "path_id": "-4801611728948801121",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_box_5",
+    "path_id": "-4791034747100806659",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_img_Line",
+    "path_id": "-4761799006072068984",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "profile_refresh_btn",
+    "path_id": "-4735136067270810885",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "Common_img_lock",
+    "path_id": "-4670862623456950920",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "pass_img_jinbi__7",
+    "path_id": "-4605806329635749817",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_icon_Trophy2_2",
+    "path_id": "-4565010202954058832",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_houzi_lan",
+    "path_id": "-4563980064251803956",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "landuihuakuang",
+    "path_id": "-4563873244933560213",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "xiong_17",
+    "path_id": "-4561216411762319648",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "Common_frame_img_bg",
+    "path_id": "-4534393455568445968",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "tiankongtanchuang",
+    "path_id": "-4506567803715466826",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "Common_btn_Orange",
+    "path_id": "-4491636198419332400",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "pass_img_jinbi__9",
+    "path_id": "-4462449578047304606",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "lingxing_lv_xiao",
+    "path_id": "-4459391442874025466",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "lian5",
+    "path_id": "-4396389427793880492",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "wo3_luobo",
+    "path_id": "-4349194954283757917",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "biaotidi",
+    "path_id": "-4332908444169423012",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "popup_gongchang",
+    "path_id": "-4321871641055921677",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "tuzi",
+    "path_id": "-4306115021344899301",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "icon_weizhi",
+    "path_id": "-4299598579715717604",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "xingxing_text ",
+    "path_id": "-4292607449630809654",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "qiri_rukou_bg",
+    "path_id": "-4286666725856605362",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "cha_xiao",
+    "path_id": "-4209639272247754182",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "dizi",
+    "path_id": "-4202433786169678276",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "landi_tubiao@3x",
+    "path_id": "-4200879176877448986",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "tip_bg_purple",
+    "path_id": "-4104381306063104459",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "game_item_main_jiaocheng",
+    "path_id": "-4078272217761899401",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "pearl_icon",
+    "path_id": "-4078269084978986460",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "yuncai2_hou",
+    "path_id": "-4051240578314629951",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "i",
+    "path_id": "-4036381382985394671",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "game_item_gate_gate",
+    "path_id": "-4033795878441820441",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_baoxiangui_jinbi2",
+    "path_id": "-4014843591428109763",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "qiqiu_bg_hong",
+    "path_id": "-3967694854565808411",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "pingfen_star_off@3x",
+    "path_id": "-3940341637208083097",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "luobobiaochi",
+    "path_id": "-3862856603877256630",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "xingxing",
+    "path_id": "-3833787787465549532",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "common_img_number_bg",
+    "path_id": "-3799827696214888806",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "gc_bg_up",
+    "path_id": "-3758312762065484495",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "hudie_256x256_1",
+    "path_id": "-3712395582082630107",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "flying_bg",
+    "path_id": "-3710558626528675073",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_img_Avatar_Frame_back",
+    "path_id": "-3708011934268773725",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "jsphb_ksjm_30",
+    "path_id": "-3699865154953069176",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "wuzi",
+    "path_id": "-3633108550679435751",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "daojudi_lv@3x",
+    "path_id": "-3587899154833555484",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "icon_coin_small@xxhdpi",
+    "path_id": "-3512694560045294745",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "Gift Pack_btn_2",
+    "path_id": "-3502298522544563981",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "btndi_zi",
+    "path_id": "-3391579772322669688",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_popup_bg_1",
+    "path_id": "-3389164823496520520",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_icon_bg_2",
+    "path_id": "-3321082546725961057",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "qiqiu2",
+    "path_id": "-3311001263687375162",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "xiong_1",
+    "path_id": "-3310101057378545976",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "Fail_icon_Flying2",
+    "path_id": "-3277055664447294091",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "game_item_conveyor",
+    "path_id": "-3262271685368656712",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "touxiangkuang_lan",
+    "path_id": "-3259515281137085455",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "caipiao",
+    "path_id": "-3258774133463867375",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "biaozhen_xiao",
+    "path_id": "-3217443697151820805",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_item_mask",
+    "path_id": "-3146258533817216772",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "coin_shop_di@3x",
+    "path_id": "-3138577796316882518",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_jia_xiao2",
+    "path_id": "-3121195634733660234",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "game_item_gate_in",
+    "path_id": "-3105557512555193779",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "suo",
+    "path_id": "-3049953661090478987",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_img_title_bg_2",
+    "path_id": "-3041443003997757290",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "libao_item_bg",
+    "path_id": "-3036178936137279431",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "lansedi_2",
+    "path_id": "-3029190426021229217",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "beishutiao3_zhuui",
+    "path_id": "-2972483828808828816",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "zhuzhi3",
+    "path_id": "-2954443322314254747",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "tubiaodi_zi@3x",
+    "path_id": "-2942027134571899988",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "tip_jiantou_down_down",
+    "path_id": "-2910413230325352692",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_qianjing",
+    "path_id": "-2880714287378660378",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "jsphb_ksjm_1",
+    "path_id": "-2873228139735409447",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "Tex_mask_img_cb_2",
+    "path_id": "-2857221100376370110",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "tubiaodi_lan@3x",
+    "path_id": "-2814091203961597875",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "qizi_hou",
+    "path_id": "-2805937888486329635",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "meihuadi_lani_da",
+    "path_id": "-2738106089291151180",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "tip_title",
+    "path_id": "-2700637070856053558",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "coin_img_lvtiao@3x",
+    "path_id": "-2697582554995482889",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "duihao",
+    "path_id": "-2694571365149317012",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "wenzidi_jiaocheng",
+    "path_id": "-2651452184305055743",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "game_icon_lid_body2",
+    "path_id": "-2620787758051167546",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "n",
+    "path_id": "-2563197324068830664",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "tanhao",
+    "path_id": "-2541223536700996160",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_guangying",
+    "path_id": "-2528088419505732580",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_img_ship_FX2",
+    "path_id": "-2443942934929966085",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_img_title_1",
+    "path_id": "-2435259151081113098",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "flying_img_loading_bg",
+    "path_id": "-2429009753476379004",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "coin_shop_andi@3x",
+    "path_id": "-2425427797825142820",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "xiong_14",
+    "path_id": "-2401325976844608094",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "game_icon_lid_body",
+    "path_id": "-2372440658447618483",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "beishutiao_1",
+    "path_id": "-2362665656165169608",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "game_item_gate_in_shadow",
+    "path_id": "-2349113273751153717",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_icon_Trophy3",
+    "path_id": "-2347806551528294226",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "muban_1",
+    "path_id": "-2316324153877223142",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_icon_Trophy_coin_2_1",
+    "path_id": "-2303556294547608383",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "dazhenzhu",
+    "path_id": "-2223018979728941222",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_sky",
+    "path_id": "-2212584372447831645",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_bg_Name tag_1",
+    "path_id": "-2202922981382350664",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_img_ship_FX3",
+    "path_id": "-2159634505440466561",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_cb_frame_top_1",
+    "path_id": "-2140797766182297303",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "popup_lan_shang",
+    "path_id": "-2068151545776981315",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "popup_tip",
+    "path_id": "-2059528122141777472",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "icon_banzi_3",
+    "path_id": "-2006551512968076312",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "pack_tips_bg@3x",
+    "path_id": "-1964352523340274657",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "bg_img_tuibiji@3x",
+    "path_id": "-1961994434041155309",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_cloud_3@3x",
+    "path_id": "-1949974675364966101",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "hongdi_tubiao@3x",
+    "path_id": "-1925199246929744235",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_houzi_lan_down",
+    "path_id": "-1844296338710457554",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "tip_landi_zhong",
+    "path_id": "-1790980516940314928",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "icon_jiaqiu_b",
+    "path_id": "-1743979577647881101",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "Common_frame_img_gray",
+    "path_id": "-1729829880157152399",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_img_Badge",
+    "path_id": "-1557437601907717971",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "xiong_2",
+    "path_id": "-1542043647740921239",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "pass_img_Gold_1111",
+    "path_id": "-1489630536884882577",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "popup_lan_andi",
+    "path_id": "-1447322899756485972",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "tip_wide_purple",
+    "path_id": "-1437666823727203400",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "icon_ad_2@3x",
+    "path_id": "-1435183582714996019",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "lingxing_cheng_xiao",
+    "path_id": "-1345563487367145362",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "huangzhuzi",
+    "path_id": "-1285462029292823041",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "duigou_zxiao",
+    "path_id": "-1275616953709931876",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_baoxiangui_kai",
+    "path_id": "-1198976449790305532",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "biaotidi",
+    "path_id": "-1192512943093375675",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "biaozhen_zhong",
+    "path_id": "-1183812097173471039",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "icon_Cannonball",
+    "path_id": "-1182688172789135022",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "home_icon_suo",
+    "path_id": "-1180491167670077449",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "popup_bg",
+    "path_id": "-1153655408900691041",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "beishudi",
+    "path_id": "-1136856569750516056",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_cb_door_Light_5_on",
+    "path_id": "-1094747675906416560",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "xiong_18",
+    "path_id": "-1062118781706995606",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "tubiao_lv_shuzidi",
+    "path_id": "-1032412256448264087",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "caiqi1",
+    "path_id": "-1028374577220068648",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "Common_btn_Name_2",
+    "path_id": "-986800466708590397",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "jsphb_ksjm_26",
+    "path_id": "-983754274863780718",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_bg_2",
+    "path_id": "-968972648078360709",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "touxiangkuang_di",
+    "path_id": "-936826523007210816",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "popup_huang_andi",
+    "path_id": "-922611275646541108",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "lanseaocao",
+    "path_id": "-917387883798333866",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "touxiangkuang_tongyong",
+    "path_id": "-910410489319939760",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "icon_banzi_1",
+    "path_id": "-849045810969982784",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "GiftPack_box_icon_3",
+    "path_id": "-792962892012011140",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_free_bg",
+    "path_id": "-739816480816652760",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "pack_ad_title@3x",
+    "path_id": "-662327922863153078",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "Icon_guanggao_xiao",
+    "path_id": "-629420341885481042",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "u",
+    "path_id": "-595976119650399527",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_img_ship_FX4",
+    "path_id": "-564732985938495448",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "muban_2",
+    "path_id": "-559663359445582937",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_box_2",
+    "path_id": "-557385673019990690",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_shibai_zhanshi2",
+    "path_id": "-554408635551622633",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_jiaobiao_1",
+    "path_id": "-530430455092018555",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "pass_img_Gold_11",
+    "path_id": "-526982702648596243",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_img_Finish Line",
+    "path_id": "-522959103934238035",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "daojudi@3x",
+    "path_id": "-518267879156258288",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "zhenzhu3",
+    "path_id": "-503723354440382859",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_img_Avatar Frame_bg1",
+    "path_id": "-492947492220813308",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "yingwu",
+    "path_id": "-473329427658333894",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "Common_img_1",
+    "path_id": "-462430526253751246",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "beishutiao1_hong",
+    "path_id": "-442851551675329817",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "gc_bg_down",
+    "path_id": "-438660919321106023",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "shengzi",
+    "path_id": "-423392663776634872",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "popup_zidi_xian",
+    "path_id": "-419295760925096942",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "hudie_256x256_2",
+    "path_id": "-414221565629091741",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_bg_1",
+    "path_id": "-383989794814298891",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "pass_img_jinbi__0",
+    "path_id": "-334547289572185841",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_cloud_2",
+    "path_id": "-284522485774674048",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "biao_xiao",
+    "path_id": "-280182192911187247",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "icon_heart_break",
+    "path_id": "-248141179994970379",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_hongkuang_shen",
+    "path_id": "-214813915042333590",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "tip_huang",
+    "path_id": "-209419917989592198",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "game_item_glass_behand",
+    "path_id": "-158891270462819424",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "tubiaoa_wenzidi_lan",
+    "path_id": "-140862321697615662",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_cb_door_shadow1",
+    "path_id": "-119377282727957032",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "xiaoxiong_tubiao@3x",
+    "path_id": "-102262580322314503",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_jiage_bg",
+    "path_id": "-71768846529080929",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "profile_refresh_img",
+    "path_id": "-70913825301051119",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "keji",
+    "path_id": "-57485199777289807",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "Common_btn_Frame_1",
+    "path_id": "-53020292490978019",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "gear_smal",
+    "path_id": "-45153434281597483",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "tubiao_jindutiao",
+    "path_id": "-42656329508075971",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "jsphb_ksjm_35",
+    "path_id": "-38530183073017786",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "gear_big",
+    "path_id": "-10315570969871082",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "tip_huang_jiantoudown",
+    "path_id": "-978880616575217",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "Common_icon_ship",
+    "path_id": "39353941702795887",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_img_tips_bg",
+    "path_id": "96317733011654439",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "baishanbei3",
+    "path_id": "119387044438155908",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "zhuqingting_gan",
+    "path_id": "140810619594493577",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "tip_blue",
+    "path_id": "146628904235588527",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "pass_img_jinbi__3",
+    "path_id": "169094679534773855",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_cb_door_2",
+    "path_id": "191483270215077298",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "tubiaodi_hong@3x",
+    "path_id": "198968326691081703",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "GiftPack_box_icon_1",
+    "path_id": "232503767128372694",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "lian1",
+    "path_id": "241022358592597081",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_baoxiangui_men3",
+    "path_id": "261219514075525934",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "zhuqingting_ye_huang",
+    "path_id": "280530829467366038",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_hongkuang_shen_qian2",
+    "path_id": "293225323838132274",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "qizigan",
+    "path_id": "293775278862683136",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "niu",
+    "path_id": "294270464061062969",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "Common_btn_arrow",
+    "path_id": "294368065403695725",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "qizi",
+    "path_id": "296458618683959017",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "zhenzhu1",
+    "path_id": "311604672772157277",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "tubiao_jindutiaodi",
+    "path_id": "332956778805713104",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "icon_beilvjihe",
+    "path_id": "361988106333780862",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_bg_3",
+    "path_id": "362710117501702317",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "lvseshuzidi",
+    "path_id": "373495695436139245",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_jinbijiesuo_guan",
+    "path_id": "406064410139034216",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "xiong_13",
+    "path_id": "435405717736338551",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "tip_jiantou_zi_dw1@3x",
+    "path_id": "489882936643603870",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_huangtiao",
+    "path_id": "537612973379942436",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "lanseshuzidi",
+    "path_id": "553527648102021457",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_icon_Trophy1_3",
+    "path_id": "658547521496980961",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "xiong_3",
+    "path_id": "681294667356089647",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "yingzi",
+    "path_id": "687455303338414525",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "jsphb_ksjm_31",
+    "path_id": "690898642648217618",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "pearl_img_frame",
+    "path_id": "737043990786675215",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "xiong_5",
+    "path_id": "754094360020901669",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "yuncai1",
+    "path_id": "761104679243427875",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "time_tip_big",
+    "path_id": "782887639628812047",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "jinpiao",
+    "path_id": "790401967863432074",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "biaotiban_zhong@3x",
+    "path_id": "825001650790772830",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "bg_jinku_nei",
+    "path_id": "837589485442562889",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "shumao",
+    "path_id": "873859147817948300",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "Progress_Bar_img_1",
+    "path_id": "885034339275864540",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "jindutiao",
+    "path_id": "936576118885012870",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "jian1",
+    "path_id": "964481331690340832",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "shop_img_bg_2",
+    "path_id": "966281722542650337",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "zhu2",
+    "path_id": "975461874923577059",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "caidaiyingzi",
+    "path_id": "998671002347664501",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "shuzhi2",
+    "path_id": "1059390459906543258",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "xiong_8",
+    "path_id": "1068267601626457193",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "beike_zhong",
+    "path_id": "1117826878374115853",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_lantiao",
+    "path_id": "1187679071792084838",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_cb_frame_down",
+    "path_id": "1244960516604711749",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "jsphb_ksjm_28",
+    "path_id": "1261994101800061572",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "g",
+    "path_id": "1282827827288834046",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_zhenzhu_jindu_bg",
+    "path_id": "1301882727522804632",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "o2",
+    "path_id": "1345219362238368399",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "buttn_green_s",
+    "path_id": "1381163259054671916",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_xingxing",
+    "path_id": "1393638293701000792",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "Quit",
+    "path_id": "1395363682676970451",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "congratulations!",
+    "path_id": "1417221913870112933",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "gou_2",
+    "path_id": "1426882350730339998",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "power_8",
+    "path_id": "1563262551927578789",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "dengexian_huang",
+    "path_id": "1615719715686989500",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "tubiao_wo4_yy",
+    "path_id": "1644977831476668496",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_lankuang_shen",
+    "path_id": "1654149441997672867",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_cb_door",
+    "path_id": "1656518217291089197",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_icon_Trophy_coin_1_1",
+    "path_id": "1671168236097790011",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "jian2",
+    "path_id": "1728120732325680719",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "yuncai1_hou",
+    "path_id": "1816858734704744898",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_img_Trophy3_4",
+    "path_id": "1836084624978997070",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_suo_2",
+    "path_id": "1847687567954701941",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "gold_qian",
+    "path_id": "1850430496594690484",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "hudie_128x256_1",
+    "path_id": "1864771862664219934",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "caodi",
+    "path_id": "1866659662538199531",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "game_item_main_ptb2",
+    "path_id": "1884484294662789431",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "wuxian_zhong",
+    "path_id": "1887157351437587405",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_balloon_pink",
+    "path_id": "1945963545646433420",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "zhenzhuqianyy",
+    "path_id": "1964303885524687101",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "coin_img_tip_di@3x",
+    "path_id": "1969006501709897680",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "shop_img_dii",
+    "path_id": "1982201863450268297",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "gift_pack_icon_green",
+    "path_id": "1995757078194244533",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "icon_banzi_0",
+    "path_id": "2008335206907045634",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "qizi",
+    "path_id": "2021330825480874873",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "pass_img_jinbi__12",
+    "path_id": "2032552061518972360",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "lian2",
+    "path_id": "2035945607979934549",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "lanseshijiantiao",
+    "path_id": "2044088230344960541",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "icon_jiguangpao",
+    "path_id": "2087489727416502866",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "icon_heart_wuxian_small",
+    "path_id": "2098781754469462225",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "yingzi",
+    "path_id": "2124971400627509233",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "o",
+    "path_id": "2127768193497128443",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "coin_shop_piao@3x",
+    "path_id": "2143826165963319970",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "Fail_icon_Factory",
+    "path_id": "2183657596612205967",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "zhenzhu4",
+    "path_id": "2197558495924501285",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "zhongbiao_da",
+    "path_id": "2202976999690201802",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "streakratebg",
+    "path_id": "2218594618748780949",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "zhu1",
+    "path_id": "2248336562917350790",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "icon_banzi_2",
+    "path_id": "2253315048056180141",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "huangduihuakuang",
+    "path_id": "2283753288402069471",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "xiong_15",
+    "path_id": "2307818840498404036",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "game_item_coin",
+    "path_id": "2309640855731134684",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "icon_jiguang_big",
+    "path_id": "2332231522205817734",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "game_item_gate_shadow",
+    "path_id": "2368326907926870688",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "qiqiu3",
+    "path_id": "2377047399867137064",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "zhuzhuang",
+    "path_id": "2381545855927394344",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_icon_Trophy3_2",
+    "path_id": "2454953700376622455",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_icon_Trophy2_4",
+    "path_id": "2494678860955993101",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "buttn_explain",
+    "path_id": "2531565426126158138",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "zhongbiao_zhong",
+    "path_id": "2537080251031748286",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "gc_bg_zhongjiantiao2",
+    "path_id": "2537175933550700890",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "common_img_jiantou_zuo",
+    "path_id": "2564316753911033142",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "beijingguang",
+    "path_id": "2576143797615747498",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "suo_xiao",
+    "path_id": "2608231088716552543",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "jindutiao_neibu",
+    "path_id": "2614884485494933602",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "game_item_conveyor_gate_up",
+    "path_id": "2639896742308798942",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "Common_btn_grey",
+    "path_id": "2639900281396733998",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "pearl_img_loading_bg",
+    "path_id": "2703212665702205569",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "gou",
+    "path_id": "2705864481882789168",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "huobitiao",
+    "path_id": "2715705887517503694",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "beishutiao2_zhuui",
+    "path_id": "2723870551065179013",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_suo_di",
+    "path_id": "2748823083434774201",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "gc_bg_zhongjiantiao1",
+    "path_id": "2751766794365828508",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "pass_img_jinbi__17",
+    "path_id": "2757018593488346773",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "zhekou_jiaobiao",
+    "path_id": "2772537016571259143",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "flying_img_title",
+    "path_id": "2830202303672710320",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "Add 5 balls",
+    "path_id": "2833268399995726514",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "tubiaodi_tongyong",
+    "path_id": "2833407498332462362",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "popup_lan_xia",
+    "path_id": "2852341182962609544",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_jia_big",
+    "path_id": "2882480884501949894",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "game_item_light_1",
+    "path_id": "2952086019639301293",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "baishanbei1",
+    "path_id": "2956999360839347923",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_coin_0",
+    "path_id": "2983948968550905650",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_img_Trophy1_4",
+    "path_id": "3014742752263696320",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "tanchuang_jian",
+    "path_id": "3029070107808692533",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "tanhao_xiao",
+    "path_id": "3040806823269018090",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "bg_gongchang",
+    "path_id": "3055299270248106520",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_balloon_bg",
+    "path_id": "3121388842292917825",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "popup_gc_xiahua",
+    "path_id": "3151433235763078709",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_img_Bubble",
+    "path_id": "3241372393389634780",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "icon_heart_big",
+    "path_id": "3318519295347020781",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "buttn_grey_s",
+    "path_id": "3331308530463050284",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "icon_sanlian@3x",
+    "path_id": "3349179705365642189",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_jiaobiao_2_2",
+    "path_id": "3380587899063106779",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_icon_bg_1",
+    "path_id": "3389379804113223484",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_suo_2",
+    "path_id": "3396423928697422409",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "Tex_mask_img_cb_1",
+    "path_id": "3467715246281639269",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "popup_wenzitishi",
+    "path_id": "3471191396509167128",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "shuye",
+    "path_id": "3475049934487822593",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "muban",
+    "path_id": "3506094853329708548",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "game_item_conveyor_gate_frame",
+    "path_id": "3527618969648882339",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_coin_2",
+    "path_id": "3570836224276871591",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "anwen",
+    "path_id": "3604443150928925161",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "huangdianzi",
+    "path_id": "3632006085350816494",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_jiaobiao_purple",
+    "path_id": "3649912354027794150",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_baoxiangui_men2",
+    "path_id": "3681519018441144577",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "beike_xiao",
+    "path_id": "3700698398007074513",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_baoxiangui_kai_1",
+    "path_id": "3709800386533181922",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_cloud_5",
+    "path_id": "3723294288330583154",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "buttn_play",
+    "path_id": "3725616407740765508",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "tip_landi_chang",
+    "path_id": "3794214936839915288",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "duigou",
+    "path_id": "3794984960409418011",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "pearl_bg_1",
+    "path_id": "3802407310833000192",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "pass_img_jinbi__13",
+    "path_id": "3802692997870247264",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "t",
+    "path_id": "3826489998636544626",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "Common_btn_bg",
+    "path_id": "3880926333822018590",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "jiaobiao_tubiao@3x",
+    "path_id": "3881404963756310403",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "dazhenzhuyy",
+    "path_id": "3898656265826102827",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "logo_img_jintiao1",
+    "path_id": "3909787219034195079",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "jsphb_ksjm_34",
+    "path_id": "3935456255344002906",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "he_kedu",
+    "path_id": "3957840818069088567",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "shengzi",
+    "path_id": "3998701800067103831",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_img_title_bg_1",
+    "path_id": "4009215158021813416",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "tip_lanzi_zhong",
+    "path_id": "4023186303352095035",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "Common_btn_Green",
+    "path_id": "4023860386337458866",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "logo",
+    "path_id": "4026869937388621787",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_img_ship",
+    "path_id": "4036123974088537784",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "guang",
+    "path_id": "4037368420101017409",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "tuzi_jiaocheng",
+    "path_id": "4046705682025276924",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "coin_img_biaoqian@3x",
+    "path_id": "4075689115250922302",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "Common_btn_Name_1",
+    "path_id": "4078223874376861222",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "game_item_main",
+    "path_id": "4107723630304103151",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "biaotiban_gao@3x",
+    "path_id": "4126083158411518285",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_icon_bg",
+    "path_id": "4171433244888883278",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "zhangpeng",
+    "path_id": "4175385761981620806",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "bg_shouye",
+    "path_id": "4219577835854371066",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_dizuo",
+    "path_id": "4248839647609451931",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "xiong_4",
+    "path_id": "4263987489383528181",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "gold_wenzi_diban@3x",
+    "path_id": "4267772884681339586",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "GiftPack_box_icon_2",
+    "path_id": "4269008121996926471",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "game_item_conveyor_gate_down",
+    "path_id": "4304318407974913322",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "biaozhen_da",
+    "path_id": "4311608167590881585",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_icon_Trophy3_3",
+    "path_id": "4317269587286016268",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_shijian_di",
+    "path_id": "4347136884872698626",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "btn_Purple_Big@3x",
+    "path_id": "4350169654163293006",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "coin_img_tiao@3x",
+    "path_id": "4354322736158805486",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "GiftPack_box_icon_4",
+    "path_id": "4417572867098606824",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "win_img",
+    "path_id": "4462724302382715444",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "tip_jiantou_zi_dw2@3x",
+    "path_id": "4472038580235914428",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_img_Trophy2_4",
+    "path_id": "4503887403195949212",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "meihuadi_lv_da",
+    "path_id": "4511376256384930160",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "Setting_bg_2",
+    "path_id": "4538498107915087759",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "Common_frame_bg",
+    "path_id": "4576695624585498375",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "Gift Pack_img_pop-up_bg@3x",
+    "path_id": "4586001005918833278",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "zhuqingting_ye_huang3",
+    "path_id": "4632204945775939225",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "common_img_light",
+    "path_id": "4709308492263004310",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_yaoshi",
+    "path_id": "4710033963219982465",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "popup_gc",
+    "path_id": "4719031626724846489",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "coin_img_tip_quan@3x",
+    "path_id": "4733163568998509635",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "game_item_coin_2",
+    "path_id": "4785093407459273644",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "pass_img_jinbi__11",
+    "path_id": "4797314608447569598",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_cloud_2@3x",
+    "path_id": "4806272346130464274",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_cb_frame_2_green",
+    "path_id": "4818624915924311867",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_img_ship_2",
+    "path_id": "4886249115833930851",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_houzi_red_down",
+    "path_id": "4918062962887330038",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "tab_huang",
+    "path_id": "4939442996499721558",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "buttn_green_little",
+    "path_id": "4955438435574181211",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_jia_xiao1",
+    "path_id": "5044600658839906961",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "Common_btn_Frame_2",
+    "path_id": "5062771196885420201",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "jsphb_ksjm_32",
+    "path_id": "5072986099513071726",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "pearl_img_loading",
+    "path_id": "5145136077833349492",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_icon_bg_3",
+    "path_id": "5175081738774387416",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_img_bg",
+    "path_id": "5223024703303872276",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "name_bg",
+    "path_id": "5305682886753009807",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "beike_da",
+    "path_id": "5335292377452921092",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "heijianbian",
+    "path_id": "5408496160655905879",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "continue_bg2",
+    "path_id": "5457791201592286529",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "tip_shibai",
+    "path_id": "5512475250238235980",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "streakratebg1",
+    "path_id": "5535710974550721038",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "xinglixiang",
+    "path_id": "5569709390551433586",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "muban_3",
+    "path_id": "5573083853793408828",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "t2",
+    "path_id": "5635483913679901884",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_icon_Trophy_coin_3_1",
+    "path_id": "5641503050016021995",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "deng_gc",
+    "path_id": "5643351678534545736",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "continue_bg1",
+    "path_id": "5691852869402933472",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_coin_4",
+    "path_id": "5699175309204757083",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "game_item_top",
+    "path_id": "5752013268189245192",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_logo_di",
+    "path_id": "5776812895752387882",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "lingxingdi_lv_da",
+    "path_id": "5866031186051891809",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "btn_shangcheng",
+    "path_id": "5890308773270911485",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "icon_rukou_yuandeng",
+    "path_id": "5910138118453514506",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "flying_img_loading",
+    "path_id": "5933738837912915976",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "zhuqingting_tou",
+    "path_id": "5996211269109957901",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "popup_tip1",
+    "path_id": "6022545783133555627",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "icon_banzi_4",
+    "path_id": "6086522161891221782",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "common_img_light",
+    "path_id": "6132797903184587972",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_img_Name_tag_1",
+    "path_id": "6151455239759291594",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_box_7",
+    "path_id": "6196517326212526816",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "dashanbei",
+    "path_id": "6202557762705490758",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "Common_icon_Coin Reward",
+    "path_id": "6202772777186763404",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_img_ticket_3",
+    "path_id": "6229801864268732616",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "tip_jiantou_up",
+    "path_id": "6260311883491178132",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_icon_Trophy_coin_3_2",
+    "path_id": "6274828833707308192",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "yuncai3_qian",
+    "path_id": "6281443508890933223",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "coin1",
+    "path_id": "6283394667796461465",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "tip_img_jinbi",
+    "path_id": "6304939794907825407",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "xunhuantiankong",
+    "path_id": "6329932773090105470",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "tip_baoxiangui_kai",
+    "path_id": "6344415127266368110",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "portrait_bg_shadow",
+    "path_id": "6361131338905506185",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "xiong_16",
+    "path_id": "6388310695384390991",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_img_ticket_2",
+    "path_id": "6428114444861026252",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "buttn_play_superhard",
+    "path_id": "6432592658133576677",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "Setting_img",
+    "path_id": "6456081197761667567",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_qianjing",
+    "path_id": "6552609287964437667",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_jiaobiao_2",
+    "path_id": "6555646149729493192",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_balloon_green",
+    "path_id": "6592909152692447508",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "Common_img_badge",
+    "path_id": "6621257149065531904",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_coin_3",
+    "path_id": "6622338692739054678",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "icon_renshu",
+    "path_id": "6646473721256392387",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "shop_img_zhanshi1",
+    "path_id": "6646796085257686806",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "qizi_qian",
+    "path_id": "6646816171415643666",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "gold_img_diban_jinbi@3x",
+    "path_id": "6657188432249146511",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "icon_di_huang",
+    "path_id": "6674429091649756859",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "tip_baoxiangui_guan",
+    "path_id": "6685228574935875371",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "zhenzhuqianyy2",
+    "path_id": "6714257705652934387",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_cloud_1@3x",
+    "path_id": "6727524951094087776",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "mao",
+    "path_id": "6739245398613919946",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "coin2",
+    "path_id": "6739534329266901169",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_icon_Trophy_coin_1_2",
+    "path_id": "6761770777620277759",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_img_ship_1",
+    "path_id": "6769155249776512190",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "beishutiao1_zhuui",
+    "path_id": "6803381610328950756",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "beijing",
+    "path_id": "6805822262862660605",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_jindutiao_di",
+    "path_id": "6889019810066572202",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "shuzhi1",
+    "path_id": "6894630477156482816",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "logo_di",
+    "path_id": "6902722086236054921",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_cb_frame_top_2",
+    "path_id": "6907036056366256821",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "pingfen_star_on@3x",
+    "path_id": "6908661005216921387",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_daoju_bg",
+    "path_id": "6922423372828598437",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "Gift Pack_img_pop-up_2@3x",
+    "path_id": "6923264542779376805",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "surfing_icon_1",
+    "path_id": "6928081759200870871",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "daojudi_hong@3x",
+    "path_id": "6960814956228444108",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "Progress_Bar_img_2",
+    "path_id": "6983111980642102063",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "paifengkou_gc",
+    "path_id": "7002999479214880892",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "gold_tip_diban@3x",
+    "path_id": "7006695261541330033",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_sky",
+    "path_id": "7058836367034592432",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "Common_img_Arrow",
+    "path_id": "7099550622743604983",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_shibai_jinbi",
+    "path_id": "7116340532094843181",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "lian4",
+    "path_id": "7140422255055382024",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_cb_frame_up",
+    "path_id": "7155248180438934891",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "buttn_jiahao_small",
+    "path_id": "7177607680184830368",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "tubiaoa_wenzidi_lv",
+    "path_id": "7220020605920886787",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "l",
+    "path_id": "7240411372553380216",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "lian3",
+    "path_id": "7325164652101432994",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "tip_huang_jiantoudown_down",
+    "path_id": "7342159220804029349",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_cloud_4",
+    "path_id": "7403472836284315460",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_balloon_yellow",
+    "path_id": "7430507470862811415",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_cb_frame_green",
+    "path_id": "7446251300397812815",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "pass_img_jinbi__15",
+    "path_id": "7483667890979354947",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "lv_kedu",
+    "path_id": "7509881823274679787",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "pass_img_jinbi__4",
+    "path_id": "7544657665960380400",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "flying_icon",
+    "path_id": "7588190182767858903",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "Popular",
+    "path_id": "7653463870940261523",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_cb_door_Light_4_on",
+    "path_id": "7660005660403348636",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "beishutiao2_hong",
+    "path_id": "7663843221831177516",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "icon_rukou_tiemen",
+    "path_id": "7686881685890516777",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_cb_frame_shadow",
+    "path_id": "7701695111346166958",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "zhenzhu5",
+    "path_id": "7714788754722439290",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "xiong_6",
+    "path_id": "7715448396792740576",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "tip_wide_blue",
+    "path_id": "7718799334672082003",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_baoxiangui_jinbi1",
+    "path_id": "7729763569437406806",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "icon_Cannonball_b@3x",
+    "path_id": "7819062114964335272",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "icon_heart_small",
+    "path_id": "7820825119307360438",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "tip_lanzi_chang",
+    "path_id": "7862513624758643055",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "qiri_rukou_hui",
+    "path_id": "7916769464777550546",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_hongkuang_shen_down",
+    "path_id": "7917324349420923716",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "icon_banzi_5",
+    "path_id": "7949421017679943842",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "GiftPack_box_icon_5",
+    "path_id": "7985035921955743554",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "game_item_main_2",
+    "path_id": "7999534780652788515",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "magnifier",
+    "path_id": "8008286845531193482",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "bg_jinku_neijinbi",
+    "path_id": "8024806471020248680",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "coin_icon@3x",
+    "path_id": "8038181979954491998",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "jiaochengtanchuang",
+    "path_id": "8043661855327727963",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "eyu",
+    "path_id": "8134739252104233954",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_danlan_da",
+    "path_id": "8183131493884002058",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "popup_lan_zhong",
+    "path_id": "8204589698996518459",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "duigou_zhong",
+    "path_id": "8216902530425076805",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_img_Avatar Frame_bg2",
+    "path_id": "8227127706718794227",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "hongbeishu_zhuui",
+    "path_id": "8235811917525003022",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "popup_zidi",
+    "path_id": "8275049093524910892",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "caidailan",
+    "path_id": "8339773874078885443",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "tip_img_huowu",
+    "path_id": "8345404484008014127",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "game_item_glass_before",
+    "path_id": "8377730277016315541",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_icon_Trophy2_3",
+    "path_id": "8383248792386394089",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "xiong_12",
+    "path_id": "8390077278016269404",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "C ",
+    "path_id": "8432491063055815938",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "tanchuangjian",
+    "path_id": "8438074352521760633",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "jsphb_ksjm_27",
+    "path_id": "8440172728856871657",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_coin_1",
+    "path_id": "8510748453028926273",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "xiong_7",
+    "path_id": "8512520792028334524",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "coin_logo@3x",
+    "path_id": "8532369014233395081",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "zhuqingting_ye_huang2",
+    "path_id": "8596198239736905425",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_icondi_hong",
+    "path_id": "8636396111554953593",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "xiong_11",
+    "path_id": "8670540601625858798",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "zhuui_landi",
+    "path_id": "8821279858978059963",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "jindutiao_shu",
+    "path_id": "8838265210549411509",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_bg_1",
+    "path_id": "8846207586226324315",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "juhua_1",
+    "path_id": "8875709167768992561",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "biaotiban@3x",
+    "path_id": "8979078154588591123",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_bonusbank",
+    "path_id": "8985753849138604802",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "tubiao_shuzidi",
+    "path_id": "9008772143527902783",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "muban_4",
+    "path_id": "9032537121598926713",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_lankuang_shen_down",
+    "path_id": "9047664082425875972",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_bg_Name tag",
+    "path_id": "9081637153890302475",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "Fail_icon_Pearl",
+    "path_id": "9091559384780296471",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "tip_jiantou_down",
+    "path_id": "9096409361329487267",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "race_icon_Trophy_Big",
+    "path_id": "9106463482057978326",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_hongkuang_qian",
+    "path_id": "9164548375995404577",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "pass_img_jinbi__1",
+    "path_id": "9169212301491305361",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "landi_aocao",
+    "path_id": "9184948311514227803",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  },
+  {
+    "name": "img_freepass",
+    "path_id": "9201057521848953696",
+    "serialized": "CAB-b40e63f15858e0172b2553f5eb782576"
+  }
+]

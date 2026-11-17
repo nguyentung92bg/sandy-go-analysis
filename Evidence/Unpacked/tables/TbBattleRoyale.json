@@ -1,0 +1,20 @@
+{
+  "4001": {
+    "ID": 4001,
+    "MaxRewardTimes": 1,
+    "Reward": [
+      [
+        1001,
+        10000
+      ]
+    ],
+    "PersonNum": 100,
+    "TotalStageNum": 7,
+    "LoseStreak": 2,
+    "ColdTime": 1800,
+    "PersonaGroup": 1,
+    "HideCD": 4,
+    "WinHideCD": 0,
+    "WinColdTime": 1800
+  }
+}
